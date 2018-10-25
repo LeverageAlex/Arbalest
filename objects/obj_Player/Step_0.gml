@@ -11,7 +11,7 @@ vspd = vspd + grv;
 //jump
 if(place_meeting(x,y+1,obj_wall )) && (jump)
 {
-	vspd = -7;	
+	vspd = -20;	
 }
 
 //horizontal

@@ -1,7 +1,7 @@
 hspd = 0;
 vspd = 0;
 player_speed = 4;
-grv = 0.3;
+grv = 1.0;
 
 firecooldown = 0;
 
