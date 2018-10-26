@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1631b4f3-4143-4196-998d-8f68145001d9",
+            "Value": {
+                "id": "3100c4ff-179c-4f11-a0ee-d8fb2e05499a",
+                "resourcePath": "sprites\\sp_tut_todesblock\\sp_tut_todesblock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "194a95a7-0522-4063-9bdb-edc90d14cda0",
             "Value": {
                 "id": "d20d05f3-b64d-4e73-a7ac-b18a59fbf60f",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "31ad2027-f826-4b64-b590-1af7454faf5e",
+            "Value": {
+                "id": "1edb3b36-13b3-425e-9eb2-ca98ac315fdd",
+                "resourcePath": "sprites\\sp_tutorial_haus\\sp_tutorial_haus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3200c7f5-ea5f-43b8-82fe-aab9af31387b",
             "Value": {
                 "id": "1f7a9bcf-0eae-4fc0-8a9e-9584640615fe",
@@ -156,6 +172,14 @@
                 "id": "055f1131-30d3-458a-b284-5c3c2089d5e0",
                 "resourcePath": "sprites\\sprite11\\sprite11.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "42500fd6-5f50-44c2-b9e2-7c36b0864573",
+            "Value": {
+                "id": "27efca45-f8d5-4e3e-9185-c496dd57c6af",
+                "resourcePath": "objects\\obj_tut_Magierhaus\\obj_tut_Magierhaus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "bb356cb9-e0f8-40a6-86ac-d76c651d9054",
                 "resourcePath": "sprites\\sp_ammo_pack_1\\sp_ammo_pack_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "611f288d-3ede-4d63-b60f-1f119356dc82",
+            "Value": {
+                "id": "6371e7e7-806d-4cce-8402-a02c2d328a2a",
+                "resourcePath": "objects\\obj_tut_todesblock\\obj_tut_todesblock.yy",
+                "resourceType": "GMObject"
             }
         },
         {

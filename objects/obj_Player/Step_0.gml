@@ -5,6 +5,11 @@ down = keyboard_check(ord("S"));
 
 var move = right - left;
 
+if(locked == true) {
+	
+move = 0;	
+}
+
 hspd = move * player_speed;
 
 vspd = vspd + grv;

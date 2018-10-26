@@ -10,4 +10,5 @@ weapon_state = 0;
 
 // get ammo
 ammonition = 0;
-leben = 100;
+health = 100;
+locked = false;
