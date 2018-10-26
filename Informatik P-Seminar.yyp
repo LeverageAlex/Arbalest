@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "bc0e9f65-95dc-421f-aefc-6b2704ea29cd",
+            "Value": {
+                "id": "1e469d80-5921-4ff0-a2a1-5914687169dc",
+                "resourcePath": "objects\\obj_tut_reinlaufen\\obj_tut_reinlaufen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4b357e9-48d1-43e9-9b5d-1f4d7a507c5a",
             "Value": {
                 "id": "0a8d729f-830b-44b2-bf60-321cb9bb27ea",
