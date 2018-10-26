@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0360c457-5a54-4c59-b946-695df7ccfdda",
+            "Value": {
+                "id": "51be6b9a-f2ea-4aba-b036-bf51cbbc4c10",
+                "resourcePath": "rooms\\r_tutorial\\r_tutorial.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "05faa6cc-7b76-4b3c-a047-c6bfda3b5c41",
             "Value": {
                 "id": "f8e75f66-8894-4ba1-8954-1853ce18c389",
@@ -116,14 +124,6 @@
                 "id": "1f7a9bcf-0eae-4fc0-8a9e-9584640615fe",
                 "resourcePath": "sprites\\sp_healthbar\\sp_healthbar.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "35e51615-b6a9-43bc-a799-06a559cd69df",
-            "Value": {
-                "id": "f905b359-3ab0-428c-a317-c54b73085a3d",
-                "resourcePath": "rooms\\room_tutorial\\room_tutorial.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
