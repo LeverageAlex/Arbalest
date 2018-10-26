@@ -5,13 +5,15 @@ var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 var cw = camera_get_view_width(view_camera[0]);
 
-x = cx+ 940;
+x = cx+ 100;
 y = cy + 60;
-draw_self();
 draw_set_color(c_red);
+draw_rectangle(cx+ 78, cy + 42, cx + 172 - (95 - (0.95 * health )), cy + 50, false);
+draw_self();
+
 //draw_rectangle(cx+cw/2 + - 500, cy + 140, cx+cw/2 + - 400 - (100 - health), cy + 160, false);
 
-draw_rectangle(cx+ 917, cy + 45, cx + 1012 - (95 - (0.95 * health )), cy + 51, false);
+//draw_rectangle(cx+ 917, cy + 45, cx + 1012 - (95 - (0.95 * health )), cy + 51, false);
 
 
 draw_set_color(c_green);
