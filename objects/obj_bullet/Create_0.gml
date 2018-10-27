@@ -1,5 +1,6 @@
 image_xscale = 0.7;
 image_yscale = 0.7;
+eigen = true;
 
 xpos = obj_cursor.x;
 ypos = obj_cursor.y;

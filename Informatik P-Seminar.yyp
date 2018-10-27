@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "590ce919-cd9a-4eec-97b3-921244ebdf1b",
+            "Value": {
+                "id": "143aee00-cb59-40c8-a22b-4fdfdfeb7b4b",
+                "resourcePath": "sprites\\sp_gegner_basic\\sp_gegner_basic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5be76a98-99d7-44f9-a8aa-9e0ebf96a68d",
             "Value": {
                 "id": "a59bc298-3041-46f3-a984-28a8103df548",
@@ -499,6 +507,14 @@
             "Value": {
                 "id": "62d2b2f6-03ab-4d1c-8b80-f790c8e18300",
                 "resourcePath": "objects\\obj_ammo_pack\\obj_ammo_pack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d79de355-2924-42d5-841e-9f7367804efb",
+            "Value": {
+                "id": "908a65a2-b3e6-4d97-add3-a7e7e8476eeb",
+                "resourcePath": "objects\\obj_enemy_basic\\obj_enemy_basic.yy",
                 "resourceType": "GMObject"
             }
         },
