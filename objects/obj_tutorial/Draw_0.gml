@@ -21,10 +21,12 @@ if(status < 30) {
 	if(trigger2) {
 	draw_sprite(sp_tut_jump, -1, x - 600, y);
 	
+	draw_text_transformed(2148, 6496, "Zum schiessen zielen Sie mit der Maus und feuern mit der linken Maustaste", 1.2, 1.2, image_angle);
 	
 	}
 	if(trigger4) {
 		draw_sprite(sp_tut_jump, 1, x - 800, y);
+		draw_sprite(sp_tut_jump, 2, 2523, 6500);
 	}
 //draw_ellipse(x,y, x + 300, y-100, true);
 //draw_text(x,y, "Druecken sie D um nach links zu laufen");
@@ -46,7 +48,7 @@ else {
 	trigger3 = false;
 	trigger = false; 
 }
-if(obj_Player.x > 640 && obj_Player.x < 870) {
+if((obj_Player.x > 640 && obj_Player.x < 1000) || (obj_Player.x > 2648 && obj_Player.x < 2800)) {
 	trigger = true;
 	trigger2 = true;
 } 
@@ -54,7 +56,7 @@ else {
 	
 	trigger2 = false; 
 }
-if(obj_Player.x > 420 && obj_Player.x < 640) {
+if(obj_Player.x > 460 && obj_Player.x < 640 || obj_Player.x > 2324 && obj_Player.x < 2640 ) {
 	trigger = true;
 	trigger4 = true;
 } 
