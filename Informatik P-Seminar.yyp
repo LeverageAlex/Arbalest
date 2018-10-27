@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "9d1c5b12-f244-4b14-b4cf-80ccfcf19949",
+            "Value": {
+                "id": "1c10c60e-a3ff-4872-ad69-2ed70949488a",
+                "resourcePath": "objects\\obj_tutorial\\obj_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d78889d-44d5-4287-9240-db8385bb1b10",
             "Value": {
                 "id": "aa2e5e27-249b-4bad-afd4-e279fe268c61",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "bb3744e1-0519-4700-b730-8861dc238cc6",
+            "Value": {
+                "id": "97534811-d5e9-426d-985b-16640896233b",
+                "resourcePath": "sprites\\sp_tut_jump\\sp_tut_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc0e9f65-95dc-421f-aefc-6b2704ea29cd",
             "Value": {
                 "id": "1e469d80-5921-4ff0-a2a1-5914687169dc",
@@ -452,6 +468,14 @@
                 "id": "519a9beb-04d5-4381-98af-4b6ee3156078",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce04a30c-74b1-4082-9ed7-7d9fb8c9ff5f",
+            "Value": {
+                "id": "b32a3c2a-c784-46b1-8b17-298f39de1e27",
+                "resourcePath": "sprites\\sp_wasd\\sp_wasd.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

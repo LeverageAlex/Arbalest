@@ -4,7 +4,10 @@
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 var cw = camera_get_view_width(view_camera[0]);
-
+if(health < 0) {
+	
+	health = 0;
+}
 x = cx+ 100;
 y = cy + 60;
 draw_set_color(c_red);
