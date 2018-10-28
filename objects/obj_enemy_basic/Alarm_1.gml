@@ -11,4 +11,4 @@ with (instance_create_layer(obj_enemy_basic.x - 15 ,obj_enemy_basic.y + 35,"ins_
    eigen = false;
 }
 }
-alarm[1] = room_speed * 2;
+alarm[1] = room_speed * 1.4;

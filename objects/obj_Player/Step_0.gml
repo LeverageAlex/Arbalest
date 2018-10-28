@@ -115,7 +115,12 @@ else{
 	get_waepon_state = other.weapon_state;
 	
 	}
-
+	
+	//LevelUp
+if(xp >= 50*level) {
+xp -= 50*level;
+level++;
+}
 
 
 

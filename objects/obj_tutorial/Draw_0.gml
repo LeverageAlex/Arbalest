@@ -28,6 +28,24 @@ if(status < 30) {
 		draw_sprite(sp_tut_jump, 1, x - 800, y);
 		draw_sprite(sp_tut_jump, 2, 2523, 6500);
 	}
+	if(trigger5 && !disabled) {
+		draw_sprite(sp_tut_jump, 3, obj_healthbar.x - 158, obj_healthbar.y + 42);
+		wdh++;
+		if(room_speed * 2.3 < wdh) {
+			disabled = true;
+			lokaleXP = obj_Player.xp;
+			wdh = 0;
+		}
+	}
+	if(trigger5 && disabled) {
+		draw_sprite(sp_tut_jump, 4, obj_healthbar.x - 147, obj_healthbar.y + 42);
+		
+		wdh++;
+		if(room_speed * 3 < wdh) {
+			lokaleXP = obj_Player.xp;
+			aktiv = false;
+		}
+	}
 //draw_ellipse(x,y, x + 300, y-100, true);
 //draw_text(x,y, "Druecken sie D um nach links zu laufen");
 }
@@ -63,4 +81,13 @@ if(obj_Player.x > 460 && obj_Player.x < 640 || obj_Player.x > 2324 && obj_Player
 else {
 	
 	trigger4 = false; 
+}
+if( lokaleXP != obj_Player.xp && aktiv) {
+	trigger = true;
+	trigger5 = true;
+	
+} 
+else {
+	
+	trigger5 = false; 
 }

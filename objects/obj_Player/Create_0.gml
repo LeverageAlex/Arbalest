@@ -12,3 +12,5 @@ weapon_state = 0;
 ammonition = 0;
 health = 100;
 locked = false;
+xp = 1;
+level = 1;
