@@ -14,3 +14,4 @@ health = 100;
 locked = false;
 xp = 1;
 level = 1;
+block = false;

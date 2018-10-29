@@ -2,7 +2,7 @@
 {
     "name": "r_tutorial",
     "id": "0360c457-5a54-4c59-b946-695df7ccfdda",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -244,7 +244,8 @@
         "e6d8eccd-8e7e-4fa4-80f4-ee081f1970eb",
         "2526590b-e213-4cc3-b7ad-570b41d339b3",
         "89335ef4-7c93-472f-bc75-f90420be64b7",
-        "10adf8a1-9ab5-44af-979a-74aa3f24ff91"
+        "10adf8a1-9ab5-44af-979a-74aa3f24ff91",
+        "c676bb5e-0ab1-4156-be2a-b08b4384ee33"
     ],
     "IsDnD": false,
     "layers": [
@@ -262,7 +263,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_57B33BD7","id": "c676bb5e-0ab1-4156-be2a-b08b4384ee33","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_57B33BD7","objId": "c4b357e9-48d1-43e9-9b5d-1f4d7a507c5a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 224,"y": 7136}
             ],
             "layers": [
 

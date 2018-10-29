@@ -9,6 +9,9 @@ if(locked == true) {
 	
 move = 0;	
 }
+if (block) {
+move = 1;	
+}
 
 hspd = move * player_speed;
 
