@@ -13,9 +13,8 @@ if(place_meeting(x - 60, obj_Player.y, obj_Player)){
 } else if(obj_Player.x > x + 20 && obj_Player.x < x + 500){
 	obj_Player.x += 5;
 	obj_Player.locked = true;
-} else if(obj_Player.y > y - 20) {
+} else if(obj_Player.y > y - 150) {
 	
-show_debug_message("debgu");	
 obj_Player.vspd = -20;
 obj_Player.block = true;
 alarm[1] = room_speed;
