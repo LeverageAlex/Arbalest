@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "08c08c17-0cfb-4ba4-92c8-a0637c9ad2b3",
+            "Value": {
+                "id": "1eb9807b-3cd4-41e9-b5a8-4bd577c042d5",
+                "resourcePath": "sprites\\sp_tileset_1\\sp_tileset_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
             "Value": {
                 "id": "6a382b2f-ae1e-4a4a-9e5b-fe6de8b4fd97",
@@ -180,6 +188,14 @@
                 "id": "27efca45-f8d5-4e3e-9185-c496dd57c6af",
                 "resourcePath": "objects\\obj_tut_Magierhaus\\obj_tut_Magierhaus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "429db720-989f-4360-9b11-8c1cc5e786f0",
+            "Value": {
+                "id": "e904e208-0f4c-4f7e-b582-90cf6a3c3952",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
