@@ -2,7 +2,7 @@
 // Sie können Ihren Code in diesem Editor schreiben
 	if(leben != health) {
 	draw_set_color(c_blue);
-	draw_arrow(obj_healthbar.x + 240, obj_healthbar.y - 14, obj_healthbar.x + 80, obj_healthbar.y - 14, 40);
+	draw_arrow(obj_healthbar.x + 213, obj_healthbar.y - 14, obj_healthbar.x + 80, obj_healthbar.y - 14, 40);
 	draw_set_color(c_red);
 	draw_text(obj_healthbar.x + 216, obj_healthbar.y - 25, "Hinweis: Monster und Objekte koennen Schaden an dir verursachen!");
 	if(lokalerZ == room_speed * 3) {
