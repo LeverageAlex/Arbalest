@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "8400924b-3db8-4782-a076-b2bf2de2d8a6",
+            "Value": {
+                "id": "cb774379-dcde-4e0f-929b-1885be2165d1",
+                "resourcePath": "objects\\obj_healthkit1\\obj_healthkit1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8691e079-8ee1-4ef2-b77f-ee57bba14625",
             "Value": {
                 "id": "51d32e43-5e8c-4299-84f3-3978d7266c99",
@@ -411,6 +419,14 @@
             "Value": {
                 "id": "2b24e2ba-8389-47cb-9012-55edea7eaeaa",
                 "resourcePath": "sprites\\sp_start_game\\sp_start_game.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9bd8bf55-91b7-4715-90ea-e83cc91db6eb",
+            "Value": {
+                "id": "ebd70540-7a04-4019-a92e-1d0a82d3f833",
+                "resourcePath": "sprites\\sp_healthkit1\\sp_healthkit1.yy",
                 "resourceType": "GMSprite"
             }
         },

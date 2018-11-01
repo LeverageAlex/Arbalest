@@ -17,6 +17,7 @@ draw_set_color(c_yellow);
 if(status < 30) {
 	if(trigger3) {
 	draw_self();
+	draw_sprite(sp_tut_jump, 5, 3868, 6500);
 	}
 	if(trigger2) {
 	draw_sprite(sp_tut_jump, -1, x - 600, y);
@@ -56,7 +57,7 @@ else if(status > 60){
 
 status++;
 }
-if(obj_Player.x > 1076 && obj_Player.x < 1386) {
+if(obj_Player.x > 1076 && obj_Player.x < 1386 || (obj_Player.x > 3744 && obj_Player.x < 3990 && obj_Player.y > 6650 - 100 && obj_Player.y < 6650 + 100)) {
 	
 	trigger = true;
 	trigger3 = true;

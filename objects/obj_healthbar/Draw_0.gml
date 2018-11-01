@@ -8,6 +8,10 @@ if(health < 0) {
 	
 	health = 0;
 	}
+	else if(health > 100) {
+		health = 100;
+		
+	}
 x = cx+ 100;
 y = cy + 60;
 draw_set_color(c_red);
