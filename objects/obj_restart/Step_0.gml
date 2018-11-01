@@ -1,5 +1,9 @@
 if (keyboard_check_pressed(ord("R"))) {
 	
-	game_restart();
+	room_restart();
+	
+}
+if(health == 0) {
+	gameover = true;
 	
 }
