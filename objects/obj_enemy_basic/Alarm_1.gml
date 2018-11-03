@@ -1,6 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-if(obj_Player.x > x - 450 && obj_Player.x < x + 450 && obj_Player.y > y - 240 && obj_Player.y < y + 240) {
+if(obj_Player.x > x - 450 && obj_Player.x < x + 450 && obj_Player.y > y - 145 && obj_Player.y < y + 240) {
 	
 
 with (instance_create_layer(x - 15 ,y + 35,"ins_player",obj_bullet))
