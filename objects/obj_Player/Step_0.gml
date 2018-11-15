@@ -16,6 +16,12 @@ move = 1;
 hspd = move * player_speed;
 
 vspd = vspd + grv;
+
+//Animationen
+
+
+
+
 //jump
 if(place_meeting(x,y+1,obj_wall )) && (jump)
 {
@@ -101,13 +107,49 @@ else{
 	
 	{
 		
-	sprite_index = sp_player_Khanh_Leander;
+//	sprite_index = sp_player_Khanh_Leander;
+	if(hspd>0) {
+	if(sprite_index != sp_bewegung_rechts) {
+	sprite_index = sp_bewegung_rechts;
+	image_speed = 0.40;
+	}
+}
+else if(hspd<0) {
+	if(sprite_index != sp_bewegung_links) {
+	sprite_index = sp_bewegung_links;
+	image_speed = 0.40;
+	}
+}
+	else {
+	//	sprite_index = sp_bewegung_rechts;
+	image_index = 0;
+	image_speed = 0;	
+	
+	}
 	}
 	
 	if (weapon_state == 1)
 	
 	{
+	//sprite_index = sp_player_with_w;
+	if(hspd>0) {
+	if(sprite_index != sp_player_with_w) {
 	sprite_index = sp_player_with_w;
+	image_speed = 0.40;
+	}
+}
+else if(hspd<0) {
+	if(sprite_index != sp_bewegung_links_mit_w) {
+	sprite_index = sp_bewegung_links_mit_w;
+	image_speed = 0.40;
+	}
+}
+	else {
+	//	sprite_index = sp_bewegung_rechts;
+	image_index = 0;
+	image_speed = 0;	
+	
+	}
 	}
 	
 	}
@@ -124,6 +166,14 @@ if(xp >= 50*level) {
 xp -= 50*level;
 level++;
 }
+
+//Animationen
+
+
+
+
+
+
 
 
 

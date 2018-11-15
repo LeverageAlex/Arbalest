@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03d83063-5086-4834-bed5-52fc6c69b87d",
+            "Value": {
+                "id": "63a98cd5-d194-4a05-82e8-d3165559033f",
+                "resourcePath": "sprites\\sp_bewegung_rechts\\sp_bewegung_rechts.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05faa6cc-7b76-4b3c-a047-c6bfda3b5c41",
             "Value": {
                 "id": "f8e75f66-8894-4ba1-8954-1853ce18c389",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "32b1c6e9-19df-49f1-9843-633586a2d8cb",
                 "resourcePath": "sprites\\spr_cursor_khanh_leander\\spr_cursor_khanh_leander.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "14587304-4c7f-43a9-ad5b-e12059de04ee",
+            "Value": {
+                "id": "a0258e99-ca23-43c6-9d3a-afe645657d3c",
+                "resourcePath": "sprites\\sp_bewegung_links_mit_w\\sp_bewegung_links_mit_w.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -236,6 +252,14 @@
                 "id": "a04664bb-06f7-4582-a36d-cb01b265cafe",
                 "resourcePath": "objects\\obj_displaybullets\\obj_displaybullets.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47a43ce2-38ff-4ca4-9afe-46d64e505a4c",
+            "Value": {
+                "id": "161af8d1-1f74-45ef-a34e-edb9f7c29742",
+                "resourcePath": "sprites\\sp_bewegung_links\\sp_bewegung_links.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
