@@ -55,36 +55,76 @@ y = y + vspd;
 if(keyboard_check_pressed(ord("S"))){
  vspd = vspd + 4;
 }
+if(rechtswapped) {
+	obj_weapon.image_angle = 0;
+	obj_weapon.image_yscale = 0.5;
+	rechtswapped = false;
+	
+} else if(leftswapped) {
+		obj_weapon.image_angle = 180;
+	obj_weapon.image_yscale = -0.5;
+	leftswapped = false;
+}
 
 //schießen
 if (weapon_state == 1){
 	with(obj_weapon) {
+	//sämtliche Waffenanimationen
 		if(other.weapon_right) {
+					other.x = other.x - other.hspd;
+	
+	if (place_meeting(other.x + 10 +other.hspd,y,obj_wall) && other.sprite_index == sp_player_with_w)
+{
+	while(!place_meeting(other.x + 10+sign(other.hspd),y,obj_wall))
+	{
+		other.x = other.x +sign (other.hspd);
+	}
+	other.hspd = 0;
+}
+other.x = other.x + other.hspd;
 	x = other.x + 10;
 	y = other.y
 	image_yscale = 0.5;
-		} else {
+	
+		} else { 
+					other.x = other.x - other.hspd;
+	
+	if (place_meeting(other.x - 30 -other.hspd,y,obj_wall) && other.sprite_index == sp_bewegung_links_mit_w)
+{
+	while(!place_meeting(other.x - 30 +sign(other.hspd),y,obj_wall))
+	{
+		other.x = other.x +sign (other.hspd);
+	}
+
+	other.hspd = 0;
+		if(keyboard_check_pressed(ord("D"))) {
+		other.hspd = 1;
+	}
+}
+
+other.x = other.x + other.hspd;
+
+
 		x = other.x - 20;	
 		y = other.y;	
 		image_yscale = -0.5;
+		
 		}
 	direction = point_direction(x,y, mouse_x, mouse_y);
-	show_debug_message(image_yscale)
-/*	if((direction > 90) && (direction < 270)) {
-		image_yscale = -0.5;
-		x = other.x - 10;
-		} else {
-			image_yscale = 0.5;
-			}*/
+	if(other.weapon_right && ((direction > 90) && (direction < 270))) {
+		other.stop = true;
+	} else if((!other.weapon_right) && ((direction < 90) || (direction > 270))) {
+
+	other.stop = true;
+	
+	}
+	else {
 	image_angle = direction
-/*	rechnung1 = (x - mouse_x) ;
-	rechnung2 = (y - mouse_y);
-	rechnungges = rechnung1 / rechnung2;
-	show_debug_message(rechnungges)*/
+	other.stop = false;	
+	}
+
 	rechnungx = 24*cos(degtorad(image_angle));
 	rechnungy = -1*24*sin(degtorad(image_angle));
-	//show_debug_message(rechnungy);
-	//instance_create_layer(obj_weapon.x + rechnungx,obj_weapon.y - 2 + rechnungy,"ins_player",obj_bullet)
 }
 	
 	if (ammonition > 0) {
@@ -92,7 +132,9 @@ if (weapon_state == 1){
 if(mouse_check_button(mb_left)&& firecooldown = 0)
 
 		{
+			if(!stop) {
 instance_create_layer(obj_weapon.x+obj_weapon.rechnungx,obj_weapon.y - 2 + obj_weapon.rechnungy,"ins_player",obj_bullet)
+			}
 	//decreases ammo
 	with (obj_magazin)
 		{
@@ -163,6 +205,7 @@ else if(hspd<0) {
 	//sprite_index = sp_player_with_w;
 	if(hspd>0) {
 	if(sprite_index != sp_player_with_w) {
+		rechtswapped = true;
 	sprite_index = sp_player_with_w;
 	weapon_right = true;
 	image_speed = 0.40;
@@ -170,6 +213,7 @@ else if(hspd<0) {
 }
 else if(hspd<0) {
 	if(sprite_index != sp_bewegung_links_mit_w) {
+		leftswapped = true;
 	sprite_index = sp_bewegung_links_mit_w;
 	weapon_right = false;
 	image_speed = 0.40;

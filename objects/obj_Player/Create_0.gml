@@ -17,3 +17,5 @@ level = 1;
 block = false;
 weapon_right = true;
 stop = false;
+leftswapped = false;
+rechtswapped = false;
