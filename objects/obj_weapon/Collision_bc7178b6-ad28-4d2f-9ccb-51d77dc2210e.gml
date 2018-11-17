@@ -19,6 +19,6 @@ sprite_index = sp_player_with_w;
 
 }
 }
-instance_destroy();
+//instance_destroy();
 
 }

@@ -15,3 +15,5 @@ locked = false;
 xp = 1;
 level = 1;
 block = false;
+weapon_right = true;
+stop = false;
