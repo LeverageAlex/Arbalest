@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0f2b862b-c613-4f22-9ba6-44af4b20a0c5",
+            "Value": {
+                "id": "1dedff2f-184b-43d7-8ad6-d94e73c43444",
+                "resourcePath": "objects\\obj_second_Wall\\obj_second_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "100df3b4-4cab-446b-a208-ed63b2347695",
             "Value": {
                 "id": "e370b71c-feb2-4eef-b383-6d9a698d98e4",
@@ -263,11 +271,27 @@
             }
         },
         {
+            "Key": "4855c7d3-065a-4564-809e-0b84f188a039",
+            "Value": {
+                "id": "096eba99-4c25-419d-b03f-0091b3f34671",
+                "resourcePath": "views\\b6521803-4560-4eca-982d-34af132ad449-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4d6a2b38-c760-4d15-a31f-66be2f80ca14",
             "Value": {
                 "id": "53598f34-cacf-4943-bcf5-c359957d6504",
                 "resourcePath": "views\\4d6a2b38-c760-4d15-a31f-66be2f80ca14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4dbddfcf-ad78-4d5c-9d1e-d4437ae12d5d",
+            "Value": {
+                "id": "58825bb3-1a82-40ee-b009-243b16059f83",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -299,6 +323,14 @@
             "Value": {
                 "id": "143aee00-cb59-40c8-a22b-4fdfdfeb7b4b",
                 "resourcePath": "sprites\\sp_gegner_basic\\sp_gegner_basic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5ac80bce-64ad-4edd-8e79-5698ab4cefe0",
+            "Value": {
+                "id": "7cbe5b1f-91cc-41c1-be8c-1a3dd1a4d330",
+                "resourcePath": "sprites\\sp_second_wall\\sp_second_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -372,6 +404,14 @@
                 "id": "d1557cf5-032c-410d-8f7c-59a45c5db162",
                 "resourcePath": "sprites\\sp_wall_Leander_Khanh\\sp_wall_Leander_Khanh.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "755d338d-66fa-4ce8-9fea-d3d36fe9bc6c",
+            "Value": {
+                "id": "1198226f-d514-4a31-b1dd-576c9458bf38",
+                "resourcePath": "objects\\obj_Enemy_krass_ai_toll\\obj_Enemy_krass_ai_toll.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -527,14 +567,6 @@
             }
         },
         {
-            "Key": "b6521803-4560-4eca-982d-34af132ad449",
-            "Value": {
-                "id": "7f562fdd-7f1f-4a2e-ac9f-2a5e7c51b9af",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "b6ea4e4b-c521-4383-a247-23436bb9d500",
             "Value": {
                 "id": "5d08fe59-ed72-4ecb-b707-55411309d1aa",
@@ -628,6 +660,14 @@
                 "id": "dc48108f-2998-4372-819e-08ccd50c1849",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ee0c1839-22f2-4ce2-b9ff-e656a9db3d20",
+            "Value": {
+                "id": "e45b1f59-8bea-4801-875c-bf2d566bff03",
+                "resourcePath": "sprites\\sp_super_enemy_ai_krass\\sp_super_enemy_ai_krass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
