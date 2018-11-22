@@ -157,7 +157,7 @@ firecooldown = 10;
 		
 	}
 	else {
-			image_speed = 0;
+			obj_weapon.image_speed = 0;
 		}
 }
 }
