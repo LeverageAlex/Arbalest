@@ -123,8 +123,8 @@ other.x = other.x + other.hspd;
 	other.stop = false;	
 	}
 
-	rechnungx = 24*cos(degtorad(image_angle));
-	rechnungy = -1*24*sin(degtorad(image_angle));
+	rechnungx = 9*cos(degtorad(image_angle));
+	rechnungy = -1*9*sin(degtorad(image_angle));
 }
 	
 	if (ammonition > 0) {
@@ -132,9 +132,17 @@ other.x = other.x + other.hspd;
 if(mouse_check_button(mb_left)&& firecooldown = 0)
 
 		{
+			counter++;
+			if(counter > 10) {
+				image_speed = 20;
+				counter = 0;
 			if(!stop) {
-instance_create_layer(obj_weapon.x+obj_weapon.rechnungx,obj_weapon.y - 2 + obj_weapon.rechnungy,"ins_player",obj_bullet)
+with(instance_create_layer(obj_weapon.x+obj_weapon.rechnungx,obj_weapon.y - 2 + obj_weapon.rechnungy,"ins_player",obj_bullet))
+			{
+				sprite_index = sp_pfeil;
 			}
+			}
+			
 	//decreases ammo
 	with (obj_magazin)
 		{
@@ -143,11 +151,16 @@ instance_create_layer(obj_weapon.x+obj_weapon.rechnungx,obj_weapon.y - 2 + obj_w
 	
 		}	
 firecooldown = 10;
-		}
+		} 
+		
+		
 		
 	}
+	else {
+			image_speed = 0;
+		}
 }
-
+}
 if(firecooldown <= 10) 
 {
  	if (firecooldown != 0)
