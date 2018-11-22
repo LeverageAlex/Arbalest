@@ -120,6 +120,7 @@ if (player_spotted == true)
 {
 
 path_cycle = 0;
+sprite_index = sp_super_enemy_ai_krass_defense_mode;
 
 
 }
@@ -139,6 +140,7 @@ if (player_spotted == false)
 {
 
 path_cycle = 1;
+sprite_index = sp_super_enemy_ai_krass;
 attack_mode = false;
 
 }
