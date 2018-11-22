@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0a0746f0-675b-430c-8e2a-b5a40c683e8a",
+            "Value": {
+                "id": "00d30963-0afd-4303-a0b1-56f62bbd580c",
+                "resourcePath": "sprites\\sprite33\\sprite33.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
             "Value": {
                 "id": "6a382b2f-ae1e-4a4a-9e5b-fe6de8b4fd97",
@@ -423,14 +431,6 @@
             }
         },
         {
-            "Key": "815608ed-7aae-4d02-ac85-5fa6b6e80774",
-            "Value": {
-                "id": "f323ce1a-e71f-452a-b92b-967abce8b32e",
-                "resourcePath": "sprites\\sp_pfeil\\sp_pfeil.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8400924b-3db8-4782-a076-b2bf2de2d8a6",
             "Value": {
                 "id": "cb774379-dcde-4e0f-929b-1885be2165d1",
@@ -771,6 +771,14 @@
             "Value": {
                 "id": "c9b5b789-323c-4bdc-8f27-2968cb46edf3",
                 "resourcePath": "sprites\\sp_enemy_easy\\sp_enemy_easy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe085aa4-d985-43ed-9d2a-6b960e81a64d",
+            "Value": {
+                "id": "9455ba06-b921-43e0-ab81-a6692180517d",
+                "resourcePath": "sprites\\sp_super_enemy_ai_krass_defense_mode\\sp_super_enemy_ai_krass_defense_mode.yy",
                 "resourceType": "GMSprite"
             }
         }
