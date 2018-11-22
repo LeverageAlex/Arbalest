@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "815608ed-7aae-4d02-ac85-5fa6b6e80774",
+            "Value": {
+                "id": "f323ce1a-e71f-452a-b92b-967abce8b32e",
+                "resourcePath": "sprites\\sp_pfeil\\sp_pfeil.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8400924b-3db8-4782-a076-b2bf2de2d8a6",
             "Value": {
                 "id": "cb774379-dcde-4e0f-929b-1885be2165d1",
