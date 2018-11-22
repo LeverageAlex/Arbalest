@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "7eb0bd18-fa29-4971-9e38-1332d3ee7f1a",
+            "Value": {
+                "id": "f0a7eceb-7eef-4d23-a274-db8dc5b942d1",
+                "resourcePath": "sprites\\sp_super_enemy_ai_krass_defense_mode\\sp_super_enemy_ai_krass_defense_mode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7edc4d26-e407-4ff3-af96-e6b658099734",
             "Value": {
                 "id": "da533d2d-5488-4954-8406-5df25df20720",
