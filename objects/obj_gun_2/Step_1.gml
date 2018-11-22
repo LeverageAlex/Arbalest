@@ -14,9 +14,11 @@ recoil = max(0,recoil -1)
 
 if(mouse_check_button(mb_left)) && (firingdelay < 0)
 {
+		rechnungx = 22*cos(degtorad(image_angle));
+	rechnungy = -1*22*sin(degtorad(image_angle));
 	recoil = 4;
 	firingdelay = 10;
-	instance_create_layer(x,y,"ins_gun",obj_bullet)
+	instance_create_layer(x + rechnungx,y + rechnungy,"ins_gun",obj_bullet)
 		
 	
 }
