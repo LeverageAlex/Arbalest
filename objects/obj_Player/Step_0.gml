@@ -68,7 +68,7 @@ if(rechtswapped) {
 
 //schießen
 if (weapon_state == 1){
-	with(obj_weapon) {
+	/*with(obj_weapon) {
 	//sämtliche Waffenanimationen
 		if(other.weapon_right) {
 					other.x = other.x - other.hspd;
@@ -124,10 +124,10 @@ other.x = other.x + other.hspd;
 	}
 
 	rechnungx = 9*cos(degtorad(image_angle));
-	rechnungy = -1*9*sin(degtorad(image_angle));
-}
+	rechnungy = -1*9*sin(degtorad(image_angle)); 
+} */
 	
-	if (ammonition > 0) {
+	/*if (ammonition > 0) {
 		
 if(mouse_check_button(mb_left)&& firecooldown = 0)
 
@@ -159,7 +159,7 @@ firecooldown = 10;
 	else {
 			obj_weapon.image_speed = 0;
 		}
-}
+}*/
 }
 if(firecooldown <= 10) 
 {
