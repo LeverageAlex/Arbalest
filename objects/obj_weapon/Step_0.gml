@@ -62,10 +62,10 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 		
 if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 
-		{
+		{	
+			image_speed = 4;
 			counter++;
 			if(counter > 10) {
-				image_speed = 20;
 				counter = 0;
 			if(!obj_Player.stop) {
 with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet))
@@ -81,15 +81,22 @@ with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet
 			ammo = ammo - 1;
 	
 		}	
-firecooldown = 10;
+firecooldown = 15;
 		} 
 		
 		
 		
 	}
 	else {
-			obj_weapon.image_speed = 0;
+			image_speed = 0;
+			image_index = 0;
+			counter = 0;
 		}
+}
+else {
+			image_speed = 0;
+			image_index = 0;	
+			counter = 0;
 }
 	
 	

@@ -19,4 +19,4 @@ weapon_right = true;
 stop = false;
 leftswapped = false;
 rechtswapped = false;
-counter = 0;
+//counter = 0;

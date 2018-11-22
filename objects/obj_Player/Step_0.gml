@@ -67,100 +67,9 @@ if(rechtswapped) {
 }
 
 //schießen
-if (weapon_state == 1){
-	/*with(obj_weapon) {
-	//sämtliche Waffenanimationen
-		if(other.weapon_right) {
-					other.x = other.x - other.hspd;
+/*if (weapon_state == 1){
 	
-	if (place_meeting(other.x + 10 +other.hspd,y,obj_wall) && other.sprite_index == sp_player_with_w)
-{
-	while(!place_meeting(other.x + 10+sign(other.hspd),y,obj_wall))
-	{
-		other.x = other.x +sign (other.hspd);
-	}
-	other.hspd = 0;
-}
-other.x = other.x + other.hspd;
-	x = other.x + 10;
-	y = other.y
-	image_yscale = 0.5;
-	
-		} else { 
-					other.x = other.x - other.hspd;
-	
-	if (place_meeting(other.x - 30 -other.hspd,y,obj_wall) && other.sprite_index == sp_bewegung_links_mit_w)
-{
-	while(!place_meeting(other.x - 30 +sign(other.hspd),y,obj_wall))
-	{
-		other.x = other.x +sign (other.hspd);
-	}
-
-	other.hspd = 0;
-		if(keyboard_check_pressed(ord("D"))) {
-		other.hspd = 1;
-	}
-}
-
-other.x = other.x + other.hspd;
-
-
-		x = other.x - 20;	
-		y = other.y;	
-		image_yscale = -0.5;
-		
-		}
-	direction = point_direction(x,y, mouse_x, mouse_y);
-	if(other.weapon_right && ((direction > 90) && (direction < 270))) {
-		other.stop = true;
-	} else if((!other.weapon_right) && ((direction < 90) || (direction > 270))) {
-
-	other.stop = true;
-	
-	}
-	else {
-	image_angle = direction
-	other.stop = false;	
-	}
-
-	rechnungx = 9*cos(degtorad(image_angle));
-	rechnungy = -1*9*sin(degtorad(image_angle)); 
-} */
-	
-	/*if (ammonition > 0) {
-		
-if(mouse_check_button(mb_left)&& firecooldown = 0)
-
-		{
-			counter++;
-			if(counter > 10) {
-				image_speed = 20;
-				counter = 0;
-			if(!stop) {
-with(instance_create_layer(obj_weapon.x+obj_weapon.rechnungx,obj_weapon.y - 2 + obj_weapon.rechnungy,"ins_player",obj_bullet))
-			{
-				sprite_index = sp_pfeil;
-			}
-			}
-			
-	//decreases ammo
-	with (obj_magazin)
-		{
-	
-			ammo = ammo - 1;
-	
-		}	
-firecooldown = 10;
-		} 
-		
-		
-		
-	}
-	else {
-			obj_weapon.image_speed = 0;
-		}
 }*/
-}
 if(firecooldown <= 10) 
 {
  	if (firecooldown != 0)
@@ -218,7 +127,7 @@ else if(hspd<0) {
 	//sprite_index = sp_player_with_w;
 	if(hspd>0) {
 	if(sprite_index != sp_player_with_w) {
-		rechtswapped = true;
+		//rechtswapped = true;
 	sprite_index = sp_player_with_w;
 	weapon_right = true;
 	image_speed = 0.40;
@@ -226,7 +135,7 @@ else if(hspd<0) {
 }
 else if(hspd<0) {
 	if(sprite_index != sp_bewegung_links_mit_w) {
-		leftswapped = true;
+	//	leftswapped = true;
 	sprite_index = sp_bewegung_links_mit_w;
 	weapon_right = false;
 	image_speed = 0.40;
