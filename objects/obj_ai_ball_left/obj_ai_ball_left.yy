@@ -1,68 +1,68 @@
 {
-    "id": "d79de355-2924-42d5-841e-9f7367804efb",
+    "id": "08fc2fa2-dc54-48ce-a0c2-0969188597ac",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy_basic",
+    "name": "obj_ai_ball_left",
     "eventList": [
         {
-            "id": "261c757e-10ea-4065-ad44-f4d7d112bf1b",
+            "id": "d2bfcb30-a4cb-4bbf-a521-47cd725f1e2b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
         },
         {
-            "id": "d0419487-e690-43a5-9517-31d22675fe0b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
-        },
-        {
-            "id": "a3e91e9f-4dc8-4f72-a471-a56f94c913a2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
-        },
-        {
-            "id": "a80d3006-d315-4f7c-ba78-8c9c0fbc1240",
+            "id": "f3487134-8258-4666-8af9-577df81f3992",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
         },
         {
-            "id": "078157ec-aac0-4dac-8fe2-806086bd69cd",
+            "id": "8ca1ef7b-c577-4134-96c9-ffddbc006b42",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
+            "collisionObjectId": "f8d29bc5-78a3-49a6-b46c-30ae5094ef25",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
         },
         {
-            "id": "a7cb8567-46d7-4890-b442-4f73b6d66be3",
+            "id": "9a402a6d-5ede-4ac9-8cb8-4a05bd608d65",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "0f2b862b-c613-4f22-9ba6-44af4b20a0c5",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
+        },
+        {
+            "id": "a23fd755-5a92-4b3b-9dcf-c119903c07cd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
+        },
+        {
+            "id": "3290722f-a5de-4a92-9c81-a80a6f1642c4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "d79de355-2924-42d5-841e-9f7367804efb"
+            "eventtype": 2,
+            "m_owner": "08fc2fa2-dc54-48ce-a0c2-0969188597ac"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -83,6 +83,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "590ce919-cd9a-4eec-97b3-921244ebdf1b",
+    "spriteId": "53e3b4e9-9f57-443e-b1de-f91f9234644b",
     "visible": true
 }
