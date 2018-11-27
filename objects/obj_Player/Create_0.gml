@@ -19,4 +19,5 @@ weapon_right = true;
 stop = false;
 leftswapped = false;
 rechtswapped = false;
+idle = false;
 //counter = 0;

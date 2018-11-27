@@ -101,23 +101,32 @@ else{
 		
 //	sprite_index = sp_player_Khanh_Leander;
 	if(hspd>0) {
+
 	if(sprite_index != sp_bewegung_rechts) {
 	sprite_index = sp_bewegung_rechts;
-	image_speed = 0.40;
+	image_speed = 5;
 	}
+			else if(idle) {
+				image_speed = 5;
+				idle = false;
+		}
 }
 else if(hspd<0) {
 	if(sprite_index != sp_bewegung_links) {
 	sprite_index = sp_bewegung_links;
 	
-	image_speed = 0.40;
+	image_speed = 5;
 	}
+				else if(idle) {
+				image_speed = 5;
+				idle = false;
+		}
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
 	image_index = 0;
 	image_speed = 0;	
-	
+	idle = true;
 	}
 	}
 	
