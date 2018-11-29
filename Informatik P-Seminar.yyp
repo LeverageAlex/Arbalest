@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "4d3425e7-1953-43bd-9ca8-c1844d2476e3",
+            "Value": {
+                "id": "d53a2edf-e990-4862-bf32-0c1d60d8610e",
+                "resourcePath": "sprites\\sp_super_enemy_ai_krass_defense\\sp_super_enemy_ai_krass_defense.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d6a2b38-c760-4d15-a31f-66be2f80ca14",
             "Value": {
                 "id": "53598f34-cacf-4943-bcf5-c359957d6504",
@@ -308,6 +316,14 @@
                 "id": "d7f9f0b3-f3fa-4924-8271-99984728e319",
                 "resourcePath": "objects\\obj_healthbar\\obj_healthbar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56c9487c-382a-4224-91bb-7ce17076e2aa",
+            "Value": {
+                "id": "dd6da68b-6054-4685-904f-151f5d53f47d",
+                "resourcePath": "sprites\\sp_super_enemy_ai_krass_attack\\sp_super_enemy_ai_krass_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

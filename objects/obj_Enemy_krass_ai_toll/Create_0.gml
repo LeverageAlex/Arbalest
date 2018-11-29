@@ -23,11 +23,20 @@ CRtwo = 800;
 //Attack mode
 fire_state = false;		//Angriff wird ausgeführt
 fire_cd = 0;			//Schuss Cooldown
+fire_Cooldown = 55;		//Schussrate
+IncreasingBall = 0.1;
+
+//Defense mode
+defense_mode = false;
+ifRegen = false;
+AlreadyRegen = false;
+realRegen = 2;
 
 //Var Konstanten
-ai_speed = 1;
-healthpoints = 5;
+ai_speed = 2;
+healthpoints = 15;
 
 //Image Scaling
 image_xscale = 0.9;
 image_yscale = 0.9;
+

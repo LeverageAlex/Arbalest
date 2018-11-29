@@ -3,6 +3,8 @@
 if (path_cycle == 1)
 {
 	
+	sprite_index = sp_super_enemy_ai_krass;
+	
 	//Wenn nicht 0 --> laufen
 	if (x_left_cycle != 0)
 	
@@ -106,13 +108,22 @@ instance_destroy(self);
 //Check for Collisions
 
 //In circle
-
+if (defense_mode == false)
+{
+	
 if collision_circle(x, y, CRone, obj_Player, false, true)
 {
 	
 	player_spotted = true;
-	attack_mode = true;
 	
+		if (healthpoints > 5)
+		{
+			
+			attack_mode = true;
+			
+		}
+		
+	}
 	
 }
 
@@ -120,19 +131,24 @@ if (player_spotted == true)
 {
 
 path_cycle = 0;
-sprite_index = sp_super_enemy_ai_krass_defense_mode;
-
 
 }
 
 
 //Out of circle 
-if !collision_circle(x, y, CRtwo, obj_Player, false, true)
+if (defense_mode == false)
 {
 	
-	player_spotted = false;
-	fire_state = false;
 	
+if !collision_circle(x, y, CRtwo, obj_Player, false, true)
+	{
+	
+		player_spotted = false;
+		fire_state = false;
+		defense_mode = false;
+	
+	}
+
 }
 
 //Bewegung setzt fort + attack mode aus
@@ -140,7 +156,6 @@ if (player_spotted == false)
 {
 
 path_cycle = 1;
-sprite_index = sp_super_enemy_ai_krass;
 attack_mode = false;
 
 }
@@ -156,17 +171,27 @@ if (attack_mode == true)
 
 }
 
+if (attack_mode == false)
+{
+
+	fire_state = false;
+
+}
+
+
 //Greift an
 if (fire_state == true)
 {
 	
+	sprite_index = sp_super_enemy_ai_krass_attack;
+
 	if (fire_cd == 0) 
 	{
-		fire_cd = 120;
+		fire_cd = fire_Cooldown;
 		instance_create_layer(x,y,"ins_gun",obj_ai_ball_right);
 		instance_create_layer(x,y,"ins_gun",obj_ai_ball_left);
 	}
-	
+
 }
 
 if (fire_cd > 0)
@@ -175,6 +200,56 @@ if (fire_cd > 0)
 	fire_cd = fire_cd - 1;
 
 }
+
+//Defense Mode
+
+if (healthpoints < 6) 
+{
+	
+	defense_mode = true;
+	
+}
+
+if (defense_mode == true) 
+{
+	
+	sprite_index = sp_super_enemy_ai_krass_defense;
+	attack_mode = false;
+	path_cycle = 0;
+	
+	ifRegen = true;
+	
+	if (ifRegen == true)
+	{
+		
+			if (AlreadyRegen == false)
+			{
+			
+			AlreadyRegen = true;
+			alarm_set(0,room_speed * 0.1);
+			
+			}
+		
+	}
+
+}
+
+			//Out of defense mode
+			if (healthpoints >= 15) and (defense_mode == true)
+			{
+					
+					defense_mode = false;
+					
+					ifRegen = false;
+					AlreadyRegen = false;
+				
+			}
+
+
+
+
+
+
 
 
 
