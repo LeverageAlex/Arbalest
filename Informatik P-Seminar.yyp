@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "ea255a06-ffbd-496f-9797-9f4fba0d1cbf",
+            "Value": {
+                "id": "a45ae206-9509-4405-a237-a844dd6637ca",
+                "resourcePath": "sprites\\sp_Skelett_laufen\\sp_Skelett_laufen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee0c1839-22f2-4ce2-b9ff-e656a9db3d20",
             "Value": {
                 "id": "e45b1f59-8bea-4801-875c-bf2d566bff03",

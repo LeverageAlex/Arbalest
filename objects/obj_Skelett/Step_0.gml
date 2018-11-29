@@ -1,10 +1,16 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(obj_Player.x > x - 200 && obj_Player.x < x + 200 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+if(((obj_Player.x > x + 100 && obj_Player.x < x - 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 0 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+sprite_index = sp_Skelett_laufen;
 image_speed = 10;	
 	
+} else if(obj_Player.x > x - 100 && obj_Player.x < x + 100 && obj_Player.y > y - 205 && obj_Player.y < y + 240)  {
+	sprite_index = sp_skelett_schlagunten;
+image_speed = 10;
+	
 }
+
 else {
 	
 	image_speed = 0;
