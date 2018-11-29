@@ -13,6 +13,7 @@ if (block) {
 move = 1;	
 }
 
+
 hspd = move * player_speed;
 
 vspd = vspd + grv;
@@ -27,6 +28,7 @@ if(place_meeting(x,y+1,obj_wall )) && (jump)
 {
 	vspd = -20;	
 }
+
 
 //horizontal
 if (place_meeting(x+hspd,y,obj_wall))
