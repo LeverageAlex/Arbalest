@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "f37e3560-56f5-413d-816e-11337ef06558",
+            "Value": {
+                "id": "51dbc46e-f66c-498f-b25a-6f0c576fbacc",
+                "resourcePath": "sprites\\sp_Skelett_leerlauf\\sp_Skelett_leerlauf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f408f9c0-95c6-479c-93ca-9d7055b10114",
             "Value": {
                 "id": "26f88df8-d850-4285-abf9-ff316f135035",
