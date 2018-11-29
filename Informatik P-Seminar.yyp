@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "8b6b91cf-f7f4-454b-8d8b-4be4564474c3",
+            "Value": {
+                "id": "2ba436f1-877e-41c3-ac1a-2b1501123f93",
+                "resourcePath": "sprites\\sp_skelett_schlagunten\\sp_skelett_schlagunten.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d10d376-5498-4639-84fc-e51af3a2b415",
             "Value": {
                 "id": "13e1bf6d-6edc-4b9a-ab8e-54ab0a52c294",
@@ -626,7 +634,7 @@
             "Key": "b7730bfe-1297-4c35-acaf-86faa545103c",
             "Value": {
                 "id": "81865c29-8e5e-41b7-a7a0-01eac40077bf",
-                "resourcePath": "sprites\\sprite36\\sprite36.yy",
+                "resourcePath": "sprites\\sp_Dornenbusch\\sp_Dornenbusch.yy",
                 "resourceType": "GMSprite"
             }
         },

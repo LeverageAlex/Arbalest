@@ -2,7 +2,7 @@
     "id": "b7730bfe-1297-4c35-acaf-86faa545103c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite36",
+    "name": "sp_Dornenbusch",
     "For3D": false,
     "HTile": false,
     "VTile": false,
