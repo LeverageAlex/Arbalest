@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "3e6e5e11-b21e-43c1-80a7-a93d44c1304e",
+            "Value": {
+                "id": "4cd395cc-e7c8-43cb-b1a6-deb6b998b1e1",
+                "resourcePath": "sprites\\sp_Dornenbusch1\\sp_Dornenbusch1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42500fd6-5f50-44c2-b9e2-7c36b0864573",
             "Value": {
                 "id": "27efca45-f8d5-4e3e-9185-c496dd57c6af",
@@ -371,6 +379,14 @@
             "Value": {
                 "id": "e2907c4e-b85a-40db-97d0-bbf5cb998a38",
                 "resourcePath": "sprites\\spr_bullet_leander_khanh\\spr_bullet_leander_khanh.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "64a42a8e-5300-4334-a9b7-526f1f412ff0",
+            "Value": {
+                "id": "3dbde88f-e6b2-473a-ba34-c3d1d3624e09",
+                "resourcePath": "sprites\\sp_feld\\sp_feld.yy",
                 "resourceType": "GMSprite"
             }
         },
