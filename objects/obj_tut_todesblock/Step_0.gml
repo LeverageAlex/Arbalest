@@ -12,9 +12,9 @@ if(obj_Player.x  -10< x && obj_Player.x +10 > x) {
 	obj_Player.locked = true;
 } else if(obj_Player.y > y - 250) {
 	
-obj_Player.vspd = -20;
+obj_Player.vspd = -10;
 obj_Player.block = true;
-alarm[1] = room_speed;
+alarm[1] = 30;
 }
 
 
