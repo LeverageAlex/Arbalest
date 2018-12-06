@@ -1,4 +1,4 @@
-with(obj_Enemy_krass_ai_toll)
+with(other)
 {
 healthpoints = healthpoints - 1;
 }

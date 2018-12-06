@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(obj_Player.locked == false) {
+/*if(obj_Player.locked == false) {
 health -= 30;
 }
 if(place_meeting(x - 60, obj_Player.y, obj_Player)){
@@ -24,3 +24,4 @@ alarm[1] = room_speed;
 
 
 alarm[0] = room_speed;
+*/

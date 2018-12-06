@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "ca7badab-286b-44c5-942b-fe8cc68e334a",
+            "Value": {
+                "id": "4df6aba3-b043-4549-93b2-5a73d2c0d4e1",
+                "resourcePath": "sprites\\sp_koecher\\sp_koecher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "519a9beb-04d5-4381-98af-4b6ee3156078",
