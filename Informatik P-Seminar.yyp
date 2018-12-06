@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "937a5966-3974-46e6-9943-0e4210070b8f",
+            "Value": {
+                "id": "2e13bc9c-edc4-4664-8d31-c084f8ca7738",
+                "resourcePath": "objects\\obj_dornenbusch\\obj_dornenbusch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98ae1503-2373-42cd-bec1-5131d9118ae0",
             "Value": {
                 "id": "0c950c16-8cd5-4248-b6c1-dc906c2474ed",
