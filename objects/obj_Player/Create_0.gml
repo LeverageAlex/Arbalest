@@ -2,7 +2,7 @@ hspd = 0;
 vspd = 0;
 player_speed = 4;
 grv = 1.0;
-
+jumpcounter = 0;
 firecooldown = 0;
 
 //weapon indentify
