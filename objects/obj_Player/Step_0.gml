@@ -7,6 +7,7 @@ down = keyboard_check(ord("S"));
 
 var move = right - left;
 
+
 if(locked == true) {
 	
 move = 0;	
@@ -25,23 +26,28 @@ vspd = vspd + grv;
 
 
 
-//jump
-if(place_meeting(x,y+1,obj_wall )) && (longjump)
+//jumpstart
+if(longjump && place_meeting(x,y+1,obj_wall ))
 {
-	jumpcounter = jumpcounter +1;
-	if (jumpcounter == 25){
-		vspd =  -20;
+
+	jumpl = true;
+}
+//jumplong
+
+if(jumpl == true && longjump == true){
+	vspd = -jumpactive;
+	jumpactive = 18;
+	jumpcounter += 1;
+	if(jumpcounter == 14){
+		jumpl = false;
 		jumpcounter = 0;
-	} 
-} 
-else if(jumpcounter != 0) {
-	if(jumpcounter >= 5) {
-		vspd =  -15;
-		jumpcounter = 0;
-	} else {
-	vspd = -10;
-	jumpcounter = 0;
+		jumpactive = 0;
 	}
+}
+else{
+	jumpl = false;
+	jumpcounter = 0;
+	jumpactive = 0;
 }
 
 

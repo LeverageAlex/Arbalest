@@ -3,8 +3,9 @@ vspd = 0;
 player_speed = 4;
 grv = 1.0;
 jumpcounter = 0;
+jumpactive = false;
 firecooldown = 0;
-
+jumpl = 0;
 //weapon indentify
 weapon_state = 0;
 
