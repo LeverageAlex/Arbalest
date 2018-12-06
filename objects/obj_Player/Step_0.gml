@@ -179,6 +179,43 @@ else if(hspd<0) {
 	image_speed = 0;	
 	
 	}
+	
+	}
+	else if(weapon_state = 2) 	{
+	//sprite_index = sp_player_with_w;
+	if(hspd>0) {
+	if(sprite_index != sp_bewegung_rechts_mit_schwert) {
+		//rechtswapped = true;
+	sprite_index = sp_bewegung_rechts_mit_schwert;
+	weapon_right = true;
+	image_speed = 5;
+	idle = true;
+	}
+					else if(idle) {
+				image_speed = 5;
+				idle = false;
+		}
+}
+else if(hspd<0) {
+	if(sprite_index != sp_bewegung_links_mit_schwert) {
+	//	leftswapped = true;
+	sprite_index = sp_bewegung_links_mit_schwert;
+	weapon_right = false;
+	image_speed = 5;
+	
+	}
+		
+				else if(idle) {
+				image_speed = 5;
+				idle = false;
+		}
+}
+	else {
+	//	sprite_index = sp_bewegung_rechts;
+	image_index = 0;
+	image_speed = 0;	
+	idle = true;
+	}
 	}
 	
 	}

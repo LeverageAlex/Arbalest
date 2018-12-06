@@ -1,8 +1,8 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-if(keyboard_key_press(ord("E"))) {
+if (keyboard_check_pressed(ord("E"))) {
 	obj_Player.weapon_state = 2;
-	
-	
-	instance_destroy();
+	status = true;
+	sprite_index = noone;
+//	instance_destroy();
 }

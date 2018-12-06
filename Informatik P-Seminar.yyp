@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "84de28c8-1d0f-4c53-bc04-d7fac1880c0f",
+            "Value": {
+                "id": "508bad05-7324-4f54-b30d-23fe0c59ed7d",
+                "resourcePath": "sprites\\sp_player_attack_rechts\\sp_player_attack_rechts.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8691e079-8ee1-4ef2-b77f-ee57bba14625",
             "Value": {
                 "id": "51d32e43-5e8c-4299-84f3-3978d7266c99",
@@ -531,6 +539,14 @@
             "Value": {
                 "id": "13e1bf6d-6edc-4b9a-ab8e-54ab0a52c294",
                 "resourcePath": "sprites\\sp_wall_half\\sp_wall_half.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8f8721f7-f00e-4979-b214-c5a0c2082cd0",
+            "Value": {
+                "id": "dd9c4386-f62b-4e9d-a184-1397ef9e29af",
+                "resourcePath": "sprites\\sp_player_attack_links\\sp_player_attack_links.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -690,7 +706,7 @@
             "Key": "b9752825-f302-49e9-a801-9eafb88fbd2d",
             "Value": {
                 "id": "c38be901-dc1e-4345-a688-42b9049896c4",
-                "resourcePath": "sprites\\sp_bewegung_links1\\sp_bewegung_links1.yy",
+                "resourcePath": "sprites\\sp_bewegung_links_mit_schwert\\sp_bewegung_links_mit_schwert.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -794,7 +810,7 @@
             "Key": "df8e091a-c6e8-4d9f-a572-b6f6f3a191e8",
             "Value": {
                 "id": "0b342cb8-f2ce-4c0b-a72c-7f41d9eacdb4",
-                "resourcePath": "sprites\\sp_bewegung_rechts1\\sp_bewegung_rechts1.yy",
+                "resourcePath": "sprites\\sp_bewegung_rechts_mit_schwert\\sp_bewegung_rechts_mit_schwert.yy",
                 "resourceType": "GMSprite"
             }
         },
