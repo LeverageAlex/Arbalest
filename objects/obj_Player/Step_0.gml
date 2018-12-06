@@ -1,7 +1,9 @@
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
+longjump = keyboard_check_direct(vk_space) || keyboard_check_pressed(ord("W"));
 down = keyboard_check(ord("S"));
+
 
 var move = right - left;
 
@@ -24,9 +26,22 @@ vspd = vspd + grv;
 
 
 //jump
-if(place_meeting(x,y+1,obj_wall )) && (jump)
+if(place_meeting(x,y+1,obj_wall )) && (longjump)
 {
-	vspd = -20;	
+	jumpcounter = jumpcounter +1;
+	if (jumpcounter == 25){
+		vspd =  -20;
+		jumpcounter = 0;
+	} 
+} 
+else if(jumpcounter != 0) {
+	if(jumpcounter >= 5) {
+		vspd =  -15;
+		jumpcounter = 0;
+	} else {
+	vspd = -10;
+	jumpcounter = 0;
+	}
 }
 
 
