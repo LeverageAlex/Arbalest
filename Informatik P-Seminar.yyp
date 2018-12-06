@@ -887,6 +887,14 @@
             }
         },
         {
+            "Key": "f9fd252a-5a8a-4e02-aed5-4c7db28ad386",
+            "Value": {
+                "id": "c94001d5-7673-45d5-9e50-e4a4f8306c16",
+                "resourcePath": "objects\\obj_gun_enemy\\obj_gun_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fceefbb7-151e-4e38-aa03-cde15d534911",
             "Value": {
                 "id": "235c0afe-6a18-41f2-a120-3068b4dd63ae",
