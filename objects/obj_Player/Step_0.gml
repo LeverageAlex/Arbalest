@@ -183,6 +183,7 @@ else if(hspd<0) {
 	}
 	else if(weapon_state = 2) 	{
 	//sprite_index = sp_player_with_w;
+	if(obj_Schwert.animation == false) {
 	if(hspd>0) {
 	if(sprite_index != sp_bewegung_rechts_mit_schwert) {
 		//rechtswapped = true;
@@ -208,7 +209,7 @@ else if(hspd<0) {
 				else if(idle) {
 				image_speed = 5;
 				idle = false;
-		}
+				}
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
@@ -217,8 +218,8 @@ else if(hspd<0) {
 	idle = true;
 	}
 	}
-	
-	}
+
+	}}
 	
 	with (obj_frame_indicator_and_w_state)
 	{
