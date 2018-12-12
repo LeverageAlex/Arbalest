@@ -158,17 +158,17 @@ else if(hspd<0) {
 	{
 	//sprite_index = sp_player_with_w;
 	if(hspd>0) {
-	if(sprite_index != sp_player_with_w) {
+	if(sprite_index != sp_bewegung_rechts) {
 		//rechtswapped = true;
-	sprite_index = sp_player_with_w;
+	sprite_index = sp_bewegung_rechts;
 	weapon_right = true;
 	image_speed = 0.40;
 	}
 }
 else if(hspd<0) {
-	if(sprite_index != sp_bewegung_links_mit_w) {
+	if(sprite_index != sp_bewegung_links) {
 	//	leftswapped = true;
-	sprite_index = sp_bewegung_links_mit_w;
+	sprite_index = sp_bewegung_links;
 	weapon_right = false;
 	image_speed = 0.40;
 	}
