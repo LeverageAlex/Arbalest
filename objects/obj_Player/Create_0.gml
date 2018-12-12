@@ -23,3 +23,5 @@ rechtswapped = false;
 idle = false;
 //counter = 0;
 animieren = false;
+downidle = false;
+spr_old = noone;

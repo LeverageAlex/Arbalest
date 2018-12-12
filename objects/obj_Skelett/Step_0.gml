@@ -52,5 +52,11 @@ if(place_meeting(x + 1, y, obj_wall)) {
 			image_speed = 1;
 	speed = 0;	
 	}
+	
+
 }
 
+	if(leben == 0) {
+	instance_destroy();	
+		
+	}

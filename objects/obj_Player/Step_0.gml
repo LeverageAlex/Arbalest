@@ -2,7 +2,7 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 longjump = keyboard_check_direct(vk_space) || keyboard_check_direct(ord("W"));
-down = keyboard_check(ord("S"));
+down = keyboard_check_direct(ord("S"));
 
 
 var move = right - left;
@@ -102,22 +102,36 @@ if(firecooldown <= 10)
 }
 //crouch
 if(down)
-{
+{	
+	if(sprite_index != sp_playercrouch) {
+	spr_old = sprite_index;
+	}
 	if (weapon_state == 0)
 	
 	{
+		
 	sprite_index = sp_playercrouch;
+//	y -= 1;
+
+	
 	}
 	
 	if (weapon_state == 1)
 	
 	{
+		
 	sprite_index = sp_playercrouch_with_w;
 	}
 	
-	
+	downidle = true;
 	}
 else{
+	if(downidle) {
+		sprite_index = sp_bewegung_rechts;
+		
+		downidle = false;
+	}
+	
 	if (weapon_state == 0)
 	
 	{
