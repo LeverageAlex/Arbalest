@@ -43,17 +43,8 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 		
 		}
 	direction = point_direction(x,y, mouse_x, mouse_y);
-	if(obj_Player.weapon_right && ((direction > 90) && (direction < 270))) {
-		obj_Player.stop = true;
-	} else if((!obj_Player.weapon_right) && ((direction < 90) || (direction > 270))) {
-
-	obj_Player.stop = true;
+	image_angle = direction;
 	
-	}
-	else {
-	image_angle = direction
-	obj_Player.stop = false;	
-	}
 
 	rechnungx = 9*cos(degtorad(image_angle));
 	rechnungy = -1*9*sin(degtorad(image_angle));
@@ -67,11 +58,11 @@ if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 			counter++;
 			if(counter > 10) {
 				counter = 0;
-			if(!obj_Player.stop) {
+
 with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet))
 			{
 				sprite_index = sp_pfeil;
-			}
+			
 			}
 			
 	//decreases ammo
