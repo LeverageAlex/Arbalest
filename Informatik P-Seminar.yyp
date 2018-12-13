@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "135add62-8152-43c8-bf8e-caaf4d22ece4",
+            "Value": {
+                "id": "7e597212-8023-4b76-8b2a-1126c77ad766",
+                "resourcePath": "tilesets\\t_stein\\t_stein.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "14587304-4c7f-43a9-ad5b-e12059de04ee",
             "Value": {
                 "id": "a0258e99-ca23-43c6-9d3a-afe645657d3c",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "8f20b16c-9078-4940-8416-204f429d636f",
+            "Value": {
+                "id": "d6be8e37-b05f-40ac-8f62-64f1d90bd1fb",
+                "resourcePath": "sprites\\sp_apfel\\sp_apfel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f8721f7-f00e-4979-b214-c5a0c2082cd0",
             "Value": {
                 "id": "dd9c4386-f62b-4e9d-a184-1397ef9e29af",
@@ -563,6 +579,14 @@
             "Value": {
                 "id": "2e13bc9c-edc4-4664-8d31-c084f8ca7738",
                 "resourcePath": "objects\\obj_dornenbusch\\obj_dornenbusch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "93dffec2-42f5-4c12-94ba-1778836e46da",
+            "Value": {
+                "id": "9fbfe533-fa3f-4165-bff1-915c0d08adfc",
+                "resourcePath": "objects\\obj_Leiter\\obj_Leiter.yy",
                 "resourceType": "GMObject"
             }
         },

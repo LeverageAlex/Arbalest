@@ -14,7 +14,7 @@ if(waffenstatus) {
 	obj_Player.hspd = 0;
 }
 obj_Player.x = obj_Player.x + obj_Player.hspd;
-	x = obj_Player.x + 10;
+	x = obj_Player.x + 20;
 	y = obj_Player.y
 	image_yscale = 0.5;
 	
