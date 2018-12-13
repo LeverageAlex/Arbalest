@@ -5,3 +5,5 @@ inv_AddItemDef(ItemType.empty, sp_empty, "", 0, use_Empty);
 inv_AddItemDef(ItemType.weapon, sp_weapon,"pistol", 0, use_Empty);
 
 inv_AddItemDef(ItemType.apfel, sp_apfel,"Apfel", 0, use_apfel);
+
+inv_AddItemDef(ItemType.weapon, sp_weapon,"Waffe", 0, use_apfel);
