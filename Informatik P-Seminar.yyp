@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "d2129a4e-1ab1-4609-a9a4-d89cd41e6fe3",
+            "Value": {
+                "id": "06410f0b-0de7-420e-8b0d-072a4005f031",
+                "resourcePath": "sprites\\sp_ladder\\sp_ladder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3d6e0b6-f3c0-4c0e-ad72-2873f17347d3",
             "Value": {
                 "id": "34c15a06-ae63-4bf7-a98f-21a3c45d2160",
