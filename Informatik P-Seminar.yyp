@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "135add62-8152-43c8-bf8e-caaf4d22ece4",
+            "Value": {
+                "id": "7e597212-8023-4b76-8b2a-1126c77ad766",
+                "resourcePath": "tilesets\\t_stein\\t_stein.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "14587304-4c7f-43a9-ad5b-e12059de04ee",
             "Value": {
                 "id": "a0258e99-ca23-43c6-9d3a-afe645657d3c",
