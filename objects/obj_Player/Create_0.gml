@@ -25,4 +25,4 @@ idle = false;
 animieren = false;
 downidle = false;
 spr_old = noone;
-ruestung = 50;
+ruestung = 100;

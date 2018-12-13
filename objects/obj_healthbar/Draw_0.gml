@@ -12,12 +12,19 @@ if(health < 0) {
 		health = 100;
 		
 	}
+	
 x = cx+ 100;
 y = cy + 60;
 draw_set_color(c_red);
 draw_rectangle(cx+ 77, cy + 42, cx + 172 - (95 - (0.95 * health )), cy + 50, false);
 if(health == 100) {
 	draw_rectangle(cx+ 172, cy + 42, cx + 174, cy + 48, false);
+	
+}
+draw_set_color(c_blue);
+draw_rectangle(cx + 77, cy + 54, cx + 159 - (82 - (0.82 * obj_Player.ruestung )), cy + 64, false);
+if(obj_Player.ruestung == 100) {
+	draw_rectangle(cx+ 159, cy + 54, cx + 164, cy + 60, false);
 	
 }
 draw_self();
