@@ -6,7 +6,7 @@ var _name = argument2;
 var _amount = argument3;
 var _useScript = argument4;
 
-itemDefinitions[ItemType.empty,ItemProperty.sprite] = _sprite;
-itemDefinitions[ItemType.empty,ItemProperty.name] = _name;
-itemDefinitions[ItemType.empty,ItemProperty.amount] = _amount;
-itemDefinitions[ItemType.empty,ItemProperty.useScript] = _useScript;
+itemDefinitions[_typeOfItem,ItemProperty.sprite] = _sprite;
+itemDefinitions[_typeOfItem,ItemProperty.name] = _name;
+itemDefinitions[_typeOfItem,ItemProperty.amount] = _amount;
+itemDefinitions[_typeOfItem,ItemProperty.useScript] = _useScript;

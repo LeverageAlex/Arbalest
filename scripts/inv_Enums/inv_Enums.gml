@@ -3,6 +3,7 @@ enum ItemType {
 	weapon,
 	bullets,
 	length,
+	apfel,
 }
 
 enum ItemProperty {
