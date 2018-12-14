@@ -3,4 +3,4 @@ var _itemScript = obj_inventoryManager.itemDefinitions[_type, ItemProperty.useSc
 
 
 script_execute(_itemScript);
-inv_RemoveItem(_type);
+//inv_RemoveItem(_type);

@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "7dc51784-6343-4c6e-a96e-e0629d8125c5",
+            "Value": {
+                "id": "9c3c55dc-6fe1-4961-90f7-8352dec65ec5",
+                "resourcePath": "scripts\\use_Schwert\\use_Schwert.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7eb0bd18-fa29-4971-9e38-1332d3ee7f1a",
             "Value": {
                 "id": "f0a7eceb-7eef-4d23-a274-db8dc5b942d1",
@@ -1095,6 +1103,14 @@
             }
         },
         {
+            "Key": "f89b4ca6-0c57-4367-84bd-c909efc57948",
+            "Value": {
+                "id": "e9d54b9c-8448-4ed6-beda-91a96ecd7a32",
+                "resourcePath": "scripts\\use_Bogen\\use_Bogen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f8d29bc5-78a3-49a6-b46c-30ae5094ef25",
             "Value": {
                 "id": "ff708574-3a04-446b-b06f-c9c35ce21de0",
@@ -1130,6 +1146,8 @@
     "script_order": [
         "d4be882b-013f-41ba-a08f-1a5442596878",
         "09a91363-6b04-4efa-8453-24d2e7408435",
+        "f89b4ca6-0c57-4367-84bd-c909efc57948",
+        "7dc51784-6343-4c6e-a96e-e0629d8125c5",
         "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
         "80a2c628-b9d0-42a0-b3c6-05036ba2bca4",
         "1f3d4a55-a98e-4a91-8f41-425ad20413d9",

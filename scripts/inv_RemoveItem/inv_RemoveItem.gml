@@ -8,7 +8,7 @@ if(_indexofGivenType != -1) {
 	itemDefinitions[_type, ItemProperty.amount] -= 1;
 	
 	if(itemDefinitions[_type, ItemProperty.amount] <= 0) {
-		inventorny[_indexofGivenType] = ItemType.empty;
+		inventory[_indexofGivenType] = ItemType.empty;
 		
 	}
 	

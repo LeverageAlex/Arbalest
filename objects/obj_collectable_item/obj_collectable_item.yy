@@ -45,6 +45,20 @@
             "value": "0",
             "varName": "itemType",
             "varType": 1
+        },
+        {
+            "id": "e9add611-9072-447d-9325-e89ae04fe399",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "true",
+            "varName": "sammeln",
+            "varType": 3
         }
     ],
     "solid": false,
