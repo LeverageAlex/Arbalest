@@ -1,6 +1,14 @@
 if((obj_Player.x - 68< x && obj_Player.x + 7 > x)  && obj_Player.y - 50 - 64*(anzahl -1)< y && obj_Player.y + 15 /* + 64*(anzahl-1)*/> y) {
+
 if(obj_Player.locked == false) {
-health -= 30;
+	if(obj_Player.ruestung - 20 < 0) { 
+		obj_Player.ruestung -= 20;
+		health += obj_Player.ruestung;
+	obj_Player.ruestung = 0;
+	}
+	else {
+	obj_Player.ruestung -= 20;	
+	}
 }
 
 if(obj_Player.x  -10< x && obj_Player.x +10 > x) {
