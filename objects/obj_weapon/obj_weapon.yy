@@ -15,16 +15,6 @@
             "m_owner": "51ec6405-633f-4892-badc-7e7cbb01ae70"
         },
         {
-            "id": "bc7178b6-ad28-4d2f-9ccb-51d77dc2210e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "51ec6405-633f-4892-badc-7e7cbb01ae70"
-        },
-        {
             "id": "72c6c409-23f0-4a69-a82e-ac1bb247656b",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -36,8 +26,17 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "54709d19-7d58-4fea-99b5-0f4a75a4f73d",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+            "propertyId": "69ad19bc-8ebb-4afb-84b1-8dcf145e56a3",
+            "value": "ItemType.weapon"
+        }
+    ],
+    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -56,7 +56,7 @@ if(place_meeting(x + 1, y, obj_wall)) {
 
 }
 
-	if(leben == 0) {
+	if(leben <= 0) {
 	instance_destroy();	
 		
 	}

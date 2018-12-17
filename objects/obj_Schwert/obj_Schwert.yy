@@ -5,16 +5,6 @@
     "name": "obj_Schwert",
     "eventList": [
         {
-            "id": "1149e37c-f745-4098-95f6-a82463718718",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "093072d7-3819-4b2b-a974-e560686a02d3"
-        },
-        {
             "id": "0d934f88-3983-495f-98b0-53395f3f9e8d",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -36,8 +26,17 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "b6478bf6-75c2-4660-a936-cbb17a2013a5",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+            "propertyId": "69ad19bc-8ebb-4afb-84b1-8dcf145e56a3",
+            "value": "ItemType.schwert"
+        }
+    ],
+    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
