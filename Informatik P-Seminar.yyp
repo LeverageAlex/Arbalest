@@ -479,14 +479,6 @@
             }
         },
         {
-            "Key": "61089d91-5015-4bfa-a3f1-ddbbaa0dfb73",
-            "Value": {
-                "id": "4221d2c4-ecc0-4aa7-b404-8a3bc3f80bb0",
-                "resourcePath": "objects\\obj_test_apfel\\obj_test_apfel.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "611f288d-3ede-4d63-b60f-1f119356dc82",
             "Value": {
                 "id": "6371e7e7-806d-4cce-8402-a02c2d328a2a",
