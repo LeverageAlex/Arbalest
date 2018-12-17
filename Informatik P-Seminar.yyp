@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2006fbe1-4328-426a-9e80-6a8efdd8687a",
+            "Value": {
+                "id": "7f9c3c61-573a-4aea-8a48-e877eee4eb26",
+                "resourcePath": "views\\2006fbe1-4328-426a-9e80-6a8efdd8687a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "22658254-a110-4b8d-9936-8f3ef051395b",
             "Value": {
                 "id": "f4937f4c-40f2-4839-bd06-290c7907552a",
@@ -371,6 +379,14 @@
             "Value": {
                 "id": "6b85ff05-72be-4cdf-ad04-6a596316ee24",
                 "resourcePath": "views\\43d59d2d-e736-46c3-98a0-fb89f62da1fe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4596967b-26e3-478e-84bd-0179e6ef5f6c",
+            "Value": {
+                "id": "84135236-642e-47b1-b849-de8b7e58084e",
+                "resourcePath": "views\\4596967b-26e3-478e-84bd-0179e6ef5f6c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -719,14 +735,6 @@
             }
         },
         {
-            "Key": "937a5966-3974-46e6-9943-0e4210070b8f",
-            "Value": {
-                "id": "2e13bc9c-edc4-4664-8d31-c084f8ca7738",
-                "resourcePath": "objects\\obj_dornenbusch\\obj_dornenbusch.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "93dffec2-42f5-4c12-94ba-1778836e46da",
             "Value": {
                 "id": "9fbfe533-fa3f-4165-bff1-915c0d08adfc",
@@ -788,6 +796,14 @@
                 "id": "aa2e5e27-249b-4bad-afd4-e279fe268c61",
                 "resourcePath": "objects\\obj_enemy_counter\\obj_enemy_counter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9f08b7b6-aad1-4df8-a612-20c2947fe421",
+            "Value": {
+                "id": "31724c29-d543-4cae-b91f-a57f1aff3019",
+                "resourcePath": "views\\9f08b7b6-aad1-4df8-a612-20c2947fe421.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1044,6 +1060,14 @@
                 "id": "0b342cb8-f2ce-4c0b-a72c-7f41d9eacdb4",
                 "resourcePath": "sprites\\sp_bewegung_rechts_mit_schwert\\sp_bewegung_rechts_mit_schwert.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e54cd87c-001e-4416-a094-b4d5c6f27060",
+            "Value": {
+                "id": "a1a7a64b-4ef4-4e70-a171-c906e3aa3bb5",
+                "resourcePath": "views\\e54cd87c-001e-4416-a094-b4d5c6f27060.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
