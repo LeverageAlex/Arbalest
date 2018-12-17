@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0762af90-1ece-40cb-8a7c-5b116ed554b7",
+            "Value": {
+                "id": "f23427dc-3820-4de5-9f79-367d11be82e6",
+                "resourcePath": "scripts\\spieler_schaden\\spieler_schaden.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "08c08c17-0cfb-4ba4-92c8-a0637c9ad2b3",
             "Value": {
                 "id": "1eb9807b-3cd4-41e9-b5a8-4bd577c042d5",
@@ -1180,7 +1188,8 @@
         "d01ef6dd-b9b9-4454-b362-9cf171ecb783",
         "e7e39979-260c-410c-a4fc-00240f74fee0",
         "89f50d33-54d9-4f41-97e7-79d16b33f8a8",
-        "04d6d24b-281b-45ba-80a8-5f0250e1e2fd"
+        "04d6d24b-281b-45ba-80a8-5f0250e1e2fd",
+        "0762af90-1ece-40cb-8a7c-5b116ed554b7"
     ],
     "tutorial": ""
 }
