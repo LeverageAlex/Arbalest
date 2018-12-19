@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "100df3b4-4cab-446b-a208-ed63b2347695",
-            "Value": {
-                "id": "e370b71c-feb2-4eef-b383-6d9a698d98e4",
-                "resourcePath": "sprites\\sp_enemy_leitner\\sp_enemy_leitner.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1163e3f6-6888-4939-a110-5b8fe1f78f01",
             "Value": {
                 "id": "71d83a28-0341-414e-bf2b-fefadda5ccda",
