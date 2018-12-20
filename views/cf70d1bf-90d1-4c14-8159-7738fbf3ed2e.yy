@@ -13,8 +13,7 @@
         "8b6b91cf-f7f4-454b-8d8b-4be4564474c3",
         "ea255a06-ffbd-496f-9797-9f4fba0d1cbf",
         "f37e3560-56f5-413d-816e-11337ef06558",
-        "fd8198ae-a644-45c7-9d02-03d561c7a840",
-        "100df3b4-4cab-446b-a208-ed63b2347695"
+        "fd8198ae-a644-45c7-9d02-03d561c7a840"
     ],
     "filterType": "GMSprite",
     "folderName": "Gegner",

@@ -1,8 +1,8 @@
 {
-    "id": "09a91363-6b04-4efa-8453-24d2e7408435",
+    "id": "0762af90-1ece-40cb-8a7c-5b116ed554b7",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "use_apfel",
+    "name": "spieler_schaden",
     "IsCompatibility": false,
     "IsDnD": false
 }

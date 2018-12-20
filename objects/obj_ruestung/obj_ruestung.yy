@@ -1,29 +1,20 @@
 {
-    "id": "8400924b-3db8-4782-a076-b2bf2de2d8a6",
+    "id": "26de8681-979c-477d-9c00-5f82a071e056",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_healthkit1",
+    "name": "obj_ruestung",
     "eventList": [
-        {
-            "id": "da61c238-9141-4ea9-ad2e-b9a48b947725",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8400924b-3db8-4782-a076-b2bf2de2d8a6"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "d63e6a5e-aeb8-4f96-915b-aa78ab81ff92",
+            "id": "813437d9-abe6-4543-bcae-09b69f160b55",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
             "propertyId": "69ad19bc-8ebb-4afb-84b1-8dcf145e56a3",
-            "value": "ItemType.apfel"
+            "value": "ItemType.ruestung"
         }
     ],
     "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
@@ -42,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8f20b16c-9078-4940-8416-204f429d636f",
+    "spriteId": "95061c4b-13d2-4cdf-bc20-44fff8acc414",
     "visible": true
 }

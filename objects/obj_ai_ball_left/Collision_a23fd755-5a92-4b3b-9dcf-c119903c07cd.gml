@@ -1,8 +1,5 @@
-with (obj_Player)
-{
+spieler_schaden(damageIncrease);
 
-health = health - other.damageIncrease;
 
-}
 
 instance_destroy();

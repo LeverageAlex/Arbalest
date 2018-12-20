@@ -8,3 +8,5 @@ with(waffe) {
 	
 	
 }
+abstandY1 = 145;
+abstandY2 = 240;

@@ -10,8 +10,8 @@ if(place_meeting(x+2,y+2,obj_wall))
 	instance_destroy()	
 }
 
-if(place_meeting(x+2,y+2,obj_enemy))
+/*if(place_meeting(x+2,y+2,obj_enemy))
 {
 	instance_destroy()	
-}
+}*/
 
