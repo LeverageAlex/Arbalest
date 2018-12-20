@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "935da39c-342a-4235-a07b-3116703978bd",
+            "Value": {
+                "id": "d942658a-51c9-46bc-80ed-ff360382c381",
+                "resourcePath": "sprites\\sp_Bogen\\sp_Bogen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93dffec2-42f5-4c12-94ba-1778836e46da",
             "Value": {
                 "id": "9fbfe533-fa3f-4165-bff1-915c0d08adfc",
