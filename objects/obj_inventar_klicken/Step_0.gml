@@ -9,9 +9,10 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false) {
 	for(var i = 0; i < 3; i++) {
 		
 	for(var p = 0; p < 5; p++) {	
-		if((device_mouse_x_to_gui( 0 ) > 363 + (p * 50) && device_mouse_x_to_gui( 0 ) < 408 + (p * 50)) && ((device_mouse_y_to_gui( 0 ) > 432 + (i * 46) && device_mouse_y_to_gui( 0 ) < 478 + (i * 46)))) {
+		if((device_mouse_x_to_gui( 0 ) > 363 + (p * 52) && device_mouse_x_to_gui( 0 ) < 408 + (p * 52)) && ((device_mouse_y_to_gui( 0 ) > 432 + (i * 46) && device_mouse_y_to_gui( 0 ) < 478 + (i * 46)))) {
 
-			show_message(array_find_pos(5 + i*5 + p));
+			//show_message(array_find_pos(5 + i*5 + p));
+			pos = 5 + i*5 + p;
 			item = array_find_pos(5 + i*5 + p);
 			zwischenspeicher = true;
 		}
@@ -20,8 +21,9 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false) {
 	}
 	}
 	for(var n = 0; n < 5; n++) {
-		if((device_mouse_x_to_gui( 0 ) > 363 + (n * 50) && device_mouse_x_to_gui( 0 ) < 408 + (n * 50)) && ((device_mouse_y_to_gui( 0 ) > 598 && device_mouse_y_to_gui( 0 ) < 644))) {
-show_message(array_find_pos(n));
+		if((device_mouse_x_to_gui( 0 ) > 363 + (n * 52) && device_mouse_x_to_gui( 0 ) < 408 + (n * 52)) && ((device_mouse_y_to_gui( 0 ) > 598 && device_mouse_y_to_gui( 0 ) < 644))) {
+//show_message(array_find_pos(n));
+			pos = n;
 			item = array_find_pos(n);
 			zwischenspeicher = true;
 		
@@ -36,11 +38,11 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true) {
 	for(var i = 0; i < 3; i++) {
 		
 	for(var p = 0; p < 5; p++) {	
-		if((device_mouse_x_to_gui( 0 ) > 363 + (p * 50) && device_mouse_x_to_gui( 0 ) < 408 + (p * 50)) && ((device_mouse_y_to_gui( 0 ) > 432 + (i * 46) && device_mouse_y_to_gui( 0 ) < 478 + (i * 46)))) {
+		if((device_mouse_x_to_gui( 0 ) > 363 + (p * 52) && device_mouse_x_to_gui( 0 ) < 408 + (p * 52)) && ((device_mouse_y_to_gui( 0 ) > 432 + (i * 46) && device_mouse_y_to_gui( 0 ) < 478 + (i * 46)))) {
 
-			
+			pos2 = 5 + i*5 + p;
 			item2 = array_find_pos(5 + i*5 + p);
-			array_swappos(item, item2);
+			array_swappos(item, item2, pos, pos2);
 			zwischenspeicher = false;
 		}
 		
@@ -49,10 +51,11 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true) {
 	}
 	
 	for(var n = 0; n < 5; n++) {
-		if((device_mouse_x_to_gui( 0 ) > 363 + (n * 50) && device_mouse_x_to_gui( 0 ) < 408 + (n * 50)) && ((device_mouse_y_to_gui( 0 ) > 598 && device_mouse_y_to_gui( 0 ) < 644))) {
-show_message(array_find_pos(n));
+		if((device_mouse_x_to_gui( 0 ) > 363 + (n * 52) && device_mouse_x_to_gui( 0 ) < 408 + (n * 52)) && ((device_mouse_y_to_gui( 0 ) > 598 && device_mouse_y_to_gui( 0 ) < 644))) {
+//show_message(array_find_pos(n));
 			item2 = array_find_pos(n);
-			array_swappos(item, item2);
+			pos2= n;
+			array_swappos(item, item2, pos, pos2);
 			zwischenspeicher = false;
 		
 	}
