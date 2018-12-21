@@ -22,3 +22,4 @@ inv_AddItemDef(ItemType.test4, sp_ruestung, "Ruestung", 0, use_ruestung);
 inv_AddItemDef(ItemType.test5, sp_ruestung, "Ruestung", 0, use_ruestung);
 inv_AddItemDef(ItemType.test6, sp_ruestung, "Ruestung", 0, use_ruestung);
 inv_AddItemDef(ItemType.test7, sp_ruestung, "Ruestung", 0, use_ruestung);
+
