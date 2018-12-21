@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false) {
+if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && keyboard_check_direct(ord("I"))) {
 	
 	show_debug_message(device_mouse_x_to_gui( 0 ));
 	show_debug_message(device_mouse_y_to_gui( 0 ));
@@ -32,7 +32,7 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false) {
 	
 } }
 
-else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true) {
+else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && keyboard_check_direct(ord("I"))) {
 	
 	
 	for(var i = 0; i < 3; i++) {
