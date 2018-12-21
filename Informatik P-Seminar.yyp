@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "5be1fac6-8acd-42e6-8f9a-b68755f61e6f",
+            "Value": {
+                "id": "753feca8-55af-417c-906e-0f3d378ff3dd",
+                "resourcePath": "scripts\\array_swappos\\array_swappos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5be76a98-99d7-44f9-a8aa-9e0ebf96a68d",
             "Value": {
                 "id": "a59bc298-3041-46f3-a984-28a8103df548",
@@ -1320,6 +1328,7 @@
         "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
         "80a2c628-b9d0-42a0-b3c6-05036ba2bca4",
         "f6038966-e72f-4187-9619-87e305dfd846",
+        "5be1fac6-8acd-42e6-8f9a-b68755f61e6f",
         "1f3d4a55-a98e-4a91-8f41-425ad20413d9",
         "37d09ae1-71da-4874-803e-cddb63f2e2bd",
         "b3dcdf14-6b21-4345-80b6-d902f152cfa8",
