@@ -21,9 +21,13 @@ if(status < 30) {
 	}
 	if(trigger2) {
 	draw_sprite(sp_tut_jump, -1, x - 600, y);
-	
+	if(obj_Player.weapon_state == 1) {
 	draw_text_transformed(2148, 6512, "Zum schiessen zielen Sie mit der Maus und feuern mit der linken Maustaste", 1.2, 1.2, image_angle);
+	}
+	else {
+	draw_text_transformed(2148, 6512, "Drücke die Taste 1, um den ersten Slot deiner Inventarleiste auszuwählen", 1.2, 1.2, image_angle);
 	
+	}
 	}
 	if(trigger4) {
 		draw_sprite(sp_tut_jump, 1, x - 800, y);
