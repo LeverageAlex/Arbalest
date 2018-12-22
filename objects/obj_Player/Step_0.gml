@@ -1,9 +1,9 @@
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
-jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 longjump = keyboard_check_direct(vk_space) || keyboard_check_direct(ord("W"));
 down = keyboard_check_direct(ord("S"));
 
+var bbox_side;
 
 var move = right - left;
 
@@ -50,6 +50,34 @@ else{
 	jumpactive = 0;
 }
 
+//tilesetcollision
+/*
+//horizontal
+if (hspd > 0){bbox_side = bbox_right}
+else {bbox_side = bbox_left}
+
+if (tilemap_get_at_pixel((tiledirt||tilestone),bbox_side+hspd,bbox_top) != 0) || (tilemap_get_at_pixel((tiledirt||tilestone),bbox_side+hspd,bbox_bottom) != 0)
+{
+	if (hspd > 0){ x = x - (x mod 32) +31 - (bbox_right - x)}
+	else { x = x - (x mod 32) - (bbox_left - x)}
+	hspd = 0;
+}
+x += hspd;
+
+//vertical
+if (vspd > 0){bbox_side = bbox_bottom}
+else {bbox_side = bbox_top}
+
+
+if (tilemap_get_at_pixel((tiledirt||tilestone),bbox_left,bbox_side+vspd) != 0) || (tilemap_get_at_pixel((tiledirt||tilestone),bbox_right,bbox_side+vspd) != 0)
+{
+	if (vspd > 0){ y = y - (y mod 32) +31 - (bbox_bottom - y)}
+	else { y = y - (y mod 32) - (bbox_top - y)}
+	vspd = 0;
+}
+y += vspd;
+*/
+
 
 //horizontal
 if (place_meeting(x+hspd,y,obj_wall))
@@ -72,6 +100,8 @@ if (place_meeting(x,y+vspd,obj_wall))
 	vspd = 0;
 }
 y = y + vspd;
+
+
 
 //schnellles fallen
 
