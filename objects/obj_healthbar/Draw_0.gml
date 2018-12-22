@@ -22,8 +22,8 @@ if(health == 100) {
 	
 }
 draw_set_color(c_blue);
-draw_rectangle(cx + 77, cy + 54, cx + 159 - (82 - (0.82 * obj_Player.ruestung )), cy + 64, false);
-if(obj_Player.ruestung == 100) {
+draw_rectangle(cx + 77, cy + 54, cx + 159 - (82 - (0.82 * global.ruestung )), cy + 64, false);
+if(global.ruestung == 100) {
 	draw_rectangle(cx+ 159, cy + 54, cx + 164, cy + 60, false);
 	
 }

@@ -1,10 +1,10 @@
 _damage = argument0;
 
-	if(obj_Player.ruestung - _damage < 0) { 
-		obj_Player.ruestung -= _damage;
-		health += obj_Player.ruestung;
-	obj_Player.ruestung = 0;
+	if(global.ruestung - _damage < 0) { 
+		global.ruestung -= _damage;
+		health += global.ruestung;
+	global.ruestung = 0;
 	}
 	else {
-	obj_Player.ruestung -= _damage;	
+	global.ruestung -= _damage;	
 	}

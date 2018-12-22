@@ -11,7 +11,11 @@ weapon_state = 0;
 
 // get ammo
 ammonition = 0;
+//if(room == 0) {
 health = 100;
+global.ruestung = 0;
+
+//}
 locked = false;
 xp = 1;
 level = 1;
@@ -25,7 +29,6 @@ idle = false;
 animieren = false;
 downidle = false;
 spr_old = noone;
-ruestung = 0;
 
 //tilesetid
 //tiledirt  = layer_tilemap_get_id("til_dirt");
