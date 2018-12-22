@@ -6,5 +6,5 @@ pos2 = argument3;
 //var save = array_findindex(obj_inventoryManager.inventory, item1);
 //var save2 = array_findindex(obj_inventoryManager.inventory, item2);
 
-obj_inventoryManager.inventory[pos2] = item1;
-obj_inventoryManager.inventory[pos1] = item2;
+global.inventory[pos2] = item1;
+global.inventory[pos1] = item2;

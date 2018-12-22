@@ -1,4 +1,4 @@
-itemDefinitions[ItemType.length , ItemProperty.length] = noone;
+global.itemDefinitions[ItemType.length , ItemProperty.length] = noone;
 show_debug_message("Ausführung")
 inv_AddItemDef(ItemType.empty, sp_empty, "", 0, use_Empty);
 

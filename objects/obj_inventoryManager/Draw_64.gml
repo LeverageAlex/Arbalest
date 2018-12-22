@@ -9,14 +9,14 @@ if(keyboard_check_direct(ord("I"))) {
 	
 	for(var i = 1; i < 4; i++) {
 		for(var p = 0; p < 5; p++) {
-	itemDefIndex = inventory[p + (i*5)];
+	itemDefIndex = global.inventory[p + (i*5)];
 	if(itemDefIndex != ItemType.empty) {
-	draw_sprite_stretched(itemDefinitions[itemDefIndex, ItemProperty.sprite], 0,
+	draw_sprite_stretched(global.itemDefinitions[itemDefIndex, ItemProperty.sprite], 0,
 	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * p),
 	guiHolderPosY + guiHolderPadd + window_get_height() - 146 - (3-i) * (50), 38, 38);	
 	
 		draw_text(	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * p),
-	guiHolderPosY + guiHolderPadd + 30 + window_get_height() - 146 - (3-i) * (50), string(itemDefinitions[itemDefIndex, ItemProperty.amount]));	
+	guiHolderPosY + guiHolderPadd + 30 + window_get_height() - 146 - (3-i) * (50), string(global.itemDefinitions[itemDefIndex, ItemProperty.amount]));	
 	}
 	}
 }
@@ -27,14 +27,14 @@ else {
 }
 
 for(var i = 0; i < MAX_ACTIVE_INV_ITEMS; i++) {
-	itemDefIndex = inventory[i];
+	itemDefIndex = global.inventory[i];
 	if(itemDefIndex != ItemType.empty) {
-	draw_sprite_stretched(itemDefinitions[itemDefIndex, ItemProperty.sprite], 0,
+	draw_sprite_stretched(global.itemDefinitions[itemDefIndex, ItemProperty.sprite], 0,
 	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * i),
 	guiHolderPosY + guiHolderPadd + window_get_height() - 78, 38, 38);	
 	
 		draw_text(	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * i),
-	guiHolderPosY + guiHolderPadd + 30 + window_get_height() - 75, string(itemDefinitions[itemDefIndex, ItemProperty.amount]));	
+	guiHolderPosY + guiHolderPadd + 30 + window_get_height() - 75, string(global.itemDefinitions[itemDefIndex, ItemProperty.amount]));	
 		
 	}
 }
