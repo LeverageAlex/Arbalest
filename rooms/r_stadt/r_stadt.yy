@@ -1,6 +1,6 @@
 
 {
-    "name": "r_anfang",
+    "name": "r_stadt",
     "id": "dc98a74f-44b7-46da-8962-a710bb745926",
     "creationCodeFile": "",
     "inheritCode": false,
