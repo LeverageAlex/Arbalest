@@ -14,7 +14,7 @@ ammonition = 0;
 //if(room == 0) {
 health = 100;
 global.ruestung = 0;
-
+global.geld = 0;
 //}
 locked = false;
 xp = 1;
