@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "598fd290-d259-4371-88db-ddc76a0f2e38",
+            "Value": {
+                "id": "0b1f6d30-3935-4728-bfad-a2be6b7060df",
+                "resourcePath": "sprites\\sp_background_wald\\sp_background_wald.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ac80bce-64ad-4edd-8e79-5698ab4cefe0",
             "Value": {
                 "id": "7cbe5b1f-91cc-41c1-be8c-1a3dd1a4d330",

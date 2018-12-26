@@ -1,1 +1,1 @@
-animation = 3;
+anzahl = 3;
