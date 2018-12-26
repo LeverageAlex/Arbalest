@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "26e29aa0-893d-4066-b760-179952eb6c78",
+            "Value": {
+                "id": "cbe8e31e-6dc4-4908-b96e-343603bc3fd3",
+                "resourcePath": "sprites\\sp_armbrust_schuetze\\sp_armbrust_schuetze.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2be0c50a-03f2-4385-a19f-86ebf889bb7c",
             "Value": {
                 "id": "45ec24c4-f13f-46f0-ade0-b0623900daf5",
@@ -916,6 +924,14 @@
                 "id": "f9bb29cf-67d5-4a02-9aa7-754e0502f824",
                 "resourcePath": "rooms\\r_start\\r_start.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a390004a-e731-4bf2-8260-da520a4cddc6",
+            "Value": {
+                "id": "994ac926-5e05-4e0a-9c7a-86a8f877bba3",
+                "resourcePath": "objects\\obj_Torwache\\obj_Torwache.yy",
+                "resourceType": "GMObject"
             }
         },
         {

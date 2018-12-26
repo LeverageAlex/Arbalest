@@ -8,6 +8,6 @@ draw_text_transformed(x, y,string_copy(text, 0, zaehler/4),1,1,0);
 zaehler++;
 }
 if(string_length(text) <= zaehler) {
-story = false;
+//story = false;
 obj_Player.locked = false;
 }
