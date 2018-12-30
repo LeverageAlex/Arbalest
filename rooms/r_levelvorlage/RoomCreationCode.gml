@@ -1,0 +1,1 @@
+global.number = 0;
