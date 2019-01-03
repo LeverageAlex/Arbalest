@@ -29,7 +29,8 @@ vspd = vspd + grv;
 
 
 //jumpstart
-if(longjump && place_meeting(x,y+1,obj_wall ))
+if(springen) {
+	if(longjump && place_meeting(x,y+1,obj_wall ))
 {
 
 	jumpl = true;
@@ -51,7 +52,7 @@ else{
 	jumpcounter = 0;
 	jumpactive = 0;
 }
-
+}
 
 //tilesetcollision
 /*

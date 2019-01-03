@@ -29,6 +29,7 @@ idle = false;
 animieren = false;
 downidle = false;
 spr_old = noone;
+springen = true;
 
 //tilesetid
 //tiledirt  = layer_tilemap_get_id("til_dirt");
