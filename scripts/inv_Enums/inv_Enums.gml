@@ -6,6 +6,7 @@ enum ItemType {
 	apfel,
 	schwert,
 	ruestung,
+	zeitlupe,
 	test1,
 	test2,
 	test3,
