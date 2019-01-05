@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0a6af478-91ac-4fff-8052-b07ce98ee945",
+            "Value": {
+                "id": "ab787da1-522f-4bf9-b850-39650745b362",
+                "resourcePath": "sprites\\sp_feuer\\sp_feuer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
             "Value": {
                 "id": "6a382b2f-ae1e-4a4a-9e5b-fe6de8b4fd97",
@@ -212,6 +220,14 @@
                 "id": "7f9c3c61-573a-4aea-8a48-e877eee4eb26",
                 "resourcePath": "views\\2006fbe1-4328-426a-9e80-6a8efdd8687a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "20adc348-4fca-4520-91c0-424e27626374",
+            "Value": {
+                "id": "40cb24ea-e327-4102-ba5d-ed094580a26f",
+                "resourcePath": "objects\\obj_feuerSpeienderBlock\\obj_feuerSpeienderBlock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -355,6 +371,14 @@
             "Value": {
                 "id": "4cd395cc-e7c8-43cb-b1a6-deb6b998b1e1",
                 "resourcePath": "sprites\\sp_Dornenbusch1\\sp_Dornenbusch1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41e35d22-57a2-412d-8bf0-81a81e1f08f9",
+            "Value": {
+                "id": "fb5e8e70-11a9-4e16-b3ea-541c01a1ed9a",
+                "resourcePath": "sprites\\sp_rohr\\sp_rohr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -972,6 +996,14 @@
                 "id": "0ef9fdf8-ac8e-40c1-b340-6a2abe3d445d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa0491b4-f2b2-403f-84d8-cf7f55ff95ef",
+            "Value": {
+                "id": "4f222a65-e8ea-4d5a-85fc-7b5d0c88a108",
+                "resourcePath": "objects\\obj_flammen\\obj_flammen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
