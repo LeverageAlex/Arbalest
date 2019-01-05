@@ -30,6 +30,8 @@ animieren = false;
 downidle = false;
 spr_old = noone;
 springen = true;
+transport = false;
+
 
 //tilesetid
 //tiledirt  = layer_tilemap_get_id("til_dirt");

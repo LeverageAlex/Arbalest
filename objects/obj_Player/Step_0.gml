@@ -9,6 +9,10 @@ down = keyboard_check_direct(ord("S"));
 //var bbox_side;
 var move = right - left;
 
+/*if(transport) {
+move += 1;	
+transport = false;
+}*/
 
 if(locked == true) {
 	

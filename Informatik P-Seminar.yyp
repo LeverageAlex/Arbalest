@@ -1279,6 +1279,14 @@
             }
         },
         {
+            "Key": "ed48ca4d-81de-4f18-bf5a-c5e56fc49916",
+            "Value": {
+                "id": "33fde621-92fe-485c-8ac2-b0454d9fbcc4",
+                "resourcePath": "objects\\obj_bewegenderBlock\\obj_bewegenderBlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ee0c1839-22f2-4ce2-b9ff-e656a9db3d20",
             "Value": {
                 "id": "e45b1f59-8bea-4801-875c-bf2d566bff03",
