@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "36714f37-e430-4997-b1c2-1b6cfbc6d83f",
+            "Value": {
+                "id": "38177fb1-d6b1-4bd4-a834-7e3216ed28e8",
+                "resourcePath": "sprites\\sp_hintergrund_wald2\\sp_hintergrund_wald2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36ace9fb-32d1-4e73-a72c-fa7f074443b7",
             "Value": {
                 "id": "c7bb79c8-4fbf-4bb8-a99c-e610d7d89ddc",

@@ -5,7 +5,6 @@
 
 
 if(keyboard_check_direct(ord("I"))) {
-	show_message("Keker");
 	draw_sprite(sp_inventar_voll, -1, guiHolderPosX - 20 ,window_get_height() - 245);
 	
 	for(var i = 1; i < 4; i++) {
