@@ -18,4 +18,4 @@ if(obj_Player.x > x - 450 && obj_Player.x < x + 450 && obj_Player.y > y - abstan
 
 	waffe.feuer = true;
 }
-alarm[1] = room_speed * 1;
+alarm[1] = 60 * 1;
