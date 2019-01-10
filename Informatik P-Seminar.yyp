@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01e3e6f6-ec7a-4dba-b66a-e373b8cd9287",
+            "Value": {
+                "id": "10e624bc-c630-4b07-9a0c-efb77b38424c",
+                "resourcePath": "objects\\obj_Lagerfeuer\\obj_Lagerfeuer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0360c457-5a54-4c59-b946-695df7ccfdda",
             "Value": {
                 "id": "51be6b9a-f2ea-4aba-b036-bf51cbbc4c10",
@@ -394,7 +402,7 @@
             "Key": "41e35d22-57a2-412d-8bf0-81a81e1f08f9",
             "Value": {
                 "id": "fb5e8e70-11a9-4e16-b3ea-541c01a1ed9a",
-                "resourcePath": "sprites\\sp_rohr\\sp_rohr.yy",
+                "resourcePath": "sprites\\sp_Lagerfeuer\\sp_Lagerfeuer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "161af8d1-1f74-45ef-a34e-edb9f7c29742",
                 "resourcePath": "sprites\\sp_bewegung_links\\sp_bewegung_links.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "49ac83d2-a8b1-4fef-9278-dcc3663fa8b6",
+            "Value": {
+                "id": "a973409e-0c3b-489b-a8ce-e899b1a8ec9e",
+                "resourcePath": "sprites\\sprite65\\sprite65.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1324,6 +1340,14 @@
                 "id": "a45ae206-9509-4405-a237-a844dd6637ca",
                 "resourcePath": "sprites\\sp_Skelett_laufen\\sp_Skelett_laufen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb001873-f0d5-48e3-aeae-868884f8348a",
+            "Value": {
+                "id": "b884d50d-26f6-4225-af3f-1f98394602b7",
+                "resourcePath": "objects\\obj_flammen2\\obj_flammen2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
