@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "45ff0294-f2a6-41a4-b926-ca5d570fa006",
+            "Value": {
+                "id": "8ae31e76-d1cf-40b5-811e-d122054a5fad",
+                "resourcePath": "sprites\\sp_sanduhr\\sp_sanduhr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4786d154-7c25-4e8f-8194-24204f6a1cc3",
             "Value": {
                 "id": "a04664bb-06f7-4582-a36d-cb01b265cafe",
