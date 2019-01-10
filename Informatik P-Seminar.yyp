@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "69e2ff70-9e1b-49d0-861d-f1378f41ed3c",
+            "Value": {
+                "id": "cbd4565e-d475-4215-82de-932edf7d0c91",
+                "resourcePath": "sprites\\sp_roehre2\\sp_roehre2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6aae3734-86d8-4b16-95c4-7b995d544fe3",
             "Value": {
                 "id": "d8e44e8a-c468-404d-b0c0-1be680d0e428",
