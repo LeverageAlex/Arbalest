@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "f4d979d0-e874-4db9-96ab-e0c9db41b356",
+            "Value": {
+                "id": "0b6b8210-fe67-4512-8037-e48f77ad7920",
+                "resourcePath": "sprites\\sp_tilsetvorlage\\sp_tilsetvorlage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f6038966-e72f-4187-9619-87e305dfd846",
             "Value": {
                 "id": "42dd1903-1fa5-4259-903b-480476c266b1",
