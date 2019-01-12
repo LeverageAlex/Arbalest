@@ -19,7 +19,9 @@ draw_set_color(c_yellow);
 if(status < 30) {
 	if(trigger3) {
 	draw_self();
-	draw_sprite(sp_tut_jump, 5, 3868, 3880);
+	if(!deaktiviert2) {
+	draw_sprite(sp_tut_jump, 5, 3868, 3780);
+	}
 	}
 	if(trigger2) {
 	draw_sprite(sp_tut_jump, -1, x - 600, y);
