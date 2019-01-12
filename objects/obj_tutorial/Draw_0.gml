@@ -17,21 +17,21 @@ draw_set_color(c_yellow);
 if(status < 30) {
 	if(trigger3) {
 	draw_self();
-	draw_sprite(sp_tut_jump, 5, 3868, 6500);
+	draw_sprite(sp_tut_jump, 5, 3868, 3880);
 	}
 	if(trigger2) {
 	draw_sprite(sp_tut_jump, -1, x - 600, y);
 	if(obj_Player.weapon_state == 1) {
-	draw_text_transformed(2148, 6512, "Zum schiessen zielen Sie mit der Maus und feuern mit der linken Maustaste", 1.2, 1.2, image_angle);
+	draw_text_transformed(2148, 3798, "Zum schiessen zielen Sie mit der Maus und feuern mit der linken Maustaste", 1.2, 1.2, image_angle);
 	}
 	else {
-	draw_text_transformed(2148, 6512, "Drücke die Taste 1, um den ersten Slot deiner Inventarleiste auszuwählen", 1.2, 1.2, image_angle);
+	draw_text_transformed(2148, 3788, "Drücke die Taste 1, um den ersten Slot deiner Inventarleiste auszuwählen", 1.2, 1.2, image_angle);
 	
 	}
 	}
 	if(trigger4) {
 		draw_sprite(sp_tut_jump, 1, x - 800, y);
-		draw_sprite(sp_tut_jump, 2, 2539, 6502);
+		draw_sprite(sp_tut_jump, 2, 2539, 3782);
 	}
 	if(trigger5 && !disabled) {
 		draw_sprite(sp_tut_jump, 3, obj_healthbar.x - 158, obj_healthbar.y + 42);
@@ -61,7 +61,7 @@ else if(status > 60){
 
 status++;
 }
-if(obj_Player.x > 1076 && obj_Player.x < 1386 || (obj_Player.x > 3744 && obj_Player.x < 3990 && obj_Player.y > 6650 - 100 && obj_Player.y < 6650 + 100)) {
+if(obj_Player.x > 1076 && obj_Player.x < 1386 || (obj_Player.x > 3744 && obj_Player.x < 3990 && obj_Player.y > 3930 - 100 && obj_Player.y < 3930 + 100)) {
 	
 	trigger = true;
 	trigger3 = true;
