@@ -12,7 +12,7 @@ inv_AddItemDef(ItemType.schwert, sp_Schwert,"Schwert", 0, use_Schwert);
 
 inv_AddItemDef(ItemType.ruestung, sp_ruestung, "Ruestung", 0, use_ruestung);
 
-inv_AddItemDef(ItemType.zeitlupe, sp_item_zeitlupe, "Zeitlupe", 0, use_Zeitlupe);
+inv_AddItemDef(ItemType.zeitlupe, sp_sanduhr, "Zeitlupe", 0, use_Zeitlupe);
 
 
 
