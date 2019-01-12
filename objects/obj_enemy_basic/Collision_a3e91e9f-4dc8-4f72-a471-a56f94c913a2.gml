@@ -1,6 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-spieler_schaden(25);
+spieler_schaden(15 + 10*global.schadenmodifikator);
 
 if(y + 10 > obj_Player.y) {
 	obj_Player.vspd = -13;

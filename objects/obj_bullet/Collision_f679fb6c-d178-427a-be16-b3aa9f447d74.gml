@@ -10,6 +10,6 @@ if(!eigen) {
 	other.ruestung -= 20;	
 	} */
 	
-	spieler_schaden(20);
+	spieler_schaden(10+10*global.schadenmodifikator);
 instance_destroy();
 }
