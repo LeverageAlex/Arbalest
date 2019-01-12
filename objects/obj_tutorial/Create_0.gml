@@ -12,3 +12,5 @@ lokaleXP = 1;
 wdh = 0;
 disabled = false;
 aktiv = true;
+deaktiviert1 = false;
+deaktiviert2 = false;

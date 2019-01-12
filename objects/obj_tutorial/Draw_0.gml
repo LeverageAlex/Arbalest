@@ -1,10 +1,12 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 	if(leben != health) {
+		if(!deaktiviert2) {
 	draw_set_color(c_blue);
 	draw_arrow(obj_healthbar.x + 213, obj_healthbar.y - 14, obj_healthbar.x + 80, obj_healthbar.y - 14, 40);
 	draw_set_color(c_red);
 	draw_text(obj_healthbar.x + 216, obj_healthbar.y - 25, "Hinweis: Monster und Objekte koennen Schaden an dir verursachen!");
+	}
 	if(lokalerZ == room_speed * 3) {
 	leben = health;	
 	lokalerZ = 0;
@@ -30,8 +32,10 @@ if(status < 30) {
 	}
 	}
 	if(trigger4) {
+		if(!deaktiviert1) {
 		draw_sprite(sp_tut_jump, 1, x - 800, y);
 		draw_sprite(sp_tut_jump, 2, 2539, 3782);
+		}
 	}
 	if(trigger5 && !disabled) {
 		draw_sprite(sp_tut_jump, 3, obj_healthbar.x - 158, obj_healthbar.y + 42);
@@ -96,4 +100,17 @@ else {
 	
 	trigger5 = false; 
 }
+
+//Checker Bereich
+
+
+if(array_findindex(global.inventory, ItemType.weapon) != -1) {
+deaktiviert1 = true;	
+}
+if(array_findindex(global.inventory, ItemType.apfel) != -1) {
+	deaktiviert2 = true;
+}
+
+
+
 
