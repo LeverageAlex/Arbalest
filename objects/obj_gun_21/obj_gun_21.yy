@@ -1,28 +1,28 @@
 {
-    "id": "f9fd252a-5a8a-4e02-aed5-4c7db28ad386",
+    "id": "353db905-7d76-4701-ba46-8f7e1bc29c03",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_gun_21",
     "eventList": [
         {
-            "id": "ab6756dd-6291-49ae-adb2-afbb3e62e55c",
+            "id": "90720277-b055-4102-a50b-fb4cd6e26333",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
             "eventtype": 3,
-            "m_owner": "f9fd252a-5a8a-4e02-aed5-4c7db28ad386"
+            "m_owner": "353db905-7d76-4701-ba46-8f7e1bc29c03"
         },
         {
-            "id": "5fa31343-c4d3-4cce-83ec-6e3de678f897",
+            "id": "fdf52b44-ca31-4025-a340-411e074a2691",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "f9fd252a-5a8a-4e02-aed5-4c7db28ad386"
+            "m_owner": "353db905-7d76-4701-ba46-8f7e1bc29c03"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

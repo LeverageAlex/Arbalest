@@ -1,28 +1,18 @@
 {
-    "id": "a737999d-5bfb-4c3b-b509-ea194104323a",
+    "id": "cbaa9ee9-86fc-4498-8553-d74b1d71bf68",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gun_2",
+    "name": "obj_Playertut",
     "eventList": [
         {
-            "id": "d578cce9-ef5f-4b43-9cb0-cb4cfeb20087",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "a737999d-5bfb-4c3b-b509-ea194104323a"
-        },
-        {
-            "id": "3070156c-cfbf-4488-8943-e23129041ceb",
+            "id": "a67dd83f-624b-498c-a700-e476b27654f8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a737999d-5bfb-4c3b-b509-ea194104323a"
+            "m_owner": "cbaa9ee9-86fc-4498-8553-d74b1d71bf68"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2ee16d0a-fa6d-4ed7-b692-8cbbacc7ef32",
+    "spriteId": "03d83063-5086-4834-bed5-52fc6c69b87d",
     "visible": true
 }

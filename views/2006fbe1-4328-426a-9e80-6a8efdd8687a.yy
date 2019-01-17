@@ -11,7 +11,8 @@
         "51ec6405-633f-4892-badc-7e7cbb01ae70",
         "54e4bc8f-cc07-46f7-93dc-a04527a4d092",
         "a737999d-5bfb-4c3b-b509-ea194104323a",
-        "d47e63fb-f237-46eb-91b5-3919897c1b78"
+        "d47e63fb-f237-46eb-91b5-3919897c1b78",
+        "353db905-7d76-4701-ba46-8f7e1bc29c03"
     ],
     "filterType": "GMObject",
     "folderName": "Spieler und dessen Equipment",

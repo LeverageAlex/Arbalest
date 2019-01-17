@@ -1,6 +1,5 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+inv_initialize();
 
-firingdelay = 0;
-
-recoil = 0;
+room_goto_next();

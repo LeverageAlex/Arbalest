@@ -2,8 +2,11 @@
 // Sie können Ihren Code in diesem Editor schreiben
 
 //gun verfolgt player
+
 x = obj_Player.x;
 y = obj_Player.y-10;
+
+
 
 //gun zeigt in richtung maus
 image_angle = point_direction(x,y,mouse_x,mouse_y);
