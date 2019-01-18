@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "02bee96d-45a6-4c90-9b62-c8c271759aa7",
+            "Value": {
+                "id": "07fbaa9d-a47e-4fd1-8fc0-534934b1384e",
+                "resourcePath": "objects\\obj_liane\\obj_liane.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0360c457-5a54-4c59-b946-695df7ccfdda",
             "Value": {
                 "id": "51be6b9a-f2ea-4aba-b036-bf51cbbc4c10",
@@ -228,14 +236,6 @@
                 "id": "e93120ec-3ed5-4079-bb83-280f0d15e62b",
                 "resourcePath": "views\\1fc1927e-afaa-426c-9a4d-f0356ad1b119.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1fcdb25e-ceb7-4fde-a213-248db2c73b88",
-            "Value": {
-                "id": "26db726b-9fae-4c74-9a72-5ee946f92ab7",
-                "resourcePath": "rooms\\r_level02\\r_level02.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "51f8bb51-e78f-4990-80cb-6ea61d73c136",
+            "Value": {
+                "id": "10592de6-b4ac-43a9-bfb1-5202526a3e30",
+                "resourcePath": "sprites\\sp_bewegenderBlock\\sp_bewegenderBlock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "528b0ade-e65b-4a9a-9d7c-ebd7ef042499",
             "Value": {
                 "id": "9543a176-77e4-4b5c-8f4b-87872834f081",
@@ -756,6 +764,14 @@
                 "id": "f71d31ce-f8eb-4f55-84c0-21942c83fecd",
                 "resourcePath": "rooms\\r_level01\\r_level01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "797be59a-c090-4c06-bdf5-af5ab492f1c0",
+            "Value": {
+                "id": "ebf3922b-eb16-404b-9329-53289f2be50e",
+                "resourcePath": "sprites\\sprite65\\sprite65.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1180,6 +1196,14 @@
                 "id": "87876696-c821-44b4-9f79-02989c09c98e",
                 "resourcePath": "scripts\\array_replace_value\\array_replace_value.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3941a00-53cd-4789-bdcb-b5b298e7bdd8",
+            "Value": {
+                "id": "49312a14-1a58-4feb-8686-4f12d732ea5e",
+                "resourcePath": "rooms\\r_level02\\r_level02.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
