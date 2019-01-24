@@ -58,6 +58,14 @@ else{
 }
 }
 
+//jup against wall
+
+if(place_meeting(x,y-20,obj_wall)){
+	jumpcounter = 0;
+	jumpl = false;
+	jumpactive = 0;
+}
+
 //tilesetcollision
 /*
 //horizontal
