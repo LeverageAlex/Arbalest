@@ -34,7 +34,7 @@ vspd = vspd + grv;
 
 //jumpstart
 if(springen) {
-	if(longjump && place_meeting(x,y+1,obj_wall ))
+	if(longjump && place_meeting(x,y+60,obj_wall ))
 {
 
 	jumpl = true;
@@ -60,7 +60,7 @@ else{
 
 //jup against wall
 
-if(place_meeting(x,y-20,obj_wall)){
+if(place_meeting(x,y-60,obj_wall)){
 	jumpcounter = 0;
 	jumpl = false;
 	jumpactive = 0;
@@ -111,7 +111,7 @@ x = x + hspd;
 //vertikal
 if (place_meeting(x,y+vspd,obj_wall))
 {
-	while(!place_meeting(x,y+sign(vspd),obj_wall))
+	while(!place_meeting(x,y+ sign(vspd),obj_wall))
 	{
 		y = y + sign (vspd);
 	}

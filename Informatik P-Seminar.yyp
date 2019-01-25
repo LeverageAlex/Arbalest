@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "1b8208f8-c56d-4f7a-b2c5-ca112ec3d7f0",
+            "Value": {
+                "id": "b8c408a1-93fc-425f-af94-b6dfffb71d1c",
+                "resourcePath": "sprites\\sp_hintergrund_wald_2\\sp_hintergrund_wald_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d7345c3-db05-4b84-be9e-fa7671009626",
+            "Value": {
+                "id": "afebf284-27ad-432b-9c0f-301e210ee20a",
+                "resourcePath": "sprites\\sp_hintergrund_wald_7\\sp_hintergrund_wald_7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e80527d-d971-4264-b147-c767972468c3",
             "Value": {
                 "id": "30769cc8-ea9b-435b-9e9f-b1ec6e9fd301",
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "63f140c7-c9ce-44f4-a2e3-c5a55779dd43",
+            "Value": {
+                "id": "ff80f670-36d0-4168-945e-0dae50d4b9f5",
+                "resourcePath": "sprites\\sp_hintergrund_wald_4\\sp_hintergrund_wald_4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64a42a8e-5300-4334-a9b7-526f1f412ff0",
             "Value": {
                 "id": "3dbde88f-e6b2-473a-ba34-c3d1d3624e09",
@@ -700,14 +724,6 @@
                 "id": "e0b22cca-d483-4d0f-860b-eecfa50adc84",
                 "resourcePath": "views\\676296e7-e01f-457a-8b4b-83c3ccf8f0e2.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6905c8c5-dd11-4e64-bccc-6e0b1ef295cf",
-            "Value": {
-                "id": "474fa1a5-0340-442e-a968-bc80eeecc575",
-                "resourcePath": "rooms\\r_level007\\r_level007.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -772,6 +788,14 @@
                 "id": "f71d31ce-f8eb-4f55-84c0-21942c83fecd",
                 "resourcePath": "rooms\\r_level01\\r_level01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "78bc9b89-37b7-414a-907d-95c828e0c8ac",
+            "Value": {
+                "id": "e281c666-0d3b-4062-b0d5-308e16d009d4",
+                "resourcePath": "sprites\\sp_hintergrund_wald_6\\sp_hintergrund_wald_6.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1031,6 +1055,14 @@
             }
         },
         {
+            "Key": "9cfd0283-bd5c-42f6-afe0-b9cee6654b85",
+            "Value": {
+                "id": "ed04acf0-86f2-4b27-affd-a7e72f478486",
+                "resourcePath": "sprites\\sp_hintergrund_wald_9\\sp_hintergrund_wald_9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d1c5b12-f244-4b14-b4cf-80ccfcf19949",
             "Value": {
                 "id": "1c10c60e-a3ff-4872-ad69-2ed70949488a",
@@ -1199,6 +1231,14 @@
             }
         },
         {
+            "Key": "be43f0fa-1f7f-497a-b4e2-d33075b974ef",
+            "Value": {
+                "id": "4799a223-0d7e-4d97-bef4-34aaca50120d",
+                "resourcePath": "sprites\\sp_hintergrund_wald_8\\sp_hintergrund_wald_8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
             "Value": {
                 "id": "87876696-c821-44b4-9f79-02989c09c98e",
@@ -1215,11 +1255,27 @@
             }
         },
         {
+            "Key": "c4814e6a-3504-4498-ba89-e40e90addb62",
+            "Value": {
+                "id": "15a934b8-6814-44d2-b426-1ebc959201f1",
+                "resourcePath": "sprites\\sp_hintergrund_wald_5\\sp_hintergrund_wald_5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4b357e9-48d1-43e9-9b5d-1f4d7a507c5a",
             "Value": {
                 "id": "0a8d729f-830b-44b2-bf60-321cb9bb27ea",
                 "resourcePath": "objects\\obj_restart\\obj_restart.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5245093-4f25-407a-bd62-26efcb37dae3",
+            "Value": {
+                "id": "452986e6-52f7-41cd-bc18-7f36519906fe",
+                "resourcePath": "sprites\\sp_hintergrund_wald_1\\sp_hintergrund_wald_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1363,6 +1419,14 @@
             "Value": {
                 "id": "3eccb051-b50f-4795-9152-1f80ca52a68b",
                 "resourcePath": "sprites\\sp_gold\\sp_gold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df72d656-d222-4b66-9e04-da08ddc33738",
+            "Value": {
+                "id": "255092f6-2ff0-4496-bf60-90fe0b1c6ded",
+                "resourcePath": "sprites\\sp_hintergrund_wald_3\\sp_hintergrund_wald_3.yy",
                 "resourceType": "GMSprite"
             }
         },
