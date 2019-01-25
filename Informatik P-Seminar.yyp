@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "43de6503-5a5c-42fa-90e8-ac4828ae8071",
-            "Value": {
-                "id": "93b15649-7e86-4c07-9cfe-9539dee2a968",
-                "resourcePath": "objects\\obj_menu_los1\\obj_menu_los1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4596967b-26e3-478e-84bd-0179e6ef5f6c",
             "Value": {
                 "id": "84135236-642e-47b1-b849-de8b7e58084e",
@@ -1315,14 +1307,6 @@
             "Value": {
                 "id": "452986e6-52f7-41cd-bc18-7f36519906fe",
                 "resourcePath": "sprites\\sp_hintergrund_wald_1\\sp_hintergrund_wald_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c6497db8-28fb-465a-9232-64d15cc51af5",
-            "Value": {
-                "id": "314862ac-321b-4854-a389-28cdb711ab7f",
-                "resourcePath": "sprites\\sp_spielen1\\sp_spielen1.yy",
                 "resourceType": "GMSprite"
             }
         },
