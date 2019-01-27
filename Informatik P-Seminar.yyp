@@ -1663,6 +1663,22 @@
             }
         },
         {
+            "Key": "fcbf834c-887d-4962-8fb6-9529e6fb7e9c",
+            "Value": {
+                "id": "8211c0f2-5376-4230-b647-c2069f3b0ddc",
+                "resourcePath": "sprites\\sp_inventar_ganz\\sp_inventar_ganz.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fccf0882-8f43-481e-ae38-f26c5bd0c3c3",
+            "Value": {
+                "id": "204ec3bf-2b9f-4771-8b5c-f1d2b1a9a51d",
+                "resourcePath": "sprites\\sp_inventar2\\sp_inventar2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fceefbb7-151e-4e38-aa03-cde15d534911",
             "Value": {
                 "id": "235c0afe-6a18-41f2-a120-3068b4dd63ae",

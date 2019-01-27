@@ -10,7 +10,7 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && keyboard_
 	for(var i = 0; i < 3; i++) {
 		
 	for(var p = 0; p < 5; p++) {	
-		if((device_mouse_x_to_gui( 0 ) > 811 + (p * 52) && device_mouse_x_to_gui( 0 ) < 857 + (p * 52)) && ((device_mouse_y_to_gui( 0 ) > 770 + (i * 46) && device_mouse_y_to_gui( 0 ) < 817 + (i * 46)))) {
+		if((device_mouse_x_to_gui( 0 ) > 806 + (p * 60) && device_mouse_x_to_gui( 0 ) < 849 + (p * 52)) && ((device_mouse_y_to_gui( 0 ) > 739 + (i * 60) && device_mouse_y_to_gui( 0 ) < 784 + (i * 60)))) {
 
 			//show_message(array_find_pos(5 + i*5 + p));
 			pos = 5 + i*5 + p;
@@ -22,7 +22,7 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && keyboard_
 	}
 	}
 	for(var n = 0; n < 5; n++) {
-		if((device_mouse_x_to_gui( 0 ) > 810 + (n * 52) && device_mouse_x_to_gui( 0 ) < 857 + (n * 52)) && ((device_mouse_y_to_gui( 0 ) > 941 && device_mouse_y_to_gui( 0 ) < 986))) {
+		if((device_mouse_x_to_gui( 0 ) > 806 + (n * 60) && device_mouse_x_to_gui( 0 ) < 849 + (n * 60)) && ((device_mouse_y_to_gui( 0 ) > 944 && device_mouse_y_to_gui( 0 ) < 989))) {
 //show_message(array_find_pos(n));
 			pos = n;
 			item = array_find_pos(n);
@@ -39,7 +39,7 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && keybo
 	for(var i = 0; i < 3; i++) {
 		
 	for(var p = 0; p < 5; p++) {	
-		if((device_mouse_x_to_gui( 0 ) > 811 + (p * 52) && device_mouse_x_to_gui( 0 ) < 857 + (p * 52)) && ((device_mouse_y_to_gui( 0 ) > 770 + (i * 46) && device_mouse_y_to_gui( 0 ) < 817 + (i * 46)))) {
+		if((device_mouse_x_to_gui( 0 ) > 806 + (p * 60) && device_mouse_x_to_gui( 0 ) < 849 + (p * 60)) && ((device_mouse_y_to_gui( 0 ) > 739 + (i * 60) && device_mouse_y_to_gui( 0 ) < 784 + (i * 60)))) {
 
 			pos2 = 5 + i*5 + p;
 			item2 = array_find_pos(5 + i*5 + p);
@@ -52,7 +52,7 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && keybo
 	}
 	
 	for(var n = 0; n < 5; n++) {
-		if((device_mouse_x_to_gui( 0 ) > 810 + (n * 52) && device_mouse_x_to_gui( 0 ) < 857 + (n * 52)) && ((device_mouse_y_to_gui( 0 ) > 941 && device_mouse_y_to_gui( 0 ) < 986))) {
+		if((device_mouse_x_to_gui( 0 ) > 806 + (n * 60) && device_mouse_x_to_gui( 0 ) < 849 + (n * 60)) && ((device_mouse_y_to_gui( 0 ) > 944 && device_mouse_y_to_gui( 0 ) < 989))) {
 //show_message(array_find_pos(n));
 			item2 = array_find_pos(n);
 			pos2= n;
