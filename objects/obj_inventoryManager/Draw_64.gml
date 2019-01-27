@@ -5,7 +5,7 @@
 
 
 if(keyboard_check_direct(ord("I"))) {
-	draw_sprite(sp_inventar_ganz, -1, guiHolderPosX - 20 ,guiHolderPosY - 279- 16);
+	draw_sprite(sp_inventarhalter_ganz, -1, guiHolderPosX - 20 ,guiHolderPosY - 279- 16);
 	
 	for(var i = 1; i < 4; i++) {
 		for(var p = 0; p < 5; p++) {
@@ -23,7 +23,7 @@ if(keyboard_check_direct(ord("I"))) {
 	
 }
 else {
-	draw_sprite(sp_inventar2, -1, guiHolderPosX - 20 ,guiHolderPosY - 75 - 16);
+	draw_sprite(sp_inventar_halt, -1, guiHolderPosX - 20 ,guiHolderPosY - 75 - 16);
 }
 
 for(var i = 0; i < MAX_ACTIVE_INV_ITEMS; i++) {

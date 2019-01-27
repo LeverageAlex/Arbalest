@@ -903,14 +903,6 @@
             }
         },
         {
-            "Key": "84222d1d-1f54-48ba-98c5-dfa7ca94620f",
-            "Value": {
-                "id": "a3f3dd1e-93ff-47e0-8a7c-802624a7f964",
-                "resourcePath": "sprites\\sp_inventar_halter\\sp_inventar_halter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "84de28c8-1d0f-4c53-bc04-d7fac1880c0f",
             "Value": {
                 "id": "508bad05-7324-4f54-b30d-23fe0c59ed7d",
@@ -1247,6 +1239,14 @@
             }
         },
         {
+            "Key": "ba6c13e2-67c7-446c-9d7b-5839e2184ffd",
+            "Value": {
+                "id": "e3f7e308-39e5-4ca1-b3c3-5d8df4bae24c",
+                "resourcePath": "sprites\\sp_attentaeter\\sp_attentaeter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb3744e1-0519-4700-b730-8861dc238cc6",
             "Value": {
                 "id": "97534811-d5e9-426d-985b-16640896233b",
@@ -1364,14 +1364,6 @@
                 "id": "2481278a-69b6-4e82-a0b7-5a50a1cbb53f",
                 "resourcePath": "views\\cf70d1bf-90d1-4c14-8159-7738fbf3ed2e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "cf94f212-8a89-4ca3-a7d2-52489d263e4c",
-            "Value": {
-                "id": "e7d2096c-a0c1-4f64-8748-e576f92c5be6",
-                "resourcePath": "sprites\\sp_inventar_voll\\sp_inventar_voll.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1666,7 +1658,7 @@
             "Key": "fcbf834c-887d-4962-8fb6-9529e6fb7e9c",
             "Value": {
                 "id": "8211c0f2-5376-4230-b647-c2069f3b0ddc",
-                "resourcePath": "sprites\\sp_inventar_ganz\\sp_inventar_ganz.yy",
+                "resourcePath": "sprites\\sp_inventarhalter_ganz\\sp_inventarhalter_ganz.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1674,7 +1666,7 @@
             "Key": "fccf0882-8f43-481e-ae38-f26c5bd0c3c3",
             "Value": {
                 "id": "204ec3bf-2b9f-4771-8b5c-f1d2b1a9a51d",
-                "resourcePath": "sprites\\sp_inventar2\\sp_inventar2.yy",
+                "resourcePath": "sprites\\sp_inventar_halt\\sp_inventar_halt.yy",
                 "resourceType": "GMSprite"
             }
         },
