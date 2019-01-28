@@ -13,27 +13,28 @@ if(health < 0) {
 		
 	}
 	
-x = cx+ 100;
-y = cy + 60;
+x = cx+ 120;
+y = cy + 100;
 draw_set_color(c_red);
-draw_rectangle(cx+ 77, cy + 42, cx + 172 - (95 - (0.95 * health )), cy + 50, false);
-if(health == 100) {
-	draw_rectangle(cx+ 172, cy + 42, cx + 174, cy + 48, false);
+draw_rectangle(cx+ 150, cy + 60, cx + 350 - (200 - (2 * health )), cy + 78, false);
+/*if(health == 100) {
+	//draw_rectangle(cx+ 345, cy + 60, cx + 352, cy + 78, false);
 	
-}
+}*/
 draw_set_color(c_blue);
-draw_rectangle(cx + 77, cy + 54, cx + 159 - (82 - (0.82 * global.ruestung )), cy + 64, false);
-if(global.ruestung == 100) {
+draw_rectangle(cx + 150, cy +84, cx + 325 - (175 - (1.75 * global.ruestung )), cy + 102, false);
+/*if(global.ruestung == 100) {
 	draw_rectangle(cx+ 159, cy + 54, cx + 164, cy + 60, false);
 	
-}
+}*/
 draw_self();
 draw_set_color(c_blue);
-draw_text(x - 56,cy + 81, string(obj_Player.level));
+//draw_text(x - 40,cy + 138, string(obj_Player.level));
+draw_text_transformed(x - 30,cy + 140, string(obj_Player.level), 2, 2, 0);
 //draw_rectangle(cx+cw/2 + - 500, cy + 140, cx+cw/2 + - 400 - (100 - health), cy + 160, false);
 
 //draw_rectangle(cx+ 917, cy + 45, cx + 1012 - (95 - (0.95 * health )), cy + 51, false);
 
 
 draw_set_color(c_green);
-draw_text(cx+cw/2 + - 500,cy + 160,"Health =" + string(health));
+//draw_text(cx+cw/2 + - 500,cy + 160,"Health =" + string(health));
