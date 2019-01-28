@@ -1,6 +1,7 @@
 //Origin
 x = x + 1;
 origion_point = xprevious;
+offset = 0;
 
 //Pathing
 path_cycle = 1;

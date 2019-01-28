@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "949419fc-8c1f-4c9c-9b3a-aabb419e293c",
+            "Value": {
+                "id": "773c8b86-94b0-4684-af6c-b2ed022a1e17",
+                "resourcePath": "objects\\obj_Haendler\\obj_Haendler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95061c4b-13d2-4cdf-bc20-44fff8acc414",
             "Value": {
                 "id": "a566dbfa-5275-4fed-9c45-58fd073f9a27",
