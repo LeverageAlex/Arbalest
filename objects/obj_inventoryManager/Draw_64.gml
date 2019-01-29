@@ -41,6 +41,7 @@ if(keyboard_check_pressed(ord("I"))) {
 }
 	*/
 	status = status == false;
+	status2 = status;
 }
 
 
@@ -62,7 +63,7 @@ for(var i = 0; i < MAX_ACTIVE_INV_ITEMS; i++) {
 
 
 //Klicken
-if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && status) {
+if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && status2) {
 	
 	//show_debug_message(device_mouse_x_to_gui( 0 ));
 	//show_debug_message(device_mouse_y_to_gui( 0 ));
@@ -93,7 +94,7 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && status) {
 	
 } }
 
-else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && status) {
+else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && status2) {
 	
 	
 	for(var i = 0; i < 3; i++) {

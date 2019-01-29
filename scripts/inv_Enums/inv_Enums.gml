@@ -23,4 +23,5 @@ enum ItemProperty {
 	amount,
 	useScript,
 	length,
+	value,
 }	

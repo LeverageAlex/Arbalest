@@ -4,8 +4,10 @@ guiHolderPadd = 0;
 guiHolderPosY = view_get_hport(0) - sprite_get_height(sp_inventar_halt) + 16;
 guiHolderSlotOffset = 56 + guiHolderPadd;
 status = false;
+status2 = false;
 zwischenspeicher = false;
 var item;
 var pos;
+
 
 inv_initialize();

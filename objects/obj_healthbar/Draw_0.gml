@@ -37,4 +37,4 @@ draw_text_transformed(x - 30,cy + 140, string(obj_Player.level), 2, 2, 0);
 
 
 draw_set_color(c_green);
-//draw_text(cx+cw/2 + - 500,cy + 160,"Health =" + string(health));
+draw_text(cx+cw/2 + - 500,cy + 160,"Geld =" + string(global.geld));
