@@ -623,14 +623,6 @@
             }
         },
         {
-            "Key": "553f2d14-f094-4285-ae85-5abebdc511c0",
-            "Value": {
-                "id": "91918dfb-9c18-478a-ac3e-169743c43c54",
-                "resourcePath": "objects\\obj_inventar_klicken\\obj_inventar_klicken.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "56c9487c-382a-4224-91bb-7ce17076e2aa",
             "Value": {
                 "id": "dd6da68b-6054-4685-904f-151f5d53f47d",
