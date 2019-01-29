@@ -11,7 +11,7 @@ if(status) {
 	guiHolderPosY + guiHolderPadd + 30 - 75 + 2 - 146 - 162, string(anzahl[p]));	
 	}	
 	}
-	}
+	
 if(mouse_check_button_pressed(2)) {
 for(var n = 0; n < 5; n++) {
 	
@@ -40,4 +40,9 @@ for(var n = 0; n < 5; n++) {
 		
 	}
 }
+}
+}
+if(!place_meeting(x, y, obj_Player)) {
+status = false;	
+obj_inventoryManager.status = false;
 }
