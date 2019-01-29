@@ -6,9 +6,18 @@ guiHolderPadd = 0;
 guiHolderPosY = view_get_hport(0) - sprite_get_height(sp_inventar_halt) + 16;
 guiHolderSlotOffset = 56 + guiHolderPadd;
 status = false;
-for(i = 0; i < 5; i++) {
-inventar[i] = ItemType.apfel; 
-anzahl[i] = irandom(3);
 
+for(i = 0; i < 5; i++) {
+inventar[i] = choose(ItemType.apfel, ItemType.weapon, ItemType.schwert, ItemType.zeitlupe , ItemType.ruestung); 
+anzahl[i] = irandom(3) + 1;
+for(z = 0; z < i; z++) {
+if(inventar[z] == inventar[i]) {
+	i--;
+	break;
 }
-inventar[3] = ItemType.schwert;
+}
+}
+
+
+
+
