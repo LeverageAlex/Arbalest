@@ -42,6 +42,7 @@ if(keyboard_check_pressed(ord("I"))) {
 	*/
 	status = status == false;
 	status2 = status;
+	zwischenspeicher = false;
 }
 
 

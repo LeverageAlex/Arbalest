@@ -25,10 +25,19 @@ if(inventar[n] != ItemType.empty && global.geld >= global.itemDefinitions[invent
 			if(anzahl[n] == 0) {
 			inventar[n] = ItemType.empty;
 			}
-			show_message("Gekauft! Schekler")
+			//show_message("Gekauft! Schekler")
 			zwischenspeicher = true;
 }
 	}
 	
+}
+for(var n = 0; n < 5; n++) {
+		if((device_mouse_x_to_gui( 0 ) > 806 + (n * 60) && device_mouse_x_to_gui( 0 ) < 849 + (n * 60)) && ((device_mouse_y_to_gui( 0 ) > 944 && device_mouse_y_to_gui( 0 ) < 989))) {
+//show_message(array_find_pos(n));
+			global.geld += global.itemDefinitions[global.inventory[n], ItemProperty.value];
+			inv_RemoveItem(array_find_pos(n));
+			
+		
+	}
 }
 }
