@@ -42,7 +42,7 @@ for(var n = 0; n < 5; n++) {
 }
 }
 }
-if(!place_meeting(x, y, obj_Player)) {
+if(!place_meeting(x, y, obj_Player) && status == true) {
 status = false;	
 obj_inventoryManager.status = false;
 }

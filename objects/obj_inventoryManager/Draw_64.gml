@@ -4,6 +4,10 @@
 //draw_sprite(sp_inventar_voll, -1, guiHolderPosX - 20 ,0);
 
 if(status) {
+		draw_set_color(c_black);
+	draw_set_alpha(0.5);
+	draw_rectangle(0,0,1920,1080, false);
+	draw_set_alpha(1);
 	draw_sprite(sp_inventarhalter_ganz, -1, guiHolderPosX - 20 ,guiHolderPosY - 279- 16);
 	
 	for(var i = 1; i < 4; i++) {
@@ -42,7 +46,7 @@ if(keyboard_check_pressed(ord("I"))) {
 	*/
 	status = status == false;
 	status2 = status;
-	zwischenspeicher = false;
+	//zwischenspeicher = false;
 }
 
 
