@@ -7,7 +7,7 @@ down = keyboard_check_direct(ord("S"));
 
 
 //var bbox_side;
-var move = right - left;
+var move = (right - left)*2;
 
 /*if(transport) {
 move += 1;	
@@ -34,7 +34,7 @@ vspd = vspd + grv;
 
 //jumpstart
 if(springen) {
-	if(longjump && place_meeting(x,y+60,obj_wall ))
+	if(longjump && place_meeting(x,y+20,obj_wall ))
 {
 
 	jumpl = true;
@@ -43,7 +43,7 @@ if(springen) {
 
 if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
-	jumpactive = 12;
+	jumpactive = 14;
 	jumpcounter += 1;
 	if(jumpcounter == 15){
 		jumpl = false;
