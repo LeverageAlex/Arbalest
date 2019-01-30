@@ -2,7 +2,7 @@
     "id": "ba8876a0-a07c-441b-bf2f-bd5fba171ec8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_fullscreen",
+    "name": "obj_checkbox",
     "eventList": [
         {
             "id": "c6ce1f7c-7c3c-4423-bea9-eb0452b12f0f",

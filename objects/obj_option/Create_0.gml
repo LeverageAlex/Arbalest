@@ -1,6 +1,3 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-draw_self();
-if(haken) {
-draw_text_transformed(x,y,"x", 4, 4, 0)
-}
+fullscreen = instance_create_layer(576, 352, "Vorne", obj_checkbox);

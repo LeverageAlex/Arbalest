@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "150638a6-56e1-451f-a2e0-a3f9799983f7",
+            "Value": {
+                "id": "61b1d4e6-3d0b-4c60-bad6-cc8e95836a00",
+                "resourcePath": "objects\\obj_option\\obj_option.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1631b4f3-4143-4196-998d-8f68145001d9",
             "Value": {
                 "id": "3100c4ff-179c-4f11-a0ee-d8fb2e05499a",
@@ -1314,7 +1322,7 @@
             "Key": "ba8876a0-a07c-441b-bf2f-bd5fba171ec8",
             "Value": {
                 "id": "9950902e-dc82-4244-8e33-0563cb066587",
-                "resourcePath": "objects\\obj_fullscreen\\obj_fullscreen.yy",
+                "resourcePath": "objects\\obj_checkbox\\obj_checkbox.yy",
                 "resourceType": "GMObject"
             }
         },
