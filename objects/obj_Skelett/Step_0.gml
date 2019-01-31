@@ -23,7 +23,7 @@ if(((obj_Player.x > x + 100 && obj_Player.x < x - 200) || (obj_Player.x < x + 50
 		image_speed = 6;
 		speed = 0;
 	
-} else if(obj_Player.x < x - 47 && obj_Player.x > x - 200 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+} else if(obj_Player.x < x - 47 && obj_Player.x > x - 400 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 	speed = 2;
 	direction = image_angle;
 	sprite_index  = sp_Skelett_laufen;
