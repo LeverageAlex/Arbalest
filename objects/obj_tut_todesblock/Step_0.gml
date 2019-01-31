@@ -1,4 +1,4 @@
-if((obj_Player.x - 130< x && obj_Player.x + 7 > x)  && obj_Player.y - 50 - 128*(anzahl -1)< y && obj_Player.y + 15 /* + 64*(anzahl-1)*/> y) {
+if((obj_Player.x - 130< x && obj_Player.x + 7 > x)  && obj_Player.y - 50 - 128*(a -1)< y && obj_Player.y + 15 /* + 64*(anzahl-1)*/> y) {
 
 if(obj_Player.locked == false) {
 	/*if(obj_Player.ruestung - 20 < 0) { 
