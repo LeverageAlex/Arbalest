@@ -1,6 +1,6 @@
 if (place_meeting(x,y,obj_Player)) {
 
-if (keyboard_check_pressed(ord("E"))) {
+
 
 		with (obj_magazin)
 		{
@@ -11,5 +11,5 @@ if (keyboard_check_pressed(ord("E"))) {
 		
 		instance_destroy(self);
 	
-		}
+		
 	}
