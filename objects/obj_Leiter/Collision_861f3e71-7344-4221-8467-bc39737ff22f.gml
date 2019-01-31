@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 if(keyboard_check_direct(ord("W"))) {
-	other.vspd = -5;
+	other.vspd = -8;
 	other.hspd = 0;
 	other.grv = 0;
 	other.locked = true;
@@ -9,7 +9,7 @@ if(keyboard_check_direct(ord("W"))) {
 	//other.block = true;
 	
 } else if(keyboard_check_direct(ord("S"))) {
-	other.vspd = 5;
+	other.vspd = 8;
 	other.hspd = 0;
 	other.grv = 0;
 	other.locked = true;
