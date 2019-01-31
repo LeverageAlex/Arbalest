@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "a5c3b1ac-a021-4e19-9ea4-fdc6765df456",
+            "Value": {
+                "id": "2816221a-1b60-4412-b67d-ec159d911bf0",
+                "resourcePath": "sprites\\sp_fledermaus\\sp_fledermaus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a737999d-5bfb-4c3b-b509-ea194104323a",
             "Value": {
                 "id": "bc0858b8-e31a-40c7-ac6f-f015bbf3a4f0",

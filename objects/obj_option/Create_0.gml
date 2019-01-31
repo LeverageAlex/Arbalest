@@ -6,6 +6,3 @@ with(fullscreen) {
 text = "Vollbild";	
 haken = other.stateFull;
 }
-
-
-
