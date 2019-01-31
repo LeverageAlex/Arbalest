@@ -11,7 +11,7 @@ if(obj_Player.x > x - 650 && obj_Player.x < x + 650 && obj_Player.y > y - 205 &&
 	}
    } else {
 	direction = 0;  
-	if(place_meeting(x+ 30, y - 10, obj_wall)) {
+	if(place_meeting(x+ 30, y , obj_wall)) {
 	speed = 0;	
 	}
    }
