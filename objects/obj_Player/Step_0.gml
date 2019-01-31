@@ -43,9 +43,9 @@ if(springen) {
 
 if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
-	jumpactive = 14;
+	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 15){
+	if(jumpcounter == 14){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;

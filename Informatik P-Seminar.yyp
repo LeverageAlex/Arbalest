@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "3e55cb6b-7384-4210-86ab-5a8da0335189",
+            "Value": {
+                "id": "f4e08fc2-b8a3-4d8e-9701-cb11b42d6108",
+                "resourcePath": "objects\\obj_fledermaus\\obj_fledermaus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e6e5e11-b21e-43c1-80a7-a93d44c1304e",
             "Value": {
                 "id": "4cd395cc-e7c8-43cb-b1a6-deb6b998b1e1",

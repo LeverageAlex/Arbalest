@@ -12,7 +12,8 @@
         "695d53c3-e13c-46ab-9519-dc8c231a0838",
         "d79de355-2924-42d5-841e-9f7367804efb",
         "0013e503-d72e-4450-a7df-8c52a4dc4616",
-        "a390004a-e731-4bf2-8260-da520a4cddc6"
+        "a390004a-e731-4bf2-8260-da520a4cddc6",
+        "3e55cb6b-7384-4210-86ab-5a8da0335189"
     ],
     "filterType": "GMObject",
     "folderName": "Gegner",
