@@ -6,7 +6,6 @@ waffe = instance_create_layer(x - 10, y - 4, "ins_gun", obj_gun_enemy);
 with(waffe) {
 	instance = id;
 	
-	
 }
 abstandY1 = 145;
 abstandY2 = 240;
