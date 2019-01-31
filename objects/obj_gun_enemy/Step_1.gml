@@ -7,12 +7,14 @@
 //image_angle = point_direction(x,y,mouse_x,mouse_y);
 x = save_x;
 y = save_y;
-image_angle = point_direction(x, y, obj_Player.x, obj_Player.y)
+image_angle = point_direction(x, y, obj_Player.x, obj_Player.y - 10)
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil -1)
 
 if(feuer)
 {
+	image_speed = 4;
+	if(image_index = 7) {	
 	feuer = false;
 		rechnungx = 22*cos(degtorad(image_angle));
 	rechnungy = -1*22*sin(degtorad(image_angle));
@@ -23,6 +25,7 @@ direction =	 point_direction(x, y, obj_Player.x, obj_Player.y);
 image_angle = direction;
 eigen = false;
 
+}
 }
 
 		
