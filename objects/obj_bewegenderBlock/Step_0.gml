@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(richtung &&startX + range <= x) {
+if(richtung &&startX + a*128 <= x) {
 	
 	richtung = false;
 }
