@@ -28,7 +28,7 @@ x -= 3;
 
 with(obj_Player) {
 
-if(place_meeting(x,y + 10, other)) {
+if(place_meeting(x,y + 4, other)) {
 	if(other.richtung = true) {
 	x += 3;
 	}
