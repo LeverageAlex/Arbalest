@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "62d67680-23fd-48a6-b308-a68a26bbe517",
+            "Value": {
+                "id": "568de564-b21a-41dd-910f-9cdeed062c53",
+                "resourcePath": "objects\\obj_zerstoerbarerblock\\obj_zerstoerbarerblock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63f140c7-c9ce-44f4-a2e3-c5a55779dd43",
             "Value": {
                 "id": "ff80f670-36d0-4168-945e-0dae50d4b9f5",

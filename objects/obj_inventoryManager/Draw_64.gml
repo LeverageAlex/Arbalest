@@ -9,7 +9,6 @@ if(status) {
 	draw_rectangle(0,0,1920,1080, false);
 	draw_set_alpha(1);
 	draw_sprite(sp_inventarhalter_ganz, -1, guiHolderPosX - 20 ,guiHolderPosY - 279- 16);
-	
 	for(var i = 1; i < 4; i++) {
 		for(var p = 0; p < 5; p++) {
 	itemDefIndex = global.inventory[p + (i*5)];
