@@ -1319,6 +1319,14 @@
             }
         },
         {
+            "Key": "b76cae25-e80a-43f1-bbd4-056243321c47",
+            "Value": {
+                "id": "76ba105d-2544-447b-9e1c-3ea32c380082",
+                "resourcePath": "sprites\\sp_zerstoererblock\\sp_zerstoererblock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7730bfe-1297-4c35-acaf-86faa545103c",
             "Value": {
                 "id": "81865c29-8e5e-41b7-a7a0-01eac40077bf",
