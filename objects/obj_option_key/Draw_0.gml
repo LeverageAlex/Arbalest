@@ -1,4 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 draw_self();
-draw_text_transformed(x + 5,y - 20,wert, 4, 4, 0)
+draw_set_font(font_fett)
+draw_text(x + 12,y,chr(wert));
+draw_text(x - 200 /*- 18*(string_length(beschreibung)-1)*/, y, beschreibung);
+draw_set_font(font_counter)

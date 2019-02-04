@@ -8,3 +8,7 @@ else if(fullscreen.haken == false && stateFull) {
 	stateFull = false;
 	window_set_fullscreen(false);
 }
+global.klettern = klettern.wert;
+global.links =	links.wert;
+global.rechts = rechts.wert;
+global.ducken = ducken.wert;
