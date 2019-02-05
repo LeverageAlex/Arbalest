@@ -6,7 +6,7 @@ global.rechts = ord("D");
 global.ducken = ord("S");
 global.springen = vk_space;*/
 fullscreen = instance_create_layer(576, 352, "Vorne", obj_checkbox);
-stateFull = true;
+stateFull = window_get_fullscreen();
 with(fullscreen) {
 text = "Vollbild";	
 haken = other.stateFull;
