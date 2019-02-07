@@ -12,11 +12,11 @@ recoil = max(0,recoil -1)
 
 if(mouse_check_button(mb_left)) && (firingdelay < 0)
 {
-		rechnungx = 22*cos(degtorad(image_angle));
-	rechnungy = -1*22*sin(degtorad(image_angle));
+		rechnungx = 60*cos(degtorad(image_angle));
+	rechnungy = -1*60*sin(degtorad(image_angle));
 	recoil = 4;
 	firingdelay = 10;
-	with(instance_create_layer(x + rechnungx,y + rechnungy,"ins_gun",obj_bullet)) {
+	with(instance_create_layer(x -10 + rechnungx,y + rechnungy,"ins_gun",obj_bullet1)) {
 	direction = other.image_angle;	
 	}
 		
