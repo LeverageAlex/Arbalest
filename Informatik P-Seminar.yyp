@@ -1463,6 +1463,14 @@
             }
         },
         {
+            "Key": "bd006526-3a5e-458e-afbf-40c77459db93",
+            "Value": {
+                "id": "6eb9ceee-5f51-464e-89c3-631595682488",
+                "resourcePath": "sprites\\sp_fireball\\sp_fireball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be43f0fa-1f7f-497a-b4e2-d33075b974ef",
             "Value": {
                 "id": "4799a223-0d7e-4d97-bef4-34aaca50120d",
@@ -1876,6 +1884,14 @@
                 "id": "ff708574-3a04-446b-b06f-c9c35ce21de0",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f90f52b9-c0c7-4064-bc5d-0b6fbdbabd5a",
+            "Value": {
+                "id": "a4a1dc82-99ba-42ac-acff-d5e9370a982f",
+                "resourcePath": "sprites\\sp_enemy_baum\\sp_enemy_baum.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
