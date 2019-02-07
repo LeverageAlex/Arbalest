@@ -16,6 +16,6 @@ alarm[1] = room_speed * 1;*/
 if(obj_Player.x > x - 900 && obj_Player.x < x + 900 && obj_Player.y > y - abstandY1 && obj_Player.y < y + abstandY2) {
 	
 
-	waffe.feuer = true;
+	feuer = true;
 }
 alarm[1] = 60 * 1;
