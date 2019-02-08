@@ -43,6 +43,7 @@ if(moldx != mouse_x || moldy != mouse_y || mouse_check_button(1)) {
 
 
 if(timer > 60*8) {
+	audio_stop_sound(global.localsound);
 room_goto(r_splash);	
 }
 
