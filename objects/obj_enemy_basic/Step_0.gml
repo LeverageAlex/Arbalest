@@ -18,3 +18,17 @@ eigen = false;
 }
 feuer = false;
 }
+
+if(x > obj_Player.x) {
+	if(image_xscale == 1) {
+image_xscale = -1;	
+x -= 30;
+	}
+	
+}
+else {
+	if(image_xscale == -1) {
+image_xscale = 1;	
+x += 30;
+	}
+}
