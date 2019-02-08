@@ -5,5 +5,6 @@ if(mouse_check_button_pressed(1)) {
 		continue
 		}
 wert = keyboard_lastkey;*/
+audio_play_sound(snd_klick, 10, false);
 state = true;
 }
