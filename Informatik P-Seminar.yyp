@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "1dfc4a8f-4baa-4c64-8945-9f85723de1f4",
+            "Value": {
+                "id": "774d95c2-0994-4e69-9f1e-c46502425db3",
+                "resourcePath": "sounds\\snd_bogen_abschuss\\snd_bogen_abschuss.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1e80527d-d971-4264-b147-c767972468c3",
             "Value": {
                 "id": "30769cc8-ea9b-435b-9e9f-b1ec6e9fd301",
@@ -836,6 +844,14 @@
                 "id": "bb356cb9-e0f8-40a6-86ac-d76c651d9054",
                 "resourcePath": "sprites\\sp_ammo_pack_1\\sp_ammo_pack_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6046346a-68c5-4e37-97cd-6988ca60d681",
+            "Value": {
+                "id": "47d1037f-b3d4-47c3-9b72-40dc1458b2b2",
+                "resourcePath": "sounds\\snd_bogen_treffer\\snd_bogen_treffer.yy",
+                "resourceType": "GMSound"
             }
         },
         {
