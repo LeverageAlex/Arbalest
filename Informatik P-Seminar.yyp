@@ -1191,6 +1191,14 @@
             }
         },
         {
+            "Key": "8eefc48f-613b-43c6-8a41-fc5561070c44",
+            "Value": {
+                "id": "955864f7-6514-499f-91ea-0215e7c441b4",
+                "resourcePath": "sounds\\snd_apfel_essen\\snd_apfel_essen.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8f20b16c-9078-4940-8416-204f429d636f",
             "Value": {
                 "id": "d6be8e37-b05f-40ac-8f62-64f1d90bd1fb",
