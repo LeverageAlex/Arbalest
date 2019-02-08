@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0f35c9ce-4c52-4da5-a7ab-7bef61016676",
+            "Value": {
+                "id": "9ef2dd9b-e183-4102-a8a3-d0456d71ccf0",
+                "resourcePath": "sounds\\snd_schwert_einstecken\\snd_schwert_einstecken.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1163e3f6-6888-4939-a110-5b8fe1f78f01",
             "Value": {
                 "id": "71d83a28-0341-414e-bf2b-fefadda5ccda",
@@ -356,6 +364,14 @@
                 "id": "cbe8e31e-6dc4-4908-b96e-343603bc3fd3",
                 "resourcePath": "sprites\\sp_armbrust_schuetze\\sp_armbrust_schuetze.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "28f773e9-b1a0-4507-814e-4c9172a6436e",
+            "Value": {
+                "id": "3affe82d-319a-4b44-921e-d6dbc9fa17ed",
+                "resourcePath": "sounds\\snd_schwert_ziehen\\snd_schwert_ziehen.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -844,6 +860,14 @@
                 "id": "ff80f670-36d0-4168-945e-0dae50d4b9f5",
                 "resourcePath": "sprites\\sp_hintergrund_wald_4\\sp_hintergrund_wald_4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6448151b-0c92-44ac-bba3-00cfd50f4e73",
+            "Value": {
+                "id": "52b5418e-5bc6-4e9f-94ea-8aa2bc9f63b0",
+                "resourcePath": "sounds\\snd_collect_coin\\snd_collect_coin.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1399,6 +1423,14 @@
             }
         },
         {
+            "Key": "b5064e60-d87c-46ef-885d-6711d5f6726d",
+            "Value": {
+                "id": "8740d3c7-c873-4fc4-8e46-c850583f58a0",
+                "resourcePath": "sounds\\snd_schwert_schlag\\snd_schwert_schlag.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b542ba00-7fdb-4cf4-b9ea-8831e752c453",
             "Value": {
                 "id": "49fd22e8-c083-4bd6-9175-feed043699eb",
@@ -1924,6 +1956,14 @@
                 "id": "c94001d5-7673-45d5-9e50-e4a4f8306c16",
                 "resourcePath": "objects\\obj_gun_enemy\\obj_gun_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa23e4ac-6121-460c-9400-e602e8a207d8",
+            "Value": {
+                "id": "d50db2fa-f620-4d8e-81ac-56ab0ce86ba8",
+                "resourcePath": "sounds\\snd_schwert_schlag2\\snd_schwert_schlag2.yy",
+                "resourceType": "GMSound"
             }
         },
         {

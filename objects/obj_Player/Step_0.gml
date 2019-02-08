@@ -6,6 +6,8 @@ down = keyboard_check_direct(ord("S"));
 
 
 
+
+
 //var bbox_side;
 var move = (right - left)*2;
 

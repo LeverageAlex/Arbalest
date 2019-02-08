@@ -43,6 +43,8 @@ if(keyboard_check_pressed(ord("I"))) {
 	}
 }
 	*/
+	audio_play_sound(snd_keyboard_press, 10, false);
+
 	status = status == false;
 	status2 = status;
 	//zwischenspeicher = false;
