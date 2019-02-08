@@ -43,10 +43,18 @@ if(keyboard_check_pressed(ord("I"))) {
 	}
 }
 	*/
+	
 	audio_play_sound(snd_keyboard_press, 10, false);
 
 	status = status == false;
 	status2 = status;
+	
+	if(status) {
+	audio_sound_gain(global.localsound, 0.2, 0)	
+	}
+	else {
+	audio_sound_gain(global.localsound, 0.5, 0)	
+	}
 	//zwischenspeicher = false;
 }
 

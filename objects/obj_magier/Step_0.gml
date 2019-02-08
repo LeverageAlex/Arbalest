@@ -1,6 +1,9 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-audio_play_sound(snd_holz_hit, 10, false);
 
-
-room_goto_next();
+if(timer) {
+	zaehler++;
+	if(zaehler == 60*6) {
+	room_goto(r_victoryscreen);
+	}
+}

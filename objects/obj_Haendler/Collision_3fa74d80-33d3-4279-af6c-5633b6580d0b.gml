@@ -5,6 +5,13 @@ if(keyboard_check_pressed(ord("E"))) {
 	status = status == false;
 	if(!status) {
 	obj_inventoryManager.status = false;
+
+	audio_sound_gain(global.localsound, 0.5, 0)	
+	
+	}
+	else {
+	audio_sound_gain(global.localsound, 0.2, 0)	
+
 	}
 }
 if(status) {

@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "2f2808bb-eb73-48bc-ba99-83e1c85e9330",
+            "Value": {
+                "id": "2b7166ad-fe6d-44c3-9973-b89ec7714314",
+                "resourcePath": "objects\\obj_initialisieren\\obj_initialisieren.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30c76941-2705-4bf2-a494-5d92ca536852",
             "Value": {
                 "id": "7298ee28-255d-4c6b-bc40-a3af0f863602",
@@ -684,6 +692,14 @@
                 "id": "53598f34-cacf-4943-bcf5-c359957d6504",
                 "resourcePath": "views\\4d6a2b38-c760-4d15-a31f-66be2f80ca14.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4e9a9a9f-f295-4ee4-8cb2-6bbbf0ea258b",
+            "Value": {
+                "id": "2229f5cd-b565-42bd-88de-71eb3c9bef8f",
+                "resourcePath": "sounds\\snd_level_1\\snd_level_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1239,6 +1255,14 @@
             }
         },
         {
+            "Key": "9736035a-f767-48c9-b053-9071a4cc67d3",
+            "Value": {
+                "id": "11b9a5d5-7314-48f0-b2f6-1eb32aaacd8d",
+                "resourcePath": "sprites\\sp_lessinggames\\sp_lessinggames.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98ae1503-2373-42cd-bec1-5131d9118ae0",
             "Value": {
                 "id": "0c950c16-8cd5-4248-b6c1-dc906c2474ed",
@@ -1355,6 +1379,14 @@
             "Value": {
                 "id": "bc0858b8-e31a-40c7-ac6f-f015bbf3a4f0",
                 "resourcePath": "objects\\obj_gun_2\\obj_gun_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a7ab6c99-140b-4049-9067-c2d2bbc670b9",
+            "Value": {
+                "id": "78340bbb-dcdb-40c4-9836-e7337cc98cea",
+                "resourcePath": "objects\\obj_splash\\obj_splash.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1804,6 +1836,14 @@
                 "id": "b884d50d-26f6-4225-af3f-1f98394602b7",
                 "resourcePath": "objects\\obj_flammen2\\obj_flammen2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb5f205b-afaf-4015-8813-47a5c7544115",
+            "Value": {
+                "id": "03e01f01-0f5c-4019-ab45-8315d1392d8f",
+                "resourcePath": "rooms\\r_splash\\r_splash.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

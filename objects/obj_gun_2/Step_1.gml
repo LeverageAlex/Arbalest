@@ -32,3 +32,18 @@ if(mouse_check_button(mb_left)) && (firingdelay < 0)
 else{
 	image_yscale = 1;
 }*/
+
+if(moldx != mouse_x || moldy != mouse_y || mouse_check_button(1)) {
+	moldx = mouse_x;
+	moldy = mouse_y;
+	timer = 0;
+}
+
+
+
+
+if(timer > 60*8) {
+room_goto(r_splash);	
+}
+
+timer++;
