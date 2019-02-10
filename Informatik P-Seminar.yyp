@@ -1855,14 +1855,6 @@
             }
         },
         {
-            "Key": "e99e1d14-0b6e-463e-9383-75fa2c32b7bb",
-            "Value": {
-                "id": "377584da-d3f8-4a9a-b552-ffdb0578d401",
-                "resourcePath": "sprites\\sp_berg\\sp_berg.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ea255a06-ffbd-496f-9797-9f4fba0d1cbf",
             "Value": {
                 "id": "a45ae206-9509-4405-a237-a844dd6637ca",
@@ -2043,6 +2035,14 @@
             "Value": {
                 "id": "d50db2fa-f620-4d8e-81ac-56ab0ce86ba8",
                 "resourcePath": "sounds\\snd_schwert_schlag2\\snd_schwert_schlag2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fba7a0a8-5ec8-4b5a-ab40-aa536ae09907",
+            "Value": {
+                "id": "7a47c3ed-5c6b-4525-af05-d31030482142",
+                "resourcePath": "sounds\\snd_victory\\snd_victory.yy",
                 "resourceType": "GMSound"
             }
         },

@@ -141,13 +141,13 @@ if(rechtswapped) {
 /*if (weapon_state == 1){
 	
 }*/
-if(firecooldown <= 10) 
-{
+/*if(firecooldown <= 10) 
+{*/
  	if (firecooldown != 0)
 	{
 	firecooldown = firecooldown - 1;	
 	}
-}
+//}
 //crouch
 if(down)
 {	

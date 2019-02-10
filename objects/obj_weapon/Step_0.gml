@@ -74,7 +74,7 @@ with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet
 			ammo = ammo - 1;
 	
 		}	
-firecooldown = 15;
+obj_Player.firecooldown = 20;
 		} 
 		
 		
