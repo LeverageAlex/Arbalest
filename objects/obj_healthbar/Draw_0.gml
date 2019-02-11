@@ -16,13 +16,13 @@ if(health < 0) {
 x = cx+ 120;
 y = cy + 100;
 draw_set_color(c_red);
-draw_rectangle(cx+ 150, cy + 60, cx + 350 - (200 - (2 * health )), cy + 78, false);
+draw_rectangle(cx+ 150, cy + 60, cx + 351 - (201 - (2.01 * health )), cy + 78, false);
 /*if(health == 100) {
 	//draw_rectangle(cx+ 345, cy + 60, cx + 352, cy + 78, false);
 	
 }*/
 draw_set_color(c_blue);
-draw_rectangle(cx + 150, cy +84, cx + 325 - (175 - (1.75 * global.ruestung )), cy + 102, false);
+draw_rectangle(cx + 150, cy +84, cx + 326 - (176 - (1.76 * global.ruestung )), cy + 102, false);
 /*if(global.ruestung == 100) {
 	draw_rectangle(cx+ 159, cy + 54, cx + 164, cy + 60, false);
 	
