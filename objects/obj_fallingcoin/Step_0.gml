@@ -4,3 +4,5 @@ y = y+s;
 if(y = 1950){
 	instance_destroy();
 }
+
+
