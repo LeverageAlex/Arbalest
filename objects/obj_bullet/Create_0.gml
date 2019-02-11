@@ -7,7 +7,7 @@ ypos = obj_cursor.y;
 
 richtung = point_direction(x, y, mouse_x, mouse_y);
 image_angle = richtung
-direction =  point_direction(x, y, xpos, ypos);
+direction =  point_direction(x, y, mouse_x, mouse_y);
 speed = 9;
 
 //way passed

@@ -4,9 +4,9 @@ with(other) {
 hp -= 2;
 if (hp <= 0) 
 {
-	with(waffe) {
+/*	with(waffe) {
 	instance_destroy();	
-	}
+	}*/
 with (obj_enemy_counter)
 {
 number_instances_killed = number_instances_killed + 1;

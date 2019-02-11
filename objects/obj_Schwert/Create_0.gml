@@ -2,3 +2,4 @@
 // Sie können Ihren Code in diesem Editor schreiben
 status = false;
 animation = false;
+sound = true;

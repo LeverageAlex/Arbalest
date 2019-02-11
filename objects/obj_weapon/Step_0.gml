@@ -14,7 +14,7 @@ if(waffenstatus) {
 	obj_Player.hspd = 0;
 }
 obj_Player.x = obj_Player.x + obj_Player.hspd;
-	x = obj_Player.x + 20;
+	x = obj_Player.x + 30;
 	y = obj_Player.y
 	image_yscale = 0.5;
 	
@@ -37,7 +37,7 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 obj_Player.x = obj_Player.x + obj_Player.hspd;
 
 
-		x = obj_Player.x - 20;	
+		x = obj_Player.x - 30;	
 		y = obj_Player.y;	
 		image_yscale = -0.5;
 		
@@ -54,9 +54,11 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 
 		{	
+			
 			image_speed = 4;
 			counter++;
 			if(counter > 10) {
+				audio_play_sound(snd_bogen_abschuss, 10, false);
 				counter = 0;
 
 with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet))
@@ -72,7 +74,7 @@ with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet
 			ammo = ammo - 1;
 	
 		}	
-firecooldown = 15;
+obj_Player.firecooldown = 20;
 		} 
 		
 		

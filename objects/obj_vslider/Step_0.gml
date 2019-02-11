@@ -27,4 +27,5 @@ else if(mouse_y + yy < topLimit){
 }
 percentage = round(((y-bottomLimit)/(topLimit - bottomLimit))*100)
 global.volume = percentage;
-show_debug_message(percentage) 
+audio_master_gain(global.volume/100);
+//show_debug_message(percentage) 

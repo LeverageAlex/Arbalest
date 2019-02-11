@@ -1,3 +1,9 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreibenlocj
-obj_anzeige.story = true;
+if(!timer) {
+		audio_stop_sound(global.localsound);
+		audio_play_sound(snd_victory, 10, true);	
+}
+referenz.story = true;
+obj_Player.locked = true;
+timer = true;

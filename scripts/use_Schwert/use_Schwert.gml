@@ -1,5 +1,5 @@
 if(obj_Player.weapon_state == 0) {
-
+audio_play_sound(snd_schwert_ziehen, 10, false);
 with(instance_create_layer(obj_Player.x + 30, obj_Player.y, "ins_player", obj_Schwert )) {
 	sammeln = false;
 	waffenstatus = true;
@@ -9,6 +9,7 @@ with(instance_create_layer(obj_Player.x + 30, obj_Player.y, "ins_player", obj_Sc
 	}
 }
 else if(obj_Player.weapon_state == 1) {
+	audio_play_sound(snd_schwert_ziehen, 10, false);
 	instance_destroy(obj_weapon);
 	obj_Player.weapon_state = 2;
 	with(instance_create_layer(obj_Player.x + 30, obj_Player.y, "ins_player", obj_Schwert )) {
@@ -29,6 +30,7 @@ else if(obj_Player.weapon_state == 1) {
 	}*/
 }
 else {
+	audio_play_sound(snd_schwert_einstecken, 10, false);
 		instance_destroy(obj_Schwert)
 	obj_Player.weapon_state = 0;
 }

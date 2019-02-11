@@ -9,5 +9,5 @@ zaehler++;
 }
 if(string_length(text) <= zaehler) {
 //story = false;
-obj_Player.locked = false;
+//obj_Player.locked = false;
 }
