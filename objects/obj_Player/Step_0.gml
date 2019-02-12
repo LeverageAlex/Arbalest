@@ -17,11 +17,20 @@ transport = false;
 }*/
 
 if(locked == true) {
-	
+	if(keyboard_check_pressed(vk_anykey)) {
+locked = false;	
+}
+else {
 move = 0;	
 }
+}
 if (block) {
+		if(keyboard_check_pressed(vk_anykey)) {
+block = false;	
+} 
+else {
 move = 1;	
+}
 }
 
 
