@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "7d3ec4db-9c29-44cb-a5e2-7db9d9714718",
+            "Value": {
+                "id": "aabbbca3-f6dc-4fbd-ad02-ad27f1d75919",
+                "resourcePath": "sounds\\snd_crossbow_shot\\snd_crossbow_shot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7dc51784-6343-4c6e-a96e-e0629d8125c5",
             "Value": {
                 "id": "9c3c55dc-6fe1-4961-90f7-8352dec65ec5",
