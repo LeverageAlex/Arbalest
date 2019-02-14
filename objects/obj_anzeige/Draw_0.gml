@@ -3,7 +3,7 @@
 
 if (story == true){
 	obj_Player.locked = true;
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_text_transformed(x, y,string_copy(text, 0, zaehler/4),1,1,0);
 zaehler++;
 }

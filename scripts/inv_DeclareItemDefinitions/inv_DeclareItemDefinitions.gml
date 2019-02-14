@@ -14,6 +14,7 @@ inv_AddItemDef(ItemType.ruestung, sp_ruestung, "Ruestung", 0, 4, use_ruestung);
 
 inv_AddItemDef(ItemType.zeitlupe, sp_sanduhr, "Zeitlupe", 0, 11, use_Zeitlupe);
 
+inv_AddItemDef(ItemType.pfeile, sp_pfeil, "Pfeile", 0, 1, use_Empty());
 
 
 inv_AddItemDef(ItemType.test1, sp_ruestung, "Ruestung", 0, 0, use_ruestung);

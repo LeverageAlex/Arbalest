@@ -39,3 +39,6 @@ draw_text(x - 27,cy + 140, string(obj_Player.level));
 
 //draw_set_color(c_green);
 //draw_text(cx+cw/2 + - 500,cy + 160,"Geld =" + string(global.geld));
+
+draw_set_color(c_blue);
+//draw_sprite(sp_pfeilanzeige, 0,cx+ 150, cy + 140);

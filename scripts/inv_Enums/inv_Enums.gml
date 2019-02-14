@@ -7,6 +7,7 @@ enum ItemType {
 	schwert,
 	ruestung,
 	zeitlupe,
+	pfeile,
 	test1,
 	test2,
 	test3,

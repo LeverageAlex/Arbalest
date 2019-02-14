@@ -60,7 +60,7 @@ if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 			if(counter > 10) {
 				audio_play_sound(snd_bogen_abschuss, 10, false);
 				counter = 0;
-
+inv_RemoveItem(ItemType.pfeile);
 with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet))
 			{
 				sprite_index = sp_pfeil;
@@ -68,10 +68,10 @@ with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet
 			}
 			
 	//decreases ammo
-	with (obj_magazin)
+	with (obj_Player)
 		{
 	
-			ammo = ammo - 1;
+			obj_magazin.ammo = obj_magazin.ammo - 1;
 	
 		}	
 obj_Player.firecooldown = 20;

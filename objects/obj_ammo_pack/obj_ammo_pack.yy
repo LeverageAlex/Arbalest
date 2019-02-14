@@ -13,10 +13,22 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "d47e63fb-f237-46eb-91b5-3919897c1b78"
+        },
+        {
+            "id": "8df2cd6b-7350-47ed-8d91-62974b040569",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "d47e63fb-f237-46eb-91b5-3919897c1b78"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        
+    ],
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -31,7 +43,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e327efdb-9d40-4e3c-a437-bb1447b67709",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ItemType.pfeile",
+            "varName": "itemType",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "ca7badab-286b-44c5-942b-fe8cc68e334a",
     "visible": true

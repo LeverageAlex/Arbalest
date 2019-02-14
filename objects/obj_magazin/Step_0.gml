@@ -11,3 +11,4 @@ with (obj_Player)
 ammonition = other.ammo;
 
 }
+
