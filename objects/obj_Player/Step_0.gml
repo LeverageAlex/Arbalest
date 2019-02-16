@@ -158,7 +158,8 @@ if(rechtswapped) {
 	}
 //}
 //crouch
-if(down)
+
+/*if(down)
 {	
 	if(sprite_index != sp_playercrouch) {
 	spr_old = sprite_index;
@@ -187,7 +188,7 @@ else{
 		sprite_index = sp_bewegung_rechts;
 		
 		downidle = false;
-	}
+	}*/
 	
 	if (weapon_state == 0)
 	
@@ -290,7 +291,7 @@ else if(hspd<0) {
 	}
 	}
 
-	}}
+	}//}
 	
 	with (obj_frame_indicator_and_w_state)
 	{
