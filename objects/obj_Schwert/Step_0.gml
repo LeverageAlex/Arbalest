@@ -13,13 +13,13 @@ if(status && mouse_check_button_pressed(1)) {
 		obj_Player.sprite_index = sp_player_attack_rechts;
 		obj_Player.image_speed = 5;
 		animation = true;
-		instance_create_layer(obj_Player.x + 20, obj_Player.y, "Instances", obj_hitbox);
+		instance_create_layer(obj_Player.x + 35, obj_Player.y, "Instances", obj_hitbox);
 	}
  else {
 	obj_Player.sprite_index = sp_player_attack_links;
 	obj_Player.image_speed = 5;
 	animation = true;
-	instance_create_layer(obj_Player.x - 20, obj_Player.y, "Instances", obj_hitbox);
+	instance_create_layer(obj_Player.x - 35, obj_Player.y, "Instances", obj_hitbox);
  }
 	
 	

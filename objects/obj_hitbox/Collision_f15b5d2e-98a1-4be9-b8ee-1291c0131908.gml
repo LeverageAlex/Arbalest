@@ -3,3 +3,4 @@
 with(other) {
 leben -= 2;	
 }
+instance_destroy();
