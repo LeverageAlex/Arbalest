@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "3d2308a2-7cad-400d-9536-d9b84c35b514",
+            "Value": {
+                "id": "1655217d-9727-4826-8a24-a61fd70d8a9a",
+                "resourcePath": "objects\\obj_idle\\obj_idle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d2c1990-81df-4abb-a8e0-beab9d205095",
             "Value": {
                 "id": "5af4ec90-fe85-4b63-863c-e2016df2f154",
