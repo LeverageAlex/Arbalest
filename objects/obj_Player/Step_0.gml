@@ -219,6 +219,12 @@ else if(hspd<0) {
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
+	if(sprite_index == sp_bewegung_rechts_mit_schwert) {
+	sprite_index = sp_bewegung_rechts;	
+	}
+	else if(sprite_index == sp_bewegung_links_mit_schwert) {
+		sprite_index = sp_bewegung_links;	
+	}
 	image_index = 0;
 	image_speed = 0;	
 	idle = true;
@@ -247,6 +253,13 @@ else if(hspd<0) {
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
+	if(sprite_index == sp_bewegung_rechts_mit_schwert) {
+	sprite_index = sp_bewegung_rechts;	
+	}
+	else if(sprite_index == sp_bewegung_links_mit_schwert) {
+		sprite_index = sp_bewegung_links;	
+	}
+	
 	image_index = 0;
 	image_speed = 0;	
 	
@@ -285,6 +298,14 @@ else if(hspd<0) {
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
+	if(sprite_index == sp_bewegung_rechts) {
+	sprite_index = sp_bewegung_rechts_mit_schwert;	
+	
+	}
+	else if(sprite_index == sp_bewegung_links) {
+		sprite_index = sp_bewegung_links_mit_schwert;	
+	}
+	
 	image_index = 0;
 	image_speed = 0;	
 	idle = true;
