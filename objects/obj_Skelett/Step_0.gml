@@ -1,34 +1,37 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(((obj_Player.x > x + 100 && obj_Player.x < x - 200) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+if(((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 		sprite_index = sp_Skelett_laufen;
-		speed = 3;
+		speed = 5;
 		image_speed = 6;	
 		image_angle = 0;
 		image_yscale = 1;
 		direction = image_angle;
 	
-} else if(obj_Player.x > x && obj_Player.x < x + 100 && obj_Player.y > y - 40 && obj_Player.y < y + 120)  {
+} else if(obj_Player.x < x - 40 && obj_Player.x > x - 600 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+	speed = 5;
+	image_speed = 6;
+	direction = image_angle;
+	sprite_index  = sp_Skelett_laufen;
+	image_yscale = -1;
+	image_angle = 180;
+	
+}
+else if(obj_Player.x > x + 13&& obj_Player.x < x + 240 && obj_Player.y > y - 100 && obj_Player.y < y + 220)  {
 	sprite_index = sp_skelett_schlagunten;
 	image_yscale = 1;
 	image_speed = 6;
 	image_angle = 0;
 	speed = 0;
 	
-} else if(obj_Player.x < x && obj_Player.x > x - 47 && obj_Player.y > y - 40 && obj_Player.y < y + 120) {
+} 
+else if(obj_Player.x < x && obj_Player.x > x - 110 && obj_Player.y > y - 100 && obj_Player.y < y + 220) {
 		sprite_index = sp_skelett_schlagunten;
 		image_yscale = -1;
 		image_angle = 180;
 		image_speed = 6;
 		speed = 0;
-	
-} else if(obj_Player.x < x - 47 && obj_Player.x > x - 400 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
-	speed = 3;
-	direction = image_angle;
-	sprite_index  = sp_Skelett_laufen;
-	image_yscale = -1;
-	image_angle = 180;
 	
 }
 
@@ -39,14 +42,14 @@ else {
 	
 }
 
-if(place_meeting(x + 1, y, obj_wall)) {
+if(place_meeting(x + 1, y -30, obj_wall)) {
 	if(direction == 0) {
 	speed = 0;	
 	sprite_index = sp_Skelett_leerlauf;
 	image_speed = 1;
 	}
 	
-} else if(place_meeting(x - 1, y, obj_wall)) {
+} else if(place_meeting(x - 1, y - 30, obj_wall)) {
 		if(direction == 180) {
 			sprite_index = sp_Skelett_leerlauf;
 			image_speed = 1;

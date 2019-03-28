@@ -2165,6 +2165,14 @@
                 "resourcePath": "sprites\\sp_enemy_easy\\sp_enemy_easy.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fe1d2679-e5f3-45f5-b0b2-ac1687866cfd",
+            "Value": {
+                "id": "b6890e59-b777-43cf-8443-052ac795b4db",
+                "resourcePath": "fonts\\font_gameover\\font_gameover.yy",
+                "resourceType": "GMFont"
+            }
         }
     ],
     "script_order": [

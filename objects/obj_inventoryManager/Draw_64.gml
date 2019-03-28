@@ -67,10 +67,11 @@ for(var i = 0; i < MAX_ACTIVE_INV_ITEMS; i++) {
 	draw_sprite_stretched(global.itemDefinitions[itemDefIndex, ItemProperty.sprite], 0,
 	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * i) - 7,
 	guiHolderPosY + guiHolderPadd - 78 + 2, 57, 57);	
-	
+	//Keine Anzeige bei Schwert oder Bogen
+	if(!(ItemType.schwert == itemDefIndex || ItemType.weapon == itemDefIndex)) {
 		draw_text(	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * i) - 7,
 	guiHolderPosY + guiHolderPadd + 30 - 75 + 2, string(global.itemDefinitions[itemDefIndex, ItemProperty.amount]));	
-		
+	}
 	}
 }
 
