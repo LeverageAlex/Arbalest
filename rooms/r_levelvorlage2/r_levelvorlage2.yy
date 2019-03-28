@@ -1,6 +1,6 @@
 
 {
-    "name": "r_levelvorlage1",
+    "name": "r_levelvorlage2",
     "id": "096b2f35-fe3d-4379-a5ff-d1984b6455a5",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

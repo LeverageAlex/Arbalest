@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "096b2f35-fe3d-4379-a5ff-d1984b6455a5",
+            "Value": {
+                "id": "8bffa86f-e587-486e-b488-3b6a47abd35d",
+                "resourcePath": "rooms\\r_levelvorlage2\\r_levelvorlage2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "09a91363-6b04-4efa-8453-24d2e7408435",
             "Value": {
                 "id": "1f13d720-dd11-4865-9d1d-0136bbdaa6d7",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "3f84c86d-8b8f-4628-8217-e27959a57a20",
+            "Value": {
+                "id": "a0787ccf-68a3-4bbd-b1e8-d85f86504bc8",
+                "resourcePath": "views\\3f84c86d-8b8f-4628-8217-e27959a57a20.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "41e35d22-57a2-412d-8bf0-81a81e1f08f9",
             "Value": {
                 "id": "fb5e8e70-11a9-4e16-b3ea-541c01a1ed9a",
@@ -964,6 +980,14 @@
                 "id": "cbd4565e-d475-4215-82de-932edf7d0c91",
                 "resourcePath": "sprites\\sp_roehre2\\sp_roehre2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69e91b32-623f-47d1-b5a3-f35e6c9c137a",
+            "Value": {
+                "id": "d23ee458-d82d-4227-80db-3a9dcc47ac95",
+                "resourcePath": "views\\69e91b32-623f-47d1-b5a3-f35e6c9c137a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
