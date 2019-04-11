@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "542a7551-ce6c-4b76-868d-3a82cd03cf19",
+            "Value": {
+                "id": "0e210893-ae00-4f0d-a276-2591760ce81e",
+                "resourcePath": "fonts\\font_geld\\font_geld.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "54e4bc8f-cc07-46f7-93dc-a04527a4d092",
             "Value": {
                 "id": "d7f9f0b3-f3fa-4924-8271-99984728e319",
@@ -1755,6 +1763,14 @@
             "Value": {
                 "id": "4df6aba3-b043-4549-93b2-5a73d2c0d4e1",
                 "resourcePath": "sprites\\sp_koecher\\sp_koecher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca9746ab-ffd3-48e6-94b2-ae2eb7f1ab91",
+            "Value": {
+                "id": "4a63729a-889b-4121-ae94-a85f8ad530ab",
+                "resourcePath": "sprites\\sp_geldanzeige\\sp_geldanzeige.yy",
                 "resourceType": "GMSprite"
             }
         },
