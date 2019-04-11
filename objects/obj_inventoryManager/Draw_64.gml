@@ -141,8 +141,9 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && statu
 	
 }
 
+draw_sprite(sp_geldanzeige, 0, 1780, 4);
 draw_set_font(font_level)
-draw_set_color(c_yellow)
+draw_set_color(c_gray)
 draw_text(1830, 16, global.geld);
 
 
