@@ -130,7 +130,7 @@
             "Key": "096b2f35-fe3d-4379-a5ff-d1984b6455a5",
             "Value": {
                 "id": "8bffa86f-e587-486e-b488-3b6a47abd35d",
-                "resourcePath": "rooms\\r_levelvorlage2\\r_levelvorlage2.yy",
+                "resourcePath": "rooms\\r_level4\\r_level4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -804,6 +804,14 @@
                 "id": "d7f9f0b3-f3fa-4924-8271-99984728e319",
                 "resourcePath": "objects\\obj_healthbar\\obj_healthbar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "553a6657-1e24-4775-b123-d56a221ed345",
+            "Value": {
+                "id": "8608d0a2-b9c1-437d-9e0b-c226aac420ef",
+                "resourcePath": "rooms\\r_levelvorlage2\\r_levelvorlage2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
