@@ -119,7 +119,9 @@ if (place_meeting(x+hspd,y,obj_wall))
 }
 x = x + hspd;
 
-//vertikal
+
+
+
 if (place_meeting(x,y+vspd,obj_wall))
 {
 	while(!place_meeting(x,y+ sign(vspd),obj_wall))
@@ -129,7 +131,6 @@ if (place_meeting(x,y+vspd,obj_wall))
 	vspd = 0;
 }
 y = y + vspd;
-
 //schnellles fallen
 
 if(keyboard_check_pressed(ord("S"))){
