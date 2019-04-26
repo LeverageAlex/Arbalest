@@ -105,10 +105,30 @@ if (tilemap_get_at_pixel((tiledirt||tilestone),bbox_left,bbox_side+vspd) != 0) |
 y += vspd;
 */
 
+/*
+if(tile_meeting(x + hspd, y , layer_tilemap_get_id("til_dirt"))) {
+while(!tile_meeting(x + sign(hspd), y, layer_tilemap_get_id("til_dirt"))) {
+x += sign(hspd);	
+}
+hspd = 0;
+	
+	
+}
+x = x + hspd;
 
-
+if(tile_meeting(x, y + vspd, layer_tilemap_get_id("til_dirt"))) {
+while(!tile_meeting(x, y + sign(vspd), layer_tilemap_get_id("til_dirt"))) {
+y += sign(vspd);	
+}
+vspd = 0;
+	
+	
+}
+y = y + vspd;
+*/
 
 //horizontal
+
 if (place_meeting(x+hspd,y,obj_wall))
 {
 	while(!place_meeting(x+sign(hspd),y,obj_wall))

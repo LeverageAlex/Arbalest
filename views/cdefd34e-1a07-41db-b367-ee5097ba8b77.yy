@@ -8,7 +8,8 @@
         "93629afa-a019-4354-b12b-72db70d55a4c",
         "27baa6b9-bca1-4cd9-91a5-0c15f15e8531",
         "78397b5f-9cfe-4bf4-a72c-5633935c7f16",
-        "a6171487-4f3e-4755-b95e-88cd6119cb57"
+        "a6171487-4f3e-4755-b95e-88cd6119cb57",
+        "4f350497-77a1-4da5-868c-9081e797fd4b"
     ],
     "filterType": "GMScript",
     "folderName": "Kollisionen",
