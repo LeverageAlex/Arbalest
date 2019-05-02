@@ -6,3 +6,6 @@ text = "Geschafft! Das war unsere Demo!"
 }
 timer = false;
 zaehler = 0;
+kakx = x;
+kaky = y;
+hochfahren = true;

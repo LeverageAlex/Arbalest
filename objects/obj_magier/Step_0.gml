@@ -8,3 +8,19 @@ if(timer) {
 	room_goto(r_victoryscreen);
 	}
 }
+
+
+if(y > kaky - 30 && hochfahren) {
+y--;	
+image_angle++;
+if(y == kaky - 24) {
+	hochfahren = false;
+}
+}
+else if(y < kaky + 30 && !hochfahren) {
+	y++;
+	image_angle++;
+	if(y == kaky + 24) {
+	hochfahren = true;
+}
+}
