@@ -32,6 +32,7 @@ spr_old = noone;
 springen = true;
 transport = false;
 letzterAtem = 0;
+freeze = false;
 
 
 //tilesetid

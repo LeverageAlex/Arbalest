@@ -15,6 +15,10 @@ var move = (right - left)*2;
 move += 1;	
 transport = false;
 }*/
+if(freeze) {
+	move = 0;
+}
+
 
 if(locked == true) {
 	if(keyboard_check_pressed(vk_anykey)) {

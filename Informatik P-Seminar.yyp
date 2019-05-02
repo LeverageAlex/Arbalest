@@ -2269,6 +2269,14 @@
                 "resourcePath": "fonts\\font_gameover\\font_gameover.yy",
                 "resourceType": "GMFont"
             }
+        },
+        {
+            "Key": "ff956181-384b-48d8-aeab-93bd80572dc5",
+            "Value": {
+                "id": "fe82919f-2cbe-4b90-83d5-d6a8f183e9a1",
+                "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
