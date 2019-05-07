@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "4df10402-9139-4857-86e4-3e1b517eaef7",
+            "Value": {
+                "id": "0f86735f-59c2-43ae-b116-3190ba99394a",
+                "resourcePath": "sprites\\sp_sprechblase\\sp_sprechblase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e9a9a9f-f295-4ee4-8cb2-6bbbf0ea258b",
             "Value": {
                 "id": "2229f5cd-b565-42bd-88de-71eb3c9bef8f",

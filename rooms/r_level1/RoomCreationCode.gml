@@ -3,3 +3,8 @@ global.schadenmodifikator = 0;
 global.volume = 50;
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 global.wase = true;
+global.dialog_index = 0;
+global.dialog = ds_list_create();
+ds_list_add(global.dialog, "Herr Kek mag Sozialismus");
+ds_list_add(global.dialog, "Planwirtschaft!");
+ds_list_add(global.dialog, "Einheit");
