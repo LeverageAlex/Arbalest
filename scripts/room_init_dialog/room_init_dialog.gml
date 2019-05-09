@@ -28,7 +28,9 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 		laenge = string_length(text)
 		anzahl = floor(laenge / zeilenumbruch);
 		show_debug_message(anzahl)
-		for(z = zeilenumbruch; z > 0; z--) {
+		for(k = 1; k < anzahl+1; k++) {
+			text = ds_list_find_value(global.dialog, i);
+		for(z = zeilenumbruch*k; z > zeilenumbruch*(k-1); z--) {
 			
 			if(string_char_at(text, z) == " ") {
 				show_debug_message(string_insert("\n", text, z))
@@ -37,6 +39,6 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 			}
 		}
 
-
+		}
 	}
 }
