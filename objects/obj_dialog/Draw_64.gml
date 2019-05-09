@@ -25,17 +25,7 @@ for(i = global.dialog_index; i >= 0; i--) {
 		}
 	}*/
 	
-	if(string_length(ds_list_find_value(global.dialog, i)) > 10) {	
-		listID = ds_list_find_value(global.dialog, i);
-		laenge = string_length(listID)
-		for(z = 10; z < laenge; z--) {
-			if(string_char_at(listID, z) == " ") {
-			
-			}
-		}
-
 	
-	}
 	
 	
 	

@@ -6,7 +6,7 @@ charaktertext = "HAGEDA!";
 partnertext = "";
 obj_Player.freeze = true;
 dialogplayer = "";
-
+zeilenumbruch = 10;
 
 
 

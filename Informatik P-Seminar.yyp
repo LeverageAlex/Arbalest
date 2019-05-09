@@ -1791,6 +1791,14 @@
             }
         },
         {
+            "Key": "be768c28-f190-432d-bba9-ddc19bfb7c89",
+            "Value": {
+                "id": "0a8e2121-f70b-4524-9b74-b318064d894e",
+                "resourcePath": "scripts\\room_init_dialog\\room_init_dialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
             "Value": {
                 "id": "87876696-c821-44b4-9f79-02989c09c98e",
@@ -2336,7 +2344,8 @@
         "27baa6b9-bca1-4cd9-91a5-0c15f15e8531",
         "78397b5f-9cfe-4bf4-a72c-5633935c7f16",
         "a6171487-4f3e-4755-b95e-88cd6119cb57",
-        "4f350497-77a1-4da5-868c-9081e797fd4b"
+        "4f350497-77a1-4da5-868c-9081e797fd4b",
+        "be768c28-f190-432d-bba9-ddc19bfb7c89"
     ],
     "tutorial": ""
 }
