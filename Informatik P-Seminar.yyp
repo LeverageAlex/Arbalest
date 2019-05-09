@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "3c6a25fe-f085-4263-b93e-5d7a235f4964",
+            "Value": {
+                "id": "78bff298-c498-46f1-9c2e-ca349e59e1ed",
+                "resourcePath": "objects\\obj_secretwall\\obj_secretwall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d2308a2-7cad-400d-9536-d9b84c35b514",
             "Value": {
                 "id": "1655217d-9727-4826-8a24-a61fd70d8a9a",
@@ -1612,6 +1620,14 @@
                 "id": "4f222a65-e8ea-4d5a-85fc-7b5d0c88a108",
                 "resourcePath": "objects\\obj_flammen\\obj_flammen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ab0d0dd4-6260-4673-9b31-fd5022f750a1",
+            "Value": {
+                "id": "8c3cc89b-f150-4229-8ef2-82d46f398c57",
+                "resourcePath": "sprites\\sp_zerstoererblocktrigger\\sp_zerstoererblocktrigger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
