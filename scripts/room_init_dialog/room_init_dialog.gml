@@ -19,7 +19,7 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 		}
 	}
 }*/
-for(i = global.dialog_index; i >= 0; i--) {
+for(i = ds_list_size(global.dialog)-1; i >= 0; i--) {
 	
 if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {	
 		
