@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "b53f73c0-2a27-433d-aa4c-a94f3e6baf19",
+            "Value": {
+                "id": "c023f3d9-5d17-4bde-8780-d594bd54e250",
+                "resourcePath": "objects\\obj_loadandsave\\obj_loadandsave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b542ba00-7fdb-4cf4-b9ea-8831e752c453",
             "Value": {
                 "id": "49fd22e8-c083-4bd6-9175-feed043699eb",
