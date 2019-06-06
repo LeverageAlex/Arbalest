@@ -155,7 +155,7 @@ if (place_meeting(x,y+vspd,obj_wall))
 	vspd = 0;
 }
 y = y + vspd;
-//schnellles fallen
+//schnelles fallen
 
 if(keyboard_check_pressed(ord("S"))){
  vspd = vspd + 4;
