@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "5e1d20f8-0358-4a55-a0d6-846629a9f683",
+            "Value": {
+                "id": "0794cbba-6ebc-463d-8cf4-25864e32c5f9",
+                "resourcePath": "sprites\\sp_haendler\\sp_haendler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60283429-9081-4c76-89ca-f37ffd57a3a1",
             "Value": {
                 "id": "bb356cb9-e0f8-40a6-86ac-d76c651d9054",
