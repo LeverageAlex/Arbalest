@@ -1199,6 +1199,14 @@
             }
         },
         {
+            "Key": "79354c3c-20aa-4d8d-a51d-ca578af2eb49",
+            "Value": {
+                "id": "90fdb11a-2092-491a-81ff-5d53af5bd77a",
+                "resourcePath": "sprites\\sp_skill_button\\sp_skill_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "797be59a-c090-4c06-bdf5-af5ab492f1c0",
             "Value": {
                 "id": "ebf3922b-eb16-404b-9329-53289f2be50e",
