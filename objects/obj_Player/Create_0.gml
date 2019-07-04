@@ -31,9 +31,9 @@ letzterAtem = 0;
 freeze = false;
 
 //
-schaden = 1;
+/*schaden = 1;
 sprunghoehe = 1;
-laufgeschwindigkeit = 1;
+laufgeschwindigkeit = 1;*/
 
 
 

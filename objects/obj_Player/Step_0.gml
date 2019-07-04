@@ -60,7 +60,7 @@ if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
 	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 14*sprunghoehe){
+	if(jumpcounter == 14*global.sprunghoehe){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;
@@ -132,15 +132,15 @@ y = y + vspd;
 */
 
 //horizontal
-if (place_meeting(x+hspd*laufgeschwindigkeit,y,obj_wall))
+if (place_meeting(x+hspd*global.laufgeschwindigkeit,y,obj_wall))
 {
-	while(!place_meeting(x+sign(hspd*laufgeschwindigkeit),y,obj_wall))
+	while(!place_meeting(x+sign(hspd*global.laufgeschwindigkeit),y,obj_wall))
 	{
-		x = x +sign (hspd*laufgeschwindigkeit);
+		x = x +sign (hspd*global.laufgeschwindigkeit);
 	}
 	hspd = 0;
 }
-x = x + hspd*laufgeschwindigkeit;
+x = x + hspd*global.laufgeschwindigkeit;
 
 
 

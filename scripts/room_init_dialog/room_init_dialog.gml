@@ -42,3 +42,7 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 		}
 	}
 }
+
+global.schaden = 1;
+global.sprunghoehe = 1;
+global.laufgeschwindigkeit = 1;

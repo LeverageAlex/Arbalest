@@ -151,14 +151,6 @@
             }
         },
         {
-            "Key": "0b6f8059-5b20-4499-887d-16b6eba507f4",
-            "Value": {
-                "id": "e3b95679-a286-46a4-a56d-9a117bd81b19",
-                "resourcePath": "rooms\\r_skillbaum\\r_skillbaum.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
             "Value": {
                 "id": "6a382b2f-ae1e-4a4a-9e5b-fe6de8b4fd97",
@@ -844,6 +836,14 @@
                 "id": "b54f9b48-0258-45b4-8b2a-04241091468e",
                 "resourcePath": "sprites\\sp_hbar\\sp_hbar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51a2d50c-49b7-4642-b67c-5105699eeb55",
+            "Value": {
+                "id": "ecf4fb57-f309-4d40-9a7b-5117266d4f38",
+                "resourcePath": "objects\\obj_triggerSkillbaum\\obj_triggerSkillbaum.yy",
+                "resourceType": "GMObject"
             }
         },
         {
