@@ -60,7 +60,7 @@ if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
 	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 14){
+	if(jumpcounter == 14*sprunghoehe){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;
