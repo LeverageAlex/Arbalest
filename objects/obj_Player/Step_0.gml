@@ -2,7 +2,7 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 //jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 longjump = keyboard_check_direct(vk_space);
-down = keyboard_check_direct(ord("S"));
+//down = keyboard_check_direct(ord("S"));
 
 
 
@@ -60,7 +60,7 @@ if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
 	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 14){
+	if(jumpcounter == 14*sprunghoehe){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;
@@ -132,16 +132,15 @@ y = y + vspd;
 */
 
 //horizontal
-
-if (place_meeting(x+hspd,y,obj_wall))
+if (place_meeting(x+hspd*laufgeschwindigkeit,y,obj_wall))
 {
-	while(!place_meeting(x+sign(hspd),y,obj_wall))
+	while(!place_meeting(x+sign(hspd*laufgeschwindigkeit),y,obj_wall))
 	{
-		x = x +sign (hspd);
+		x = x +sign (hspd*laufgeschwindigkeit);
 	}
 	hspd = 0;
 }
-x = x + hspd;
+x = x + hspd*laufgeschwindigkeit;
 
 
 
