@@ -1,6 +1,8 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 if(mouse_check_button_pressed(mb_left)) {
+	
+ if(anzahlVerbrauchterSkillpunkte < obj_Player.level) {
 switch(knopfNr) {
 case 1:
 if((global.schaden -1) / obj_Knopf.schaden < 4) {
@@ -21,4 +23,5 @@ global.laufgeschwindigkeit += obj_Knopf.laufspeed
 //show_debug_message("treffer");
 image_index++;
 alarm[0] = 8;
+}
 }
