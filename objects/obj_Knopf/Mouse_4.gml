@@ -12,6 +12,7 @@ case 3:
 obj_Player.laufgeschwindigkeit += 0.2
 	
 }
-
+image_index++;
+alarm[0] = 25;
 
 }
