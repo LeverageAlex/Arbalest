@@ -4,5 +4,5 @@ knopfNr = 0;
 image_speed = 0;
 
 schaden = 0.1
-sprunghoehe = 0.05 
+sprunghoehe = 0.05; 
 laufspeed = 0.07;

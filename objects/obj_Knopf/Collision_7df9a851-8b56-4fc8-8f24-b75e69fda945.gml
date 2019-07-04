@@ -3,13 +3,19 @@
 if(mouse_check_button_pressed(mb_left)) {
 switch(knopfNr) {
 case 1:
-global.schaden += 0.1;
+if((global.schaden -1) / obj_Knopf.schaden < 4) {
+global.schaden += obj_Knopf.schaden;
+}
 break;
 case 2:
-global.sprunghoehe += 0.05
+if((global.sprunghoehe - 1) / obj_Knopf.sprunghoehe < 4) {
+global.sprunghoehe += obj_Knopf.sprunghoehe;
+}
 break;
 case 3:
-global.laufgeschwindigkeit += 0.07
+if((global.laufgeschwindigkeit -1) / obj_Knopf.laufspeed < 4) {
+global.laufgeschwindigkeit += obj_Knopf.laufspeed
+}
 	
 }
 //show_debug_message("treffer");

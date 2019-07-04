@@ -60,7 +60,7 @@ if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
 	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 14*global.sprunghoehe){
+	if(jumpcounter == round(14*global.sprunghoehe)){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;
