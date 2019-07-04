@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "0b6f8059-5b20-4499-887d-16b6eba507f4",
+            "Value": {
+                "id": "e3b95679-a286-46a4-a56d-9a117bd81b19",
+                "resourcePath": "rooms\\r_skillbaum\\r_skillbaum.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
             "Value": {
                 "id": "6a382b2f-ae1e-4a4a-9e5b-fe6de8b4fd97",
@@ -603,6 +611,14 @@
             "Value": {
                 "id": "3b66c848-6816-4aa7-b62a-b35b00ea8a99",
                 "resourcePath": "objects\\obj_inventoryManager\\obj_inventoryManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e0b75f5-9177-4903-b014-f284f4d5e8cc",
+            "Value": {
+                "id": "9e83a9ee-cb38-4350-9d20-61225a95a0ae",
+                "resourcePath": "objects\\obj_Text\\obj_Text.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1623,6 +1639,14 @@
             }
         },
         {
+            "Key": "a724bcca-7079-49c3-835a-8f81b4b5c694",
+            "Value": {
+                "id": "dca81896-30d7-4340-a86d-23bc369b0757",
+                "resourcePath": "objects\\obj_Knopf\\obj_Knopf.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a737999d-5bfb-4c3b-b509-ea194104323a",
             "Value": {
                 "id": "bc0858b8-e31a-40c7-ac6f-f015bbf3a4f0",
@@ -1819,6 +1843,14 @@
             "Value": {
                 "id": "1e469d80-5921-4ff0-a2a1-5914687169dc",
                 "resourcePath": "objects\\obj_tut_reinlaufen\\obj_tut_reinlaufen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bcd016c0-8a06-46b1-b81f-c998b8c4167b",
+            "Value": {
+                "id": "ba350820-71aa-475b-99d2-71e9167990b7",
+                "resourcePath": "objects\\obj_balken\\obj_balken.yy",
                 "resourceType": "GMObject"
             }
         },

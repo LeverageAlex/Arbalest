@@ -26,13 +26,16 @@ leftswapped = false;
 rechtswapped = false;
 idle = false;
 //counter = 0;
-animieren = false;
-downidle = false;
-spr_old = noone;
 springen = true;
-transport = false;
 letzterAtem = 0;
 freeze = false;
+
+//
+schaden = 1;
+sprunghoehe = 1;
+
+
+
 
 
 //tilesetid

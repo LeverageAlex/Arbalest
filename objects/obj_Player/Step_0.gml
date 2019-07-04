@@ -2,7 +2,7 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 //jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 longjump = keyboard_check_direct(vk_space);
-down = keyboard_check_direct(ord("S"));
+//down = keyboard_check_direct(ord("S"));
 
 
 
