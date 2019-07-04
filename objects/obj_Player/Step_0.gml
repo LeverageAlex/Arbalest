@@ -132,16 +132,15 @@ y = y + vspd;
 */
 
 //horizontal
-
-if (place_meeting(x+hspd,y,obj_wall))
+if (place_meeting(x+hspd*laufgeschwindigkeit,y,obj_wall))
 {
-	while(!place_meeting(x+sign(hspd),y,obj_wall))
+	while(!place_meeting(x+sign(hspd*laufgeschwindigkeit),y,obj_wall))
 	{
-		x = x +sign (hspd);
+		x = x +sign (hspd*laufgeschwindigkeit);
 	}
 	hspd = 0;
 }
-x = x + hspd;
+x = x + hspd*laufgeschwindigkeit;
 
 
 

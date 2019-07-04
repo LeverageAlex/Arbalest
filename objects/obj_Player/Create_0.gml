@@ -33,6 +33,7 @@ freeze = false;
 //
 schaden = 1;
 sprunghoehe = 1;
+laufgeschwindigkeit = 1;
 
 
 
