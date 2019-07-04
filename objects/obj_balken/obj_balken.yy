@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_balken",
     "eventList": [
-        
+        {
+            "id": "b4a8ce87-a59e-4466-a4a7-7117b00fae71",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "bcd016c0-8a06-46b1-b81f-c998b8c4167b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "87624abd-6189-45ac-995b-c9b3f3fe7c15",
     "visible": true
 }
