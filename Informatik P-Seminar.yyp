@@ -1335,6 +1335,14 @@
             }
         },
         {
+            "Key": "87624abd-6189-45ac-995b-c9b3f3fe7c15",
+            "Value": {
+                "id": "05ff6f38-1cf1-4f7b-8b81-5ffc01bc30b1",
+                "resourcePath": "sprites\\sp_skill_scale\\sp_skill_scale.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "889e428d-bd90-406f-8d65-6814ec62c388",
             "Value": {
                 "id": "153813e8-02f0-432e-915a-f22b6d7295a9",
