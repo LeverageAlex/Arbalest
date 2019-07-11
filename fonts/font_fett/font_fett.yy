@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "font_fett",
     "AntiAlias": 1,
-    "TTFName": "",
+    "TTFName": null,
     "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
