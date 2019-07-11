@@ -4,8 +4,10 @@ if(status) {
 instance_destroy(obj_Knopf);
 instance_destroy(obj_balken);
 	status = false;
+	obj_Player.ungesperrt = true;
 }
 else {
+	obj_Player.ungesperrt = false;
 with(instance_create_layer(1280, 320, "ins_player", obj_Knopf)) {
 	knopfNr = 2;
 }

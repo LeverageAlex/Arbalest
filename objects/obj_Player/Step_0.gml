@@ -4,7 +4,8 @@ right = keyboard_check(ord("D"));
 longjump = keyboard_check_direct(vk_space);
 //down = keyboard_check_direct(ord("S"));
 
-
+if(ungesperrt) {
+	
 
 
 
@@ -359,6 +360,6 @@ level++;
 
 
 
-
+}
 
 

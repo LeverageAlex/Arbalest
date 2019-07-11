@@ -1,4 +1,5 @@
 hspd = 0;
+ungesperrt = true;
 vspd = 0;
 player_speed = 4;
 grv = 0.96;
