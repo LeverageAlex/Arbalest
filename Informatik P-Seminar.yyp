@@ -2087,6 +2087,14 @@
             }
         },
         {
+            "Key": "da384262-d55e-4224-9f0a-b7bfd73f4770",
+            "Value": {
+                "id": "9bd9a7c0-6b0a-48db-a583-f4bdb1c662f6",
+                "resourcePath": "fonts\\font_fett2\\font_fett2.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "db29cb2d-058e-441d-84a2-90636dd790c3",
             "Value": {
                 "id": "3eccb051-b50f-4795-9152-1f80ca52a68b",
