@@ -1,5 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+if(obj_Player.ungesperrt) {
 if(waffenstatus) {
 	//sämtliche Waffenanimationen
 		if(obj_Player.weapon_right) {
@@ -101,4 +102,4 @@ else {
 	
 	
 	
-}
+}}

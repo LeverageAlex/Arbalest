@@ -2,9 +2,10 @@ left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
 //jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 longjump = keyboard_check_direct(vk_space);
-down = keyboard_check_direct(ord("S"));
+//down = keyboard_check_direct(ord("S"));
 
-
+if(ungesperrt) {
+	
 
 
 
@@ -15,6 +16,10 @@ var move = (right - left)*2;
 move += 1;	
 transport = false;
 }*/
+if(freeze) {
+	move = 0;
+}
+
 
 if(locked == true) {
 	if(keyboard_check_pressed(vk_anykey)) {
@@ -56,7 +61,7 @@ if(jumpl == true && longjump == true){
 	vspd = -jumpactive;
 	jumpactive = 18;
 	jumpcounter += 1;
-	if(jumpcounter == 14){
+	if(jumpcounter == round(14*global.sprunghoehe)){
 		jumpl = false;
 		jumpcounter = 0;
 		jumpactive = 0;
@@ -105,21 +110,42 @@ if (tilemap_get_at_pixel((tiledirt||tilestone),bbox_left,bbox_side+vspd) != 0) |
 y += vspd;
 */
 
-
-
-
-//horizontal
-if (place_meeting(x+hspd,y,obj_wall))
-{
-	while(!place_meeting(x+sign(hspd),y,obj_wall))
-	{
-		x = x +sign (hspd);
-	}
-	hspd = 0;
+/*
+if(tile_meeting(x + hspd, y , layer_tilemap_get_id("til_dirt"))) {
+while(!tile_meeting(x + sign(hspd), y, layer_tilemap_get_id("til_dirt"))) {
+x += sign(hspd);	
+}
+hspd = 0;
+	
+	
 }
 x = x + hspd;
 
-//vertikal
+if(tile_meeting(x, y + vspd, layer_tilemap_get_id("til_dirt"))) {
+while(!tile_meeting(x, y + sign(vspd), layer_tilemap_get_id("til_dirt"))) {
+y += sign(vspd);	
+}
+vspd = 0;
+	
+	
+}
+y = y + vspd;
+*/
+
+//horizontal
+if (place_meeting(x+hspd*global.laufgeschwindigkeit,y,obj_wall))
+{
+	while(!place_meeting(x+sign(hspd*global.laufgeschwindigkeit),y,obj_wall))
+	{
+		x = x +sign (hspd*global.laufgeschwindigkeit);
+	}
+	hspd = 0;
+}
+x = x + hspd*global.laufgeschwindigkeit;
+
+
+
+
 if (place_meeting(x,y+vspd,obj_wall))
 {
 	while(!place_meeting(x,y+ sign(vspd),obj_wall))
@@ -129,8 +155,7 @@ if (place_meeting(x,y+vspd,obj_wall))
 	vspd = 0;
 }
 y = y + vspd;
-
-//schnellles fallen
+//schnelles fallen
 
 if(keyboard_check_pressed(ord("S"))){
  vspd = vspd + 4;
@@ -335,6 +360,6 @@ level++;
 
 
 
-
+}
 
 

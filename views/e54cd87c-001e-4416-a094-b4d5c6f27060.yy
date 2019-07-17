@@ -18,7 +18,9 @@
         "01e3e6f6-ec7a-4dba-b66a-e373b8cd9287",
         "42500fd6-5f50-44c2-b9e2-7c36b0864573",
         "949419fc-8c1f-4c9c-9b3a-aabb419e293c",
-        "62d67680-23fd-48a6-b308-a68a26bbe517"
+        "62d67680-23fd-48a6-b308-a68a26bbe517",
+        "3c6a25fe-f085-4263-b93e-5d7a235f4964",
+        "a81ff4cd-4ef9-4eba-8625-522a78ad8c7d"
     ],
     "filterType": "GMObject",
     "folderName": "Leveldesign",

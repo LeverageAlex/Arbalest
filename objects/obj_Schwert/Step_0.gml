@@ -1,5 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+if(obj_Player.ungesperrt) {
 if(status && mouse_check_button_pressed(1)) {
 	if(sound) {
 	audio_play_sound(snd_schwert_schlag, 10, false);
@@ -36,4 +37,5 @@ if(animation) {
 	
 	}
 	
+}
 }

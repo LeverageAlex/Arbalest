@@ -1,4 +1,5 @@
 hspd = 0;
+ungesperrt = true;
 vspd = 0;
 player_speed = 4;
 grv = 0.96;
@@ -26,11 +27,17 @@ leftswapped = false;
 rechtswapped = false;
 idle = false;
 //counter = 0;
-animieren = false;
-downidle = false;
-spr_old = noone;
 springen = true;
-transport = false;
+letzterAtem = 0;
+freeze = false;
+
+//
+/*schaden = 1;
+sprunghoehe = 1;
+laufgeschwindigkeit = 1;*/
+
+
+
 
 
 //tilesetid
