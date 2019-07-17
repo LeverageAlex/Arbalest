@@ -1855,6 +1855,14 @@
             }
         },
         {
+            "Key": "d6f58061-efe9-4c84-b8a3-8d56e29121b5",
+            "Value": {
+                "id": "d714722a-297b-4401-8461-f1ec2bdd95af",
+                "resourcePath": "objects\\obj_text_hochfahren\\obj_text_hochfahren.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d79508fe-7dab-4484-a85e-36054a094069",
             "Value": {
                 "id": "146e4152-1e3a-4fcd-8c0b-82a1d71da3b5",
