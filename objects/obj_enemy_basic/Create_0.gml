@@ -1,5 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+xp = 40;
 hp = 4;
 alarm[1] = 60 * 2;
 /*waffe = instance_create_layer(x - 10, y - 4, "ins_gun", obj_gun_enemy);

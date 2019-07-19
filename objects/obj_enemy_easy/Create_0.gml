@@ -3,3 +3,4 @@
 hp = 4;
 offset = 0;
 kollision = false;
+xp = 40;

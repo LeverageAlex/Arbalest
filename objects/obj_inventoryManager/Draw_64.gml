@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //draw_sprite(sp_inventar_voll, -1, guiHolderPosX - 20 ,0);
-
+draw_set_font(font_level)
 if(status) {
 		draw_set_color(c_black);
 	draw_set_alpha(0.5);

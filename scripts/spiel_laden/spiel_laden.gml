@@ -3,6 +3,8 @@
 	health = ini_read_real("Player", "Health", 100);
 	global.ruestung = ini_read_real("Player", "Ruestung", 0);
 	global.geld = ini_read_real("Player", "Money", 0);
+	global.level = ini_read_real("Player", "Level", 1);
+	global.xp = ini_read_real("Player", "XP", 0);
 	for(var i = 1; i <= MAX_INV_ITEMS; i++) {
 
 	//	audio_play_sound(snd_keyboard_press, 10, false);

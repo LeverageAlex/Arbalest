@@ -60,6 +60,7 @@ if(place_meeting(x + 1, y -30, obj_wall)) {
 }
 
 	if(leben <= 0) {
+		global.xp += xp;
 	instance_destroy();	
 		
 	}

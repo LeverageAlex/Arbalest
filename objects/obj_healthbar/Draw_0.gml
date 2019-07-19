@@ -31,7 +31,7 @@ draw_self();
 draw_set_color(c_blue);
 //draw_text(x - 40,cy + 138, string(obj_Player.level));
 draw_set_font(font_level);
-draw_text(x - 27,cy + 140, string(obj_Player.level));
+draw_text(x - 27,cy + 140, string(global.level));
 //draw_rectangle(cx+cw/2 + - 500, cy + 140, cx+cw/2 + - 400 - (100 - health), cy + 160, false);
 
 //draw_rectangle(cx+ 917, cy + 45, cx + 1012 - (95 - (0.95 * health )), cy + 51, false);

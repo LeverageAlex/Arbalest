@@ -18,8 +18,8 @@ global.ruestung = 0;
 global.geld = 8;
 //}
 locked = false;
-xp = 1;
-level = 1;
+global.xp = 1;
+global.level = 1;
 block = false;
 weapon_right = true;
 //stop = false;

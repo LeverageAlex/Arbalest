@@ -4,4 +4,5 @@
 with(other) {
 leben -= 2*global.schaden;	
 }
+
 instance_destroy();

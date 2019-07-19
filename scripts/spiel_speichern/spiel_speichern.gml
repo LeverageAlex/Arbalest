@@ -17,5 +17,7 @@ reader = ini_open("saves.ini");
 	
 	
 	ini_write_string("Room", "number", room);
+	ini_write_real("Player", "Level", global.level);
+	ini_write_real("Player", "XP", global.xp);
 	show_debug_message("success")
 	ini_close();

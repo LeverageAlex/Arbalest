@@ -7,7 +7,7 @@ if (hp <= 0)
 	/*with(waffe) {
 	instance_destroy();	
 	}*/
-obj_Player.xp += 40;
+global.xp += xp;
 instance_destroy();
 
 }
