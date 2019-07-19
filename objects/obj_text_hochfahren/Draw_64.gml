@@ -1,5 +1,5 @@
-/// @description Hier Beschreibung einfügen
-// Sie können Ihren Code in diesem Editor schreiben
+/// @description Insert description here
+// You can write your code in this editor
 draw_set_font(font_fett);
 draw_set_color(c_yellow)
 draw_text(x, y, text);

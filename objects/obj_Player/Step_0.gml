@@ -350,6 +350,9 @@ else if(hspd<0) {
 if(xp >= 50*level) {
 xp -= 50*level;
 level++;
+with(instance_create_layer(x,y, "ins_player", obj_text_hochfahren)) {
+text = "Level Up!";
+}
 }
 
 //Animationen
