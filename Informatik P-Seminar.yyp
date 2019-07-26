@@ -1719,6 +1719,14 @@
             }
         },
         {
+            "Key": "aeaf534e-7b8f-44fb-bbad-bdae7a7c7183",
+            "Value": {
+                "id": "967e58aa-ddfd-47f5-a2ac-ca2b911dd00a",
+                "resourcePath": "sprites\\sp_welt2background\\sp_welt2background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aedbbb12-f31c-42e5-a3b0-35b869cf1499",
             "Value": {
                 "id": "fca65a62-37f1-4240-b398-38717e1a1204",
