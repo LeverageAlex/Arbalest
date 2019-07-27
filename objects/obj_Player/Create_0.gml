@@ -14,12 +14,12 @@ weapon_state = 0;
 ammonition = 0;
 //if(room == 0) {
 health = 100;
-global.ruestung = 0;
-global.geld = 8;
+//global.ruestung = 0;
+//global.geld = 8;
 //}
 locked = false;
-global.xp = 1;
-global.level = 1;
+//global.xp = 1;
+//global.level = 1;
 block = false;
 weapon_right = true;
 //stop = false;
