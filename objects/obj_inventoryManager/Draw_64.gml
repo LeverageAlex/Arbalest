@@ -112,6 +112,7 @@ if(mouse_check_button_pressed(mb_left) && zwischenspeicher == false && status2) 
 
 else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && status2) {
 	
+
 	
 	for(var i = 0; i < 3; i++) {
 		
@@ -141,6 +142,12 @@ else if(mouse_check_button_pressed(mb_left) && zwischenspeicher == true && statu
 	
 	
 }
+
+if(zwischenspeicher) {
+	draw_sprite_stretched(global.itemDefinitions[item, ItemProperty.sprite], 0, obj_cursor.x - 19, obj_cursor.y - 19, 38, 38);	
+}
+
+
 
 draw_sprite(sp_geldanzeige, 0, 1780, 4);
 draw_set_font(font_level)
