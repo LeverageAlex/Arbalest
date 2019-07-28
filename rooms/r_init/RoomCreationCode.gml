@@ -23,4 +23,5 @@ global.xp = 1;
 global.level = 1;
 
 settings_laden();
+inv_initialize();
 room_goto_next();
