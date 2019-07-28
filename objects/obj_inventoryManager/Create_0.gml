@@ -10,4 +10,4 @@ var item;
 var pos;
 
 
-inv_initialize();
+//inv_initialize();
