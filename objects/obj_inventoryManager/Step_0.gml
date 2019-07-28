@@ -9,3 +9,9 @@ for(var i = 1; i <= MAX_ACTIVE_INV_ITEMS; i++) {
 	}
 	
 }
+if(status) {
+	obj_Player.freeze = true;
+}
+else {
+	obj_Player.freeze = false;
+}
