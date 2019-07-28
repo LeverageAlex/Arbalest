@@ -11,6 +11,7 @@ global.springen = vk_space;*/
 global.number = 0;
 global.schadenmodifikator = 0;
 global.volume = 50;
+global.localsound = 0.5;
 
 global.wase = true;
 global.dialog_index = 0;
