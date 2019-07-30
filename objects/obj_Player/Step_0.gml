@@ -373,7 +373,7 @@ vspd -= 0.4;
 //show_debug_message("erreicht 2")
 }
 else {
-vspd += 0.3;
+vspd += 0.6;
 //show_debug_message("erreicht")
 }
 
