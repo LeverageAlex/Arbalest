@@ -357,12 +357,37 @@ text = "Level Up!";
 
 //Animationen
 
+if(place_meeting(x,y, obj_wasser)) {
+	letzterAtem++;
+	if(letzterAtem > 200) {
+spieler_schaden(0.08);
+
+	
+}
+if(vspd > 4) {
+vspd -= 5;	
+//show_debug_message("erreicht 1")
+}
+else if(vspd > 0.4){
+vspd -= 0.4;
+//show_debug_message("erreicht 2")
+}
+else {
+vspd += 0.3;
+//show_debug_message("erreicht")
+}
 
 
-
+}
+else {
+letzterAtem = 0;	
+}
 
 
 
 }
+
+
+
 
 
