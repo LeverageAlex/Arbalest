@@ -1,9 +1,12 @@
-left = keyboard_check(ord("A"));
-right = keyboard_check(ord("D"));
+left = keyboard_check(global.links);
+right = keyboard_check(global.rechts);
 //jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
-longjump = keyboard_check_direct(vk_space);
+longjump = keyboard_check_direct(global.springen);
 //down = keyboard_check_direct(ord("S"));
-
+show_debug_message("Hier sind sie")
+show_debug_message(global.links);
+show_debug_message(global.rechts);
+show_debug_message(global.springen)
 if(ungesperrt) {
 	
 

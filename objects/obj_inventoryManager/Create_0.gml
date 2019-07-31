@@ -8,6 +8,6 @@ status2 = false;
 zwischenspeicher = false;
 var item;
 var pos;
-
+//zeichnen = true;
 
 //inv_initialize();

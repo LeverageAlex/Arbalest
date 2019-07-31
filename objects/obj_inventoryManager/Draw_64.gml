@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 //draw_sprite(sp_inventar_voll, -1, guiHolderPosX - 20 ,0);
+
 draw_set_font(font_level)
 if(status) {
 		draw_set_color(c_black);
@@ -153,7 +154,6 @@ draw_sprite(sp_geldanzeige, 0, 1780, 4);
 draw_set_font(font_level)
 draw_set_color(c_gray)
 draw_text(1830, 16, global.geld);
-
 
 
 

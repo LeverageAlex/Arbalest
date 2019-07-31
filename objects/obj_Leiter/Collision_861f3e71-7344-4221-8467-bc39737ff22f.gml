@@ -1,6 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-if(keyboard_check_direct(ord("W"))) {
+if(keyboard_check_direct(global.klettern)) {
 	other.vspd = -8;
 	other.hspd = 0;
 	other.grv = 0;
@@ -8,7 +8,7 @@ if(keyboard_check_direct(ord("W"))) {
 	//other.springen = false;
 	//other.block = true;
 	
-} else if(keyboard_check_direct(ord("S"))) {
+} else if(keyboard_check_direct(global.ducken)) {
 	other.vspd = 8;
 	other.hspd = 0;
 	other.grv = 0;

@@ -1175,6 +1175,14 @@
             }
         },
         {
+            "Key": "73982d95-5632-4599-99b4-257fe4729a41",
+            "Value": {
+                "id": "d0bb8363-2955-49f2-a3a6-ff2d6000d8e2",
+                "resourcePath": "objects\\obj_optionsmenu\\obj_optionsmenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73a9c060-27d5-475f-acdc-1673f8138baf",
             "Value": {
                 "id": "d1557cf5-032c-410d-8f7c-59a45c5db162",

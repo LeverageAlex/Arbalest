@@ -13,14 +13,14 @@ exit;
 }
 else 
 {
-if ((mouse_y + yy)	< bottomLimit &&  mouse_y + yy> topLimit) {
-	y = mouse_y + yy;
+if ((obj_cursor.y + yy)	< bottomLimit &&  obj_cursor.y + yy> topLimit) {
+	y = obj_cursor.y + yy;
 }
-else if(mouse_y +yy > bottomLimit) {
+else if(obj_cursor.y +yy > bottomLimit) {
 y = bottomLimit;	
 	
 }
-else if(mouse_y + yy < topLimit){
+else if(obj_cursor.y + yy < topLimit){
 	y = topLimit;
 	
 }

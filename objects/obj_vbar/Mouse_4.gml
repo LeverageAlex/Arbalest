@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-if(mouse_y < bottomLimit && mouse_y > topLimit) {
-	a.y = mouse_y;
+if(obj_cursor.y < bottomLimit && obj_cursor.y > topLimit) {
+	a.y = obj_cursor.y;
 	global.volume = a.percentage;
 	
 }
