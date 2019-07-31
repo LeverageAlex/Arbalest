@@ -5,7 +5,8 @@ if(timer) {
 	zaehler++;
 	if(zaehler == 60*6) {
 
-	room_goto(r_victoryscreen);
+	//room_goto(r_victoryscreen);
+	room_goto_next();
 	}
 }
 
