@@ -1,3 +1,4 @@
+audio_stop_sound(global.localsound);
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 zeilenumbruch = 28;
 global.toDo = 0;

@@ -1,7 +1,7 @@
 global.number = 0;
 global.schadenmodifikator =0.2;
 global.volume = 50;
-
+audio_stop_sound(global.localsound);
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 zeilenumbruch = 28;
 global.toDo = 0;
