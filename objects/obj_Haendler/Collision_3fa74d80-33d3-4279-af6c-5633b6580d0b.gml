@@ -15,8 +15,11 @@ if(keyboard_check_pressed(ord("E"))) {
 	}
 }
 if(status) {
+	if(instance_exists(obj_inventoryManager)) {
 	obj_inventoryManager.status = true;
 	obj_inventoryManager.status2 = false;
-	
-	
+	}
+if(instance_exists(obj_optionsmenu)) {
+	instance_destroy(obj_optionsmenu)
+}
 }
