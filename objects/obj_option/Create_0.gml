@@ -37,4 +37,8 @@ with(springen) {
 	wert = global.springen;
 	beschreibung = "springen:";
 }
-
+skillbaum = instance_create_layer(1064, 852, "Vorne", obj_option_key);
+with(skillbaum) {
+	wert = global.springen;
+	beschreibung = "springen:";
+}

@@ -13,3 +13,4 @@ global.links =	links.wert;
 global.rechts = rechts.wert;
 global.ducken = ducken.wert;
 global.springen = springen.wert;
+global.skillbaum = skillbaum.wert;

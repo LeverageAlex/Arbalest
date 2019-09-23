@@ -1,6 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-/*if(status) {
+/// @description Hier Beschreibung einfügen
+// Sie können Ihren Code in diesem Editor schreib)
+
+if(keyboard_check_pressed(global.skillbaum)) { 
+	if(status) {
 instance_destroy(obj_Knopf);
 instance_destroy(obj_balken);
 	status = false;
@@ -30,4 +32,5 @@ knopfNr = 1;
 status = true;
 }
 
-*/
+
+}
