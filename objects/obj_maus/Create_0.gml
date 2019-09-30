@@ -3,3 +3,4 @@
 
 begraben = true;
 auftauchen = false;
+leben = 3;
