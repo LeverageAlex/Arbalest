@@ -1,4 +1,4 @@
-hspd = 0;
+hspd = 0; //mm
 ungesperrt = true;
 vspd = 0;
 player_speed = 4;
