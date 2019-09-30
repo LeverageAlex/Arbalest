@@ -3,7 +3,7 @@
 	
 if(place_meeting(x, y, obj_Player)) {
 
-obj_Player.grv = 0.03;
+obj_Player.grv = 0.07;
 /*if(obj_Player.vspd > 0.5 && global.wase) {
 	obj_Player.vspd -= 4
 }
