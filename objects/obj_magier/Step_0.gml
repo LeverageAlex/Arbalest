@@ -11,17 +11,17 @@ if(timer) {
 }
 
 
-if(y > kaky - 30 && hochfahren) {
-y--;	
-image_angle++;
-if(y == kaky - 24) {
+if(y > kaky - 24 && hochfahren) {
+y -= 0.65;	
+//image_angle++;
+if(y <= kaky - 18) {
 	hochfahren = false;
 }
 }
-else if(y < kaky + 30 && !hochfahren) {
-	y++;
-	image_angle++;
-	if(y == kaky + 24) {
+else if(y < kaky + 24 && !hochfahren) {
+	y += 0.65;
+//	image_angle++;
+	if(y >= kaky + 18) {
 	hochfahren = true;
 }
 }
