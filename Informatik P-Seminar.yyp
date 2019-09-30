@@ -1951,6 +1951,14 @@
             }
         },
         {
+            "Key": "bf1ad483-ead7-4c92-9e75-7af30f99a3e6",
+            "Value": {
+                "id": "828a6c78-16a3-4d98-93db-552081f36474",
+                "resourcePath": "views\\bf1ad483-ead7-4c92-9e75-7af30f99a3e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
             "Value": {
                 "id": "87876696-c821-44b4-9f79-02989c09c98e",
@@ -2124,6 +2132,14 @@
                 "id": "7ae0b2a6-8e68-49c0-8eb5-e0262c8eaa31",
                 "resourcePath": "sprites\\sp_gollum_walk\\sp_gollum_walk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d79143aa-ad08-4355-a1d9-e750a70741f9",
+            "Value": {
+                "id": "c71bdeae-1cd8-4d54-8e69-1a1b7012bfb5",
+                "resourcePath": "views\\d79143aa-ad08-4355-a1d9-e750a70741f9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
