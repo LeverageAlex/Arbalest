@@ -1623,14 +1623,6 @@
             }
         },
         {
-            "Key": "9d1c5b12-f244-4b14-b4cf-80ccfcf19949",
-            "Value": {
-                "id": "1c10c60e-a3ff-4872-ad69-2ed70949488a",
-                "resourcePath": "objects\\obj_tutorial\\obj_tutorial.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9d78889d-44d5-4287-9240-db8385bb1b10",
             "Value": {
                 "id": "aa2e5e27-249b-4bad-afd4-e279fe268c61",
