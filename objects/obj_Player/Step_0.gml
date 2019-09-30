@@ -362,7 +362,7 @@ text = "Level Up!";
 
 if(place_meeting(x,y, obj_wasser)) {
 	letzterAtem++;
-	if(letzterAtem > 200) {
+	if(letzterAtem > 150) {
 spieler_schaden(0.08);
 
 	
