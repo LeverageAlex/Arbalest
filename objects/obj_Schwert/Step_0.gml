@@ -10,7 +10,7 @@ if(status && mouse_check_button_pressed(1)) {
 	audio_play_sound(snd_schwert_schlag2, 10, false);
 	sound = true;
 	}
-	if(obj_Player.weapon_right == true) {
+	if(mouse_x > obj_Player.x) {
 		obj_Player.sprite_index = sp_player_attack_rechts;
 		obj_Player.image_speed = 5;
 		animation = true;

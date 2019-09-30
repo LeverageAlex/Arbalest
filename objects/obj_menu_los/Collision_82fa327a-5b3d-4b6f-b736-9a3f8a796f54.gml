@@ -4,4 +4,4 @@ audio_stop_sound(global.localsound);
 audio_play_sound(snd_holz_hit, 10, false);
 
 
-room_goto(r_level1);
+room_goto_next();
