@@ -1,1 +1,1 @@
-anzahl = 2;
+anzahl = 1;
