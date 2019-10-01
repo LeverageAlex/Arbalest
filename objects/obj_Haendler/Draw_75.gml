@@ -48,3 +48,9 @@ if(!place_meeting(x, y, obj_Player) && status == true) {
 status = false;	
 obj_inventoryManager.status = false;
 }
+
+if(malen) {
+	draw_set_color(c_green)
+draw_text(window_get_width()/2.6, window_get_height()/2, "Druecken Sie E um den Shop zu oeffnen!");	
+}
+malen = false;
