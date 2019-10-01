@@ -1,5 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+malen = false;
+volume = global.volume;
 guiHolderWidth = sprite_get_width(sp_inventar_halt);
 guiHolderPosX = (view_get_wport(0) /2) - (guiHolderWidth / 2);
 guiHolderPadd = 6;
