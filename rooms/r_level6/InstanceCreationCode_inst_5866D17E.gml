@@ -1,2 +1,2 @@
 image_index = 1;
-a = 5;
+a = 3;
