@@ -28,7 +28,10 @@
         "ff956181-384b-48d8-aeab-93bd80572dc5",
         "b53f73c0-2a27-433d-aa4c-a94f3e6baf19",
         "bcd016c0-8a06-46b1-b81f-c998b8c4167b",
-        "b38b2e5b-4a58-40d1-b6a5-87a5c9372d39"
+        "b38b2e5b-4a58-40d1-b6a5-87a5c9372d39",
+        "0f2b862b-c613-4f22-9ba6-44af4b20a0c5",
+        "d3d6e0b6-f3c0-4c0e-ad72-2873f17347d3",
+        "5be76a98-99d7-44f9-a8aa-9e0ebf96a68d"
     ],
     "filterType": "GMObject",
     "folderName": "der_restliche_müll",
