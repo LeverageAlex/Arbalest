@@ -1,2 +1,2 @@
-anzahl = 7;
+a = 7;
 image_index = 1;
