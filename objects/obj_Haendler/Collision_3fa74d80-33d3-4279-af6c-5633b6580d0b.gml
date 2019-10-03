@@ -6,11 +6,13 @@ if(keyboard_check_pressed(ord("E"))) {
 	if(!status) {
 	obj_inventoryManager.status = false;
 
-	audio_sound_gain(global.localsound, 0.5, 0)	
+	audio_sound_gain(global.localsound, volume, 0)	
+	
 	
 	}
 	else {
-	audio_sound_gain(global.localsound, 0.2, 0)	
+		volume = global.volume;
+	audio_sound_gain(global.localsound, volume / 2, 0)	
 
 	}
 }
@@ -22,4 +24,7 @@ if(status) {
 if(instance_exists(obj_optionsmenu)) {
 	instance_destroy(obj_optionsmenu)
 }
+}
+else {
+	malen = true;
 }

@@ -1038,8 +1038,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
-            "id": "f66f7655-34f3-413d-a303-db92c19f1ae6",
+            "name": "ins_gun",
+            "id": "e3712e2f-685a-476b-a71d-12041ce6c98a",
             "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
@@ -1064,8 +1064,8 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "ins_gun",
-            "id": "eb6c7333-e1c4-445b-a925-94a5f598ec6f",
+            "name": "Instances",
+            "id": "328a88e3-092b-4d67-952b-936893f8a2f7",
             "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
