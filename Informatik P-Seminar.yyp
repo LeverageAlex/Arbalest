@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "5f1548bb-9509-453e-863e-9bac287003e9",
+            "Value": {
+                "id": "ce014965-3225-445c-afce-9ef540acf69b",
+                "resourcePath": "objects\\obj_respawnknopf\\obj_respawnknopf.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60283429-9081-4c76-89ca-f37ffd57a3a1",
             "Value": {
                 "id": "bb356cb9-e0f8-40a6-86ac-d76c651d9054",
@@ -2540,6 +2548,14 @@
                 "id": "fe82919f-2cbe-4b90-83d5-d6a8f183e9a1",
                 "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffed50e9-a00b-44c6-a60d-7c199357a6f7",
+            "Value": {
+                "id": "3ecb280a-7bc2-4b26-933d-ec862bc152e7",
+                "resourcePath": "sprites\\sp_wiederbeleben\\sp_wiederbeleben.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
