@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "4f21275f-3d68-4d00-acc1-7eae74342cf9",
+            "Value": {
+                "id": "18d9c2b9-b755-4b67-8db7-36f682d79900",
+                "resourcePath": "sprites\\sp_hintergrund_thronsaalPokemonKoks\\sp_hintergrund_thronsaalPokemonKoks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f350497-77a1-4da5-868c-9081e797fd4b",
             "Value": {
                 "id": "ddecfc2d-2aa6-4a7c-a4a4-92aed7dcedbf",
