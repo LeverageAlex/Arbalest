@@ -17,7 +17,7 @@ global.wase = true;
 global.dialog_index = 0;
 
 global.ruestung = 0;
-global.geld = 8;
+global.geld = 0;
 //}
 locked = false;
 global.xp = 1;

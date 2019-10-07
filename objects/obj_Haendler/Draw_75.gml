@@ -7,9 +7,15 @@ if(status) {
 	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * p) - 7,
 	guiHolderPosY + guiHolderPadd - 146 - (66) - 2 - 162, 57, 57);	
 	if(inventar[p] != ItemType.empty) {
+		draw_set_color(c_blue);
 		draw_text(	(guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * p) - 7,
 	guiHolderPosY + guiHolderPadd + 30 - 75 + 2 - 146 - 162, string(anzahl[p]));	
 	}	
+	draw_set_color(c_green);
+	if(global.itemDefinitions [inventar[p], ItemProperty.value] > 0) {
+	draw_text((guiHolderPosX + guiHolderPadd) + (guiHolderSlotOffset * p) - 10,
+	guiHolderPosY + guiHolderPadd + 46 - 75 + 2 - 146 - 146, string(global.itemDefinitions [inventar[p], ItemProperty.value]) + "$")
+	}
 	}
 	
 if(mouse_check_button_pressed(2)) {
