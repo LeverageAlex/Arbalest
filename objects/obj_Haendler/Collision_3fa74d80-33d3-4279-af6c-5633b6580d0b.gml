@@ -24,7 +24,12 @@ if(status) {
 if(instance_exists(obj_optionsmenu)) {
 	instance_destroy(obj_optionsmenu)
 }
+if(instance_exists(obj_preOptions)) {
+	instance_destroy(obj_preOptions)
+}
 }
 else {
+	if(!(instance_exists(obj_preOptions) || instance_exists(obj_optionsmenu))) {
 	malen = true;
+	}
 }
