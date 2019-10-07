@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "54cdb801-7a82-48a4-ae13-90ec2754fe9b",
+            "Value": {
+                "id": "0ccfcecf-f015-43c2-8857-62090396cd80",
+                "resourcePath": "sprites\\sp_neuesSpiel\\sp_neuesSpiel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "54e4bc8f-cc07-46f7-93dc-a04527a4d092",
             "Value": {
                 "id": "d7f9f0b3-f3fa-4924-8271-99984728e319",
@@ -1051,6 +1059,14 @@
             "Value": {
                 "id": "ce014965-3225-445c-afce-9ef540acf69b",
                 "resourcePath": "objects\\obj_respawnknopf\\obj_respawnknopf.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5fa00e16-0492-4b5f-9194-6a71dea27e90",
+            "Value": {
+                "id": "d55bc6da-1aeb-430b-94ec-f720c0cbe59b",
+                "resourcePath": "objects\\obj_spielFortsetzen\\obj_spielFortsetzen.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2127,6 +2143,14 @@
             }
         },
         {
+            "Key": "cfdda019-eb27-4540-99e5-f0e2bf898482",
+            "Value": {
+                "id": "202887a4-0f55-4977-93ab-3253ca2a692a",
+                "resourcePath": "sprites\\sp_spielFortsetzen\\sp_spielFortsetzen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cfedca9d-b910-4653-8fa6-7ef705782c20",
             "Value": {
                 "id": "7c79b1ed-d11b-4683-a5a0-1a08f00ef101",
@@ -2444,6 +2468,14 @@
                 "id": "72039ebd-9498-4aac-9a3e-628766b3df37",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f426ad82-4b2f-408e-a30b-ae50e73f7224",
+            "Value": {
+                "id": "6b5c4adc-7f5e-4ba8-9a5f-89ec348ea914",
+                "resourcePath": "objects\\obj_neuesSpiel\\obj_neuesSpiel.yy",
+                "resourceType": "GMObject"
             }
         },
         {
