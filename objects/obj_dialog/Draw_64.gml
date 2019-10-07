@@ -8,8 +8,14 @@ instance_destroy(obj_inventoryManager);
 
 draw_set_color(c_white);
 dialogseiteP = false;
+
+
 if(global.dialog_index % 2 == 0) {
 	dialogseiteP = true;
+}
+
+if(global.zusatzpartner) {
+dialogseiteP = dialogseiteP == false;	
 }
 
 

@@ -7,5 +7,5 @@ if(!timer) {
 /*referenz.story = true;
 obj_Player.locked = true;*/
 //timer = true;
-instance_create_layer(x, y, "Vorne", obj_dialog);
+instanz = instance_create_layer(x, y, "Vorne", obj_dialog);
 obj_Player.x -= 200;
