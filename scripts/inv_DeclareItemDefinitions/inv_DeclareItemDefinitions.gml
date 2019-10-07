@@ -4,17 +4,17 @@ inv_AddItemDef(ItemType.empty, sp_empty, "", 0, 0, use_Empty);
 
 //inv_AddItemDef(ItemType.weapon, sp_weapon,"pistol", 0, 6, use_Empty);
 
-inv_AddItemDef(ItemType.apfel, sp_apfel,"Apfel", 0, 30, use_apfel);
+inv_AddItemDef(ItemType.apfel, sp_apfel,"Apfel", 0, 70, use_apfel);
 
-inv_AddItemDef(ItemType.weapon, sp_Bogen,"Bogen", 0, 80, use_Bogen);
+inv_AddItemDef(ItemType.weapon, sp_Bogen,"Bogen", 0, 250, use_Bogen);
 
-inv_AddItemDef(ItemType.schwert, sp_Schwert,"Schwert", 0, 50, use_Schwert);
+inv_AddItemDef(ItemType.schwert, sp_Schwert,"Schwert", 0, 200, use_Schwert);
 
-inv_AddItemDef(ItemType.ruestung, sp_ruestung, "Ruestung", 0, 40, use_ruestung);
+inv_AddItemDef(ItemType.ruestung, sp_ruestung, "Ruestung", 0, 80, use_ruestung);
 
-inv_AddItemDef(ItemType.zeitlupe, sp_sanduhr, "Zeitlupe", 0, 110, use_Zeitlupe);
+inv_AddItemDef(ItemType.zeitlupe, sp_sanduhr, "Zeitlupe", 0, 220, use_Zeitlupe);
 
-inv_AddItemDef(ItemType.pfeile, sp_pfeil, "Pfeile", 0, 4, use_Empty());
+inv_AddItemDef(ItemType.pfeile, sp_pfeil, "Pfeile", 0, 8, use_Empty());
 
 
 inv_AddItemDef(ItemType.test1, sp_ruestung, "Ruestung", 0, 0, use_ruestung);
