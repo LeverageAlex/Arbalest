@@ -27,14 +27,16 @@ auftauchen = true;
 }
 else if(!begraben) {
 	speed = 5;
-if(obj_Player.x < x) {
+if(obj_Player.x + 70 < x) {
 direction = 180;
 image_xscale = 1;
 
 }
-else {
+else if(obj_Player.x - 70 > x) {
 direction = 0;	
 	image_xscale = -1;
+} else {
+speed = 0;	
 }
 
 }
