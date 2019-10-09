@@ -2,4 +2,5 @@
 // You can write your code in this editor
 with(other) {
 leben -= 1*global.schadenmodifikator;	
+damaged = true;
 }

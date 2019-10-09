@@ -45,6 +45,34 @@
             "value": "1",
             "varName": "wert",
             "varType": 1
+        },
+        {
+            "id": "4ce635ad-34b5-41ad-84d6-0fddbcba800b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damaged",
+            "varType": 3
+        },
+        {
+            "id": "4d8e5587-adae-4b8d-95ac-bed764115eff",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "timerDmg",
+            "varType": 1
         }
     ],
     "solid": false,
