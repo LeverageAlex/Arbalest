@@ -1,9 +1,9 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-damaged = true;
+
 if(other.id.eigen) {
 hp = hp - 1;
-
+damaged = true;
 if (hp <= 0) 
 {
 /*	with(waffe) {
