@@ -73,6 +73,20 @@
             "value": "0",
             "varName": "timerDmg",
             "varType": 1
+        },
+        {
+            "id": "bbe0ba03-a618-428d-b81f-f336782e96e5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pulsierend",
+            "varType": 1
         }
     ],
     "solid": false,
