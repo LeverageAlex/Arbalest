@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "0a6253bc-a495-4f16-862b-b566687ec267",
+            "Value": {
+                "id": "a50b1348-ba20-4aa7-b2a3-d18d525956c1",
+                "resourcePath": "views\\0a6253bc-a495-4f16-862b-b566687ec267.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0a6af478-91ac-4fff-8052-b07ce98ee945",
             "Value": {
                 "id": "ab787da1-522f-4bf9-b850-39650745b362",
@@ -508,14 +516,6 @@
                 "id": "7298ee28-255d-4c6b-bc40-a3af0f863602",
                 "resourcePath": "objects\\obj_ammo_display\\obj_ammo_display.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "31ad2027-f826-4b64-b590-1af7454faf5e",
-            "Value": {
-                "id": "1edb3b36-13b3-425e-9eb2-ca98ac315fdd",
-                "resourcePath": "sprites\\sp_tutorial_haus\\sp_tutorial_haus.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1743,6 +1743,14 @@
             }
         },
         {
+            "Key": "a2507eea-53c6-43e5-951e-737be41cc645",
+            "Value": {
+                "id": "ab94bb90-bbd5-4b1d-af8c-a3d7a89f375e",
+                "resourcePath": "views\\a2507eea-53c6-43e5-951e-737be41cc645.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a390004a-e731-4bf2-8260-da520a4cddc6",
             "Value": {
                 "id": "994ac926-5e05-4e0a-9c7a-86a8f877bba3",
@@ -2148,14 +2156,6 @@
                 "id": "332c6d15-7ef1-4043-841f-9b39791bd0ca",
                 "resourcePath": "views\\cdefd34e-1a07-41db-b367-ee5097ba8b77.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ce04a30c-74b1-4082-9ed7-7d9fb8c9ff5f",
-            "Value": {
-                "id": "b32a3c2a-c784-46b1-8b17-298f39de1e27",
-                "resourcePath": "sprites\\sp_wasd\\sp_wasd.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

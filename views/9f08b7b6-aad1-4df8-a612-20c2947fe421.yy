@@ -30,7 +30,11 @@
         "be43f0fa-1f7f-497a-b4e2-d33075b974ef",
         "9cfd0283-bd5c-42f6-afe0-b9cee6654b85",
         "b76cae25-e80a-43f1-bbd4-056243321c47",
-        "ab0d0dd4-6260-4673-9b31-fd5022f750a1"
+        "ab0d0dd4-6260-4673-9b31-fd5022f750a1",
+        "4f21275f-3d68-4d00-acc1-7eae74342cf9",
+        "6e8b0788-457a-4695-852c-bbaa001301a8",
+        "aeaf534e-7b8f-44fb-bbad-bdae7a7c7183",
+        "3fe8ba54-5ef1-4805-a335-0d0130a56f4b"
     ],
     "filterType": "GMSprite",
     "folderName": "Landschaft",
