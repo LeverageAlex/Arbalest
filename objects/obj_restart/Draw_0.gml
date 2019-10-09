@@ -19,7 +19,7 @@ if(fade_alpha == 1) {
 gameover = false;	
 	draw_set_alpha(1);
 //	transition_kind = 5;
-	room_goto(4);
+	room_goto(r_hauptmenu);
 }
 }
 

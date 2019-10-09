@@ -28,7 +28,7 @@
 }
 	}
 	
-	show_debug_message("success")
+//	show_debug_message("success")
 	//show_message(ini_read_real("Room", "number", 0))
 	room_goto(ini_read_real("Room", "number", 0))
 	ini_close();
