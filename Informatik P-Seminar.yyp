@@ -1167,6 +1167,14 @@
             }
         },
         {
+            "Key": "67893b81-1eac-4dd2-a480-7c19f8b06b9e",
+            "Value": {
+                "id": "6882ca3b-0c38-4339-8535-385d9a97ac6e",
+                "resourcePath": "sprites\\sp_koenig\\sp_koenig.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67bccd9b-8d6d-4260-8390-0e196c07007c",
             "Value": {
                 "id": "73747699-cb04-4304-bc5e-3c6310ba7ec3",
@@ -1219,6 +1227,14 @@
             "Value": {
                 "id": "de3ad30d-d1dc-43fa-8e01-0a4a7cdcc9d8",
                 "resourcePath": "sprites\\sp_vbar\\sp_vbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e8b0788-457a-4695-852c-bbaa001301a8",
+            "Value": {
+                "id": "fb10a3ad-706c-4a91-9140-ff7c8bf9255c",
+                "resourcePath": "sprites\\sp_hintergrund_Kanalisation\\sp_hintergrund_Kanalisation.yy",
                 "resourceType": "GMSprite"
             }
         },
