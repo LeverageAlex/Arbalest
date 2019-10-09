@@ -10,7 +10,7 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil -1)
 
-if(mouse_check_button(mb_left)) && (firingdelay < 0)
+if(mouse_check_button(mb_left)) && (firingdelay < 0) && zeit > 40
 {
 	audio_play_sound(snd_crossbow_shot, 10, false);
 		rechnungx = 22*cos(degtorad(image_angle));
@@ -49,3 +49,4 @@ room_goto(r_splash);
 }
 
 timer++;
+zeit++;
