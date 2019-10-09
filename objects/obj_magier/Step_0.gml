@@ -6,7 +6,9 @@ if(timer) {
 	if(zaehler == 60*6) {
 
 	//room_goto(r_victoryscreen);
-	room_goto_next();
+	audio_stop_sound(global.localsound);
+	
+	nextTurn = true;
 	}
 }
 
@@ -24,4 +26,9 @@ else if(y < kaky + 24 && !hochfahren) {
 	if(y >= kaky + 18) {
 	hochfahren = true;
 }
+}
+if(nextTurn && room != r_level6) {
+	room_goto_next();	
+} else if(nextTurn) {
+room_goto(r_victoryscreen)	
 }
