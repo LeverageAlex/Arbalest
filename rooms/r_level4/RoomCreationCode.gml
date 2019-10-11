@@ -1,5 +1,5 @@
 global.number = 0;
-global.schadenmodifikator = 0.8;
+global.schadenmodifikator = 1;
 audio_stop_sound(global.localsound);
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 global.wase = true;
