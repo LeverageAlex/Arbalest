@@ -9,7 +9,8 @@
         "7f35d3d7-a831-49b0-9bce-681658f59caa",
         "b0ee71a7-fe58-437e-b4d0-1a30d759bfc6",
         "a477362d-153a-4cc0-a942-100478e8080d",
-        "0360c457-5a54-4c59-b946-695df7ccfdda"
+        "0360c457-5a54-4c59-b946-695df7ccfdda",
+        "2cdca5c2-45e5-454e-ab7f-413c77c66c36"
     ],
     "filterType": "GMRoom",
     "folderName": "der_restliche_muell",
