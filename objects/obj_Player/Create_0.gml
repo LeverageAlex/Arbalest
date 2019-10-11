@@ -1,3 +1,5 @@
+//OpKit
+instance_create_layer(0,0, "ins_player", obj_opKit);
 hspd = 0; //mm
 ungesperrt = true;
 vspd = 0;
