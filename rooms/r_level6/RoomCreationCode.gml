@@ -1,5 +1,5 @@
 global.number = 0;
-global.schadenmodifikator = 0.8;
+global.schadenmodifikator = 1.5;
 audio_stop_sound(global.localsound);
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 global.wase = true;
@@ -12,13 +12,3 @@ ds_list_add(global.dialog, "Planwirtschaft! Lorem Ipsum Paul mag kot auf den Stu
 ds_list_add(global.dialog, "Einheit");
 
 room_init_dialog();
-
-
-
-/*
-global.number = 0;
-global.schadenmodifikator = 0;
-global.volume = 50;
-global.localsound = audio_play_sound(snd_level_1, 5, true);
-global.wase = true;
-*/

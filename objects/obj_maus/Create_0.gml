@@ -3,4 +3,4 @@
 
 begraben = true;
 auftauchen = false;
-leben = 3;
+leben = 3*(global.schadenmodifikator*3+1);

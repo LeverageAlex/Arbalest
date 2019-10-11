@@ -2,7 +2,7 @@
 {
     "name": "r_level6",
     "id": "253509f0-19c9-4ee0-bb7c-56b490415154",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
