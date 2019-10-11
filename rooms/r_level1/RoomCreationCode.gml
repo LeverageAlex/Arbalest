@@ -1,5 +1,5 @@
 global.localsound = audio_play_sound(snd_level_1, 5, true);
-global.schadenmodifikator = 0.3;
+global.schadenmodifikator = 0.3*global.basisschwierigkeit;
 zeilenumbruch = 28;
 global.toDo = 0;
 global.dialog = ds_list_create();

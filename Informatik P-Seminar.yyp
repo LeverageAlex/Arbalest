@@ -1255,6 +1255,14 @@
             }
         },
         {
+            "Key": "715ee11d-7ae2-45dd-8a8c-72902e3193b6",
+            "Value": {
+                "id": "214d84fd-a3b8-450c-ae95-56d6867499f0",
+                "resourcePath": "objects\\obj_koenig\\obj_koenig.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "72470544-c369-4de2-8278-7ea2c8389015",
             "Value": {
                 "id": "2b6171b4-3089-4779-911c-34a687e3380a",

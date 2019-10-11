@@ -1,5 +1,6 @@
 global.number = 0;
 global.schadenmodifikator = 0;
+global.basisschwierigkeit = 1;
 /*global.klettern = ord("W");
 global.links = ord("A");
 global.rechts = ord("D");
@@ -9,7 +10,6 @@ global.springen = vk_space;*/
 
 //ROOM 1
 global.number = 0;
-global.schadenmodifikator = 0;
 global.volume = 50;
 global.localsound = 0.5;
 
