@@ -8,5 +8,6 @@ obj_Player.freeze = true;
 dialogplayer = "";
 animationfertig = true;
 zaehler = 0;
+vorgaengerX = ds_list_create();
 
 

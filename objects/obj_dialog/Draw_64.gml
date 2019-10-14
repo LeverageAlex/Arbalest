@@ -23,21 +23,35 @@ for(i = global.dialog_index; i >= 0; i--) {
 	
 	
 text = ds_list_find_value(global.dialog, i);
+yscaleblase = 0.4+0.005*string_length(text);
+if(ds_list_size(vorgaengerX) < global.dialog_index) {
+	ds_list_add(vorgaengerX, 334 * yscaleblase)
+}
+abstand = 0;
+if(i != global.dialog_index) {
+	
+	for(z = i; z < global.dialog_index; z++) {
+		abstand += ds_list_find_value(vorgaengerX, z);
+	}
+}
+
+
 if(dialogseiteP) {
 	offset = -300;
-draw_sprite(sp_sprechblase, 0, 595 + offset,  510 - (190*(global.dialog_index-i)))
+draw_sprite_ext(sp_sprechblase, 0, 595 + offset,  510 - abstand/*(190*(global.dialog_index-i))*/, 1, yscaleblase, 0, -1, 1)
 
 }
 else {
 	offset = 300;
-draw_sprite_ext( sp_sprechblase, 0, 700 + 520 + offset, 510 - (190*(global.dialog_index-i)), -1, 1, 0, -1, 1);	
+draw_sprite_ext( sp_sprechblase, 0, 700 + 520 + offset, 510 - abstand/*(190*(global.dialog_index-i))*/, -1, yscaleblase, 0, -1, 1);	
 
 }
+
 if(i != global.dialog_index) {
-draw_text(960 - 240/*(string_length(text)*9)*/ + offset, 540 - (190*(global.dialog_index-i)), text);
+draw_text(920 - 240/*(string_length(text)*9)*/ + offset, 540 - abstand/*(190*(global.dialog_index-i))*/, text);
 }
 else {
-	draw_text(960 - 240/*(string_length(text)*9)*/ + offset, 540 - (190*(global.dialog_index-i)), string_copy(text, 0, zaehler/4));
+	draw_text(920 - 240/*(string_length(text)*9)*/ + offset, 540 - abstand/*(190*(global.dialog_index-i))*/, string_copy(text, 0, zaehler/4));
 }
 dialogseiteP = dialogseiteP == false;
 }
