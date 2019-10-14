@@ -7,6 +7,7 @@
 	global.geld = ini_read_real("Player", "Money", 0);
 	global.level = ini_read_real("Player", "Level", 1);
 	global.xp = ini_read_real("Player", "XP", 0);
+	global.spielername = ini_read_string("Player", "Name", "Spieler");
 
 	inv_initialize()
 	for(var i = 1; i <= MAX_INV_ITEMS; i++) {

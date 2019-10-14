@@ -2,7 +2,7 @@ reader = ini_open("saves.ini");
 	ini_write_real("Player", "Health", health);
 	ini_write_real("Player", "Ruestung", global.ruestung);
 	ini_write_real("Player", "Money", global.geld);
-	
+	ini_write_string("Player", "Name", global.spielername)
 	for(var i = 1; i <= MAX_INV_ITEMS; i++) {
 
 	//	audio_play_sound(snd_keyboard_press, 10, false);
