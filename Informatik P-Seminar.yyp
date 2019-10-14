@@ -1167,6 +1167,14 @@
             }
         },
         {
+            "Key": "66ed6126-b776-4d8d-ba00-8843b7427906",
+            "Value": {
+                "id": "35ffe229-2370-4172-a273-5c75f837753f",
+                "resourcePath": "objects\\obj_namenseingabeFeld\\obj_namenseingabeFeld.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "676296e7-e01f-457a-8b4b-83c3ccf8f0e2",
             "Value": {
                 "id": "e0b22cca-d483-4d0f-860b-eecfa50adc84",
