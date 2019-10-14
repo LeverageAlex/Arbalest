@@ -2,7 +2,7 @@
 // You can write your code in this editor
 text = "";
 cursor = "|";
-limit = 13;
+limit = 12;
 delay = 20;
 verschiebungX = 305;
 verschiebungY = 300;
