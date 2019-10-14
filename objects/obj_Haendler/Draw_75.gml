@@ -42,7 +42,7 @@ if(inventar[n] != ItemType.empty && global.geld >= global.itemDefinitions[invent
 for(var n = 0; n < 5; n++) {
 		if((device_mouse_x_to_gui( 0 ) > 744 + (n * 84) && device_mouse_x_to_gui( 0 ) < 803 + (n * 84)) && ((device_mouse_y_to_gui( 0 ) > 931 && device_mouse_y_to_gui( 0 ) < 988))) {
 //show_message(array_find_pos(n));
-			global.geld += global.itemDefinitions[global.inventory[n], ItemProperty.value];
+			global.geld += global.itemDefinitions[global.inventory[n], ItemProperty.value]/0.7;
 			inv_RemoveItem(array_find_pos(n));
 			
 		
