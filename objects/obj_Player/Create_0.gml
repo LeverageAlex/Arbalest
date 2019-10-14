@@ -11,7 +11,7 @@ firecooldown = 0;
 jumpl = 0;
 //weapon indentify
 weapon_state = 0;
-
+downrate = 20;
 // get ammo
 ammonition = 0;
 //if(room == 0) {

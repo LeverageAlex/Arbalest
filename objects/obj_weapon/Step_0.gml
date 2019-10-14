@@ -75,7 +75,7 @@ with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet
 			obj_magazin.ammo = obj_magazin.ammo - 1;
 	
 		}	
-obj_Player.firecooldown = 20;
+obj_Player.firecooldown = obj_Player.downrate;
 		} 
 		
 		
