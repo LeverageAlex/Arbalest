@@ -12,7 +12,7 @@ else if(keyboard_key == vk_enter) {
 	global.spielername = text;
 	room_goto_next();	
 }
-else if(string_width(text) < 295){
+else if(string_width(text) < limit){
 text += chr(keyboard_key);
 }
 }
