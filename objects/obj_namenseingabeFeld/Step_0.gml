@@ -10,6 +10,9 @@ if(keyboard_check_pressed(vk_backspace))
 else if(keyboard_key == vk_enter) {
 	//Weiter
 	global.spielername = text;
+	reader = ini_open("saves.ini");
+		ini_write_string("Settings", "Spielername", global.spielername);
+		ini_close();
 	room_goto_next();	
 }
 else if(string_width(text) < limit){

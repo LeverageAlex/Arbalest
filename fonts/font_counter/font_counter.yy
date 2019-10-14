@@ -1,19 +1,21 @@
 {
     "id": "b6ea4e4b-c521-4383-a247-23436bb9d500",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "font_counter",
     "AntiAlias": 1,
     "TTFName": "",
+    "ascenderOffset": 0,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Comic Sans MS",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
             "Value": {
-                "id": "6135d604-1329-4710-b961-dac1165f246d",
+                "id": "8a4976d1-904d-4627-8938-15051f035f7b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 32,
@@ -28,7 +30,7 @@
         {
             "Key": 33,
             "Value": {
-                "id": "baf3d31d-d1ec-4d35-a592-e0badba6cd6b",
+                "id": "d56735d3-a8f1-4d2c-969d-b5142a345c9f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 33,
@@ -43,7 +45,7 @@
         {
             "Key": 34,
             "Value": {
-                "id": "550e27ca-ebdf-4176-bd22-b95451cbfbd9",
+                "id": "e510572c-540d-4b54-8601-1ac0d5cdda31",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 34,
@@ -58,7 +60,7 @@
         {
             "Key": 35,
             "Value": {
-                "id": "b99b98e8-1960-4968-a091-feb6abf09fa2",
+                "id": "c02e78ee-bf2e-4899-b394-89b18f9ab4f9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 35,
@@ -73,7 +75,7 @@
         {
             "Key": 36,
             "Value": {
-                "id": "58b6842b-346e-4f2f-81ac-2e2cdb25bc65",
+                "id": "1ad34164-7033-41f3-9f3e-137077fc107f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 36,
@@ -88,7 +90,7 @@
         {
             "Key": 37,
             "Value": {
-                "id": "b178d45d-a8f0-4b61-8f3a-a6b8b5834242",
+                "id": "91144ffb-9f58-4512-9529-6fa8143046ae",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 37,
@@ -103,7 +105,7 @@
         {
             "Key": 38,
             "Value": {
-                "id": "e184a6bb-4c28-4d72-b364-0144f38a064f",
+                "id": "e69803e2-0e40-4da2-a302-68a6f1b6cd8f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 38,
@@ -118,7 +120,7 @@
         {
             "Key": 39,
             "Value": {
-                "id": "f8ff4296-3f73-4add-97c4-c43de9a81a8f",
+                "id": "94c6488d-e0b5-4a46-8b56-8cd082ab7703",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 39,
@@ -133,7 +135,7 @@
         {
             "Key": 40,
             "Value": {
-                "id": "68783b31-e9a2-44c9-b24f-89ec93105ea0",
+                "id": "5439b638-aefe-4109-85dc-040c896ae33e",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 40,
@@ -148,7 +150,7 @@
         {
             "Key": 41,
             "Value": {
-                "id": "de34e54e-7ad5-460e-b247-c56cbe5b3d3e",
+                "id": "33bb9c12-4c9e-4024-8ded-99e553ad4e2a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 41,
@@ -163,7 +165,7 @@
         {
             "Key": 42,
             "Value": {
-                "id": "90ba1d76-d000-4ec9-b7ee-3a45dd770ca7",
+                "id": "0cb0d387-5b25-4714-a677-096207ade79f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 42,
@@ -178,7 +180,7 @@
         {
             "Key": 43,
             "Value": {
-                "id": "798ba541-d5de-4107-b25e-2f97b15c2e8a",
+                "id": "7008a488-386e-45aa-af55-52764914d5cb",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 43,
@@ -193,7 +195,7 @@
         {
             "Key": 44,
             "Value": {
-                "id": "488f27ed-c3c4-4f36-9249-425b97ef0123",
+                "id": "56c15b79-1a46-41a2-acf6-46fdc32abb65",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 44,
@@ -208,7 +210,7 @@
         {
             "Key": 45,
             "Value": {
-                "id": "5465dc62-6f5f-428b-8f79-58e209cdff85",
+                "id": "fc3c20ef-ee08-4748-97d4-ff843c86f0a2",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 45,
@@ -223,7 +225,7 @@
         {
             "Key": 46,
             "Value": {
-                "id": "fcfe7b40-1558-4876-89c2-194d52c53e74",
+                "id": "4b9fa8df-c583-4c54-b390-31f76a814285",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 46,
@@ -238,7 +240,7 @@
         {
             "Key": 47,
             "Value": {
-                "id": "9c0b18fd-54ea-4790-8b46-2036378799ec",
+                "id": "21cf8405-5f14-4206-b41d-8528059241e9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 47,
@@ -253,7 +255,7 @@
         {
             "Key": 48,
             "Value": {
-                "id": "e5a8f2f9-634f-40e7-80c7-011c9559079d",
+                "id": "b658008c-8c58-4a49-a0bc-74fee361420e",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 48,
@@ -268,7 +270,7 @@
         {
             "Key": 49,
             "Value": {
-                "id": "bd33822b-8be3-4da4-ab08-a7d83ac06550",
+                "id": "4899a3dd-69b2-4115-b49f-7a367986eea0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 49,
@@ -283,7 +285,7 @@
         {
             "Key": 50,
             "Value": {
-                "id": "18b65207-ef7f-495f-ab80-e02930e68fce",
+                "id": "59af26e1-a810-42b0-b670-62a9ea965cc0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 50,
@@ -298,7 +300,7 @@
         {
             "Key": 51,
             "Value": {
-                "id": "9b3d99fc-5248-486f-96cc-8cbd26cdae23",
+                "id": "df7f6a19-2bd5-4002-8917-11c48713083a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 51,
@@ -313,7 +315,7 @@
         {
             "Key": 52,
             "Value": {
-                "id": "85337736-376f-401b-a6f9-104167f63c44",
+                "id": "4b9ce691-f576-422e-84e1-8b110da5ba81",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 52,
@@ -328,7 +330,7 @@
         {
             "Key": 53,
             "Value": {
-                "id": "99aae692-e627-4ca9-a4b9-e37354b2e6e2",
+                "id": "cf53faa0-3e2c-4f34-907d-0cf2f7d26562",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 53,
@@ -343,7 +345,7 @@
         {
             "Key": 54,
             "Value": {
-                "id": "bd07f39b-9959-478f-8f6d-0b0207cdbbf0",
+                "id": "f56aaf13-daee-4f30-97a7-a6cb1d8d14a2",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 54,
@@ -358,7 +360,7 @@
         {
             "Key": 55,
             "Value": {
-                "id": "7bb91fad-c0aa-43fe-aa0d-2b5994d72be3",
+                "id": "0224219d-c0ae-4bcf-ae8f-2c829b3edd48",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 55,
@@ -373,7 +375,7 @@
         {
             "Key": 56,
             "Value": {
-                "id": "2929f82c-684f-4f7c-835c-55198de9db10",
+                "id": "f0f83ca7-5669-4fc6-9ec0-0ed486ce22ba",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 56,
@@ -388,7 +390,7 @@
         {
             "Key": 57,
             "Value": {
-                "id": "ff4a4544-92ad-4f90-a459-33742b2e75f9",
+                "id": "7318637c-dc3d-4627-926e-bf61b76dfd49",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 57,
@@ -403,7 +405,7 @@
         {
             "Key": 58,
             "Value": {
-                "id": "88f26b61-63d2-4e0e-9d7b-b4254bd97f72",
+                "id": "2c9a857b-a6ac-4501-89f1-44d85ed5cdf0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 58,
@@ -418,7 +420,7 @@
         {
             "Key": 59,
             "Value": {
-                "id": "806d2450-6263-4144-b091-0e879e610277",
+                "id": "53191ef9-423f-42cc-841a-3197be81bbc4",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 59,
@@ -433,7 +435,7 @@
         {
             "Key": 60,
             "Value": {
-                "id": "14ae6989-3772-406d-8886-722cd5a8838d",
+                "id": "f517ea55-6792-42af-a77e-5d643d978ab1",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 60,
@@ -448,7 +450,7 @@
         {
             "Key": 61,
             "Value": {
-                "id": "ff073928-4233-40c1-a063-046537ef8a06",
+                "id": "a3607204-0a12-4131-8307-40f16cc9c71f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 61,
@@ -463,7 +465,7 @@
         {
             "Key": 62,
             "Value": {
-                "id": "7ee6be3d-d05c-48be-ba7c-130f20908741",
+                "id": "90471da2-52f9-42b8-b090-e6d4d0d55df7",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 62,
@@ -478,7 +480,7 @@
         {
             "Key": 63,
             "Value": {
-                "id": "d1f79c97-8bfd-4750-9461-037e83efb2d0",
+                "id": "fd8db9e1-2ee5-425c-b1fc-587cf8aecc70",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 63,
@@ -493,7 +495,7 @@
         {
             "Key": 64,
             "Value": {
-                "id": "627db011-b057-408d-8d72-432766a1ff4a",
+                "id": "bde5a00f-4c63-4291-aad4-8233e9b2bc09",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 64,
@@ -508,7 +510,7 @@
         {
             "Key": 65,
             "Value": {
-                "id": "7e604bdb-f207-4607-9fdc-8ba7e32b02b5",
+                "id": "eddd322c-306b-4dad-8c60-70ede061b7ce",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 65,
@@ -523,7 +525,7 @@
         {
             "Key": 66,
             "Value": {
-                "id": "fbdc3f61-4296-4f89-9d43-95001e18627c",
+                "id": "f1a1ebf8-6df0-4f7e-a773-29624005d0ff",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 66,
@@ -538,7 +540,7 @@
         {
             "Key": 67,
             "Value": {
-                "id": "4dfcc759-0e73-47b3-9ac8-95339005d3f2",
+                "id": "a8cf78ff-db0d-4ae3-8a6d-779af6d1b066",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 67,
@@ -553,7 +555,7 @@
         {
             "Key": 68,
             "Value": {
-                "id": "57fb01e9-f13d-408c-b1ab-4b0682619161",
+                "id": "deb221c7-64e2-4544-92b1-3f99de5a1923",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 68,
@@ -568,7 +570,7 @@
         {
             "Key": 69,
             "Value": {
-                "id": "31f0db63-1ca7-46bc-a1fb-b9af7ce76ebf",
+                "id": "2ab63a51-59f9-441a-ab74-9c80115e8d85",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 69,
@@ -583,7 +585,7 @@
         {
             "Key": 70,
             "Value": {
-                "id": "66674e4a-c3ef-413a-ad36-a4b4e7a9b3ba",
+                "id": "d6d94505-da7d-456f-b245-75050554128c",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 70,
@@ -598,7 +600,7 @@
         {
             "Key": 71,
             "Value": {
-                "id": "af4ef804-da29-46b9-9808-a1c3df7aa5a2",
+                "id": "a5b708bd-8fab-4f1d-9f2b-f5479a2a9f62",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 71,
@@ -613,7 +615,7 @@
         {
             "Key": 72,
             "Value": {
-                "id": "77f5d0d3-c4ad-448e-bb5c-037e4056c8a8",
+                "id": "82188913-e891-4c18-af36-8675737a1c48",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 72,
@@ -628,7 +630,7 @@
         {
             "Key": 73,
             "Value": {
-                "id": "6b2af1c9-38a2-49e2-bf16-ff095eb391ee",
+                "id": "f4f395a6-ba73-4f85-81b1-a0af4205fc24",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 73,
@@ -643,7 +645,7 @@
         {
             "Key": 74,
             "Value": {
-                "id": "4c35548b-f817-4bb5-adcd-b019c36a9e5d",
+                "id": "cb499ea5-12b2-4b8a-a2c5-12b806aff5f5",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 74,
@@ -658,7 +660,7 @@
         {
             "Key": 75,
             "Value": {
-                "id": "a294f9a6-9bed-4900-b41e-acbd6b9fd95e",
+                "id": "12d616df-204a-40a8-8ab9-0cba6922be7b",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 75,
@@ -673,7 +675,7 @@
         {
             "Key": 76,
             "Value": {
-                "id": "5c047429-144a-4234-99fd-0bec6d320628",
+                "id": "74361099-6449-4302-b8f2-92bdb0a1b061",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 76,
@@ -688,7 +690,7 @@
         {
             "Key": 77,
             "Value": {
-                "id": "172aa9db-f382-41d7-b459-f163c417f434",
+                "id": "9eb01204-4b34-42d6-8288-d10614924290",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 77,
@@ -703,7 +705,7 @@
         {
             "Key": 78,
             "Value": {
-                "id": "c1df952f-d947-42af-b46d-79877cfd9339",
+                "id": "9c510f66-5e5c-480a-952c-aae5e2539551",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 78,
@@ -718,7 +720,7 @@
         {
             "Key": 79,
             "Value": {
-                "id": "3289ad7c-fe84-4e44-a7c9-07d5b025959e",
+                "id": "e411e1c6-b483-4472-bd67-f14332e23d63",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 79,
@@ -733,7 +735,7 @@
         {
             "Key": 80,
             "Value": {
-                "id": "6d272b0a-9d9f-4da2-a285-521dc9131eec",
+                "id": "3b808a3f-aa67-4318-a2be-0527463a416d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 80,
@@ -748,7 +750,7 @@
         {
             "Key": 81,
             "Value": {
-                "id": "d739f1b9-383a-451a-a722-c39ebdf67594",
+                "id": "13882cb4-7d53-4109-b138-ce63fd23fa19",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 81,
@@ -763,7 +765,7 @@
         {
             "Key": 82,
             "Value": {
-                "id": "4ea135bf-8652-4f7b-b8cc-59ca0bdecfff",
+                "id": "6b708723-c4fa-486a-ab6a-ff40e7bf0075",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 82,
@@ -778,7 +780,7 @@
         {
             "Key": 83,
             "Value": {
-                "id": "88a78149-3c2a-4728-8c6f-4e2b686c4710",
+                "id": "8cb18cb1-5b1c-4067-9761-2af056aaa9b7",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 83,
@@ -793,7 +795,7 @@
         {
             "Key": 84,
             "Value": {
-                "id": "7ccd46fc-e056-4e8f-8aa1-213b41266eda",
+                "id": "ef5dc3f2-1b2e-4dbe-a024-31371ff6a614",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 84,
@@ -808,7 +810,7 @@
         {
             "Key": 85,
             "Value": {
-                "id": "3f6a76cd-ab02-4619-b4ac-2dcdee68de07",
+                "id": "92c99b3a-22f4-4809-b35a-504dd151d9f3",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 85,
@@ -823,7 +825,7 @@
         {
             "Key": 86,
             "Value": {
-                "id": "857864d5-a01f-43c2-8a52-80273f2296d1",
+                "id": "940b25c2-3f29-4faa-836b-18c22474df51",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 86,
@@ -838,7 +840,7 @@
         {
             "Key": 87,
             "Value": {
-                "id": "4aa8aeaa-bc2e-496d-a445-d3eaf8dbf51d",
+                "id": "7d0b7a3b-080f-4b31-acd8-4e2231a22a2d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 87,
@@ -853,7 +855,7 @@
         {
             "Key": 88,
             "Value": {
-                "id": "57e11abb-c9a2-40d8-8302-1d67f45d33eb",
+                "id": "6caa9880-2ebb-45d9-b25c-838cda125a8a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 88,
@@ -868,7 +870,7 @@
         {
             "Key": 89,
             "Value": {
-                "id": "3a64552f-b66b-4c74-9a04-ee590dbea0c6",
+                "id": "2d62a6d4-8c2d-45af-aa00-dfa003b9c11f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 89,
@@ -883,7 +885,7 @@
         {
             "Key": 90,
             "Value": {
-                "id": "5b3569c4-8bce-41e9-88fd-e622f237eb72",
+                "id": "0ed87226-42b6-49b6-98a6-30f7ea89a21c",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 90,
@@ -898,7 +900,7 @@
         {
             "Key": 91,
             "Value": {
-                "id": "0a5b7418-7d68-449c-8727-c0c792b10688",
+                "id": "cb26167f-f929-40b7-8c1e-6a12e9273361",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 91,
@@ -913,7 +915,7 @@
         {
             "Key": 92,
             "Value": {
-                "id": "25bf0e3e-a9a4-4b64-8d43-66e30cb2351a",
+                "id": "ea80776d-1bca-4ebd-8001-29b701c4ad29",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 92,
@@ -928,7 +930,7 @@
         {
             "Key": 93,
             "Value": {
-                "id": "bea4119b-793c-4a12-95ea-0002100cda43",
+                "id": "e5987190-41ba-4d0f-b791-7551ff6c0788",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 93,
@@ -943,7 +945,7 @@
         {
             "Key": 94,
             "Value": {
-                "id": "60d6d8a0-b754-40ee-bfd4-8d2d7c7e35a3",
+                "id": "fcd2bca5-0467-4b51-92e1-fe8641ecad08",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 94,
@@ -958,7 +960,7 @@
         {
             "Key": 95,
             "Value": {
-                "id": "7c555341-9c30-4ce3-acac-1affbdb909be",
+                "id": "70bd0e14-4258-40df-a4dd-23a973435168",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 95,
@@ -973,7 +975,7 @@
         {
             "Key": 96,
             "Value": {
-                "id": "0a356da9-722d-44bb-bcdd-9204ccf64cf3",
+                "id": "879d0360-fbb0-4d6e-a65e-d015916033f0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 96,
@@ -988,7 +990,7 @@
         {
             "Key": 97,
             "Value": {
-                "id": "00e1ca37-bc2a-4c95-8cef-aae2d571ebec",
+                "id": "f0a353cd-f86f-4592-a55f-8068508876c0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 97,
@@ -1003,7 +1005,7 @@
         {
             "Key": 98,
             "Value": {
-                "id": "403dc558-ca4f-4ca8-b8e2-3841a3ba2d94",
+                "id": "486319d2-1e38-4be5-b36e-91d18d4b37a9",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 98,
@@ -1018,7 +1020,7 @@
         {
             "Key": 99,
             "Value": {
-                "id": "2b0bd155-eaa0-41ef-91a0-6d8f3b25a52d",
+                "id": "acf29030-a80f-4ed4-a911-7ca664cca4e5",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 99,
@@ -1033,7 +1035,7 @@
         {
             "Key": 100,
             "Value": {
-                "id": "a48fabbc-a36f-4650-9d88-75fc855d9002",
+                "id": "7bcbf675-6ae1-40fb-a666-6b0df70c5908",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 100,
@@ -1048,7 +1050,7 @@
         {
             "Key": 101,
             "Value": {
-                "id": "8c53e070-b8c4-4101-910f-30abeedf9a2d",
+                "id": "fa028ba2-5904-42db-a4b1-d0cafcb2ae71",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 101,
@@ -1063,7 +1065,7 @@
         {
             "Key": 102,
             "Value": {
-                "id": "6f3b943f-00c4-46ff-b2e6-dda9cbae16c5",
+                "id": "dc456982-c9aa-4d39-9531-bd97e9ca973c",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 102,
@@ -1078,7 +1080,7 @@
         {
             "Key": 103,
             "Value": {
-                "id": "db88926c-84da-4015-a62c-5de41ddbec7d",
+                "id": "86df5b1d-444b-4e3f-9f33-708cbf4a5e55",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 103,
@@ -1093,7 +1095,7 @@
         {
             "Key": 104,
             "Value": {
-                "id": "f6d0d409-1a9c-4b25-bca5-4b5d17358679",
+                "id": "8069344c-d144-4770-8adb-22712f491052",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 104,
@@ -1108,7 +1110,7 @@
         {
             "Key": 105,
             "Value": {
-                "id": "799ddd32-8433-472d-a6ba-81d06d650bcb",
+                "id": "f20ebbc8-99a5-41d0-a648-b0ee0d4cee43",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 105,
@@ -1123,7 +1125,7 @@
         {
             "Key": 106,
             "Value": {
-                "id": "0094fbe2-ed23-4829-bdb3-6f493aad6c9d",
+                "id": "70315fe1-b18f-4e88-8482-5d588fc27140",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 106,
@@ -1138,7 +1140,7 @@
         {
             "Key": 107,
             "Value": {
-                "id": "ad40f480-0539-47b2-ac3c-6d8f0ca3c6ac",
+                "id": "4631623b-dcc9-4025-a451-f372baf020d8",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 107,
@@ -1153,7 +1155,7 @@
         {
             "Key": 108,
             "Value": {
-                "id": "7c4377f6-3d04-450b-a188-3264b9559356",
+                "id": "7009cf68-9f3a-4d38-8b47-b2faf309758f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 108,
@@ -1168,7 +1170,7 @@
         {
             "Key": 109,
             "Value": {
-                "id": "4440eea2-8835-4d47-9220-6da0df67d85b",
+                "id": "25c88dec-5f32-4b2c-ae3c-7dc36a291ac8",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 109,
@@ -1183,7 +1185,7 @@
         {
             "Key": 110,
             "Value": {
-                "id": "ca0260eb-550c-4bf6-857b-3b24fd21748b",
+                "id": "369116d8-3c5b-4ab6-acab-77766ae998f6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 110,
@@ -1198,7 +1200,7 @@
         {
             "Key": 111,
             "Value": {
-                "id": "473dbb25-6867-451a-9ff7-28985f5ba93e",
+                "id": "702362ab-b690-46b4-8020-cd5ba34287ac",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 111,
@@ -1213,7 +1215,7 @@
         {
             "Key": 112,
             "Value": {
-                "id": "241e3d9d-1645-4642-8219-00de8132f75a",
+                "id": "861257b7-4fee-4f40-8b19-20636339a9f6",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 112,
@@ -1228,7 +1230,7 @@
         {
             "Key": 113,
             "Value": {
-                "id": "bbe4f6ef-73c6-43dd-be06-a028392cb205",
+                "id": "8def02c4-0877-4bc8-b821-d1a51e61eb8d",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 113,
@@ -1243,7 +1245,7 @@
         {
             "Key": 114,
             "Value": {
-                "id": "9ddc6de3-3e34-4a43-96eb-6c08512b701c",
+                "id": "1454a756-58df-4e81-bf21-d9b3f0fbf211",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 114,
@@ -1258,7 +1260,7 @@
         {
             "Key": 115,
             "Value": {
-                "id": "6f5cd071-6e86-4ba1-acb9-c20070628e94",
+                "id": "fa70aa78-481f-43c8-90b1-a6a61911ab1a",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 115,
@@ -1273,7 +1275,7 @@
         {
             "Key": 116,
             "Value": {
-                "id": "107731f1-b7c8-4c7d-b50e-fc841495d96a",
+                "id": "2bf3077d-13f1-480e-ae91-5af148702f6c",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 116,
@@ -1288,7 +1290,7 @@
         {
             "Key": 117,
             "Value": {
-                "id": "aa18dd71-f0db-42f1-85aa-30a0b042a52a",
+                "id": "4c9c57db-0cbb-4028-84fa-57dc8d829f02",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 117,
@@ -1303,7 +1305,7 @@
         {
             "Key": 118,
             "Value": {
-                "id": "f6f4749e-9d9d-4dbb-90ef-216ca76a854d",
+                "id": "a1812c5b-f63d-460b-a982-f0738b6684d0",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 118,
@@ -1318,7 +1320,7 @@
         {
             "Key": 119,
             "Value": {
-                "id": "6e01385f-8a9e-4c9b-a2a3-aabe31cf915a",
+                "id": "9a7c9b81-a4d8-4f4c-8f46-655b9cf0a948",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 119,
@@ -1333,7 +1335,7 @@
         {
             "Key": 120,
             "Value": {
-                "id": "fda6144e-de87-4019-b3ce-553de4b24196",
+                "id": "c86244b3-4dd3-44cc-ae93-f9b8279fa7e4",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 120,
@@ -1348,7 +1350,7 @@
         {
             "Key": 121,
             "Value": {
-                "id": "baa76aa5-4bf9-4f32-9ad0-eb6d68683863",
+                "id": "7cbfe959-09b0-4562-b7d6-97361c85d008",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 121,
@@ -1363,7 +1365,7 @@
         {
             "Key": 122,
             "Value": {
-                "id": "d65d4016-e640-42f6-80c1-5d434aa2442a",
+                "id": "7e11e8b1-c66b-4ec1-aa1d-0a9b7065fb0f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 122,
@@ -1378,7 +1380,7 @@
         {
             "Key": 123,
             "Value": {
-                "id": "366426b8-8127-4f4f-b857-f1040c00e3cb",
+                "id": "8bb963ca-c837-4285-a980-0387251ebf21",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 123,
@@ -1393,7 +1395,7 @@
         {
             "Key": 124,
             "Value": {
-                "id": "33653702-22e0-4e30-92c8-5f277300b4b5",
+                "id": "7d949242-dac3-47e8-a6ce-0fbd5aa802cf",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 124,
@@ -1408,7 +1410,7 @@
         {
             "Key": 125,
             "Value": {
-                "id": "e390ca6e-5876-44aa-9258-649571dbb782",
+                "id": "96483d49-825f-47a7-b015-9400f686a51f",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 125,
@@ -1423,7 +1425,7 @@
         {
             "Key": 126,
             "Value": {
-                "id": "456640b5-281a-4f8f-8ec9-17f8f447d0e5",
+                "id": "2bcc8e21-9d59-45c9-b90d-9d4522b55dc4",
                 "modelName": "GMGlyph",
                 "mvc": "1.0",
                 "character": 126,
@@ -1436,13 +1438,16 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
