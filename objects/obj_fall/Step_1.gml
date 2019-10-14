@@ -16,7 +16,8 @@ if(damaged && timerDmg <= 60) {
 	pulsierend++;
 	
 }
-else if(timerDmg > 70) {
+else if(timerDmg > 60) {
+	pulsierend = 0;
 	image_blend = -1;
 timerDmg = 0;
 damaged = false;
