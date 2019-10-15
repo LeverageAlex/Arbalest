@@ -62,7 +62,7 @@ if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 				audio_play_sound(snd_bogen_abschuss, 10, false);
 				counter = 0;
 inv_RemoveItem(ItemType.pfeile);
-with(instance_create_layer(x+rechnungx,y - 2 + rechnungy,"ins_player",obj_bullet))
+with(instance_create_layer(x+rechnungx,y  + rechnungy,"ins_player",obj_bullet))
 			{
 				sprite_index = sp_pfeil;
 			
