@@ -1,6 +1,8 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 if(keyboard_check_pressed(ord("E"))) {
+	if(instance_exists(obj_inventoryManager)) {
+	
 	audio_play_sound(snd_keyboard_press, 10, false);
 	status = status == false;
 	if(!status) {
@@ -14,6 +16,7 @@ if(keyboard_check_pressed(ord("E"))) {
 		volume = global.volume;
 	audio_sound_gain(global.localsound, volume / 2, 0)	
 
+	}
 	}
 }
 if(status) {
