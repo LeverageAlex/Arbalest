@@ -6,6 +6,7 @@
 if(keyboard_check_pressed(ord("P"))) {
 	global.ruestung -= 2;
 }*/
+image_speed = 0;
 if(health == 0) {
 room_goto(r_gameover);	
 }

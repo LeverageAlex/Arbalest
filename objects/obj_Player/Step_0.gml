@@ -352,6 +352,8 @@ else if(hspd<0) {
 	//LevelUp
 if(global.xp >= 50*global.level) {
 global.xp -= 50*global.level;
+// zu fixen
+obj_healthbar.image_index = (16*global.xp)/(50*global.level)
 global.level++;
 with(instance_create_layer(x,y, "ins_player", obj_text_hochfahren)) {
 text = "Level Up!";
