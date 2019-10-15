@@ -4,7 +4,7 @@ if(!place_meeting(x,y+5, obj_wall)) {
 	y += wert;
 	wert *= erhoehung;
 }
-if(damaged && timerDmg <= 60) {
+if(damaged && timerDmg <= 40) {
 	if(pulsierend < 7) {
 	image_blend = c_red;
 	}
@@ -16,7 +16,7 @@ if(damaged && timerDmg <= 60) {
 	pulsierend++;
 	
 }
-else if(timerDmg > 60) {
+else if(timerDmg > 40) {
 	pulsierend = 0;
 	image_blend = -1;
 timerDmg = 0;
