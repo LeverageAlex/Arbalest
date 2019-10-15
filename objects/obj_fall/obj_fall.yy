@@ -87,6 +87,20 @@
             "value": "0",
             "varName": "pulsierend",
             "varType": 1
+        },
+        {
+            "id": "d8a0559d-f48c-4ea5-bf10-1b5abadd20a2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.04",
+            "varName": "erhoehung",
+            "varType": 0
         }
     ],
     "solid": false,
