@@ -53,7 +53,7 @@ vspd = vspd + grv;
 
 //jumpstart
 if(springen) {
-	if(longjump && place_meeting(x,y+20,obj_wall ))
+	if(longjump && (place_meeting(x,y+20,obj_wall ) || (place_meeting(x, y+20, obj_Leiter) && !place_meeting(x, y -30, obj_Leiter))))
 {
 
 	jumpl = true;
