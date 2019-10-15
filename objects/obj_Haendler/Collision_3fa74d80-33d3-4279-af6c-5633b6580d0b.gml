@@ -29,7 +29,7 @@ if(instance_exists(obj_preOptions)) {
 }
 }
 else {
-	if(!(instance_exists(obj_preOptions) || instance_exists(obj_optionsmenu))) {
+	if(!(instance_exists(obj_preOptions) || instance_exists(obj_optionsmenu) || instance_exists(obj_dialog))) {
 	malen = true;
 	}
 }
