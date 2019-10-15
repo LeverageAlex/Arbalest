@@ -4,7 +4,7 @@ zeilenumbruch = 30;
 global.toDo = 0;
 global.dialog = ds_list_create();
 ds_list_add(global.dialog, "Bist du der von dem sie erzählen er könne den Tod bezwingen?");
-ds_list_add(global.dialog, "Wieso fragst du " + global.spielername +"? Welches Leid hat dich heimgesucht?");
+ds_list_add(global.dialog, "Wieso fragst du? Welches Leid hat dich heimgesucht?");
 ds_list_add(global.dialog, "Meine Frau liegt im Sterben und sie wird es nicht mehr lange schaffen, ich kenne keinen Ausweg mehr");
 ds_list_add(global.dialog, "Wie hast du mich gefunden?");
 ds_list_add(global.dialog, "Ich wollte meinen Frust in einer Kneipe wegtrinken, dort erzählte ich mein Leid einem Fremden der mir von dir erzählte, er sagte du wärst in der Lage den Tod zu heilen");

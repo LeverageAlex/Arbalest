@@ -2,7 +2,7 @@
 // Sie können Ihren Code in diesem Editor schreiben
 if(!place_meeting(x,y+5, obj_wall)) {
 	y += wert;
-	wert *= 1.04;
+	wert *= erhoehung;
 }
 if(damaged && timerDmg <= 60) {
 	if(pulsierend < 7) {
