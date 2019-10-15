@@ -57,6 +57,6 @@ obj_inventoryManager.status = false;
 
 if(malen) {
 	draw_set_color(c_green)
-draw_text(window_get_width()/2.6, window_get_height()/2, "Druecken Sie E um den Shop zu oeffnen!");	
+draw_text(window_get_width()/2.6, window_get_height()/2, "Druecken Sie E um den Shop zu öffnen!");	
 }
 malen = false;

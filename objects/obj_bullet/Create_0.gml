@@ -12,3 +12,4 @@ speed = 9;
 
 //way passed
 way_passed = 0;
+maxLaenge = 150;

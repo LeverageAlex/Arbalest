@@ -352,12 +352,14 @@ else if(hspd<0) {
 	//LevelUp
 if(global.xp >= 50*global.level) {
 global.xp -= 50*global.level;
+// zu fixen
+
 global.level++;
 with(instance_create_layer(x,y, "ins_player", obj_text_hochfahren)) {
 text = "Level Up!";
 }
 }
-
+obj_healthbar.image_index = (16*global.xp)/(50*global.level)
 //Animationen
 
 if(place_meeting(x,y, obj_wasser)) {
