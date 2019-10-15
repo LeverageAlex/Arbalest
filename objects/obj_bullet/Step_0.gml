@@ -1,6 +1,6 @@
 way_passed = way_passed + 1;
 
-if (way_passed == 100)
+if (way_passed == maxLaenge)
 {
  instance_destroy();	
 }
