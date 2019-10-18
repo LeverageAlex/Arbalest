@@ -42,3 +42,25 @@ with(skillbaum) {
 	wert = global.skillbaum;
 	beschreibung = "Skillbaum:";
 }
+
+
+xRadioButtonmenu = 1354;
+yRadioButtonmenu = 400;
+
+radiobutton1 = instance_create_layer(xRadioButtonmenu, yRadioButtonmenu, "Vorne", obj_radiobutton);
+radiobutton2 = instance_create_layer(xRadioButtonmenu, yRadioButtonmenu + 60, "Vorne", obj_radiobutton);
+radiobutton3 = instance_create_layer(xRadioButtonmenu, yRadioButtonmenu + 120, "Vorne", obj_radiobutton);
+
+
+radiobutton1.text = "Einfach";
+radiobutton2.text = "Mittel";
+radiobutton3.text = "Schwierig";
+aktuellerRbtn = 1;
+switch(global.basisschwierigkeit) {
+case 0.7: aktuellerRbtn = 0; radiobutton1.checked = true;
+break;
+case 1: aktuellerRbtn = 1; radiobutton2.checked = true;
+break;
+case 2: aktuellerRbtn = 2; radiobutton3.checked = true;
+break;
+}

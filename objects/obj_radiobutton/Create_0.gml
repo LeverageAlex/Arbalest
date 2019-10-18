@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_sprite(sp_background_options, 0, 163, 0)
-
+checked = false;
+image_speed = 0;
+text = "Platzhalter Text!";
+radius = 15;

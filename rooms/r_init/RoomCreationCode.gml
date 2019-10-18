@@ -1,7 +1,6 @@
 global.spielername = "PlatzhalterXYZ";
 global.number = 0;
 global.schadenmodifikator = 0;
-global.basisschwierigkeit = 1;
 /*global.klettern = ord("W");
 global.links = ord("A");
 global.rechts = ord("D");
