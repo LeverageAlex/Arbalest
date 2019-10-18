@@ -8,3 +8,6 @@ _damage = argument0;
 	else {
 	global.ruestung -= _damage;	
 	}
+	if(_damage > 0) {
+		obj_Player.damaged = true;
+	}

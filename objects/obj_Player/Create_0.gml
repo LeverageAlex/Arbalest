@@ -43,3 +43,7 @@ laufgeschwindigkeit = 1;*/
 //tilesetid
 //tiledirt  = layer_tilemap_get_id("til_dirt");
 //tilestone  = layer_tilemap_get_id("til_stone");
+damaged = false;
+timerDmg = 0;
+pulsierend = 0;
+
