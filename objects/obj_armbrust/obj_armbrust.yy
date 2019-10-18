@@ -1,33 +1,23 @@
 {
-    "id": "4bcc05ec-4078-42dd-bda4-42ac1a280eb0",
+    "id": "544d4706-3dd4-4bf7-9886-c053f7df0f49",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_armbrust",
     "eventList": [
-        {
-            "id": "7967a3cf-2572-4f6f-b2af-326eae7857fe",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "4bcc05ec-4078-42dd-bda4-42ac1a280eb0"
-        },
-        {
-            "id": "f6c31c51-8b7e-4b52-99d4-7f017d22cfa3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "4bcc05ec-4078-42dd-bda4-42ac1a280eb0"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+    "overriddenProperties": [
+        {
+            "id": "719d9197-e5ef-4a6b-8f8f-872db4e8c035",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+            "propertyId": "69ad19bc-8ebb-4afb-84b1-8dcf145e56a3",
+            "value": "ItemType.weaponArm"
+        }
+    ],
+    "parentObjectId": "51ec6405-633f-4892-badc-7e7cbb01ae70",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -8,6 +8,7 @@ enum ItemType {
 	ruestung,
 	zeitlupe,
 	pfeile,
+	weaponArm,
 	test1,
 	test2,
 	test3,

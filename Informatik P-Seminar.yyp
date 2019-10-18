@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "4693423f-e338-4b9e-bb91-0ae096341e9d",
+            "Value": {
+                "id": "ba546ed0-01b4-4459-b157-ebd432318f3e",
+                "resourcePath": "scripts\\use_Armbrust\\use_Armbrust.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "471b47e6-e202-4621-98af-7f9f191e7d7d",
             "Value": {
                 "id": "8c95f3d9-f8a6-4d3f-8ed6-d41f8132dc5b",
@@ -940,6 +948,14 @@
                 "id": "0e210893-ae00-4f0d-a276-2591760ce81e",
                 "resourcePath": "fonts\\font_geld\\font_geld.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "544d4706-3dd4-4bf7-9886-c053f7df0f49",
+            "Value": {
+                "id": "8553a821-9efb-4fb1-a6b7-d00221db1858",
+                "resourcePath": "objects\\obj_armbrust\\obj_armbrust.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2726,6 +2742,7 @@
         "7dc51784-6343-4c6e-a96e-e0629d8125c5",
         "f28689c5-28fe-4ec9-9324-f627e102a095",
         "42707919-674f-4e46-ad99-3c4f9b471001",
+        "4693423f-e338-4b9e-bb91-0ae096341e9d",
         "c11ddbec-d3f5-4d7b-9882-2ed921166cd3",
         "80a2c628-b9d0-42a0-b3c6-05036ba2bca4",
         "f6038966-e72f-4187-9619-87e305dfd846",
