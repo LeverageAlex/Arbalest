@@ -29,3 +29,10 @@ alarm[1] = 30;
 
 alarm[0] = room_speed;
 }
+for(i = 0; i < a; i++) {
+if(place_meeting(x, y + 128*i, obj_bullet)) {
+	with(obj_bullet) {
+		instance_destroy();
+	}
+}
+}
