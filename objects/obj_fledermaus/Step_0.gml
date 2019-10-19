@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-richtungr = (((obj_Player.x > x + 100 && obj_Player.x < x - 200) || (obj_Player.x < x + 400 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240);
+richtungr = (((obj_Player.x > x + 100 && obj_Player.x < x - 200) || (obj_Player.x < x + 600 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240);
 
 if(state) {
 if(richtungr) {
@@ -30,4 +30,19 @@ else {
 	//sprite_index  = sp_Skelett_laufen;
 	//image_yscale = 1;
 
+}
+
+if(y > kaky - 24 && hochfahren) {
+y -= 0.65;	
+//image_angle++;
+if(y <= kaky - 18) {
+	hochfahren = false;
+}
+}
+else if(y < kaky + 24 && !hochfahren) {
+	y += 0.65;
+//	image_angle++;
+	if(y >= kaky + 18) {
+	hochfahren = true;
+}
 }
