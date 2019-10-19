@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "2286aa47-5dc9-4b22-b1c9-e5554e7fa19b",
+            "Value": {
+                "id": "68810473-1f84-409e-8d51-84938211fa67",
+                "resourcePath": "objects\\obj_koenig_spinnObj\\obj_koenig_spinnObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24081888-957b-4aa7-a389-f7b2edc16faf",
             "Value": {
                 "id": "651bb78d-5a95-4ce7-b178-c3ac60649b2c",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "58398096-a992-48c7-9174-cbe93570eb8e",
+            "Value": {
+                "id": "140f82e9-7dda-4589-83dd-1794378bcc7e",
+                "resourcePath": "views\\58398096-a992-48c7-9174-cbe93570eb8e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "584f5ef4-2e2f-45df-a67f-aa9cc8c19487",
             "Value": {
                 "id": "ef85b02a-1876-4b17-964e-a58c9d8c9f8d",
@@ -1388,6 +1404,14 @@
                 "id": "f2936427-de31-4fba-8905-55acf09d5a8f",
                 "resourcePath": "sprites\\sp_pfeil1\\sp_pfeil1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bb85364-5178-4af6-83a5-a4341c9e5a47",
+            "Value": {
+                "id": "8d40d907-9458-4aa3-a318-8ce95c27a044",
+                "resourcePath": "scripts\\koenig_attacke1\\koenig_attacke1.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2567,6 +2591,14 @@
             }
         },
         {
+            "Key": "f32bab58-a744-4e15-8d7a-abd3063b74e9",
+            "Value": {
+                "id": "f9594b25-ab25-46e0-8b23-20afd39ef1bc",
+                "resourcePath": "sprites\\sp_koenig_spinnWeapo\\sp_koenig_spinnWeapo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f33611fb-7d7d-4223-90bd-0caaad2112fd",
             "Value": {
                 "id": "2a632d6c-033b-4980-ac45-0ad8c4b29fe4",
@@ -2790,7 +2822,8 @@
         "5d6b711b-725b-4294-a13d-3d88cb669fa1",
         "e5917576-4e4b-49d0-8441-11587c9bf0f6",
         "8ecfe469-63bd-4ba8-99e9-30c804590980",
-        "18238471-2205-4369-9786-6424ce5743df"
+        "18238471-2205-4369-9786-6424ce5743df",
+        "7bb85364-5178-4af6-83a5-a4341c9e5a47"
     ],
     "tutorial": ""
 }
