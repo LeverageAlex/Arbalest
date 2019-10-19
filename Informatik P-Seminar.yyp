@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "4f1b9695-7fd0-4419-98ad-97fbd26d7634",
+            "Value": {
+                "id": "332c5a4f-2a86-4487-bbd6-78babf8bf14c",
+                "resourcePath": "rooms\\r_Koenig\\r_Koenig.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4f21275f-3d68-4d00-acc1-7eae74342cf9",
             "Value": {
                 "id": "18d9c2b9-b755-4b67-8db7-36f682d79900",
@@ -1951,6 +1959,14 @@
             }
         },
         {
+            "Key": "afd9c7c0-18d4-4bfa-934d-9f4188c7f0fc",
+            "Value": {
+                "id": "7e427956-8300-4f6b-9674-b357c6324e25",
+                "resourcePath": "sprites\\sp_lanzen\\sp_lanzen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0ee71a7-fe58-437e-b4d0-1a30d759bfc6",
             "Value": {
                 "id": "8fd1f038-b9be-4acd-8b68-404900072dbb",
@@ -2428,6 +2444,14 @@
                 "id": "d79fa4c8-356b-453b-b7cb-47730f7d7a23",
                 "resourcePath": "scripts\\spiel_laden\\spiel_laden.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e64f7d3d-0f5b-49b0-a64d-7f177e39e5d0",
+            "Value": {
+                "id": "af6540f9-d377-4e92-ad0d-69741e97e381",
+                "resourcePath": "objects\\obj_koenig_lanzen\\obj_koenig_lanzen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
