@@ -3,13 +3,13 @@
 //y = 0,018182 * xRec^2 + 0,175758 * xRec - 24,242424
 //Aufgabe Moisel elliptische umlaufbahn
 if(oberhalb && fahren >= 1) {
-	fahren++;
-	if(fahren < 90) {
-		y++;
+	fahren += geschwindigkeit;
+	if(fahren < 136) {
+		y  += geschwindigkeit;
 		
 	}
 	else {
-		x--;
+		x -= geschwindigkeit;
 	fahren = 0;
 	//show_message(y-offsetY)
 	oberhalb = false;
@@ -17,41 +17,41 @@ if(oberhalb && fahren >= 1) {
 	
 }
 else if(!oberhalb && fahren >= 1) {
-		fahren++;
-	if(fahren < 90) {
-		y--;
+		fahren += geschwindigkeit;
+	if(fahren < 207) {
+		y -= geschwindigkeit;
 		
 	}
 	else {
-		x++;
+		x += geschwindigkeit;
 	fahren = 0;
 	oberhalb = true;
 	}
 
 }
 else if(oberhalb) {
-xRec = x - obj_koenig.x /*- 20*/;
+xRec = x - obj_koenig.x - 8;
 
-yWertfkt = ((xRec*xRec)/150)
+yWertfkt = ((xRec*xRec)/170) - 20
 y = yWertfkt + offsetY
 
 if(xRec >= 80) {
 	fahren++;
 }
 else {
-	x++;
+	x += geschwindigkeit;
 }
 }
 else {
-xRec = x - obj_koenig.x /*- 20*/;
+xRec = x - obj_koenig.x - 8;
 
-yWertfkt = -((xRec*xRec)/150)
-y = yWertfkt + offsetY + 173
+yWertfkt = -((xRec*xRec)/170)
+y = yWertfkt + offsetY + 173 +20
 
 if(xRec <= -30) {
 			fahren++;
 }
 else {
-x--;	
+ x-= geschwindigkeit;	
 }
 }

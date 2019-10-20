@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "452c2cb7-6826-4162-bc4e-0fc05a4bad1a",
+            "Value": {
+                "id": "93f8b781-47e1-44c7-aab3-a7a1198416cd",
+                "resourcePath": "scripts\\koenig_attacke2\\koenig_attacke2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "456082a8-bc02-44dc-bba2-d06e9b5f2e49",
             "Value": {
                 "id": "b01ad59c-7f88-42b6-b55a-378badf03796",
@@ -828,6 +836,14 @@
                 "id": "a04664bb-06f7-4582-a36d-cb01b265cafe",
                 "resourcePath": "objects\\obj_displaybullets\\obj_displaybullets.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4792d357-fcf4-4bce-82a8-99a76e4436a9",
+            "Value": {
+                "id": "8e9f95c4-ddf3-4708-bfc2-eab892389513",
+                "resourcePath": "scripts\\koenig_attacke2_bind\\koenig_attacke2_bind.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2823,7 +2839,9 @@
         "e5917576-4e4b-49d0-8441-11587c9bf0f6",
         "8ecfe469-63bd-4ba8-99e9-30c804590980",
         "18238471-2205-4369-9786-6424ce5743df",
-        "7bb85364-5178-4af6-83a5-a4341c9e5a47"
+        "7bb85364-5178-4af6-83a5-a4341c9e5a47",
+        "452c2cb7-6826-4162-bc4e-0fc05a4bad1a",
+        "4792d357-fcf4-4bce-82a8-99a76e4436a9"
     ],
     "tutorial": ""
 }

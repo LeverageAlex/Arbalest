@@ -4,3 +4,5 @@
 for(i = 0; i < ds_list_size(lanzenListe); i++) {
 (ds_list_find_value(lanzenListe, i)).abgeschossen = true;	
 }
+ds_list_clear(lanzenListe)
+/*herausfliegenRechts = true;*/

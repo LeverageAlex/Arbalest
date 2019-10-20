@@ -40,4 +40,4 @@ lanzeUnten = instance_create_layer(x + laengeBreite / 2, y + 5 + laengeY, "Boss"
 lanzeUnten.direction = 270
 ds_list_add(lanzenListe, lanzeUnten);
 
-alarm[0] = 180;
+alarm[0] = 140;

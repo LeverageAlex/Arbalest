@@ -7,3 +7,4 @@ yWertfkt = /*(xRec*xRec)*0.6*/ 0;
 y = yWertfkt + offsetY;
 x++;
 fahren = 0;
+geschwindigkeit = 7;
