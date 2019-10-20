@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "3deac921-64b5-41bc-9b57-38cff3eff95a",
+            "Value": {
+                "id": "07d6a599-5c98-4ff0-9403-2a3685df2203",
+                "resourcePath": "sprites\\sp_spieleTitel\\sp_spieleTitel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3e446720-5c03-492f-9407-49ca364ca0c3",
             "Value": {
                 "id": "20e2e6b3-d97f-471a-bed7-e1682834f656",
