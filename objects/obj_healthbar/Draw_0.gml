@@ -16,7 +16,7 @@ if(health < 0) {
 x = cx+ 120;
 y = cy + 100;
 draw_set_color(c_red);
-draw_rectangle(cx+ 157, cy + 60, cx + 351 - (206 - (2.06 * health )), cy + 78, false);
+draw_rectangle(cx+ 157, cy + 60, cx + 351 - (196 - (1.96 * health )), cy + 78, false);
 /*if(health == 100) {
 	//draw_rectangle(cx+ 345, cy + 60, cx + 352, cy + 78, false);
 	

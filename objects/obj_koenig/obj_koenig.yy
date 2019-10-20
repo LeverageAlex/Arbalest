@@ -91,7 +91,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "829471be-cabb-4871-8367-7eb09bc94536",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "damaged",
+            "varType": 3
+        },
+        {
+            "id": "78da87bc-48f1-4d7f-a892-b4290d240143",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "timerDmg",
+            "varType": 1
+        },
+        {
+            "id": "7aef9145-6a27-432d-be3e-fb99de27cfbe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "pulsierend",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "67893b81-1eac-4dd2-a480-7c19f8b06b9e",
     "visible": true

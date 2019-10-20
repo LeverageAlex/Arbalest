@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+leben = 15;
 gegnerNr = 1;
 lanzen = false;
 anzahlLanzen = 13;
