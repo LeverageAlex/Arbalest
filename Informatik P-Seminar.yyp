@@ -1383,14 +1383,6 @@
             }
         },
         {
-            "Key": "740a02f5-9b00-4dba-9188-ba6cb83d42cc",
-            "Value": {
-                "id": "b5322aa7-77d1-4582-a1c7-23b34484a016",
-                "resourcePath": "sprites\\sprite90\\sprite90.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "755d338d-66fa-4ce8-9fea-d3d36fe9bc6c",
             "Value": {
                 "id": "ac5396c4-5952-42a2-9ecb-addafec5d8a7",
