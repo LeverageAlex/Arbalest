@@ -2,6 +2,7 @@
 instance_create_layer(0,0, "ins_player", obj_opKit);
 hspd = 0; //mm
 ungesperrt = true;
+vspdsperre = false;
 vspd = 0;
 player_speed = 4;
 grv = 0.96;

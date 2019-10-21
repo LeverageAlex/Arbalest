@@ -46,6 +46,11 @@ hspd = move * player_speed;
 
 vspd = vspd + grv;
 
+/*if(vspdsperre) {
+vspd = 0;	
+}
+vspdsperre = false;*/
+
 //Animationen
 
 
@@ -53,7 +58,7 @@ vspd = vspd + grv;
 
 //jumpstart
 if(springen) {
-	if(longjump && (place_meeting(x,y+10,obj_wall ) || (place_meeting(x, y+20, obj_Leiter) && !place_meeting(x, y -30, obj_Leiter))))
+	if(longjump && (place_meeting(x,y+10,obj_wall ) || place_meeting(x, y+20, obj_Leiter) || place_meeting(x, y+10, obj_durchspringbareEbene)) && (!place_meeting(x, y -30, obj_Leiter)))
 {
 
 	jumpl = true;
@@ -144,7 +149,22 @@ if (place_meeting(x+hspd*global.laufgeschwindigkeit,y,obj_wall))
 	}
 	hspd = 0;
 }
+
+
+if (place_meeting(x+hspd*global.laufgeschwindigkeit,y,obj_durchspringbareEbene) && obj_durchspringbareEbene.absetzbar)
+{
+	while(!place_meeting(x+sign(hspd*global.laufgeschwindigkeit),y,obj_durchspringbareEbene))
+	{
+		x = x +sign (hspd*global.laufgeschwindigkeit);
+	}
+	hspd = 0;
+	
+}
+
+
 x = x + hspd*global.laufgeschwindigkeit;
+
+
 
 
 
@@ -157,6 +177,16 @@ if (place_meeting(x,y+vspd,obj_wall))
 	}
 	vspd = 0;
 }
+
+if (place_meeting(x,y+vspd,obj_durchspringbareEbene) && obj_durchspringbareEbene.absetzbar)
+{
+	while(!place_meeting(x,y+ sign(vspd),obj_durchspringbareEbene))
+	{
+		y = y + sign (vspd);
+	}
+	vspd = 0;
+}
+
 y = y + vspd;
 //schnelles fallen
 
