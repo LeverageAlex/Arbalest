@@ -1,5 +1,8 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-image_speed = 0;
-aktiv = false;
-alarm[0] = 1;
+aktiv = true;
+image_speed = 6;
+if(image_index == 6) {
+image_speed = 0;	
+alarm[1] = 40;
+}
