@@ -5,7 +5,8 @@ audio_play_sound(snd_holz_hit, 10, false);
 
 instance_destroy(obj_options);
 instance_destroy(obj_exit);
-instance_create_layer(300, 300, "Instances", obj_neuesSpiel)
-instance_create_layer(700, 300, "Instances", obj_spielFortsetzen)
+instance_destroy(other)
+instance_create_layer(150, 300, "Instances", obj_neuesSpiel)
+instance_create_layer(750, 300, "Instances", obj_spielFortsetzen)
 instance_destroy();
 //room_goto_next();

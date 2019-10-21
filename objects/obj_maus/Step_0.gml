@@ -26,7 +26,7 @@ auftauchen = true;
 
 }
 else if(!begraben) {
-	speed = 5;
+	speed = 7;
 	image_speed = 4;
 if(obj_Player.x + 70 < x) {
 direction = 180;
