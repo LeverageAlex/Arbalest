@@ -12,4 +12,4 @@ a.image_yscale = image_yscale;
 a.barLength = sprite_height;
 a.topLimit = topLimit;
 a.bottomLimit = bottomLimit;
-a.y =  (bottomLimit - topLimit)/2+ topLimit;
+a.y =  bottomLimit - (bottomLimit - topLimit)*global.volume/100;
