@@ -2,3 +2,4 @@
 // Sie können Ihren Code in diesem Editor schreiben
 image_speed = -6;
 hoch = false;
+aktiv = true;
