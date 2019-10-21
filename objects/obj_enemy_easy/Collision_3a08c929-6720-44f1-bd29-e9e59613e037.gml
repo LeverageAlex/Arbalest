@@ -1,6 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-if(eigen) {
+if(other.eigen) {
 hp = hp - 1;
 damaged = true;
 if (hp <= 0) 
