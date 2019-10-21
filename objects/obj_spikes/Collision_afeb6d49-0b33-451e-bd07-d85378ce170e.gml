@@ -3,3 +3,5 @@
 if(aktiv) {
 spieler_schaden(0.7)	
 }
+
+}
