@@ -13,16 +13,16 @@ aktiv = false;
 alarm[0] = 80;
 }	
 }*/
-if(aktiv) {
+if(!aktiv) {
 	
 if(hoch && image_index == 6) {
-	aktiv = false;
+	aktiv = true;
 	hoch = false;
 	alarm[0] = 60;
 	
 } else if (!hoch && image_index == 0){
 	hoch = true;
-	aktiv = false;
+	aktiv = true;
 	alarm[0] = 60;
 	
 }
