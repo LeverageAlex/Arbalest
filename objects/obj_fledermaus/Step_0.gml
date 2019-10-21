@@ -41,14 +41,32 @@ else {
 
 }
 
-if(y > kaky - 24 && hochfahren && !place_meeting(x, y-0.65, obj_wall)) {
+
+aufundabstop = false;	
+//Y Korrektur
+if(x - 800 < obj_Player.x && x + 800 > obj_Player.x && y + 750 > obj_Player.y && y - 750 < obj_Player.y && ((y + 10 > obj_Player.y) && !(y - 10 < obj_Player.y) || !(y + 10 > obj_Player.y) && (y - 10 < obj_Player.y))) {
+
+if(y < obj_Player.y && !place_meeting(x, y+2, obj_wall)) {
+	aufundabstop = true;
+	y += 2;
+}else if (y > obj_Player.y && !place_meeting(x, y-2, obj_wall)){
+	aufundabstop = true;
+y -= 2;	
+}
+else {
+
+}
+}
+
+
+if(y > kaky - 24 && hochfahren && !place_meeting(x, y-0.65, obj_wall) && !aufundabstop) {
 y -= 0.65;	
 //image_angle++;
 if(y <= kaky - 18) {
 	hochfahren = false;
 }
 }
-else if(y < kaky + 24 && !hochfahren && !place_meeting(x, y+0.65, obj_wall)) {
+else if(y < kaky + 24 && !hochfahren && !place_meeting(x, y+0.65, obj_wall) && !aufundabstop) {
 	y += 0.65;
 //	image_angle++;
 	if(y >= kaky + 18) {
@@ -56,14 +74,7 @@ else if(y < kaky + 24 && !hochfahren && !place_meeting(x, y+0.65, obj_wall)) {
 }
 }
 
-//Y Korrektur
-if(x - 600 < obj_Player.x && x + 600 > obj_Player.x && y + 550 > obj_Player.y && y - 550 < obj_Player.y && ((y + 10 > obj_Player.y) && !(y - 10 < obj_Player.y) || !(y + 10 > obj_Player.y) && (y - 10 < obj_Player.y))) {
-if(y < obj_Player.y && !place_meeting(x, y+2, obj_wall)) {
-	y += 2;
-}else if (y > obj_Player.y && !place_meeting(x, y-2, obj_wall)){
-y -= 2;	
-}
-}
+
 
 
 
