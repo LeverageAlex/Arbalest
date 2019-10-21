@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "5ccbb4c9-1631-436d-bd9e-0ddeb842d20f",
+            "Value": {
+                "id": "f618da04-7542-4794-a3fe-3bb5cfff201e",
+                "resourcePath": "sprites\\sp_brunnen\\sp_brunnen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5d6b711b-725b-4294-a13d-3d88cb669fa1",
             "Value": {
                 "id": "73e983ac-299f-4dba-bf72-de9a11264060",
@@ -2251,6 +2259,14 @@
             "Value": {
                 "id": "a70637f6-8e10-4e05-a39f-8f39fdb4392e",
                 "resourcePath": "objects\\obj_radiobutton\\obj_radiobutton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8db11f8-087b-4ad9-825f-2cd56ee3fc82",
+            "Value": {
+                "id": "701d8a14-feb1-410e-bdc2-8a0d4a9bb6b8",
+                "resourcePath": "objects\\obj_brunnen\\obj_brunnen.yy",
                 "resourceType": "GMObject"
             }
         },
