@@ -46,3 +46,7 @@ else if(y < kaky + 24 && !hochfahren) {
 	hochfahren = true;
 }
 }
+
+if(leben <= 0) {
+instance_destroy();	
+}

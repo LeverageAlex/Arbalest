@@ -43,3 +43,8 @@ image_speed = 0;
 
 }
 
+if(leben < 1) {
+	global.xp += xp;
+gegner_drop();	
+	instance_destroy();
+}
