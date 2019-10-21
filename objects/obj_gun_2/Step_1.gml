@@ -34,7 +34,9 @@ else{
 	image_yscale = 1;
 }*/
 
-if(moldx != mouse_x || moldy != mouse_y || mouse_check_button(1)) {
+
+//Splashscreen
+/*if(moldx != mouse_x || moldy != mouse_y || mouse_check_button(1)) {
 	moldx = mouse_x;
 	moldy = mouse_y;
 	timer = 0;
@@ -48,5 +50,6 @@ if(timer > 60*15) {
 room_goto(r_splash);	
 }
 
-timer++;
+timer++;*/
+
 zeit++;
