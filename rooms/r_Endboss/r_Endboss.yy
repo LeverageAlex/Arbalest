@@ -1,6 +1,6 @@
 
 {
-    "name": "r_Koenig",
+    "name": "r_Endboss",
     "id": "4f1b9695-7fd0-4419-98ad-97fbd26d7634",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

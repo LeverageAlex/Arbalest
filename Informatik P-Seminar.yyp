@@ -930,7 +930,7 @@
             "Key": "4f1b9695-7fd0-4419-98ad-97fbd26d7634",
             "Value": {
                 "id": "332c5a4f-2a86-4487-bbd6-78babf8bf14c",
-                "resourcePath": "rooms\\r_Koenig\\r_Koenig.yy",
+                "resourcePath": "rooms\\r_Endboss\\r_Endboss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1362,7 +1362,7 @@
             "Key": "715ee11d-7ae2-45dd-8a8c-72902e3193b6",
             "Value": {
                 "id": "214d84fd-a3b8-450c-ae95-56d6867499f0",
-                "resourcePath": "objects\\obj_koenig\\obj_koenig.yy",
+                "resourcePath": "objects\\obj_endBoss\\obj_endBoss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1627,14 +1627,6 @@
             "Value": {
                 "id": "b99f1480-d747-4533-863e-3b8e4cd6cda4",
                 "resourcePath": "sprites\\sprite41\\sprite41.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8b13fc9e-add5-4548-8227-2e164f4e92da",
-            "Value": {
-                "id": "6252c562-a629-46bc-bbe1-91709e39f3f3",
-                "resourcePath": "sprites\\sp_hitbox2\\sp_hitbox2.yy",
                 "resourceType": "GMSprite"
             }
         },

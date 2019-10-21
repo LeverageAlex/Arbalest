@@ -3,6 +3,7 @@
 
 switch(zustand) {
 case 0:
+image_index = 1;
 if(!attacke) {
 koenig_attacke2();
 alarm[2] = 150;
@@ -11,6 +12,7 @@ attacke = true;
 break;
 case 1:
 	if(x > -30) {
+		image_index = 0;
 		x -= fluggeschwindigkeit;
 		
 		y = (ytiefe-200) + (0.00013 * ((MitteY-x)*(MitteY - x)));
@@ -21,6 +23,7 @@ case 1:
 break;
 case 2:
 if(y < ytiefe) {
+	image_index = 0;
 	y += fluggeschwindigkeit;	
 	}	
 	else {
@@ -29,6 +32,7 @@ if(y < ytiefe) {
 break;
 case 3:
 if(x < xMittig) {
+	image_index = 0;
 		x += fluggeschwindigkeit;
 		y = (ytiefe+200) - (0.00013 * ((MitteY-x)*(MitteY - x)));
 	}
@@ -37,6 +41,7 @@ if(x < xMittig) {
 	}
 break;
 case 4:
+image_index = 1;
 if(!attacke) {
 koenig_attacke2();
 alarm[2] = 150;
@@ -44,6 +49,7 @@ attacke = true;
 }
 break;
 case 5:
+	image_index = 0;
 	if(x < 1960) {
 		x += fluggeschwindigkeit;
 		y = (ytiefe+200) - (0.00013 * ((MitteY-x)*(MitteY - x)));
@@ -53,6 +59,7 @@ case 5:
 	}
 break;
 case 6:
+image_index = 0;
 if(y  + 150> ytiefe) {
 	y -= fluggeschwindigkeit;	
 	}	
@@ -61,6 +68,7 @@ if(y  + 150> ytiefe) {
 	}
 break;
 case 7:
+image_index = 0;
 if(x > xMittig) {
 		x -= fluggeschwindigkeit;
 		y = (ytiefe-200) + (0.00013 * ((MitteY-x)*(MitteY - x)));

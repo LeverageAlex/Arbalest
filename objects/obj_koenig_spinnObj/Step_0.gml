@@ -30,7 +30,7 @@ else if(!oberhalb && fahren >= 1) {
 
 }
 else if(oberhalb) {
-xRec = x - obj_koenig.x - 8;
+xRec = x - obj_endBoss.x - 8;
 
 yWertfkt = ((xRec*xRec)/170) - 20
 y = yWertfkt + offsetY
@@ -43,7 +43,7 @@ else {
 }
 }
 else {
-xRec = x - obj_koenig.x - 8;
+xRec = x - obj_endBoss.x - 8;
 
 yWertfkt = -((xRec*xRec)/170)
 y = yWertfkt + offsetY + 173 +20

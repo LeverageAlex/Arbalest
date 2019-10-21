@@ -2,7 +2,7 @@
     "id": "715ee11d-7ae2-45dd-8a8c-72902e3193b6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_koenig",
+    "name": "obj_endBoss",
     "eventList": [
         {
             "id": "20f08504-62b9-409b-9daa-591dd9e23f79",
@@ -136,6 +136,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "67893b81-1eac-4dd2-a480-7c19f8b06b9e",
+    "spriteId": "970ddb7c-4dd3-4b43-bcb4-8d0993b7decf",
     "visible": true
 }
