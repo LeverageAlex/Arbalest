@@ -1,5 +1,6 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
+if(eigen) {
 hp = hp - 1;
 damaged = true;
 if (hp <= 0) 
@@ -15,4 +16,4 @@ instance_destroy();
 with(other.id) {
 	
 instance_destroy();	
-}
+}}

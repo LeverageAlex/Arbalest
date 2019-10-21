@@ -20,3 +20,9 @@ spieler_schaden(13);
 alarm[0] = 20;
 }
 }
+
+if(leben < 0) {
+	global.xp += xp;
+	//gegner_drop()
+instance_destroy();	
+}

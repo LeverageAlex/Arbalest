@@ -10,7 +10,8 @@
         "dc08b648-64ed-4180-81bd-44603bd0b108",
         "cdb3a305-40a2-4be7-93e4-9de97a1b8443",
         "43cd912a-e859-4da0-83ed-2878b327d49d",
-        "b7b8d04c-4e0b-4e01-bcd8-79ff25c8da3c"
+        "b7b8d04c-4e0b-4e01-bcd8-79ff25c8da3c",
+        "b2bd3bf1-270b-40ce-a567-748df5d98485"
     ],
     "filterType": "GMObject",
     "folderName": "Hilfsobjekte",

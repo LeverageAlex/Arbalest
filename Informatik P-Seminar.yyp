@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "399602eb-523d-43a8-a7f7-08eb5f4c641b",
+            "Value": {
+                "id": "aed42adb-257d-402e-a4af-16c07581fbf0",
+                "resourcePath": "objects\\obj_koenigEcht\\obj_koenigEcht.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c362250-2459-43dd-b18d-09baac768bba",
             "Value": {
                 "id": "887f6467-192a-4a21-a945-255f48ef31e9",
@@ -1623,6 +1631,14 @@
             }
         },
         {
+            "Key": "8b13fc9e-add5-4548-8227-2e164f4e92da",
+            "Value": {
+                "id": "6252c562-a629-46bc-bbe1-91709e39f3f3",
+                "resourcePath": "sprites\\sp_hitbox2\\sp_hitbox2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b6b91cf-f7f4-454b-8d8b-4be4564474c3",
             "Value": {
                 "id": "2ba436f1-877e-41c3-ac1a-2b1501123f93",
@@ -2044,6 +2060,14 @@
                 "id": "8fd1f038-b9be-4acd-8b68-404900072dbb",
                 "resourcePath": "rooms\\r_gameover\\r_gameover.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b2bd3bf1-270b-40ce-a567-748df5d98485",
+            "Value": {
+                "id": "64773c1b-8491-4db2-a703-82c811a18621",
+                "resourcePath": "objects\\obj_hitboxPlayer\\obj_hitboxPlayer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
