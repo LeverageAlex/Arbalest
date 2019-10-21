@@ -41,6 +41,16 @@ speed = 0;
 image_speed = 0;
 }
 
+
+if(place_meeting(x+ 7, y - 10, obj_wall) && x < obj_Player.x) {
+speed = 0;
+image_speed = 0;
+} else if(place_meeting(x - 7, y - 10, obj_wall) && x > obj_Player.x) {
+speed = 0;
+image_speed = 0;
+}
+
+
 }
 
 if(leben < 1) {
