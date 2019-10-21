@@ -26,14 +26,18 @@ if(hoch && image_index == 6) {
 	alarm[0] = 60;
 	
 }
-else if(hoch) {
+else if(hoch && zaehler == animSpeed) {
 	image_index++;
 	
 }
-else {
+else if(!hoch && zaehler == animSpeed){
 	image_index--;
 	
 
 	
+}
+zaehler++;
+if(zaehler == animSpeed+1) {
+zaehler = 0;	
 }
 }
