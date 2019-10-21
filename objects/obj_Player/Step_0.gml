@@ -4,9 +4,9 @@ right = keyboard_check(global.rechts);
 longjump = keyboard_check_direct(global.springen);
 //down = keyboard_check_direct(ord("S"));
 //show_debug_message("Hier sind sie")
-show_debug_message(global.links);
-show_debug_message(global.rechts);
-show_debug_message(global.springen)
+//show_debug_message(global.links);
+//show_debug_message(global.rechts);
+//show_debug_message(global.springen)
 if(ungesperrt) {
 	
 
@@ -53,7 +53,7 @@ vspd = vspd + grv;
 
 //jumpstart
 if(springen) {
-	if(longjump && (place_meeting(x,y+20,obj_wall ) || (place_meeting(x, y+20, obj_Leiter) && !place_meeting(x, y -30, obj_Leiter))))
+	if(longjump && (place_meeting(x,y+10,obj_wall ) || (place_meeting(x, y+20, obj_Leiter) && !place_meeting(x, y -30, obj_Leiter))))
 {
 
 	jumpl = true;
@@ -79,7 +79,7 @@ else{
 
 //jup against wall
 
-if(place_meeting(x,y-60,obj_wall)){
+if(place_meeting(x,y-30,obj_wall)){
 	jumpcounter = 0;
 	jumpl = false;
 	jumpactive = 0;
