@@ -1,7 +1,7 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 		sprite_index = laufen;
 		speed = 5;
 		image_speed = 6;	
@@ -9,7 +9,7 @@ if(((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500
 		image_yscale = 1;
 		direction = image_angle;
 	
-} else if(obj_Player.x < x - 40 && obj_Player.x > x - 600 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+} else if(!blockiertLinks && obj_Player.x < x - 40 && obj_Player.x > x - 600 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 	speed = 5;
 	image_speed = 6;
 	direction = image_angle;

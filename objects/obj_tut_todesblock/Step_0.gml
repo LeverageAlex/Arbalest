@@ -36,3 +36,10 @@ if(place_meeting(x, y + 128*i, obj_bullet)) {
 	}
 }
 }
+
+//obj_fall
+//if((obj_fall.x - 130 < x && obj_fall.x + 130 > x)  /*&& /*obj_fall.y - 50 - 128*(a)< y && obj_fall.y + 15 /* + 64*(anzahl-1)*//*> y*/) {
+
+
+
+

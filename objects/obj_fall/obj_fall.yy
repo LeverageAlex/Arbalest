@@ -101,6 +101,34 @@
             "value": "1.04",
             "varName": "erhoehung",
             "varType": 0
+        },
+        {
+            "id": "fede8cb1-a827-484d-9daf-9f8c886a45d8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "blockiertLinks",
+            "varType": 3
+        },
+        {
+            "id": "3516b385-1267-4428-ba3f-fc56663c1649",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "blockiertRechts",
+            "varType": 3
         }
     ],
     "solid": false,

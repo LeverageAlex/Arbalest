@@ -22,3 +22,18 @@ else if(timerDmg > 40) {
 timerDmg = 0;
 damaged = false;
 }
+
+blockiertRechts = false;
+blockiertLinks = false;
+if(place_meeting(x + 11, y, obj_todesblockteil2)) {
+	//x -= 5;
+	//show_message("triggered")
+	blockiertRechts = true;
+	//obj_fall.locked = true;
+
+} else if(place_meeting(x - 11, y, obj_todesblockteil2)){
+	//x += 5;
+	//show_message("triggered")
+	blockiertLinks = true;
+	//obj_fall.locked = true;
+}
