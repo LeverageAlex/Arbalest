@@ -4,7 +4,7 @@ zeilenumbruch = 27;
 global.toDo = 0;
 global.dialog = ds_list_create();
 ds_list_add(global.dialog, "Bist du der von dem sie erzählen er könne den Tod bezwingen?");
-ds_list_add(global.dialog, "Nun " + global.spielername + "\ndu bist endlich angekommen, ich habe dich schon erwartet!?");
+ds_list_add(global.dialog, "Nun " + global.spielername + " du bist endlich angekommen, ich habe dich schon erwartet!?");
 ds_list_add(global.dialog, "Wie, woher weißt du wer ich bin?!");
 ds_list_add(global.dialog, "Ich weiß alles da ich der allwissende Schreck bin!");
 ds_list_add(global.dialog, "Aber dann weißt du ja auch warum ich dich gesucht habe.");

@@ -44,7 +44,7 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 }
 global.zusatzpartner = false;
 global.roomIndex = room;
-spiel_speichern();
+//spiel_speichern();
 
 //global.schaden = 1;
 //global.sprunghoehe = 1;
