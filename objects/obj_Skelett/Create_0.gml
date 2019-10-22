@@ -3,3 +3,4 @@
 offset = 60;
 xp = 15;
 leben *= (1+global.schadenmodifikator*1.3);
+image_xscale = scaleX;

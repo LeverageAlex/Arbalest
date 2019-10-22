@@ -127,6 +127,20 @@
             "value": "5",
             "varName": "leben",
             "varType": 0
+        },
+        {
+            "id": "65daa95c-4ce8-4391-a82a-7d644234a765",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "scaleX",
+            "varType": 1
         }
     ],
     "solid": false,

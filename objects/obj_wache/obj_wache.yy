@@ -31,6 +31,14 @@
             "objectId": "36ace9fb-32d1-4e73-a72c-fa7f074443b7",
             "propertyId": "56c0b25e-d0e8-4a6b-aa59-2ab0d429849f",
             "value": "sp_wache_idle"
+        },
+        {
+            "id": "6e4b143a-f8d6-4acb-96e1-e641587ceb1f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "36ace9fb-32d1-4e73-a72c-fa7f074443b7",
+            "propertyId": "65daa95c-4ce8-4391-a82a-7d644234a765",
+            "value": "-1"
         }
     ],
     "parentObjectId": "36ace9fb-32d1-4e73-a72c-fa7f074443b7",
@@ -49,6 +57,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "56af9af2-db14-49d5-aab7-354da75105be",
     "visible": true
 }
