@@ -18,7 +18,7 @@ ds_list_add(global.dialog, "Hinfort mit dir!");
 
 
 
-
+spiel_speichern();
 room_init_dialog();
 
 
