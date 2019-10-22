@@ -392,7 +392,7 @@ text = "Level Up!";
 obj_healthbar.image_index = (16*global.xp)/(50*global.level)
 //Animationen
 
-if(place_meeting(x,y, obj_wasser)) {
+if(place_meeting(x,y-24, obj_wasser)) {
 	letzterAtem++;
 	if(letzterAtem > 150) {
 spieler_schaden(0.08);

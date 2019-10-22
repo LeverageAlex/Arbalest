@@ -5,16 +5,6 @@
     "name": "obj_tut_todesblock",
     "eventList": [
         {
-            "id": "c20fdba3-bd2b-495f-a38e-399f403da086",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "ee740810-0c1e-4653-8fa6-34b8c7a326ec",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "611f288d-3ede-4d63-b60f-1f119356dc82"
-        },
-        {
             "id": "0516eb3b-acb0-4d7a-940d-1df7f15cc566",
             "modelName": "GMEvent",
             "mvc": "1.0",
