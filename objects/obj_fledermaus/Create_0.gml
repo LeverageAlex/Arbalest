@@ -7,3 +7,6 @@ kaky = y;
 hochfahren = true;
 leben = 3*(1+global.schadenmodifikator*global.basisschwierigkeit);
 xp = 20;
+damaged = false;
+timerDmg = 0;
+pulsierend = 0;
