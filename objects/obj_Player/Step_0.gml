@@ -21,6 +21,7 @@ transport = false;
 }*/
 if(freeze) {
 	move = 0;
+	longjump = false
 }
 
 

@@ -2,7 +2,7 @@
     "id": "2689246e-1557-47c0-a584-7c4868b49618",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_abwasserrohr",
+    "name": "obj_abwasserrohrRaumende",
     "eventList": [
         
     ],

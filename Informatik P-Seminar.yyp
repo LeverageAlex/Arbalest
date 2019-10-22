@@ -418,7 +418,7 @@
             "Key": "2689246e-1557-47c0-a584-7c4868b49618",
             "Value": {
                 "id": "ff9c742e-d037-4563-9a52-988e219a47b9",
-                "resourcePath": "objects\\obj_abwasserrohr\\obj_abwasserrohr.yy",
+                "resourcePath": "objects\\obj_abwasserrohrRaumende\\obj_abwasserrohrRaumende.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -820,6 +820,14 @@
                 "id": "84135236-642e-47b1-b849-de8b7e58084e",
                 "resourcePath": "views\\4596967b-26e3-478e-84bd-0179e6ef5f6c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45c26d54-4219-47ba-8867-a2f446778434",
+            "Value": {
+                "id": "6810be11-1eb6-407d-97e7-7fc39b1afaff",
+                "resourcePath": "objects\\obj_raumuebergangEnde\\obj_raumuebergangEnde.yy",
+                "resourceType": "GMObject"
             }
         },
         {
