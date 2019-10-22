@@ -3,10 +3,27 @@
 
 richtungr = (((obj_Player.x > x + 100 && obj_Player.x < x - 200) || (obj_Player.x < x + 600 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240);
 
+
+blockiertRechts = false;
+blockiertLinks = false;
+if(place_meeting(x + 11, y, obj_todesblockteil2)) {
+	//x -= 5;
+	//show_message("triggered")
+	blockiertRechts = true;
+	//obj_fall.locked = true;
+
+} else if(place_meeting(x - 11, y, obj_todesblockteil2)){
+	//x += 5;
+	//show_message("triggered")
+	blockiertLinks = true;
+	//obj_fall.locked = true;
+}
+
+
 if(state) {
 if(richtungr) {
 		//sprite_index = sp_Skelett_laufen;
-		if(!place_meeting(x+4, y, obj_wall)) {
+		if(!blockiertRechts && !place_meeting(x+4, y, obj_wall)) {
 		speed = 4;
 		kakx = x;
 		//image_speed = 6;	
@@ -18,7 +35,7 @@ if(richtungr) {
 		speed = 0;	
 		}
 } else if(obj_Player.x < x - 7 && obj_Player.x > x - 700 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
-	if(!place_meeting(x-4, y, obj_wall)) {
+	if(!blockiertLinks && !place_meeting(x-4, y, obj_wall)) {
 	speed = 4;
 	direction = 180;
 	//sprite_index  = sp_Skelett_laufen;
@@ -102,5 +119,6 @@ damaged = false;
 
 
 if(leben <= 0) {
+	global.xp += xp;
 instance_destroy();	
 }

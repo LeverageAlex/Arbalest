@@ -28,12 +28,12 @@ auftauchen = true;
 else if(!begraben) {
 	speed = 7;
 	image_speed = 4;
-if(obj_Player.x + 70 < x) {
+if(!blockiertLinks && obj_Player.x + 70 < x) {
 direction = 180;
 image_xscale = 1;
 
 }
-else if(obj_Player.x - 70 > x) {
+else if(!blockiertRechts && obj_Player.x - 70 > x) {
 direction = 0;	
 	image_xscale = -1;
 } else {
