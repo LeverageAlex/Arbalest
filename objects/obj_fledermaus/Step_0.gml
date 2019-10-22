@@ -8,6 +8,7 @@ if(richtungr) {
 		//sprite_index = sp_Skelett_laufen;
 		if(!place_meeting(x+4, y, obj_wall)) {
 		speed = 4;
+		kakx = x;
 		//image_speed = 6;	
 		//image_angle = 0;
 		//image_yscale = 1;
@@ -44,14 +45,18 @@ else {
 
 aufundabstop = false;	
 //Y Korrektur
-if(x - 800 < obj_Player.x && x + 800 > obj_Player.x && y + 750 > obj_Player.y && y - 750 < obj_Player.y && ((y + 10 > obj_Player.y) && !(y - 10 < obj_Player.y) || !(y + 10 > obj_Player.y) && (y - 10 < obj_Player.y))) {
+if(x - 1000 < obj_Player.x && x + 1000 > obj_Player.x && y + 950 > obj_Player.y && y - 950 < obj_Player.y && (((y + 20 > obj_Player.y) && !(y - 20 < obj_Player.y)) || (!(y + 20 > obj_Player.y) && (y - 20 < obj_Player.y)))) {
 
-if(y < obj_Player.y && !place_meeting(x, y+2, obj_wall)) {
+if(y < obj_Player.y -20 && !place_meeting(x, y+2, obj_wall)) {
 	aufundabstop = true;
 	y += 2;
-}else if (y > obj_Player.y && !place_meeting(x, y-2, obj_wall)){
+	hochfahren = false;
+	kaky = y;
+}else if (y > obj_Player.y - 20 && !place_meeting(x, y-2, obj_wall)){
 	aufundabstop = true;
 y -= 2;	
+hochfahren = true;
+	kaky = y;
 }
 else {
 
