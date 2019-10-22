@@ -50,7 +50,7 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 	rechnungx = 9*cos(degtorad(image_angle));
 	rechnungy = -1*9*sin(degtorad(image_angle));
 	
-		if (obj_Player.ammonition > 0) {
+		if (array_findindex(global.inventory, ItemType.pfeile) > -1) {
 		
 if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 
@@ -68,13 +68,7 @@ with(instance_create_layer(x+rechnungx,y  + rechnungy,"ins_player",obj_bullet))
 			
 			}
 			
-	//decreases ammo
-	with (obj_Player)
-		{
-	
-			obj_magazin.ammo = obj_magazin.ammo - 1;
-	
-		}	
+
 obj_Player.firecooldown = obj_Player.downrate;
 		} 
 		

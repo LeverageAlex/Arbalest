@@ -8,7 +8,7 @@ for(i = 0; i < 1000; i++) {
 inv_itemAdd(ItemType.apfel)
 inv_itemAdd(ItemType.ruestung)
 inv_itemAdd(ItemType.pfeile)
-obj_magazin.ammo += 1;
+//obj_magazin.ammo += 1;
 }
 if(obj_Player.downrate == 20) {
 obj_Player.downrate = 0;	

@@ -519,14 +519,6 @@
             }
         },
         {
-            "Key": "30c76941-2705-4bf2-a494-5d92ca536852",
-            "Value": {
-                "id": "7298ee28-255d-4c6b-bc40-a3af0f863602",
-                "resourcePath": "objects\\obj_ammo_display\\obj_ammo_display.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3200c7f5-ea5f-43b8-82fe-aab9af31387b",
             "Value": {
                 "id": "1f7a9bcf-0eae-4fc0-8a9e-9584640615fe",
@@ -1500,14 +1492,6 @@
                 "id": "f0a7eceb-7eef-4d23-a274-db8dc5b942d1",
                 "resourcePath": "sprites\\sp_super_enemy_ai_krass_defense_mode\\sp_super_enemy_ai_krass_defense_mode.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7edc4d26-e407-4ff3-af96-e6b658099734",
-            "Value": {
-                "id": "da533d2d-5488-4954-8406-5df25df20720",
-                "resourcePath": "objects\\obj_magazin\\obj_magazin.yy",
-                "resourceType": "GMObject"
             }
         },
         {
