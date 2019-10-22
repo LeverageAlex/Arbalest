@@ -3,4 +3,5 @@ global.schadenmodifikator = 1.8*global.basisschwierigkeit;
 audio_stop_sound(global.localsound);
 global.localsound = audio_play_sound(snd_level_1, 5, true);
 global.wase = true;
-room_init_dialog();
+spiel_speichern();
+//room_init_dialog();

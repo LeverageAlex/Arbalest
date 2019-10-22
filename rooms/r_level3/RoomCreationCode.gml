@@ -18,4 +18,5 @@ ds_list_add(global.dialog, "Hinfort mit dir!");
 
 
 room_init_dialog();
+spiel_speichern();
 global.zusatzpartner = true;

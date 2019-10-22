@@ -7,3 +7,4 @@ global.toDo = 0;
 global.dialog = ds_list_create();
 ds_list_add(global.dialog, "Jetzt geht's los! ");
 room_init_dialog()
+spiel_speichern();
