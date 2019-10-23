@@ -2,7 +2,7 @@
 // Sie können Ihren Code in diesem Editor schreiben
 
 if(other.id.eigen) {
-hp = hp - 1;
+hp = hp - 1*other.schadenArrow;
 damaged = true;
 if (hp <= 0) 
 {

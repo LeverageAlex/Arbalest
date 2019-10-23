@@ -71,7 +71,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "09c31400-16bf-486f-98d9-af0708036a7a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "schadenArrow",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "815608ed-7aae-4d02-ac85-5fa6b6e80774",
     "visible": true

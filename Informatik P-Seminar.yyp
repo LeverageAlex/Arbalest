@@ -919,14 +919,6 @@
             }
         },
         {
-            "Key": "486e9179-5182-4275-bba5-63f881b2dd44",
-            "Value": {
-                "id": "e021a46f-1f74-4ace-bf05-76a886c71bb8",
-                "resourcePath": "objects\\obj_arm\\obj_arm.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4d3425e7-1953-43bd-9ca8-c1844d2476e3",
             "Value": {
                 "id": "d53a2edf-e990-4862-bf32-0c1d60d8610e",

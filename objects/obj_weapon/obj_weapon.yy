@@ -50,7 +50,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "d6bf98dc-77de-4dc0-a28b-717ef4ddeae3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "xscale",
+            "varType": 0
+        },
+        {
+            "id": "3c6c1323-9e71-41cf-b143-7e9e834c5a1d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "yscale",
+            "varType": 0
+        },
+        {
+            "id": "ac1891bd-bb74-4a22-8ad0-958f97e24306",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "pfeildamage",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "0c7e44b4-a2ed-4c21-982e-3f8675e496b2",
     "visible": true

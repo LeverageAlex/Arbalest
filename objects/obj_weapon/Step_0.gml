@@ -18,7 +18,7 @@ if(waffenstatus) {
 obj_Player.x = obj_Player.x + obj_Player.hspd;
 	x = obj_Player.x + 30;
 	y = obj_Player.y
-	image_yscale = 0.5;
+	image_yscale = yscale;
 	
 		} else { 
 					obj_Player.x = obj_Player.x - obj_Player.hspd;
@@ -41,7 +41,7 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 
 		x = obj_Player.x - 30;	
 		y = obj_Player.y;	
-		image_yscale = -0.5;
+		image_yscale = -yscale;
 		
 		}
 	direction = point_direction(x,y, mouse_x, mouse_y);
@@ -66,6 +66,7 @@ inv_RemoveItem(ItemType.pfeile);
 with(instance_create_layer(x+rechnungx,y  + rechnungy,"ins_player",obj_bullet))
 			{
 				sprite_index = sp_pfeil;
+				schadenArrow = other.pfeildamage;
 			
 			}
 			
