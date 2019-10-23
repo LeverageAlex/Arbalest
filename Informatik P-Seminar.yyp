@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "486e9179-5182-4275-bba5-63f881b2dd44",
+            "Value": {
+                "id": "e021a46f-1f74-4ace-bf05-76a886c71bb8",
+                "resourcePath": "objects\\obj_arm\\obj_arm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d3425e7-1953-43bd-9ca8-c1844d2476e3",
             "Value": {
                 "id": "d53a2edf-e990-4862-bf32-0c1d60d8610e",
@@ -2223,6 +2231,14 @@
             }
         },
         {
+            "Key": "bb6df1e5-225b-484e-85bb-720ac7398b85",
+            "Value": {
+                "id": "b959a8d0-ab57-4287-98b9-18dcee68550d",
+                "resourcePath": "objects\\obj_armbrustsammeln\\obj_armbrustsammeln.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc0e9f65-95dc-421f-aefc-6b2704ea29cd",
             "Value": {
                 "id": "1e469d80-5921-4ff0-a2a1-5914687169dc",
@@ -2604,6 +2620,14 @@
                 "id": "d79fa4c8-356b-453b-b7cb-47730f7d7a23",
                 "resourcePath": "scripts\\spiel_laden\\spiel_laden.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e5f1886c-4607-4ee5-9ef3-af304b965a3f",
+            "Value": {
+                "id": "11c4fac6-9248-48a5-aa6d-978e54ccdcf4",
+                "resourcePath": "sprites\\sp_armbrust_gross\\sp_armbrust_gross.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

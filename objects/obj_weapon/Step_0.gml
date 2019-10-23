@@ -97,3 +97,7 @@ else {
 	
 	
 }}
+
+if(obj_Player.weapon_state == 0) {
+instance_destroy()	;
+}
