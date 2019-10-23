@@ -153,7 +153,7 @@ if(zwischenspeicher) {
 draw_sprite(sp_geldanzeige, 0, 1780, 4);
 draw_set_font(font_level)
 draw_set_color(c_gray)
-draw_text(1830, 16, global.geld);
+draw_text(1830, 16, round(global.geld));
 
 
 

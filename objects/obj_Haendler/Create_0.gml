@@ -10,7 +10,7 @@ guiHolderSlotOffset = 78 + guiHolderPadd;
 status = false;
 
 for(i = 0; i < 5; i++) {
-inventar[i] = choose(ItemType.apfel, ItemType.weapon, ItemType.pfeile, ItemType.zeitlupe , ItemType.ruestung); 
+inventar[i] = choose(ItemType.apfel, ItemType.weapon, ItemType.pfeile, ItemType.zeitlupe , ItemType.ruestung, ItemType.weaponArm, ItemType.empty); 
 anzahl[i] = irandom(3) + 1;
 for(z = 0; z < i; z++) {
 if(inventar[z] == inventar[i]) {

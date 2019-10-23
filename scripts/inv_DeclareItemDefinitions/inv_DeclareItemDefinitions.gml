@@ -10,7 +10,7 @@ inv_AddItemDef(ItemType.weapon, sp_Bogen,"Bogen", 0, 500, use_Bogen);
 
 inv_AddItemDef(ItemType.schwert, sp_Schwert,"Schwert", 0, 450, use_Schwert);
 
-inv_AddItemDef(ItemType.weaponArm, sp_armbrust,"Armbrust", 0, 850, use_Armbrust);
+inv_AddItemDef(ItemType.weaponArm, sp_armbrust,"Armbrust", 0, 1350, use_Armbrust);
 
 inv_AddItemDef(ItemType.ruestung, sp_ruestung, "Ruestung", 0, 130, use_ruestung);
 
