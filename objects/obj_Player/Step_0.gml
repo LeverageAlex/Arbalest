@@ -323,7 +323,7 @@ else if(hspd<0) {
 	if(sprite_index != sp_bewegung_rechts && !schuss) {
 		//rechtswapped = true;
 	sprite_index = sp_bewegung_rechts;
-
+	weapon_right = true;
 
 	image_speed = 5;
 	}
@@ -336,7 +336,7 @@ else if(hspd<0) {
 	if(sprite_index != sp_bewegung_links && !schuss) {
 	//	leftswapped = true;
 	sprite_index = sp_bewegung_links;
-
+weapon_right = false;
 
 	image_speed = 5;
 	}
@@ -417,7 +417,7 @@ else if(hspd<0) {
 if(schuss) {
 hspd = hspdlocal;	
 }
-schuss = false;
+
 	//LevelUp
 if(global.xp >= 50*global.level) {
 global.xp -= 50*global.level;
@@ -480,7 +480,7 @@ timerDmg = 0;
 damaged = false;
 }
 
-
+schuss = false;
 
 
 

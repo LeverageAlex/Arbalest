@@ -92,6 +92,20 @@
             "value": "1",
             "varName": "pfeildamage",
             "varType": 0
+        },
+        {
+            "id": "4fed66cd-c7f2-4977-b04f-d89ff7e0db8e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "20",
+            "varName": "downRatelocal",
+            "varType": 1
         }
     ],
     "solid": false,
