@@ -7,6 +7,8 @@ vspd = 0;
 player_speed = 4;
 grv = 0.96;
 jumpcounter = 0;
+schuss = false;
+schussLinks = false;
 jumpactive = false;
 firecooldown = 0;
 jumpl = 0;
@@ -14,7 +16,6 @@ jumpl = 0;
 weapon_state = 0;
 downrate = 20;
 // get ammo
-ammonition = 0;
 //if(room == 0) {
 health = 100;
 //global.ruestung = 0;

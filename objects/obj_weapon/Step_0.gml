@@ -3,6 +3,7 @@
 if(obj_Player.ungesperrt) {
 if(waffenstatus) {
 	//sämtliche Waffenanimationen
+
 		if(obj_Player.weapon_right) {
 					obj_Player.x = obj_Player.x - obj_Player.hspd;
 	
@@ -55,7 +56,7 @@ obj_Player.x = obj_Player.x + obj_Player.hspd;
 if(mouse_check_button(mb_left)&& obj_Player.firecooldown = 0)
 
 		{	
-			
+
 			image_speed = 4;
 			counter++;
 			if(counter > 10) {

@@ -293,22 +293,57 @@ else if(hspd<0) {
 	if (weapon_state == 1)
 	
 	{
+		hspdlocal = hspd;
+						if(mouse_check_button(mb_left) && mouse_x < obj_Player.x/* && obj_Player.weapon_right*/) {
+			obj_Player.weapon_right = false;	
+			if(hspd != 0) {
+			image_speed = 5;	
+			}
+			else {
+				image_speed = 0;
+			}
+			hspd = -1;
+			schuss = true;
+			sprite_index = sp_bewegung_links;
+			}
+			else if(mouse_check_button(mb_left)&& mouse_x > obj_Player.x /*&& !obj_Player.weapon_right*/){
+				obj_Player.weapon_right = true;
+							if(hspd != 0) {
+			image_speed = 5;	
+			}
+			else {
+				image_speed = 0;
+			}
+				schuss = true;
+				sprite_index = sp_bewegung_rechts;
+				hspd = 1;
+			}
 	//sprite_index = sp_player_with_w;
 	if(hspd>0) {
-	if(sprite_index != sp_bewegung_rechts) {
+	if(sprite_index != sp_bewegung_rechts && !schuss) {
 		//rechtswapped = true;
 	sprite_index = sp_bewegung_rechts;
-	weapon_right = true;
+
+
 	image_speed = 5;
 	}
+		/*if(schuss) {
+		sprite_index = sp_bewegung_links;
+	}
+		schuss = false;*/
 }
 else if(hspd<0) {
-	if(sprite_index != sp_bewegung_links) {
+	if(sprite_index != sp_bewegung_links && !schuss) {
 	//	leftswapped = true;
 	sprite_index = sp_bewegung_links;
-	weapon_right = false;
+
+
 	image_speed = 5;
 	}
+	/*if(schuss) {
+sprite_index = sp_bewegung_rechts;
+	}
+		schuss = false;*/
 }
 	else {
 	//	sprite_index = sp_bewegung_rechts;
@@ -379,7 +414,10 @@ else if(hspd<0) {
 	get_waepon_state = other.weapon_state;
 	
 	}
-	
+if(schuss) {
+hspd = hspdlocal;	
+}
+schuss = false;
 	//LevelUp
 if(global.xp >= 50*global.level) {
 global.xp -= 50*global.level;
