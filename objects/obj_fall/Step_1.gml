@@ -3,6 +3,12 @@
 if(!place_meeting(x,y+wert, obj_wall)) {
 	y += wert;
 	wert *= erhoehung;
+} else if (place_meeting(x,y+wert,obj_wall))
+{
+	while(!place_meeting(x,y+ sign(wert),obj_wall))
+	{
+		y = y + sign (wert);
+	}
 }
 if(damaged && timerDmg <= 40) {
 	if(pulsierend < 7) {

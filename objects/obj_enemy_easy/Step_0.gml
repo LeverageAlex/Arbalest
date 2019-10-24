@@ -18,9 +18,15 @@ speed = 0;
 	if(place_meeting(x - 30, y, obj_wall) && direction == 180) {
 	speed = 0;	
 		
-   } else if(place_meeting(x+ 30, y , obj_wall)  && direction == 0) {
+   } else if(place_meeting(x + 30, y , obj_wall)  && direction == 0) {
 	speed = 0;	
 	
+   } else if(place_meeting(x + 30, y - 30 , obj_wall)  && direction == 0) {
+	speed = 0;	
+	
+   } else if(place_meeting(x - 30, y - 30, obj_wall) && direction == 180) {
+	speed = 0;	
+		
    }
    
 
