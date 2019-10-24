@@ -20,21 +20,21 @@ if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (ob
 	image_xscale = -scaleX;
 	
 }
-else if(obj_Player.x > x + 13&& obj_Player.x < x + 240 && obj_Player.y > y - 100 && obj_Player.y < y + 220)  {
+else if(obj_Player.x > x + 7&& obj_Player.x < x + 290 && obj_Player.y > y - 100 && obj_Player.y < y + 220)  {
 	sprite_index = schlagunten;
 	//image_yscale = 1;
 	image_xscale = scaleX;
-	image_speed = 6;
+	image_speed = 7;
 	image_angle = 0;
 	speed = 0;
 	
 } 
-else if(obj_Player.x < x && obj_Player.x > x - 110 && obj_Player.y > y - 100 && obj_Player.y < y + 220) {
+else if(obj_Player.x < x && obj_Player.x > x - 290 && obj_Player.y > y - 100 && obj_Player.y < y + 220) {
 		sprite_index = schlagunten;
 		//image_yscale = -1;
 		//image_angle = 180;
 		image_xscale = -scaleX;
-		image_speed = 6;
+		image_speed = 7;
 		speed = 0;
 	
 }
