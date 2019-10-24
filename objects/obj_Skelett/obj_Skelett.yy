@@ -141,6 +141,20 @@
             "value": "1",
             "varName": "scaleX",
             "varType": 1
+        },
+        {
+            "id": "6b867605-a194-42a2-bcab-c09200372ed4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "offset",
+            "varType": 1
         }
     ],
     "solid": false,

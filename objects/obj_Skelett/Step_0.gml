@@ -1,12 +1,28 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
+if(place_meeting(x + 40, y -20, obj_wall) && direction == 0) {
+	//x--;
+
+	blockiertRechts = true;
+	
+} else if(place_meeting(x + 40, y - 20, obj_wall) && direction == 180) {
+blockiertLinks = true;
+	
+	
+
+}
+
+
 if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 		sprite_index = laufen;
 		speed = 5;
 		image_speed = 6;	
 		image_angle = 0;
 		//image_yscale = 1;
+		if(image_xscale != scaleX) {
+		x += 25;	
+		}
 			image_xscale = scaleX;
 		direction = image_angle;
 	
@@ -17,6 +33,9 @@ if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (ob
 	sprite_index  = laufen;
 	//image_yscale = -1;
 	//image_angle = 180;
+			if(image_xscale != -scaleX) {
+		x -= 25;	
+		}
 	image_xscale = -scaleX;
 	
 }
@@ -46,22 +65,7 @@ else {
 	
 }
 
-if(place_meeting(x + 1, y -30, obj_wall)) {
-	if(direction == 0) {
-	speed = 0;	
-	sprite_index = idle;
-	image_speed = 1;
-	}
-	
-} else if(place_meeting(x - 1, y - 30, obj_wall)) {
-		if(direction == 180) {
-			sprite_index = idle;
-			image_speed = 1;
-	speed = 0;	
-	}
-	
 
-}
 
 	if(leben <= 0) {
 		global.xp += xp;
