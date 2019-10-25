@@ -1,52 +1,34 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if(obj_Player.x + 80 < x) {
-spielerLinks = true;	
-laufend = true;
-}
-else if(obj_Player.x - 80 > x){
-spielerLinks = false;	
-laufend = true;
-}
-else {
-laufend = false;
+if(firecooldown > 0) {
+firecooldown--;	
 }
 
+var splinks = obj_Player.x <= x;
+var sprechts = obj_Player.x > x;
 
-if(obj_Player.y + 50 > y && obj_Player.y - 50 < y) {
-	yReichweite = true;
-}
-else {
-yReichweite = false;	
-}
-
-
-
-if(status == 0) {
-	if(spielerLinks) {
-	if(laufend) {
-	x--;
+if(splinks && obj_Player.x  + 120 >= x) {
+	speed = 0;
+	if(firecooldown == 0) {
+	firecooldown = downZeit;	
+		instance_create_layer(x - 80, y, "leveldesign", obj_hitboxPlayer)
 	}
-	else if(!laufend && yReichweite) {
-	instance_create_layer(x - 60, y, "ins_player", obj_hitboxPlayer);
-	}
-	}
-	else if(!spielerLinks) {
-	
-	
-	if(laufend) {
-	x++;
-	}
-	else if(!laufend) {
-	
+}
+else if(sprechts && obj_Player.x  - 120 < x) {
+	speed = 0;
+		if(firecooldown == 0) {
+	firecooldown = downZeit;	
+	instance_create_layer(x + 80, y, "leveldesign", obj_hitboxPlayer)
 	}
 	
-	
-	}	
+} else if(splinks) {
+	speed = -laufgeschwind;
 }
-else if(status == 1) {
-	
-	
+else if(sprechts) {
+	speed = laufgeschwind;
+}
+
+if(leben <= 0) {
+instance_destroy();	
 }

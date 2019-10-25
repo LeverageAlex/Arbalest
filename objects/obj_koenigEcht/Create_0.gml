@@ -6,3 +6,7 @@ yReichweite = false
 //0 -> Schwertkampf; 1 -> Armbrust
 status = 0;
 
+firecooldown = 0;
+downZeit = 40;
+laufgeschwind = 4;
+leben = 20;

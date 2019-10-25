@@ -7,7 +7,6 @@ longjump = keyboard_check_direct(global.springen);
 //show_debug_message(global.links);
 //show_debug_message(global.rechts);
 //show_debug_message(global.springen)
-show_debug_message("Lauft")
 if(ungesperrt) {
 	
 
