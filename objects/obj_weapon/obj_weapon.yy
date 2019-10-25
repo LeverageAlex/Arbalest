@@ -36,7 +36,7 @@
             "value": "ItemType.weapon"
         }
     ],
-    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

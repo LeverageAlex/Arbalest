@@ -1415,6 +1415,14 @@
             }
         },
         {
+            "Key": "70e9e040-c7cd-4ce0-9a7a-8fbefc011388",
+            "Value": {
+                "id": "1aa45562-bc16-4bea-acce-19f506511649",
+                "resourcePath": "objects\\obj_bogen_aufsammeln\\obj_bogen_aufsammeln.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "715ee11d-7ae2-45dd-8a8c-72902e3193b6",
             "Value": {
                 "id": "214d84fd-a3b8-450c-ae95-56d6867499f0",

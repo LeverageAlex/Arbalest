@@ -125,7 +125,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "5",
-            "varName": "leben",
+            "varName": "lebenswert",
             "varType": 0
         },
         {
