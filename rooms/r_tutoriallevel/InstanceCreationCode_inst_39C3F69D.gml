@@ -1,0 +1,1 @@
+a = "Vorsicht! Es gibt auch Gegner die aus der Ferne angreifen"

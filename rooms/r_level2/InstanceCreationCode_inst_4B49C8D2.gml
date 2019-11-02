@@ -1,0 +1,1 @@
+a = "Du kannst ertrinken! Du benötigst Sauerstoff, um zu Überleben\nHalte dich daher nicht zu lange unter Wasser auf!\nSinke zum Boden, um mit Wucht aus dem Wasser zu springen!"

@@ -1,0 +1,1 @@
+a = "Drücke W um an der Leiter zu klettern"

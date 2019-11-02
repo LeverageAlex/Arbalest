@@ -1,0 +1,1 @@
+a = "Wirf einen genaueren Blick nach rechts"

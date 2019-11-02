@@ -1,0 +1,1 @@
+a = "Übrigens: Deinen Skillbaum kannst du mit der Taste T öffnen!"

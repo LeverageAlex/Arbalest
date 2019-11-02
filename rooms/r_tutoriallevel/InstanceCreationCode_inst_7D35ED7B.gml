@@ -1,0 +1,1 @@
+a = "Äpfel spenden Leben"

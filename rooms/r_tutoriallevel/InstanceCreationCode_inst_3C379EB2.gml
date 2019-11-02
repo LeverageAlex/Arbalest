@@ -1,0 +1,1 @@
+a = "Es gibt auch sich bewegende Blöcke.\nPass auf das du nicht hinunterfällst!"

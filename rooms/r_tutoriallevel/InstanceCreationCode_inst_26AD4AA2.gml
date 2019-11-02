@@ -1,0 +1,1 @@
+a = "Dornenbüsche verursachen Schaden!"

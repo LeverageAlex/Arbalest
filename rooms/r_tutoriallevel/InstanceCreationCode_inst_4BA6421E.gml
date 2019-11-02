@@ -1,0 +1,1 @@
+a = "Rüstung bietet Schutz vor Schaden"
