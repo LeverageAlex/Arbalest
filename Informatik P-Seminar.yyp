@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "2d4e52da-1965-4234-a20d-f486a055b759",
+            "Value": {
+                "id": "a16c1c97-2acd-4d65-b7b0-783f95af2e96",
+                "resourcePath": "objects\\obj_wachenspawner\\obj_wachenspawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2eb75a49-7652-4a8a-bf9e-f6c72a94eac8",
             "Value": {
                 "id": "82de8c5d-c62b-465f-8dd4-b712388261d0",
