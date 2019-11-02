@@ -1879,27 +1879,11 @@
             }
         },
         {
-            "Key": "98f0de58-ceb7-4f92-903b-8b2061200c1c",
-            "Value": {
-                "id": "78b7eab3-c224-41c7-b650-b3b392a40f7d",
-                "resourcePath": "sprites\\sp_game_title\\sp_game_title.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "994a9f23-b3f4-473c-b6bf-a857e21b09f3",
             "Value": {
                 "id": "8a447b0d-eb2c-4d34-bd41-f530bfa01f45",
                 "resourcePath": "rooms\\r_levelvorlage\\r_levelvorlage.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "9a4ce5a7-3924-4161-9d91-b0aa96cc385b",
-            "Value": {
-                "id": "2b24e2ba-8389-47cb-9012-55edea7eaeaa",
-                "resourcePath": "sprites\\sp_start_game\\sp_start_game.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2900,6 +2884,14 @@
                 "id": "7a47c3ed-5c6b-4525-af05-d31030482142",
                 "resourcePath": "sounds\\snd_victory\\snd_victory.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fc771525-a62d-440b-b610-542ec289dcba",
+            "Value": {
+                "id": "09f4ac45-3bcf-4100-8032-db192e760124",
+                "resourcePath": "views\\fc771525-a62d-440b-b610-542ec289dcba.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

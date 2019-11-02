@@ -33,7 +33,7 @@ if(string_length(ds_list_find_value(global.dialog, i)) > zeilenumbruch) {
 		for(z = zeilenumbruch*k; z > zeilenumbruch*(k-1); z--) {
 			
 			if(string_char_at(text, z) == " ") {
-				show_debug_message(string_insert("\n", text, z))
+				//show_debug_message(string_insert("\n", text, z))
 			ds_list_set(locid, i, string_insert("\n", text, z))	
 			break;
 			}
