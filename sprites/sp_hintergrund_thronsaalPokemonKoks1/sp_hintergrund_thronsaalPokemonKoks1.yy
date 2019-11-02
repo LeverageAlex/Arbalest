@@ -1,8 +1,8 @@
 {
-    "id": "4f21275f-3d68-4d00-acc1-7eae74342cf9",
+    "id": "92cf6093-6ac0-4f8f-8cf5-e1efe55538dc",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_hintergrund_thronsaalPokemonKoks",
+    "name": "sp_hintergrund_thronsaalPokemonKoks1",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "ea63c7f3-a672-43e7-ac0c-3d695bb4c331",
+            "id": "f6efdafc-0cb4-467a-869e-1b02a51e822c",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "4f21275f-3d68-4d00-acc1-7eae74342cf9",
+            "SpriteId": "92cf6093-6ac0-4f8f-8cf5-e1efe55538dc",
             "compositeImage": {
-                "id": "8f0e7407-6511-4ce7-a2d4-83b9cfb310ae",
+                "id": "fccc2f3a-eda1-4eb4-9ea6-383f66578fb1",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "ea63c7f3-a672-43e7-ac0c-3d695bb4c331",
+                "FrameId": "f6efdafc-0cb4-467a-869e-1b02a51e822c",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "45eeefc9-2160-49b7-a4b7-16e6252f9b91",
+                    "id": "e662f722-de01-4b22-93a8-66c4ff72b6c9",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "ea63c7f3-a672-43e7-ac0c-3d695bb4c331",
-                    "LayerId": "c325e2c4-4c9d-41de-8328-72dc94ce3ed2"
+                    "FrameId": "f6efdafc-0cb4-467a-869e-1b02a51e822c",
+                    "LayerId": "b83eb91f-328e-44bd-8efe-00158c0bf191"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 1680,
     "layers": [
         {
-            "id": "c325e2c4-4c9d-41de-8328-72dc94ce3ed2",
+            "id": "b83eb91f-328e-44bd-8efe-00158c0bf191",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "4f21275f-3d68-4d00-acc1-7eae74342cf9",
+            "SpriteId": "92cf6093-6ac0-4f8f-8cf5-e1efe55538dc",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
