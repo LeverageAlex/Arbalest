@@ -3,4 +3,4 @@
 
 	//show_message("Kollision Draw")
 	//draw_set_font()
-	draw_text(x, y - 40, a);
+	draw_text(x, y, a);
