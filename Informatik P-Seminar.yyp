@@ -1615,6 +1615,14 @@
             }
         },
         {
+            "Key": "80dc4bf8-cf7b-4af6-b6fc-8ba133d9c2d0",
+            "Value": {
+                "id": "a01a9eb8-f85c-4830-8613-dc3f3b2c9f29",
+                "resourcePath": "views\\80dc4bf8-cf7b-4af6-b6fc-8ba133d9c2d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "815608ed-7aae-4d02-ac85-5fa6b6e80774",
             "Value": {
                 "id": "f323ce1a-e71f-452a-b92b-967abce8b32e",
@@ -2732,6 +2740,14 @@
                 "id": "bff4a314-4d89-4402-b3c9-072e14fc86e8",
                 "resourcePath": "views\\f1da84b5-9198-4465-8e8a-47692e093092.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f22d9029-0484-49e3-922f-69a85ffad8bd",
+            "Value": {
+                "id": "314de7d0-c8f9-4b20-a321-2308c1c284bb",
+                "resourcePath": "rooms\\r_kingfight\\r_kingfight.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
