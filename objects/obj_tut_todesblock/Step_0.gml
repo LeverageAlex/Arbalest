@@ -29,13 +29,13 @@ alarm[1] = 30;
 
 alarm[0] = room_speed;
 }
-for(i = 0; i < a; i++) {
+/*for(i = 0; i < a; i++) {
 if(place_meeting(x, y + 128*i, obj_bullet)) {
 	with(obj_bullet) {
 		instance_destroy();
 	}
 }
-}
+}*/
 
 //obj_fall
 //if((obj_fall.x - 130 < x && obj_fall.x + 130 > x)  /*&& /*obj_fall.y - 50 - 128*(a)< y && obj_fall.y + 15 /* + 64*(anzahl-1)*//*> y*/) {
