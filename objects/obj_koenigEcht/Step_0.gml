@@ -7,8 +7,8 @@ firecooldown--;
 
 var splinks = obj_Player.x <= x;
 var sprechts = obj_Player.x > x;
-var wandlinks = place_meeting(x - 120, y - 20, obj_wall);
-var wandrechts = place_meeting(x + 140, y - 20, obj_wall);
+var wandlinks = place_meeting(x - 40, y - 20, obj_wall);
+var wandrechts = place_meeting(x + 40, y - 20, obj_wall);
 
 if(splinks && obj_Player.x  + 120 >= x) {
 	speed = 0;
@@ -31,7 +31,12 @@ else if(sprechts && !wandrechts) {
 	speed = laufgeschwind;
 }
 
-
+if(splinks && wandlinks) {
+speed = 0;	
+}
+else if(sprechts && wandrechts) {
+speed = 0;	
+}
 
 
 
