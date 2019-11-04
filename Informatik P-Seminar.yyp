@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "198c1df6-b7c7-46a5-a399-3be2e978715e",
+            "Value": {
+                "id": "ece455a1-7f77-4373-bcbd-0f19295da1d3",
+                "resourcePath": "rooms\\r_bossuebergang\\r_bossuebergang.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1b4dfe89-d16f-4dea-afb2-ac4bc7acb326",
             "Value": {
                 "id": "3347bf0f-9cc5-46d4-a1e1-05451df2b062",
