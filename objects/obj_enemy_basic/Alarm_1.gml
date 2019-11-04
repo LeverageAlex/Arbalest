@@ -18,4 +18,4 @@ if(obj_Player.x > x - 1400 && obj_Player.x < x + 1400 && obj_Player.y > y - abst
 
 	feuer = true;
 }
-alarm[1] = 60 * 1;
+alarm[1] = 100 * 1;
