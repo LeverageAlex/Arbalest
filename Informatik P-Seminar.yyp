@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "1192a816-8ac0-4cf4-9e22-2ee6c2b1f052",
+            "Value": {
+                "id": "065ec9ca-fa5c-4706-81d1-1aa1ea8cb168",
+                "resourcePath": "rooms\\r_bossuebergang\\r_bossuebergang.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "12a2f5e0-11e5-4845-88e6-215771e17e8d",
             "Value": {
                 "id": "32b1c6e9-19df-49f1-9843-633586a2d8cb",
@@ -284,14 +292,6 @@
                 "id": "d20d05f3-b64d-4e73-a7ac-b18a59fbf60f",
                 "resourcePath": "sprites\\sp_player_with_w\\sp_player_with_w.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "198c1df6-b7c7-46a5-a399-3be2e978715e",
-            "Value": {
-                "id": "ece455a1-7f77-4373-bcbd-0f19295da1d3",
-                "resourcePath": "rooms\\r_bossuebergang\\r_bossuebergang.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
