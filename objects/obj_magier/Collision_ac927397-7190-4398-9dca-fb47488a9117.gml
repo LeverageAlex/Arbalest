@@ -8,4 +8,5 @@ if(!timer) {
 obj_Player.locked = true;*/
 //timer = true;
 instanz = instance_create_layer(x, y, "Vorne", obj_dialog);
+instanz.dialogpartner = sp_magier
 obj_Player.x -= 200;
