@@ -2775,6 +2775,14 @@
             }
         },
         {
+            "Key": "f22d9029-0484-49e3-922f-69a85ffad8bd",
+            "Value": {
+                "id": "1b544cba-56ee-4ef6-a489-5be855484880",
+                "resourcePath": "rooms\\r_kingfight\\r_kingfight.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f28689c5-28fe-4ec9-9324-f627e102a095",
             "Value": {
                 "id": "81a80a39-0b0e-4864-aca7-02e312d0d253",
