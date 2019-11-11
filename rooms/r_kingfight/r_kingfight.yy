@@ -2,7 +2,7 @@
 {
     "name": "r_kingfight",
     "id": "f22d9029-0484-49e3-922f-69a85ffad8bd",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

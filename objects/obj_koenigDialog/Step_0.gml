@@ -1,3 +1,5 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
-dialog_aktiv = true;
+if(!dialog_aktiv) {
+//Wenn Dialog zu, dann erstelle GegnerKönig	
+}
