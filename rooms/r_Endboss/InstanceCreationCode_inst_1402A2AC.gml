@@ -1,0 +1,1 @@
+a = obj_enemy_basic;
