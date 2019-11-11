@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "1acf361e-c4b7-4ab4-ab8b-2174c3357b63",
+            "Value": {
+                "id": "1e619888-0f34-43a2-a3cd-470c36b443f7",
+                "resourcePath": "objects\\obj_koenigDialog\\obj_koenigDialog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b4dfe89-d16f-4dea-afb2-ac4bc7acb326",
             "Value": {
                 "id": "3347bf0f-9cc5-46d4-a1e1-05451df2b062",
@@ -2988,6 +2996,14 @@
                 "id": "b6890e59-b777-43cf-8443-052ac795b4db",
                 "resourcePath": "fonts\\font_gameover\\font_gameover.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "fe88f693-1f3c-4fd8-8c29-bcaef023fe5d",
+            "Value": {
+                "id": "ae3594d9-68df-4fe7-9bad-208496e8eec5",
+                "resourcePath": "sprites\\sp_toad_death\\sp_toad_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
