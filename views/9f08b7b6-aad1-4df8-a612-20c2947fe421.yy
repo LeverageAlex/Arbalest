@@ -36,7 +36,8 @@
         "6e8b0788-457a-4695-852c-bbaa001301a8",
         "aeaf534e-7b8f-44fb-bbad-bdae7a7c7183",
         "3fe8ba54-5ef1-4805-a335-0d0130a56f4b",
-        "6827f32b-81f8-4ea4-a5b8-4a072c9fdba6"
+        "6827f32b-81f8-4ea4-a5b8-4a072c9fdba6",
+        "d9edddd6-76af-4e3a-a97c-539cf786df57"
     ],
     "filterType": "GMSprite",
     "folderName": "Landschaft",
