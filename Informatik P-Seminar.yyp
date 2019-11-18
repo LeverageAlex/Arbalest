@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "2e4acb07-5e34-4bb3-aff2-3f3d81316e0c",
+            "Value": {
+                "id": "55d4a7c4-bb0e-4703-8860-cb14b5939cbe",
+                "resourcePath": "sprites\\sp_chinesischerLeveluebergang\\sp_chinesischerLeveluebergang.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2eb75a49-7652-4a8a-bf9e-f6c72a94eac8",
             "Value": {
                 "id": "82de8c5d-c62b-465f-8dd4-b712388261d0",
