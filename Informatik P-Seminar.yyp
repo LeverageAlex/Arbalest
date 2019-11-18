@@ -1831,6 +1831,14 @@
             }
         },
         {
+            "Key": "934b6481-1ffe-46e7-8414-9e3d68e2fed8",
+            "Value": {
+                "id": "ee1beb02-9315-4bee-8301-0cff3a85b0d7",
+                "resourcePath": "sprites\\sp_tuer\\sp_tuer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "935a30b6-084f-4c76-85c4-92c54f428385",
             "Value": {
                 "id": "e8abace1-a46d-4b4c-bf63-ed2aa1c8866a",
