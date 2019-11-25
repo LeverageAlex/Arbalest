@@ -2583,14 +2583,6 @@
             }
         },
         {
-            "Key": "d9edddd6-76af-4e3a-a97c-539cf786df57",
-            "Value": {
-                "id": "a8427997-99aa-454f-8b67-b59f621d341f",
-                "resourcePath": "sprites\\sp_kanalgitter\\sp_kanalgitter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "da11d81d-f7b8-4ddf-a644-3a4bea4f52d7",
             "Value": {
                 "id": "5f34a0f4-bfa8-4c53-8949-de4aee1e0e66",
