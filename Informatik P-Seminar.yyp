@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "851bed14-e3dd-4cf5-9a87-dcd2d0c7ee5b",
+            "Value": {
+                "id": "e677f360-0098-475e-a95f-90f41d817c7a",
+                "resourcePath": "sprites\\sp_knochen\\sp_knochen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8691e079-8ee1-4ef2-b77f-ee57bba14625",
             "Value": {
                 "id": "51d32e43-5e8c-4299-84f3-3978d7266c99",

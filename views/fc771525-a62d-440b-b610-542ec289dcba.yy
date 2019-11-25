@@ -8,7 +8,8 @@
         "797be59a-c090-4c06-bdf5-af5ab492f1c0",
         "af2c974e-fdb3-4f20-88e1-874236c566f3",
         "bd006526-3a5e-458e-afbf-40c77459db93",
-        "3091447e-d2bd-42ac-8409-81d6ca432d30"
+        "3091447e-d2bd-42ac-8409-81d6ca432d30",
+        "851bed14-e3dd-4cf5-9a87-dcd2d0c7ee5b"
     ],
     "filterType": "GMSprite",
     "folderName": "Leveldesign",
