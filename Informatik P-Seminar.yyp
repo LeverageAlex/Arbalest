@@ -137,7 +137,7 @@
         {
             "Key": "096b2f35-fe3d-4379-a5ff-d1984b6455a5",
             "Value": {
-                "id": "8bffa86f-e587-486e-b488-3b6a47abd35d",
+                "id": "9a43b49b-e055-484c-8d25-1f69fbb7547c",
                 "resourcePath": "rooms\\r_level4\\r_level4.yy",
                 "resourceType": "GMRoom"
             }
@@ -441,7 +441,7 @@
         {
             "Key": "253509f0-19c9-4ee0-bb7c-56b490415154",
             "Value": {
-                "id": "baaa7f5d-c525-4207-9a23-195aef7f7da3",
+                "id": "c30e0b53-896a-4fa3-9634-bde59f26be5d",
                 "resourcePath": "rooms\\r_level6\\r_level6.yy",
                 "resourceType": "GMRoom"
             }
@@ -905,7 +905,7 @@
         {
             "Key": "46695113-c854-4e5c-aad4-759627f31d36",
             "Value": {
-                "id": "61a57c4b-e2c4-4c8c-90c3-1417d68dfae0",
+                "id": "e858f45d-432a-4660-aa85-58fb3faa5900",
                 "resourcePath": "rooms\\r_level5\\r_level5.yy",
                 "resourceType": "GMRoom"
             }
@@ -2588,6 +2588,14 @@
                 "id": "650bbc46-3130-4645-9fb4-e349bc9df453",
                 "resourcePath": "shaders\\shader0\\shader0.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "d9edddd6-76af-4e3a-a97c-539cf786df57",
+            "Value": {
+                "id": "4fd6f5e4-1841-45ea-b7bf-1c2b49ee47ba",
+                "resourcePath": "sprites\\sp_kanalgitter\\sp_kanalgitter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
