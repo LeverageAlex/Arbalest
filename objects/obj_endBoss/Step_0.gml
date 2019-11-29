@@ -1,7 +1,46 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-switch(zustand) {
+//Flug oberhalb
+if(zustand == 1) {
+x-= geschwindigkeit;
+y = 525*sin(0.0015*x-offsetX) + offsetY;
+if(x <= 600) {
+zustand = 2;	
+alarm[3] = 120;
+}
+}
+else if(zustand == 3) {
+x+=geschwindigkeit;
+y = -525*sin(0.0015*x-offsetX) + offsetY;
+if(x >= 3350/2) {
+zustand = 4;	
+alarm[3] = 180;
+koenig_attacke1();
+}
+}//Drei wird durch den Alarm überbrückt
+else if(zustand == 5) {
+	x+=geschwindigkeit;
+y = 525*sin(0.0015*x-offsetX) + offsetY;
+if(x >= 2750) {
+	zustand = 6;
+	alarm[3]=120;
+}
+}
+else if(zustand = 7) {
+	x-=geschwindigkeit;
+	y = 525*sin(0.0015*x-offsetX) + offsetY;
+if(x <= 3350/2) {
+	zustand = 8;
+	alarm[5] = 180;
+koenig_attacke1();
+}
+}
+
+
+
+
+/*switch(zustand) {
 case 0:
 image_index = 1;
 if(!attacke) {

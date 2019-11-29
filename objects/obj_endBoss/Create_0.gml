@@ -14,6 +14,10 @@ fluggeschwindigkeit = 8;
 ytiefe = y + 150;
 xMittig = x;
 attacke = false;
+
+geschwindigkeit = 7;
+offsetX = 3350/2;
+offsetY = 1680/2;
 /*herausfliegen = true;
 herausfliegenLinks = true;
 
