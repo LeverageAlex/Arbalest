@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "185ee453-0040-4c63-a465-08b102fd2d61",
+            "Value": {
+                "id": "109a6c0a-0bb2-41ae-9b4d-669082b9cc96",
+                "resourcePath": "sprites\\sp_spiningStar\\sp_spiningStar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "194a95a7-0522-4063-9bdb-edc90d14cda0",
             "Value": {
                 "id": "d20d05f3-b64d-4e73-a7ac-b18a59fbf60f",
@@ -2596,6 +2604,14 @@
                 "id": "650bbc46-3130-4645-9fb4-e349bc9df453",
                 "resourcePath": "shaders\\shader0\\shader0.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "d9969303-07b4-4b5e-a876-1c638e71ce3c",
+            "Value": {
+                "id": "2270ef7a-d8fd-4f84-a76c-695b028d533e",
+                "resourcePath": "sprites\\sp_emerald\\sp_emerald.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
