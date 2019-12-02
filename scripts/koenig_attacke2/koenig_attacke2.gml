@@ -8,4 +8,5 @@ spinner2.oberhalb = false;
 spinner2.x =  x + 10;
 spinner2.y = yWertfkt + spinner2.offsetY + 173 +20
 alarm[4] = 120;*>/
+*/
 

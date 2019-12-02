@@ -14,7 +14,7 @@ fluggeschwindigkeit = 8;
 ytiefe = y + 150;
 xMittig = x;
 attacke = false;
-
+attacke2 = noone;
 geschwindigkeit = 7;
 offsetX = 3350/2;
 offsetY = 1680/2;

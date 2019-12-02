@@ -3,18 +3,21 @@
 
 //Flug oberhalb
 if(zustand == 1) {
+	
 x-= geschwindigkeit;
 y = a*sin(b*(x-offsetX)) + offsetY;
 if(x <= 600) {
 zustand = 2;	
 alarm[3] = 120;
-koenig_attacke2()
+//koenig_attacke2()
 }
 }
 else if(zustand == 3) {
 x+=geschwindigkeit;
 y = -a*sin(b*(x-offsetX)) + offsetY;
 if(x >= 3350/2) {
+	instance_destroy(attacke2)
+	attacke2 = noone;
 zustand = 4;	
 alarm[3] = 180;
 koenig_attacke1();
@@ -24,6 +27,7 @@ else if(zustand == 5) {
 	x+=geschwindigkeit;
 y = -a*sin(b*(x-offsetX)) + offsetY;
 if(x >= 2750) {
+	
 	zustand = 6;
 	alarm[3]=120;
 }
@@ -32,6 +36,8 @@ else if(zustand = 7) {
 	x-=geschwindigkeit;
 	y = a*sin(b*(x-offsetX)) + offsetY;
 if(x <= 3350/2) {
+	instance_destroy(attacke2);
+	attacke2 = noone;
 	zustand = 8;
 	alarm[5] = 180;
 koenig_attacke1();

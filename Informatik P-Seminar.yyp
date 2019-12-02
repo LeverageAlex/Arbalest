@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "639e4fc9-1ffe-4116-ae29-93f1133c613b",
+            "Value": {
+                "id": "2db1bad6-9913-45b0-8057-6491f7a0686c",
+                "resourcePath": "objects\\obj_spinningStars\\obj_spinningStars.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63f140c7-c9ce-44f4-a2e3-c5a55779dd43",
             "Value": {
                 "id": "ff80f670-36d0-4168-945e-0dae50d4b9f5",
