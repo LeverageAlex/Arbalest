@@ -18,6 +18,8 @@ attacke = false;
 geschwindigkeit = 7;
 offsetX = 3350/2;
 offsetY = 1680/2;
+b = .002937;
+a = 335.85;
 /*herausfliegen = true;
 herausfliegenLinks = true;
 
