@@ -8,6 +8,7 @@ y = a*sin(b*(x-offsetX)) + offsetY;
 if(x <= 600) {
 zustand = 2;	
 alarm[3] = 120;
+koenig_attacke2()
 }
 }
 else if(zustand == 3) {
