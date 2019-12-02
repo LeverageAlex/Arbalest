@@ -2039,6 +2039,14 @@
             }
         },
         {
+            "Key": "a4b0fbde-5165-4008-97b0-0f1ebc76d41d",
+            "Value": {
+                "id": "6a75695a-b8f1-45e7-b3e5-536da9cbf11b",
+                "resourcePath": "objects\\obj_emerald\\obj_emerald.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5c3b1ac-a021-4e19-9ea4-fdc6765df456",
             "Value": {
                 "id": "2816221a-1b60-4412-b67d-ec159d911bf0",
