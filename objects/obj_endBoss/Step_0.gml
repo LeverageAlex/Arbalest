@@ -237,3 +237,4 @@ else if(timerDmg > 40) {
 timerDmg = 0;
 damaged = false;
 }
+

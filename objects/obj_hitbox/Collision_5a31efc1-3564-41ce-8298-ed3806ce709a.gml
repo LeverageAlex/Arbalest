@@ -5,7 +5,7 @@ other.damaged = true;
 //show_message(other.leben)
 if(other.leben <= 0) {
 instance_destroy(other)	
-if(instance_exists(obj_koenig_spinnObj)) {
-instance_destroy(obj_koenig_spinnObj);	
+if(instance_exists(obj_spinningStars)) {
+instance_destroy(obj_spinningStars);	
 }
 }
