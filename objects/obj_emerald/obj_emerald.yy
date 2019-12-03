@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_emerald",
     "eventList": [
-        
+        {
+            "id": "f694f0c5-1fff-4a48-b8c2-baaae7f9a10c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a4b0fbde-5165-4008-97b0-0f1ebc76d41d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+    "parentObjectId": "b7b8d04c-4e0b-4e01-bcd8-79ff25c8da3c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

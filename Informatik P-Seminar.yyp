@@ -1367,6 +1367,14 @@
             }
         },
         {
+            "Key": "65951175-08aa-4782-a24a-ebabad70d992",
+            "Value": {
+                "id": "31e180ca-ae6a-4841-b998-ac3fbb9356b6",
+                "resourcePath": "objects\\obj_stealingMage\\obj_stealingMage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "66ed6126-b776-4d8d-ba00-8843b7427906",
             "Value": {
                 "id": "35ffe229-2370-4172-a273-5c75f837753f",

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-spieler_schaden(0.8);
+obj_Player.ungesperrt = true;
+instance_destroy(obj_emerald);
+instance_destroy();
