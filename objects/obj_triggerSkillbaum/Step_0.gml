@@ -5,8 +5,6 @@ for(i = 0;i <= 10;i++){
 instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
 instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
 instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
-instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
-instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
 }
 }
 

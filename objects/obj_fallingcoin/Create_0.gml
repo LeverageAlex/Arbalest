@@ -5,7 +5,7 @@ if(room == r_victoryscreen){
 x = random_range(50,1870);
 }
 else{
-x = random_range(obj_Player.x - 650, obj_Player.x + 650);
+x = random_range(obj_Player.x - 1500, obj_Player.x + 1500);
 }
 s = random_range(2,10);
 image_xscale = 0.1*s;
