@@ -2,7 +2,7 @@
     "id": "e81d5e55-c8d7-4533-97d4-9195fb5f662d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sp_toad_laufen",
+    "name": "sp_toad_sterben",
     "For3D": false,
     "HTile": false,
     "VTile": false,

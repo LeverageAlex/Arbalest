@@ -17,3 +17,4 @@ with(other.id) {
 	
 instance_destroy();	
 }}
+damaged = true;

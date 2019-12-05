@@ -2794,7 +2794,7 @@
             "Key": "e81d5e55-c8d7-4533-97d4-9195fb5f662d",
             "Value": {
                 "id": "7d80469c-fb87-48e0-a43a-fc21a0cbb320",
-                "resourcePath": "sprites\\sp_toad_laufen\\sp_toad_laufen.yy",
+                "resourcePath": "sprites\\sp_toad_sterben\\sp_toad_sterben.yy",
                 "resourceType": "GMSprite"
             }
         },
