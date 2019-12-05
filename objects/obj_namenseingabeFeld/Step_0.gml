@@ -16,6 +16,8 @@ else if(keyboard_key == vk_enter) {
 		ini_close();
 	room_goto_next();	
 	}
+}else if(keyboard_key == vk_space) {
+	
 }
 else if(string_width(text) < limit){
 text += chr(keyboard_key);
