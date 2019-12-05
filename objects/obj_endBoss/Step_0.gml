@@ -19,8 +19,8 @@ if(x >= 3350/2) {
 	instance_destroy(attacke2)
 	attacke2 = noone;
 zustand = 4;	
-alarm[3] = 180;
-koenig_attacke1();
+alarm[6] = 120;
+//koenig_attacke1();
 }
 }//Drei wird durch den Alarm überbrückt
 else if(zustand == 5) {
