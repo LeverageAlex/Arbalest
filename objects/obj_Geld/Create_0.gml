@@ -1,4 +1,4 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-a = 25;
+b = 25;
