@@ -2791,6 +2791,14 @@
             }
         },
         {
+            "Key": "e81d5e55-c8d7-4533-97d4-9195fb5f662d",
+            "Value": {
+                "id": "7d80469c-fb87-48e0-a43a-fc21a0cbb320",
+                "resourcePath": "sprites\\sp_toad_sterben\\sp_toad_sterben.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8af2847-1fe0-40bf-81f1-715073c228b6",
             "Value": {
                 "id": "ff997963-cc6d-4e4d-8efd-ffcf82378ae4",
@@ -2803,6 +2811,14 @@
             "Value": {
                 "id": "3e0f1a5a-65c8-4cdb-bf7f-63dbe00291a5",
                 "resourcePath": "sprites\\sp_elevator\\sp_elevator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e99d78a0-d264-403b-9b2a-a7be0a533978",
+            "Value": {
+                "id": "3753feb9-5dc9-4eb8-aa75-25957f9edeac",
+                "resourcePath": "sprites\\sp_toad_schaden\\sp_toad_schaden.yy",
                 "resourceType": "GMSprite"
             }
         },
