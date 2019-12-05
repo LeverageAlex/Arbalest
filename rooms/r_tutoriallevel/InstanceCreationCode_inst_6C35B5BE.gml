@@ -1,0 +1,1 @@
+a = "Manche Blöcke können zerstört werden";
