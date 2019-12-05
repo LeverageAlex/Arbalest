@@ -1,28 +1,24 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 //if(obj_Player.x - x > -550 && x - obj_Player.x < 700 && y + 300  > obj_Player.y && y + - 300 < obj_Player.y ) {
-if(toadCount >= toadZaehler && image_index >= 4) {
-	sprite_index = sp_toad;
-	toadCount = 0;
-	image_speed = 4;
-} else if(toadCount >= toadZaehler) {
-	
-	image_index += 1;
-	toadCount = 1;
-}
+
 
 
 if(!blockiertLinks && obj_Player.x > x - 850 && obj_Player.x < x && obj_Player.y > y - 305 && obj_Player.y < y + 340) {
 //direction = point_direction(x, y, obj_Player.x, obj_Player.y); // Give the bullet a direction
    speed = 3;
 	direction = 180;
+	if(sprite_index == sp_toad) {
 	image_speed = 4;
+	}
 	image_xscale = 1;
 }
 else if(!blockiertRechts && obj_Player.x > x && obj_Player.x < x + 850 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 	   	speed = 3;
 		direction = 0;
+		if(sprite_index == sp_toad) {
 		image_speed = 4;
+		}
 		image_xscale = -1;
 }
 else {
@@ -74,4 +70,17 @@ instance_destroy();
 if(toadCount > 0) {
 toadCount++;
 sprite_index = sp_toad_schaden;
+}
+
+
+if(toadCount >= toadZaehler && image_index >= 4) {
+	sprite_index = sp_toad;
+	toadCount = 0;
+	
+	image_speed = 4;
+	
+} else if(toadCount >= toadZaehler) {
+	image_speed = 0;
+	image_index += 1;
+	toadCount = 1;
 }
