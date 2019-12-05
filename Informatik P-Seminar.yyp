@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "44f8a5c4-0cf4-4b47-8ed2-19c89bb94286",
+            "Value": {
+                "id": "ec621f13-7863-45fd-b3fe-e43256fe0b4b",
+                "resourcePath": "sprites\\sp_quit\\sp_quit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "452c2cb7-6826-4162-bc4e-0fc05a4bad1a",
             "Value": {
                 "id": "93f8b781-47e1-44c7-aab3-a7a1198416cd",
@@ -2411,6 +2419,14 @@
             "Value": {
                 "id": "0a8d729f-830b-44b2-bf60-321cb9bb27ea",
                 "resourcePath": "objects\\obj_restart\\obj_restart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c4c911f0-4d0f-4f96-bd39-aef35e2d6d9a",
+            "Value": {
+                "id": "19e989a7-6efb-4da0-a020-fcc124523bc4",
+                "resourcePath": "objects\\obj_knopf_gameover_quit\\obj_knopf_gameover_quit.yy",
                 "resourceType": "GMObject"
             }
         },
