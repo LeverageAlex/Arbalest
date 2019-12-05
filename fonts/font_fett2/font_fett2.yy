@@ -1,16 +1,14 @@
 {
     "id": "da384262-d55e-4224-9f0a-b7bfd73f4770",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "font_fett2",
     "AntiAlias": 1,
     "TTFName": "",
-    "ascenderOffset": 1,
     "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Bahnschrift Condensed",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -2893,16 +2891,13 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
