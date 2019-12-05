@@ -1,10 +1,10 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreib)
-if(keyboard_check_direct(vk_alt) && keyboard_check_direct(vk_control) && keyboard_check_direct(ord("L")) && keyboard_check_direct(187)){
+if(keyboard_check_direct(vk_alt) && keyboard_check_direct(vk_control) && keyboard_check_direct(ord("L")) && keyboard_check_direct(187) && keyboard_check_direct(ord("A"))){
 for(i = 0;i <= 10;i++){
-instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
-instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
-instance_create_layer(obj_Player.x,15,"Vorne",obj_fallingcoin);	
+instance_create_layer(obj_Player.x,5,"Vorne",obj_fallingcoin);	
+instance_create_layer(obj_Player.x,5,"Vorne",obj_fallingcoin);	
+instance_create_layer(obj_Player.x,5,"Vorne",obj_fallingcoin);	
 }
 }
 
