@@ -5,17 +5,13 @@ if(!blockiertLinks && obj_Player.x > x - 850 && obj_Player.x < x && obj_Player.y
 //direction = point_direction(x, y, obj_Player.x, obj_Player.y); // Give the bullet a direction
    speed = 3;
 	direction = 180;
-	
 	image_speed = 4;
-	
 	image_yscale = 1;
 }
 else if(!blockiertRechts && obj_Player.x > x && obj_Player.x < x + 850 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
 	   	speed = 3;
 		direction = 0;
-		
 		image_speed = 4;
-		
 		image_yscale = -1;
 }
 else {
@@ -46,6 +42,19 @@ speed = 0;
 	damaged = false;
    }
    
+   if(sprite_index == sp_toad_schaden && image_index == 4) {
+	   sprite_index = sp_toad;
+	   image_index = 0;
+   }
+   
 if(speed == 0) {
 image_speed = 0;	
+}
+
+if (hp <= 0) 
+{
+global.xp += xp;
+
+instance_create_layer(x, y, layer, obj_toad_die)
+instance_destroy();
 }
