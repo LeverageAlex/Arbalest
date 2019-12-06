@@ -1,17 +1,18 @@
 /// @description Hier Beschreibung einfügen
 // Sie können Ihren Code in diesem Editor schreiben
 
-if(place_meeting(x + 40, y -20, obj_wall) && direction == 0) {
+if((place_meeting(x + 40, y -20, obj_wall) || place_meeting(x + 40, y -70, obj_wall))) {
 	//x--;
 
 	blockiertRechts = true;
 	
-} else if(place_meeting(x + 40, y - 20, obj_wall) && direction == 180) {
+} 
+if((place_meeting(x - 40, y - 20, obj_wall))) {
 blockiertLinks = true;
-	
+
 	
 
-}
+} 
 
 
 if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (obj_Player.x < x + 500 && obj_Player.x > x + 30 ))&& obj_Player.y > y - 205 && obj_Player.y < y + 240) {
@@ -26,7 +27,7 @@ if(!blockiertRechts && ((obj_Player.x > x + 60 && obj_Player.x < x + 700) || (ob
 			image_xscale = scaleX;
 		direction = image_angle;
 	
-} else if(!blockiertLinks && obj_Player.x < x - 40 && obj_Player.x > x - 600 && obj_Player.y > y - 205 && obj_Player.y < y + 240) {
+} else if(!blockiertLinks && (obj_Player.x < x - 60 && obj_Player.x > x - 600 && obj_Player.y > y - 265 && obj_Player.y < y + 270)) {
 	speed = -5;
 	image_speed = 6;
 	direction = image_angle;
@@ -65,6 +66,10 @@ else {
 	
 }
 
+richtungL = false;
+if(speed < 0) {
+richtungL = true;	
+}
 
 
 	if(leben <= 0) {
