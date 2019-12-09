@@ -15,7 +15,7 @@ instance_destroy(obj_balken);
 	status = false;
 	obj_Player.ungesperrt = true;
 }
-else {
+else if(!instance_exists(obj_dialog)){
 	obj_Player.ungesperrt = false;
 with(instance_create_layer(1280, 320, "ins_player", obj_Knopf)) {
 	knopfNr = 2;
