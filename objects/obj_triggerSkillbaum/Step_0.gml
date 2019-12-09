@@ -8,7 +8,7 @@ instance_create_layer(obj_Player.x,5,"Vorne",obj_fallingcoin);
 }
 }
 
-if(keyboard_check_pressed(global.skillbaum)) { 
+if(keyboard_check_pressed(global.skillbaum) || (keyboard_check_pressed(vk_escape) && status)) { 
 	if(status) {
 instance_destroy(obj_Knopf);
 instance_destroy(obj_balken);
