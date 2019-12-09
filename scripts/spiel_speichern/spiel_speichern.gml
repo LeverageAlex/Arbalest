@@ -20,6 +20,10 @@ reader = ini_open("saves.ini");
 	ini_write_real("Player", "Level", global.level);
 	ini_write_real("Player", "XP", global.xp);
 	
+	ini_write_real("Player", "schaden", global.schaden);
+	ini_write_real("Player", "sprunghoehe", global.sprunghoehe);
+	ini_write_real("Player", "laufgeschwindigkeit", global.laufgeschwindigkeit);
+	
 	//SETTINGS
 
 	
