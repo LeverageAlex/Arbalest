@@ -9,5 +9,5 @@
 	global.volume = ini_read_real("Settings", "volume", 75);
 	global.basisschwierigkeit = ini_read_real("Settings", "Basisschwierigkeit", 1);
 	audio_master_gain(global.volume/100);
-	window_set_fullscreen(ini_read_real("Settings", "vollbild", false));
+	window_set_fullscreen(ini_read_real("Settings", "vollbild", true));
 	ini_close();
