@@ -3,3 +3,4 @@
 spawnZeit = 60*15*(2-global.basisschwierigkeit);
 realeZeit = 0;
 a = obj_wache;
+referenzSpawn = noone;
