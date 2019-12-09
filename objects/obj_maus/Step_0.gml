@@ -5,7 +5,7 @@
 
 if(begraben) {
 	if(!auftauchen) {
-if((obj_Player.x < x && obj_Player.x + 250 > x) || (obj_Player.x  > x && obj_Player.x -250 < x)) {
+if((obj_Player.x < x && obj_Player.x + 500 > x) || (obj_Player.x  > x && obj_Player.x -500 < x)) {
 auftauchen = true;	
 	}
 }
