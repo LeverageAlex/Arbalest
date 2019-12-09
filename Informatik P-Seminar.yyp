@@ -2967,6 +2967,14 @@
             }
         },
         {
+            "Key": "f7ae4714-4f6f-4c94-b4be-20d2e14c1840",
+            "Value": {
+                "id": "611b2bf5-a91a-4fab-a696-0e047a176f10",
+                "resourcePath": "sprites\\sp_schwert_laufanimation\\sp_schwert_laufanimation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f853dda3-8375-4ee8-b1fc-83302f6124a6",
             "Value": {
                 "id": "d13f166d-69db-4041-b507-557bbdf71665",

@@ -16,7 +16,8 @@
         "47a43ce2-38ff-4ca4-9afe-46d64e505a4c",
         "03d83063-5086-4834-bed5-52fc6c69b87d",
         "14587304-4c7f-43a9-ad5b-e12059de04ee",
-        "a2507eea-53c6-43e5-951e-737be41cc645"
+        "a2507eea-53c6-43e5-951e-737be41cc645",
+        "f7ae4714-4f6f-4c94-b4be-20d2e14c1840"
     ],
     "filterType": "GMSprite",
     "folderName": "Spieler",
