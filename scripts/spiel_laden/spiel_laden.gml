@@ -8,6 +8,10 @@
 	global.level = ini_read_real("Player", "Level", 1);
 	global.xp = ini_read_real("Player", "XP", 0);
 	global.spielername = ini_read_string("Player", "Name", "Spieler");
+	
+	global.schaden = ini_read_real("Player", "schaden", 1);
+	global.sprunghoehe = ini_read_real("Player", "sprunghoehe", 1);
+	global.laufgeschwindigkeit = ini_read_real("Player", "laufgeschwindigkeit", 1);
 
 	inv_initialize()
 	for(var i = 1; i <= MAX_INV_ITEMS; i++) {
