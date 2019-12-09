@@ -567,14 +567,6 @@
             }
         },
         {
-            "Key": "2f2808bb-eb73-48bc-ba99-83e1c85e9330",
-            "Value": {
-                "id": "2b7166ad-fe6d-44c3-9973-b89ec7714314",
-                "resourcePath": "objects\\obj_initialisieren\\obj_initialisieren.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3091447e-d2bd-42ac-8409-81d6ca432d30",
             "Value": {
                 "id": "c1c07a14-7265-4676-bd00-a6652f377931",
@@ -724,14 +716,6 @@
                 "id": "07c11beb-fbd0-431c-a599-6619ebc4cdfc",
                 "resourcePath": "sprites\\sp_gollum_schlag\\sp_gollum_schlag.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3d2308a2-7cad-400d-9536-d9b84c35b514",
-            "Value": {
-                "id": "1655217d-9727-4826-8a24-a61fd70d8a9a",
-                "resourcePath": "objects\\obj_idle\\obj_idle.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2415,14 +2399,6 @@
             }
         },
         {
-            "Key": "c4b357e9-48d1-43e9-9b5d-1f4d7a507c5a",
-            "Value": {
-                "id": "0a8d729f-830b-44b2-bf60-321cb9bb27ea",
-                "resourcePath": "objects\\obj_restart\\obj_restart.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c4c911f0-4d0f-4f96-bd39-aef35e2d6d9a",
             "Value": {
                 "id": "19e989a7-6efb-4da0-a020-fcc124523bc4",
@@ -2948,14 +2924,6 @@
                 "id": "51dbc46e-f66c-498f-b25a-6f0c576fbacc",
                 "resourcePath": "sprites\\sp_Skelett_leerlauf\\sp_Skelett_leerlauf.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f408f9c0-95c6-479c-93ca-9d7055b10114",
-            "Value": {
-                "id": "26f88df8-d850-4285-abf9-ff316f135035",
-                "resourcePath": "objects\\obj_start_game\\obj_start_game.yy",
-                "resourceType": "GMObject"
             }
         },
         {
