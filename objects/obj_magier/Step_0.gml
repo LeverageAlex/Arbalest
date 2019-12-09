@@ -12,7 +12,7 @@ if(timer) {
 	}
 }
 
-
+if(!freeze) {
 if(y > kaky - 24 && hochfahren) {
 y -= 0.65;	
 //image_angle++;
@@ -27,8 +27,7 @@ else if(y < kaky + 24 && !hochfahren) {
 	hochfahren = true;
 }
 }
-if(nextTurn && room != r_level6) {
-	room_goto_next();	
-} else if(nextTurn) {
-room_goto(r_victoryscreen)	
 }
+if(nextTurn && room != r_level6 && room != r_kingfight) {
+	room_goto_next();	
+} 

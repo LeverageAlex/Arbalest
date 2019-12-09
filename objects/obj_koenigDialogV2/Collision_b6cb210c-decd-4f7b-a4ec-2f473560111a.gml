@@ -1,5 +1,5 @@
-/// @description Hier Beschreibung einfügen
-// Sie können Ihren Code in diesem Editor schreibenlocj
+/// @description Insert description here
+// You can write your code in this editor
 if(!timer) {
 		audio_stop_sound(global.localsound);
 		global.localsound = audio_play_sound(snd_victory, 10, true);	
@@ -8,5 +8,6 @@ if(!timer) {
 obj_Player.locked = true;*/
 //timer = true;
 instanz = instance_create_layer(x, y, "Vorne", obj_dialog);
-instanz.dialogpartner = partner
-obj_Player.x -= 200;
+instanz.dialogpartner = sp_magier
+obj_Player.x -= 100;
+aktiverDialog = true;

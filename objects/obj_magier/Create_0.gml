@@ -10,3 +10,5 @@ kakx = x;
 kaky = y;
 hochfahren = true;
 nextTurn = false;
+freeze = false
+partner = sp_magier;

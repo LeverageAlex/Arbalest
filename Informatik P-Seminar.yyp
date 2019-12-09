@@ -303,14 +303,6 @@
             }
         },
         {
-            "Key": "1acf361e-c4b7-4ab4-ab8b-2174c3357b63",
-            "Value": {
-                "id": "1e619888-0f34-43a2-a3cd-470c36b443f7",
-                "resourcePath": "objects\\obj_koenigDialog\\obj_koenigDialog.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1b4dfe89-d16f-4dea-afb2-ac4bc7acb326",
             "Value": {
                 "id": "3347bf0f-9cc5-46d4-a1e1-05451df2b062",
@@ -2220,6 +2212,14 @@
                 "id": "d78d7331-dd2b-4ed7-b321-75dc9d8f0c11",
                 "resourcePath": "scripts\\inv_DeclareItemDefinitions\\inv_DeclareItemDefinitions.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b4e5d3e2-8747-4ec7-91e2-f6366433e725",
+            "Value": {
+                "id": "c4eb9b2d-e8b4-4d1a-80a5-acfa9e039617",
+                "resourcePath": "objects\\obj_koenigDialogV2\\obj_koenigDialogV2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
