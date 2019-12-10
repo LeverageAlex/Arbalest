@@ -27,17 +27,17 @@ with(rechts) {
 	wert = global.rechts;
 	beschreibung = "rechts:";
 }
-ducken = instance_create_layer(1064, 652, "Vorne", obj_option_key);
+/*ducken = instance_create_layer(1064, 652, "Vorne", obj_option_key);
 with(ducken) {
 	wert = global.ducken;
 	beschreibung = "ducken:";
-}
-springen = instance_create_layer(1064, 752, "Vorne", obj_option_key);
+}*/
+springen = instance_create_layer(1064, 652, "Vorne", obj_option_key);
 with(springen) {
 	wert = global.springen;
 	beschreibung = "springen:";
 }
-skillbaum = instance_create_layer(1064, 852, "Vorne", obj_option_key);
+skillbaum = instance_create_layer(1064, 752, "Vorne", obj_option_key);
 with(skillbaum) {
 	wert = global.skillbaum;
 	beschreibung = "Skillbaum:";

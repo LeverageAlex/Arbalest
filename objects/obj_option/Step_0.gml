@@ -11,7 +11,7 @@ else if(fullscreen.haken == false && stateFull) {
 global.klettern = klettern.wert;
 global.links =	links.wert;
 global.rechts = rechts.wert;
-global.ducken = ducken.wert;
+//global.ducken = ducken.wert;
 global.springen = springen.wert;
 global.skillbaum = skillbaum.wert;
 with(obj_option) {
