@@ -5,3 +5,4 @@ xp = 15;
 leben = lebenswert*(1+global.schadenmodifikator*1.1);
 image_xscale = scaleX;
 richtungL = false;
+//s
