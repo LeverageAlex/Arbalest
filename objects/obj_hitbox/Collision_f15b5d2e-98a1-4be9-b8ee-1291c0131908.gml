@@ -3,7 +3,7 @@
 // Sie können Ihren Code in diesem Editor schreiben
 with(other) {
 	damaged = true;
-leben -= 2*global.schaden;	
+leben -= 2;	
 }
 
 instance_destroy();
