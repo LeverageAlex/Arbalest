@@ -1847,14 +1847,6 @@
             }
         },
         {
-            "Key": "922dafed-11ca-4cf5-a9ce-50ba8307e91e",
-            "Value": {
-                "id": "17e22f23-7d1f-43ba-87d1-cc32c8399232",
-                "resourcePath": "objects\\obj_opKit\\obj_opKit.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "92cf6093-6ac0-4f8f-8cf5-e1efe55538dc",
             "Value": {
                 "id": "008cba99-702e-48d5-8d61-3c9274211cc0",
