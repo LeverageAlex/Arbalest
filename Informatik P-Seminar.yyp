@@ -3111,6 +3111,14 @@
             }
         },
         {
+            "Key": "ff9ed490-ac8f-410f-9250-6cf3e3c66a80",
+            "Value": {
+                "id": "29267068-8440-45c9-b82e-b5fce5842404",
+                "resourcePath": "sprites\\sp_king\\sp_king.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ffed50e9-a00b-44c6-a60d-7c199357a6f7",
             "Value": {
                 "id": "3ecb280a-7bc2-4b26-933d-ec862bc152e7",
