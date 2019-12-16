@@ -130,7 +130,7 @@
             "Key": "093072d7-3819-4b2b-a974-e560686a02d3",
             "Value": {
                 "id": "0aa97167-447c-490f-8342-58f82cb5238b",
-                "resourcePath": "objects\\obj_Schwert\\obj_Schwert.yy",
+                "resourcePath": "objects\\obj_Schwert_sammeln\\obj_Schwert_sammeln.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1028,6 +1028,14 @@
                 "id": "b54f9b48-0258-45b4-8b2a-04241091468e",
                 "resourcePath": "sprites\\sp_hbar\\sp_hbar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "516e2f1a-81fc-4b85-aa4c-b8a9a5d0efd7",
+            "Value": {
+                "id": "070e1433-2e7c-4fb2-ad50-c84ebc8bd920",
+                "resourcePath": "objects\\obj_Schwert\\obj_Schwert.yy",
+                "resourceType": "GMObject"
             }
         },
         {

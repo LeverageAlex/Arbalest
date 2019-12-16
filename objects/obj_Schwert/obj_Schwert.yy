@@ -1,42 +1,33 @@
 {
-    "id": "093072d7-3819-4b2b-a974-e560686a02d3",
+    "id": "516e2f1a-81fc-4b85-aa4c-b8a9a5d0efd7",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_Schwert",
     "eventList": [
         {
-            "id": "0d934f88-3983-495f-98b0-53395f3f9e8d",
+            "id": "b17ff6be-7aaf-4ab0-b364-a7d789b5b196",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "093072d7-3819-4b2b-a974-e560686a02d3"
+            "m_owner": "516e2f1a-81fc-4b85-aa4c-b8a9a5d0efd7"
         },
         {
-            "id": "aa69b909-456e-4075-a851-0cae5b1e1621",
+            "id": "ce6bb6d2-45e8-4e3a-ba3c-6c5d9c56ab0a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "093072d7-3819-4b2b-a974-e560686a02d3"
+            "m_owner": "516e2f1a-81fc-4b85-aa4c-b8a9a5d0efd7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "b6478bf6-75c2-4660-a936-cbb17a2013a5",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
-            "propertyId": "69ad19bc-8ebb-4afb-84b1-8dcf145e56a3",
-            "value": "ItemType.schwert"
-        }
-    ],
-    "parentObjectId": "43cd912a-e859-4da0-83ed-2878b327d49d",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
