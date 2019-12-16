@@ -9,4 +9,4 @@ if(instance_exists(obj_spinningStars)) {
 instance_destroy(obj_spinningStars);	
 }
 }
-instance_destroy();
+instance_destroy(self);

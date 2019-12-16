@@ -13,6 +13,3 @@ draw_text(288, 544, "Schaden");
 	
 	
 }
-if(instance_exists(obj_Player)) {
-draw_text(1920 - 280, 70, "Room: " + room_get_name(room) + "\nx=" + string(obj_Player.x) + " y=" + string(obj_Player.y))
-}
