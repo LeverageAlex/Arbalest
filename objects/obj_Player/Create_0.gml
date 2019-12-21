@@ -14,6 +14,7 @@ jumpl = 0;
 //weapon indentify
 weapon_state = 0;
 downrate = 20;
+aktiverRR = false;
 // get ammo
 //if(room == 0) {
 health = 100;

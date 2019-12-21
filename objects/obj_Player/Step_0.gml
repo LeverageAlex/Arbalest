@@ -256,23 +256,27 @@ else{
 //	sprite_index = sp_player_Khanh_Leander;
 	if(hspd>0) {
 
-	if(sprite_index != sp_bewegung_rechts) {
+	if(aktiverRR) {
 	sprite_index = sp_bewegung_rechts;
-	image_speed = 5;
+	image_xscale = 1
+	aktiverRR = false
+	image_speed = 3;
 	}
 			else if(idle) {
-				image_speed = 5;
+				
+				image_speed = 3;
 				idle = false;
 		}
 }
 else if(hspd<0) {
-	if(sprite_index != sp_bewegung_links) {
-	sprite_index = sp_bewegung_links;
-	
-	image_speed = 5;
+	if(aktiverRR == false) {
+	sprite_index = sp_bewegung_rechts;
+	image_xscale = -1;
+	aktiverRR = true;
+	image_speed = 3;
 	}
 				else if(idle) {
-				image_speed = 5;
+				image_speed = 3;
 				idle = false;
 		}
 }
@@ -280,10 +284,10 @@ else if(hspd<0) {
 	//	sprite_index = sp_bewegung_rechts;
 	if(sprite_index == sp_bewegung_rechts_mit_schwert) {
 	sprite_index = sp_bewegung_rechts;	
-	}
+	}/*
 	else if(sprite_index == sp_bewegung_links_mit_schwert) {
 		sprite_index = sp_bewegung_links;	
-	}
+	}*/
 	image_index = 0;
 	image_speed = 0;	
 	idle = true;
@@ -297,25 +301,27 @@ else if(hspd<0) {
 						if(mouse_check_button(mb_left) && mouse_x < obj_Player.x/* && obj_Player.weapon_right*/) {
 			obj_Player.weapon_right = false;	
 			if(hspd != 0) {
-			image_speed = 5;	
+			image_speed = 3;	
 			}
 			else {
 				image_speed = 0;
 			}
 			hspd = -1;
 			schuss = true;
-			sprite_index = sp_bewegung_links;
+			sprite_index = sp_bewegung_rechts;
+			image_xscale = -1
 			}
 			else if(mouse_check_button(mb_left)&& mouse_x > obj_Player.x /*&& !obj_Player.weapon_right*/){
 				obj_Player.weapon_right = true;
 							if(hspd != 0) {
-			image_speed = 5;	
+			image_speed = 3;	
 			}
 			else {
 				image_speed = 0;
 			}
 				schuss = true;
 				sprite_index = sp_bewegung_rechts;
+				image_xscale = 1
 				hspd = 1;
 			}
 	//sprite_index = sp_player_with_w;
@@ -325,7 +331,7 @@ else if(hspd<0) {
 	sprite_index = sp_bewegung_rechts;
 	weapon_right = true;
 
-	image_speed = 5;
+	image_speed = 3;
 	}
 		/*if(schuss) {
 		sprite_index = sp_bewegung_links;
@@ -333,12 +339,13 @@ else if(hspd<0) {
 		schuss = false;*/
 }
 else if(hspd<0) {
-	if(sprite_index != sp_bewegung_links && !schuss) {
+	if(image_xscale == 1&& !schuss) {
 	//	leftswapped = true;
-	sprite_index = sp_bewegung_links;
-weapon_right = false;
+	sprite_index = sp_bewegung_rechts;
+	image_xscale = -1;
+	weapon_right = false;
 
-	image_speed = 5;
+	image_speed = 3;
 	}
 	/*if(schuss) {
 sprite_index = sp_bewegung_rechts;
@@ -349,10 +356,10 @@ sprite_index = sp_bewegung_rechts;
 	//	sprite_index = sp_bewegung_rechts;
 	if(sprite_index == sp_bewegung_rechts_mit_schwert) {
 	sprite_index = sp_bewegung_rechts;	
-	}
+	}/*
 	else if(sprite_index == sp_bewegung_links_mit_schwert) {
 		sprite_index = sp_bewegung_links;	
-	}
+	}*/
 	
 	image_index = 0;
 	//image_speed = 0;	
@@ -364,29 +371,36 @@ sprite_index = sp_bewegung_rechts;
 	//sprite_index = sp_player_with_w;
 	if(obj_Schwert.animation == false) {
 	if(hspd>0) {
-	if(sprite_index != sp_bewegung_rechts_mit_schwert) {
+		image_xscale = 1;
+	if(aktiverRR) {
 		//rechtswapped = true;
 	sprite_index = sp_bewegung_rechts_mit_schwert;
+	image_xscale = 1
+	aktiverRR = false
 	weapon_right = true;
-	image_speed = 5;
+	image_speed = 2.5;
 	idle = true;
 	}
 					else if(idle) {
-				image_speed = 5;
+				image_speed = 2.5;
 				idle = false;
+				
 		}
 }
 else if(hspd<0) {
-	if(sprite_index != sp_bewegung_links_mit_schwert) {
+	image_xscale = -1;
+	if(!aktiverRR) {
 	//	leftswapped = true;
-	sprite_index = sp_bewegung_links_mit_schwert;
+	sprite_index = sp_bewegung_rechts_mit_schwert;
+	image_xscale = -1;
 	weapon_right = false;
-	image_speed = 5;
+	aktiverRR = true
+	image_speed = 2.5;
 	
 	}
 		
 				else if(idle) {
-				image_speed = 5;
+				image_speed = 2.5;
 				idle = false;
 				}
 }
@@ -395,14 +409,17 @@ else if(hspd<0) {
 	if(sprite_index == sp_bewegung_rechts) {
 	sprite_index = sp_bewegung_rechts_mit_schwert;	
 	
-	}
+	}/*
 	else if(sprite_index == sp_bewegung_links) {
 		sprite_index = sp_bewegung_links_mit_schwert;	
-	}
+	}*/
 	
 	image_index = 0;
 	image_speed = 0;	
 	idle = true;
+	}
+	if(sprite_index == sp_player_attack_rechts) {
+	sprite_index = sp_bewegung_rechts_mit_schwert;	
 	}
 	}
 
