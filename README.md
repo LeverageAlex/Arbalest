@@ -4,6 +4,8 @@ Before I start digging into details i want to mention, that this Project has org
 
 This game was a school project in 11th and 12th class. Our team was made up of 11 students, who can be categorized in seven graphic designer, two "marketing guys", one level designer (Louis) and me, the main coder of this project.
 
+For development of the game, GameMaker served as game engine. It allows to code in GameMaker Language (GML), which is quite similiar to C# and Java.
+
 I wrote >95% of the code, while Louis wholely designed the game with the tools i provided for him. My programming part included coding:
 - the player object
 - several enemies, e. g. a skeleton, a flying bat, a walking mushroom...
@@ -17,12 +19,12 @@ Appart from "just coding" I had to ensure, that the graphic designers exactly ge
 
 I have uploaded several images, so can get an idea of the game.
 
-![Alt text](Images/tutorial_2.png?raw=true "Title")
-![Alt text](Images/firenemy.png?raw=true "Title")
-![Alt text](Images/lianen.png?raw=true "Title")
-![Alt text](Images/moreplattforms.png?raw=true "Title")
-![Alt text](Images/pilz.png?raw=true "Title")
-![Alt text](Images/eplosion.png?raw=true "Title")
-![Alt text](Images/shop.png?raw=true "Title")
+![Image missing](Images/tutorial_2.png?raw=true "Tutorial Image")
+![Image missing](Images/firenemy.png?raw=true "firing enemy")
+![Image missing](Images/lianen.png?raw=true "world")
+![Image missing](Images/moreplattforms.png?raw=true "plattforms")
+![Image missing](Images/pilz.png?raw=true "mushroom")
+![Image missing](Images/eplosion.png?raw=true "explosion")
+![Image missing](Images/shop.png?raw=true "shop")
 
-Overall it took me estimated over 400 hours from start to finish this project. It was a pretty fun and rich experience.
+Overall it took me an estimated 400 hours from start to finish this project. It was a pretty funny and rich experience.
